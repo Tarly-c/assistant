@@ -80,6 +80,28 @@ def load_source_documents(resources_dir: str | Path = "resources") -> List[Docum
     return docs
 
 
+def _add_documents_batched(store, docs, ids, preferred_batch_size: int = 1000) -> None:
+    """
+    分批写入 Chroma，避免超过 max batch size。
+    preferred_batch_size 用 1000 就很稳。
+    """
+    try:
+        # langchain_chroma 内部持有 chroma client
+        max_batch_size = store._client.get_max_batch_size()
+        batch_size = max(1, min(preferred_batch_size, max_batch_size))
+    except Exception:
+        # 取不到就用一个保守值
+        batch_size = preferred_batch_size
+
+    total = len(docs)
+    print(f"[kb] total chunks={total}, batch_size={batch_size}")
+
+    for start in range(0, total, batch_size):
+        end = min(start + batch_size, total)
+        store.add_documents(docs[start:end], ids=ids[start:end])
+        print(f"[kb] indexed {end}/{total}")
+
+
 def build_index(
     resources_dir: str | Path = "resources",
     persist_directory: str = DEFAULT_DB_DIR,
@@ -114,7 +136,7 @@ def build_index(
         raw = f"{doc.metadata.get('source', '')}::{doc.metadata.get('chunk_id', i)}::{doc.page_content[:120]}"
         ids.append(hashlib.md5(raw.encode("utf-8")).hexdigest())
 
-    store.add_documents(chunks, ids=ids)
+    _add_documents_batched(store, chunks, ids)
     return len(chunks)
 
 
