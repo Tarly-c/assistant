@@ -192,7 +192,10 @@ def search_local(
     hits = []
     for doc in docs:
         content = (doc.page_content or "").strip()
-        score = _lexical_score(local_query, content),
+
+        # 这里一定要是单个 float
+        score = float(_lexical_score(local_query or question, content))
+
         hits.append(
             {
                 "source": doc.metadata.get("source", ""),
@@ -203,8 +206,8 @@ def search_local(
         )
 
     hits.sort(key=lambda x: x["score"], reverse=True)
-    top_score = hits[0]["score"] if hits else 0.0
-    enough = bool(hits) and top_score >= min_score
+    top_score = float(hits[0]["score"]) if hits else 0.0
+    enough = bool(hits) and top_score >= float(min_score)
 
     return {
         "enough": enough,
