@@ -1,0 +1,63 @@
+# Personal Health Records
+
+- Topic ID: 3892
+- Language: English
+- URL: https://medlineplus.gov/personalhealthrecords.html
+- Date created: 08/25/2004
+
+## Also called
+- Electronic health records
+- Patient health record
+
+## Groups
+- Social/Family Issues
+- Health System
+- Personal Health Issues
+
+## MeSH
+- Health Records, Personal
+- Meaningful Use
+
+## Related topics
+- Family History
+- Patient Safety
+
+## See also
+- Confidentiality
+- Electronic Health Records
+- HIPAA
+- Patient Portals
+- Patient Records
+- Privacy
+
+## Meta description
+Your medical office has your personal health records but it's good for you to create one for yourself too. Find out what you should include on it.
+
+## Summary
+You've probably seen your chart at your doctor's office. In fact, you may have charts at several doctors' offices. If you've been in the hospital, you have a chart there, too. These charts are your medical records. They may be on paper or electronic. To keep track of all this information, it's a good idea to keep your own personal health record. 
+
+What kind of information would you put in a personal health record? You could start with:
+
+- Your name, birth date, blood type, and emergency contact information
+
+- Date of last physical
+
+- Dates and results of tests and screenings
+
+- Major illnesses and surgeries, with dates
+
+- A list of your medicines and supplements, the dosages, and how long you've taken them
+
+- Any allergies
+
+- Any chronic diseases
+
+- Any history of illnesses in your family
+
+## Selected references
+- Does the HIPAA Privacy Rule Allow Parents the Right to See Their Children's Medical Records? [Children] — Department of Health and Human Services, Office for Civil Rights — https://www.hhs.gov/hipaa/for-professionals/faq/227/can-i-access-medical-record-if-i-have-power-of-attorney/index.html
+- Electronic Health Records [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/ehr.html
+- Health Information Privacy: HIPAA for Individuals [Start Here] — Department of Health and Human Services, Office for Civil Rights — https://www.hhs.gov/hipaa/for-individuals/index.html
+- Patient portals - an online tool for your health [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000880.htm
+- Viewing Clinical Notes in Your Child's Electronic Medical Record [Children] — Nemours Foundation — https://kidshealth.org/en/parents/clinical-notes.html
+- Your Medical Records [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/medical-records.html
