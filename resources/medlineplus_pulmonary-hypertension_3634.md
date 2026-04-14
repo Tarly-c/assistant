@@ -1,35 +1,6 @@
 # Pulmonary Hypertension
 
-- Topic ID: 3634
-- Language: English
-- URL: https://medlineplus.gov/pulmonaryhypertension.html
-- Date created: 11/18/2003
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Pulmonary arterial hypertension
-
-## Groups
-- Blood, Heart and Circulation
-- Lungs and Breathing
-
-## MeSH
-- Hypertension, Pulmonary
-
-## Related topics
-- Lung Diseases
-
-## See also
-- Cor Pulmonale
-- Hypertension, Pulmonary
-- Primary Pulmonary Hypertension
-- Pulmonary Arterial Hypertension
-
-## Meta description
-Pulmonary hypertension (PH) is high blood pressure in the arteries to your lungs. It makes your heart work harder, which can lead to heart failure.
-
-## Summary
-What is pulmonary hypertension? 
+What is pulmonary hypertension?
 Pulmonary hypertension, sometimes called PH, is a serious condition that affects the blood vessels in the lungs. It develops when the blood pressure in your lungs is higher than normal.
 
 Your heart pumps blood to your lungs so they can add oxygen to the blood. The blood goes back to your heart. From there, it travels to the rest of your body so that your tissues can get the oxygen that they need.
@@ -48,18 +19,16 @@ Some of the possible causes include:
 - Lung diseases such as COPD (chronic obstructive pulmonary disease), interstitial lung disease, emphysema, and sleep apnea
 
 - Other medical conditions such as:
- 
- - Liver diseases
 
- - Sickle cell disease
+- Liver diseases
 
- - Pulmonary embolism (blood clots in the lungs)
+- Sickle cell disease
 
- - Connective tissue disorders like scleroderma
+- Pulmonary embolism (blood clots in the lungs)
 
- 
+- Connective tissue disorders like scleroderma
 
-Who is more likely to develop pulmonary hypertension? 
+Who is more likely to develop pulmonary hypertension?
 Certain factors can make you more likely to develop pulmonary hypertension, such as:
 
 - Your age. The risk increases as you get older. The condition is usually diagnosed between ages 30 and 60.
@@ -118,54 +87,36 @@ To find out if you have pulmonary hypertension, your health care provider:
 - Will do a physical exam, which may include checking your blood oxygen, listening to your heart and lungs, and checking your blood pressure
 
 - Will likely order some tests, such as:
- 
- - Blood tests to look for blood clots, stress on the heart, or anemia
 
- - Heart imaging tests, such as a cardiac MRI
+- Blood tests to look for blood clots, stress on the heart, or anemia
 
- - Lung imaging tests, such as chest x-ray
+- Heart imaging tests, such as a cardiac MRI
 
- - An electrocardiogram (ECG or EKG)
+- Lung imaging tests, such as chest x-ray
 
- 
+- An electrocardiogram (ECG or EKG)
 
 What are the treatments for pulmonary hypertension?
 Often there is no cure for pulmonary hypertension, but treatments can help manage your symptoms. Your provider will work with you to come up with a treatment plan. It will be based on your needs and the cause of the pulmonary hypertension. The plan may include:
 
 - Healthy lifestyle changes, such as:
- 
- - Healthy eating, which includes eating less salt
 
- - Regular physical activity, which may be done through pulmonary rehabilitation
+- Healthy eating, which includes eating less salt
 
- 
+- Regular physical activity, which may be done through pulmonary rehabilitation
 
 - Medicines, such as:
- 
- - Blood thinners
 
- - Medicines to control the rate blood is pumped throughout the body
+- Blood thinners
 
- - Medicines to relax blood vessels and allow the blood to flow better
+- Medicines to control the rate blood is pumped throughout the body
 
- - Medicine to reduce swelling (diuretics)
+- Medicines to relax blood vessels and allow the blood to flow better
 
- 
+- Medicine to reduce swelling (diuretics)
 
 - Oxygen therapy
 
 - Procedures to reduce pressure in the heart or pulmonary artery
 
 - In some severe cases, a lung transplant
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Cor pulmonale [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000129.htm
-- Lung diffusion testing [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003854.htm
-- Pulmonary angiography [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003813.htm
-- Pulmonary Hypertension [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/pulmonary-hypertension/symptoms-causes/syc-20350697?p=1
-- Pulmonary Hypertension [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/pulmonary-hypertension/
-- Pulmonary hypertension [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000112.htm
-- Pulmonary Hypertension: High Blood Pressure in the Heart-to-Lung System [Start Here] — American Heart Association — https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/pulmonary-hypertension-high-blood-pressure-in-the-heart-to-lung-system
-- Pulmonary veno-occlusive disease [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000075.htm

@@ -1,32 +1,5 @@
 # Pulmonary Embolism
 
-- Topic ID: 377
-- Language: English
-- URL: https://medlineplus.gov/pulmonaryembolism.html
-- Date created: 01/18/2000
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Blood clots in the lung
-
-## Groups
-- Lungs and Breathing
-
-## MeSH
-- Pulmonary Embolism
-
-## Related topics
-- Blood Clots
-- Deep Vein Thrombosis
-- Vascular Diseases
-
-## See also
-- Blood Clots in the Lung
-
-## Meta description
-A pulmonary embolism is a sudden blockage in a lung artery. The cause is usually a blood clot in the leg called deep vein thrombosis. Learn more.
-
-## Summary
 What is a pulmonary embolism (PE)?
 A pulmonary embolism (PE) is a sudden blockage in a lung artery. It usually happens when a blood clot breaks loose and travels through the bloodstream to the lungs. PE is a serious condition that can cause:
 
@@ -48,16 +21,13 @@ Anyone can get a pulmonary embolism (PE), but certain things can raise your risk
 
 - Certain medical conditions, including
 
- 
- - Cancers
+- Cancers
 
- - Heart diseases
+- Heart diseases
 
- - Lung diseases
+- Lung diseases
 
- - A broken hip or leg bone or other trauma
-
- 
+- A broken hip or leg bone or other trauma
 
 - Hormone-based medicines, such as birth control pills or hormone replacement therapy.
 
@@ -118,20 +88,8 @@ Preventing new blood clots can prevent PE. Prevention may include:
 - Continuing to take blood thinners. It's also important to get regular checkups with your provider, to make sure that the dosage of your medicines is working to prevent blood clots but not causing bleeding.
 
 - Heart-healthy lifestyle changes, such as heart-healthy eating, exercise, and, if you smoke, quitting smoking.
-
 Using compression stockings to prevent deep vein thrombosis (DVT).
+
 - Moving your legs when sitting for long periods of time (such as on long trips).
 
 - Moving around as soon as possible after surgery or being confined to a bed.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- About Venous Thromboembolism (Blood Clots) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/blood-clots/about/
-- Blood Thinners: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/bloodthinners.html
-- Catheter-Directed Thrombolysis [Treatments and Therapies] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/thrombo
-- Chest CT [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003788.htm
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm
-- Coughing up blood [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003073.htm
-- CT Angiography (CTA) [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/angioct
-- D-Dimer Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/d-dimer-test/

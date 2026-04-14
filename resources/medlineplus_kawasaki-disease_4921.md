@@ -1,32 +1,5 @@
 # Kawasaki Disease
 
-- Topic ID: 4921
-- Language: English
-- URL: https://medlineplus.gov/kawasakidisease.html
-- Date created: 02/11/2009
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Mucocutaneous lymph node syndrome
-
-## Groups
-- Blood, Heart and Circulation
-- Skin, Hair and Nails
-- Immune System
-
-## MeSH
-- Mucocutaneous Lymph Node Syndrome
-
-## Related topics
-- Vasculitis
-
-## See also
-- Mucocutaneous Lymph Node Syndrome
-
-## Meta description
-Kawasaki disease is a rare childhood disease that makes the walls of the blood vessels in the body become inflamed. Learn what symptoms to look for.
-
-## Summary
 What is Kawasaki disease?
 Kawasaki disease is a rare illness that usually affects small children. Other names for the disease are Kawasaki syndrome and mucocutaneous lymph node syndrome. It is a type of vasculitis, which is inflammation of the blood vessels. Kawasaki disease is serious, but most children can fully recover if they are treated right away.
 
@@ -78,17 +51,6 @@ There is no specific test for Kawasaki disease. To find out if your child has Ka
 What are the treatments for Kawasaki disease?
 Kawasaki disease is usually treated in the hospital with an intravenous (IV) dose of immunoglobulin (IVIG) antibodies. Antibodies are proteins that your immune system makes to fight infections.
 
- 
-
 Aspirin may also be part of the treatment. But do not give your child aspirin unless the health care provider tells you to. Aspirin can cause Reye syndrome in children. This is a rare, serious illness that can affect the brain and liver.
 
 Treatment usually works. But if it is not working well enough, the provider may also give your child other medicines to fight the inflammation. If the disease affects your child's heart, they might need additional medicines, surgery, or other medical procedures.
-
-## Selected references
-- Electrocardiogram [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003868.htm
-- Erythrocyte Sedimentation Rate (ESR) [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/erythrocyte-sedimentation-rate-esr/
-- Heart Tests [Diagnosis and Tests] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/heart-tests
-- Kawasaki disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000989.htm
-- Kawasaki Disease (For Parents) [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/kawasaki.html
-- Kawasaki Disease in Infants & Young Children [Start Here] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/heart/Pages/Kawasaki-Disease.aspx
-- What Is Kawasaki Disease? [Start Here] — American Heart Association — https://www.heart.org/-/media/Files/Health-Topics/Answers-by-Heart/What-is-Kawasaki-Disease.pdf

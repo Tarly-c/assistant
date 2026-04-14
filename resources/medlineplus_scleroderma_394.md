@@ -1,37 +1,6 @@
 # Scleroderma
 
-- Topic ID: 394
-- Language: English
-- URL: https://medlineplus.gov/scleroderma.html
-- Date created: 10/01/1999
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Circumscribed scleroderma
-- Dermatosclerosis
-- Morphea
-- Systemic sclerosis
-
-## Groups
-- Skin, Hair and Nails
-- Immune System
-
-## MeSH
-- Scleroderma, Systemic
-- Scleroderma, Localized
-
-## Related topics
-- Raynaud Phenomenon
-
-## See also
-- Morphea
-- Systemic Sclerosis
-
-## Meta description
-Scleroderma is an autoimmune disease that causes inflammation and thickening in the skin and other areas of the body. The exact cause of scleroderma is unknown.
-
-## Summary
-What is scleroderma? 
+What is scleroderma?
 Scleroderma means "hard skin." It's the name of an autoimmune disease that causes inflammation and thickening in the skin and other areas of the body. This inflammation causes you to have areas of tight, hard skin. Scleroderma may affect just one area of your body, or it can affect many systems in your body.
 
 What are the types of scleroderma?
@@ -49,7 +18,7 @@ The exact cause of scleroderma is unknown. Researchers think that several factor
 - Your environment. Exposure to certain things in the environment, such as viruses or chemicals, may trigger scleroderma.
 
 - Immune system changes. When your immune system changes, it can trigger your cells to make too much collagen in the body. Too much collagen causes patches of tight, hard skin.
- 
+
 - Hormones. Hormonal or immune system differences between women and men might play a part in the disease.
 
 Who is more likely to develop scleroderma?
@@ -65,24 +34,20 @@ What are the symptoms of scleroderma?
 The symptoms of scleroderma are different for each person, depending on the type of scleroderma you have:
 
 - Localized scleroderma usually causes patches of thick, hard skin in one of two patterns:
- 
- - Patches in firm, oval shapes that stay in one area or spread to other areas of skin. This is called morphea.
 
- - Lines of thickened or different colored skin that run down your arm, leg, and, rarely, on the forehead. This is called linear scleroderma.
+- Patches in firm, oval shapes that stay in one area or spread to other areas of skin. This is called morphea.
 
- 
+- Lines of thickened or different colored skin that run down your arm, leg, and, rarely, on the forehead. This is called linear scleroderma.
 
 - Systemic scleroderma can cause problems with your internal organs as well as your skin. It can cause symptoms such as:
- 
- - Thick, tight skin on your fingers
 
- - Fatigue
+- Thick, tight skin on your fingers
 
- - Raynaud's phenomenon, a narrowing of blood vessels in the hands or feet
+- Fatigue
 
- - Damage to your internal organs, including your digestive system, lungs, kidneys, and heart
+- Raynaud's phenomenon, a narrowing of blood vessels in the hands or feet
 
- 
+- Damage to your internal organs, including your digestive system, lungs, kidneys, and heart
 
 How is scleroderma diagnosed?
 There is no single test for scleroderma. The symptoms can vary from person to person and can be similar to those of other diseases. This can make scleroderma hard to diagnose.
@@ -123,15 +88,3 @@ You can also help manage some of your symptoms, for example by:
 - Avoiding hot baths and showers, harsh soaps, and household cleaners
 
 - Getting regular physical activity
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- ANA (Antinuclear Antibody) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/ana-antinuclear-antibody-test/
-- Autoantibody Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/autoantibody-testing/
-- Collagen vascular disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001223.htm
-- Gastroparesis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000297.htm
-- Morphea [Specifics] — American Osteopathic College of Dermatology — https://www.aocd.org/page/Morphea?
-- Necrotizing vasculitis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000432.htm
-- Scleroderma [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000429.htm
-- Scleroderma [Start Here] — American College of Rheumatology — https://rheumatology.org/patients/scleroderma

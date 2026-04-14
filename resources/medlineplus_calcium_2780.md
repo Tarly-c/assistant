@@ -1,32 +1,5 @@
 # Calcium
 
-- Topic ID: 2780
-- Language: English
-- URL: https://medlineplus.gov/calcium.html
-- Date created: 10/23/2002
-- Primary institute: NIH Office of Dietary Supplements
-
-## Groups
-- Bones, Joints and Muscles
-- Food and Nutrition
-
-## MeSH
-- Calcium, Dietary
-
-## Related topics
-- Fluid and Electrolyte Balance
-- Minerals
-- Osteoporosis
-- Vitamins
-
-## See also
-- Hypercalcemia
-- Hypocalcemia
-
-## Meta description
-Your body needs calcium for many reasons. Learn what foods are high in calcium and how much calcium you need in a healthy diet.
-
-## Summary
 What is calcium and why do I need it?
 Calcium is a mineral, a nutrient that you need (in small amounts) to keep your body healthy. You have more calcium in your body than any other mineral.
 
@@ -78,7 +51,7 @@ Calcium supplements might cause gas, bloating, and constipation in some people. 
 - Switching the form of calcium you take
 
 How much calcium do I need?
-The amount of calcium you need each day depends on your age and other factors. The recommended amounts, in milligrams (mg), are: 
+The amount of calcium you need each day depends on your age and other factors. The recommended amounts, in milligrams (mg), are:
 
 - Birth to 6 months: 200 mg
 
@@ -117,15 +90,3 @@ Certain people may have trouble getting enough calcium, including:
 - People who don't drink milk or eat other dairy products
 
 Check with your health care provider to see if you need to take calcium supplements, and if so, how much you should take. Your provider may want to first do a calcium blood test to see if you are getting enough of it.
-
-NIH: National Institutes of Health Office of Dietary Supplements
-
-## Selected references
-- Calcium [Children] — Nemours Foundation — https://kidshealth.org/en/parents/calcium.html
-- Calcium [Start Here] — National Institutes of Health, Office of Dietary Supplements — https://ods.od.nih.gov/factsheets/Calcium-Consumer/
-- Calcium - ionized [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003486.htm
-- Calcium - urine [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003603.htm
-- Calcium and Vitamin D [Start Here] — Bone Health and Osteoporosis Foundation — https://www.bonehealthandosteoporosis.org/patients/treatment/calciumvitamin-d/
-- Calcium Blood Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/calcium-blood-test/
-- Calcium blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003477.htm
-- Calcium in diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002412.htm

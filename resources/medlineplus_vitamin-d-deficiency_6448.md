@@ -1,35 +1,10 @@
 # Vitamin D Deficiency
 
-- Topic ID: 6448
-- Language: English
-- URL: https://medlineplus.gov/vitaminddeficiency.html
-- Date created: 02/28/2017
-- Primary institute: NIH Office of Dietary Supplements
-
-## Also called
-- Hypovitaminosis D
-- Low Vitamin D
-
-## Groups
-- Food and Nutrition
-
-## MeSH
-- Vitamin D Deficiency
-
-## See also
-- Osteomalacia
-
-## Meta description
-A lack of vitamin D (deficiency) can affect your bones and overall health. Learn who is at risk, how much vitamin D you need, and how to get enough.
-
-## Summary
 What is vitamin D deficiency?
 Vitamin D deficiency means that your body is not getting enough vitamin D to stay healthy.
 
 Why do I need vitamin D and how do I get it?
 Vitamin D helps your body absorb calcium. Calcium is one of the main building blocks of bone. Vitamin D also has a role in your nervous, muscle, and immune systems.
-
- 
 
 You can get vitamin D in three ways: through your skin, from your diet, and from supplements. Your body forms vitamin D naturally after exposure to sunlight. But too much sun exposure can lead to skin aging and skin cancer, so many people try to get their vitamin D from other sources.
 
@@ -76,7 +51,7 @@ Some people are at higher risk of vitamin D deficiency:
 
 - People who have obesity, because their body fat binds to some vitamin D and prevents it from getting into the blood.
 
-- People who have had gastric bypass surgery, a type of weight loss surgery which creates a bypass of part of the small intestine. Since vitamin D is absorbed there, bypassing part of it makes it harder to absorb enough vitamin D. 
+- People who have had gastric bypass surgery, a type of weight loss surgery which creates a bypass of part of the small intestine. Since vitamin D is absorbed there, bypassing part of it makes it harder to absorb enough vitamin D.
 
 - People with chronic kidney or liver disease, which can affect your ability to change vitamin D into a form your body can use.
 
@@ -91,7 +66,7 @@ Vitamin D deficiency can lead to a loss of bone density, which can contribute to
 Severe vitamin D deficiency can also lead to other diseases:
 
 - In children, it can cause rickets. Rickets is a rare disease that causes the bones to become soft and bend. African American infants and children are at higher risk of getting rickets.
- 
+
 - In adults, severe vitamin D deficiency leads to osteomalacia. Osteomalacia causes weak bones, bone pain, and muscle weakness.
 
 How can I get more vitamin D?
@@ -127,16 +102,6 @@ If you have vitamin D deficiency, the treatment is with supplements. Check with 
 Can too much vitamin D be harmful?
 Getting too much vitamin D (known as vitamin D toxicity) can be harmful. Signs of toxicity include nausea and vomiting, poor appetite, constipation, weakness, and weight loss.
 
- 
-
 Very high levels of vitamin D can damage the kidneys. It also raises the level of calcium in your blood. High levels of blood calcium (hypercalcemia) can cause confusion, kidney failure, and irregular heartbeat (arrhythmia).
 
 Most cases of vitamin D toxicity happen when someone overuses vitamin D supplements. You cannot get too much vitamin D from sun exposure because the skin limits the amount of vitamin D it makes.
-
-## Selected references
-- 25-hydroxy vitamin D test [Patient Handouts, Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003569.htm
-- Osteomalacia [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000376.htm
-- Rickets: MedlinePlus Health Topic [Learn More] — National Library of Medicine — https://medlineplus.gov/rickets.html
-- Vitamin D [Learn More] — National Institutes of Health, Office of Dietary Supplements — https://ods.od.nih.gov/factsheets/VitaminD-Consumer/
-- Vitamin D [Learn More] — Harvard School of Public Health — https://www.hsph.harvard.edu/nutritionsource/vitamins/vitamin-d/
-- Vitamin D Test [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/vitamin-d-test/

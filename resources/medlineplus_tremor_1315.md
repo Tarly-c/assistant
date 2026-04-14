@@ -1,30 +1,6 @@
 # Tremor
 
-- Topic ID: 1315
-- Language: English
-- URL: https://medlineplus.gov/tremor.html
-- Date created: 06/28/2000
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Older Adults
-- Brain and Nerves
-
-## MeSH
-- Tremor
-
-## Related topics
-- Movement Disorders
-- Parkinson's Disease
-
-## See also
-- Essential Tremor
-
-## Meta description
-Tremors are unintentional trembling or shaking movements in one or more parts of the body. Read about the types, such as essential tremor, and causes.
-
-## Summary
-What is a tremor? 
+What is a tremor?
 A tremor is a neurological condition that includes shaking or trembling movements in one or more parts of your body. It most often affects the hands. But it can also affect the arms, legs, head, vocal cords, and torso (trunk). A tremor is involuntary, meaning that you cannot control it. It happens because of muscle contractions.
 
 A tremor may come and go, or it may be constant. It can happen on its own or be caused by another disorder. It is not life threatening, but it may cause challenges. It can make it hard to do daily life tasks such as writing, typing, eating, and dressing. In some cases, a tremor can even lead to disabilities.
@@ -32,8 +8,8 @@ A tremor may come and go, or it may be constant. It can happen on its own or be 
 What are the types of tremor?
 There are several types of tremor, including:
 
-- Essential tremor, sometimes called benign essential tremor or familial tremor. This is the most common type. It usually affects both your hands and arms while you are moving them. It can also affect your head, voice, or legs. 
- 
+- Essential tremor, sometimes called benign essential tremor or familial tremor. This is the most common type. It usually affects both your hands and arms while you are moving them. It can also affect your head, voice, or legs.
+
 - Parkinsonian tremor, which is a common symptom in people who have Parkinson's disease. It usually affects one or both hands when they are at rest, but it can affect the chin, lips, face, and legs.
 
 - Dystonic tremor, which happens in people who have dystonia. Dystonia is a movement disorder in which you have involuntary muscle contractions. The contractions cause you to have twisting and repetitive movements. It can affect any muscle in the body.
@@ -74,30 +50,24 @@ Symptoms of tremor may include:
 How is tremor diagnosed?
 Your health care provider may use many tools to make a diagnosis:
 
-- A medical history, which includes asking about your symptoms 
+- A medical history, which includes asking about your symptoms
 
 - A physical exam, which includes checking:
- 
- - Whether the tremor happens when the muscles are at rest or in action
 
- - The location of the tremor
+- Whether the tremor happens when the muscles are at rest or in action
 
- - How often you have the tremor and how strong it is
+- The location of the tremor
 
- 
+- How often you have the tremor and how strong it is
 
- 
 - A neurological exam, including checking for:
- 
- - Problems with balance
 
- - Problems with speech
+- Problems with balance
 
- - Increased muscle stiffness
+- Problems with speech
 
- 
+- Increased muscle stiffness
 
- 
 - Blood or urine tests to look for the cause
 
 - Imaging tests to help figure out if the cause is damage to your brain
@@ -120,14 +90,3 @@ Treatments for tremor can include:
 - Physical, speech-language, and occupational therapy, which may help to control tremor and deal with the daily challenges caused by the tremor.
 
 If you find that caffeine and other stimulants trigger your tremors, it may be helpful to cut them from your diet.
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- Children with Essential Tremor [Children] — International Essential Tremor Foundation — https://essentialtremor.org/wp-content/uploads/2013/08/ParenTeacherGuide8x11_012013.pdf
-- Essential tremor [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000762.htm
-- Essential Tremor (ET): Surgical Options [Treatments and Therapies] — International Essential Tremor Foundation — https://essentialtremor.org/resource/surgical-options/
-- Treatment of Essential Tremor [Treatments and Therapies] — American Academy of Neurology — https://www.aan.com/Guidelines/Home/GetGuidelineContent/494
-- Tremor [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003192.htm
-- Tremor [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/tremor
-- Tremor - self-care [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000564.htm

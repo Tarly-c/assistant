@@ -1,33 +1,5 @@
 # Teen Depression
 
-- Topic ID: 6931
-- Language: English
-- URL: https://medlineplus.gov/teendepression.html
-- Date created: 05/03/2018
-- Primary institute: National Institute of Mental Health
-
-## Groups
-- Children and Teenagers
-- Mental Health and Behavior
-
-## MeSH
-- Depression
-
-## Related topics
-- Antidepressants
-- Depression
-- Seasonal Affective Disorder
-- Self-Harm
-- Suicide
-- Teen Mental Health
-
-## See also
-- Depression, Teen
-
-## Meta description
-More and more teens in the U.S. have depression. It is a serious medical illness that causes feelings of sadness, hopelessness, and frustration that do not go away. Learn about diagnosis and treatment
-
-## Summary
 What is depression in teens?
 Depression in teens (ages 13-17) is a serious medical illness. It's more than just a feeling of being sad or "blue" for a few days. It is an intense feeling of sadness, hopelessness, and anger or frustration that lasts much longer. These feelings make it hard for you to function normally and do your usual activities. You may also have trouble focusing and have no motivation or energy. Depression can make you feel like it is hard to enjoy life or even get through the day.
 
@@ -37,7 +9,7 @@ Many factors may play a role in depression, including:
 - Genetics. Depression can run in families.
 
 - Brain biology and chemistry.
- 
+
 - Hormones. Hormone changes can contribute to depression.
 
 - Stressful childhood events such as trauma, the death of a loved one, bullying, and abuse.
@@ -122,7 +94,6 @@ Talk therapy
 
 Talk therapy, also called psychotherapy or counseling, can help you understand and manage your moods and feelings. It involves going to see a therapist, such as a psychiatrist, a psychologist, a social worker, or counselor. You can talk out your emotions to someone who understands and supports you. You can also learn how to stop thinking negatively and start to look at the positives in life. This will help you build confidence and feel better about yourself.
 
- 
 There are many different types of talk therapy. Certain types have been shown to help teens deal with depression, including:
 
 - Cognitive behavioral therapy (CBT), which helps you to identify and change negative and unhelpful thoughts. It also helps you build coping skills and change behavioral patterns.
@@ -132,8 +103,6 @@ There are many different types of talk therapy. Certain types have been shown to
 Medicines
 
 In some cases, your doctor will suggest medicines along with talk therapy. There are a few antidepressants that have been widely studied and proven to help teens. If you are taking medicine for depression, it is important to see your doctor regularly.
-
- 
 
 It is also important to know that it will take some time for you to get relief from antidepressants:
 
@@ -150,13 +119,3 @@ You should not stop taking the antidepressants on your own. You need to work wit
 Programs for severe depression
 
 Some teens who have severe depression or are at risk of hurting themselves may need more intensive treatment. They may go into a psychiatric hospital or do a day program. Both offer counseling, group discussions, and activities with mental health professionals and other patients. Day programs may be full-day or half-day, and they often last for several weeks.
-
-## Selected references
-- Antidepressants for Children and Teens [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/teen-depression/in-depth/antidepressants/art-20047502?p=1
-- Childhood Depression: What Parents Need to Know [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/understanding-depression.html
-- College Depression: What Parents Need to Know [Specifics] — Mayo Foundation for Medical Education and Research — https://newsnetwork.mayoclinic.org/discussion/college-depression-what-parents-need-to-know-2/
-- Depression Screening [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/depression-screening/
-- Depression: What You Need to Know [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/depression.html
-- Get Your Teen Screened for Depression [Diagnosis and Tests] — Office of Disease Prevention and Health Promotion — https://odphp.health.gov/myhealthfinder/healthy-living/mental-health-and-relationships/get-your-teen-screened-depression
-- Going to a Therapist [Treatments and Therapies] — Nemours Foundation — https://kidshealth.org/en/teens/therapist.html
-- Helping your teen with depression [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000646.htm

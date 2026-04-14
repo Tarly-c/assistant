@@ -1,32 +1,7 @@
 # Disabilities
 
-- Topic ID: 527
-- Language: English
-- URL: https://medlineplus.gov/disabilities.html
-- Date created: 10/28/1999
-
-## Groups
-- Social/Family Issues
-
-## MeSH
-- Health Services for Persons with Disabilities
-- Persons with Disabilities
-
-## Related topics
-- Assistive Devices
-- Developmental Disabilities
-- Learning Disabilities
-- Limb Loss
-- Mobility Aids
-
-## Meta description
-A disability is any condition of the body or mind that makes it more difficult for a person to do certain activities and interact with the world around them.
-
-## Summary
 What are disabilities?
 A disability is any condition of your body or mind that makes it more difficult for you to do one or more major life activities and interact with the world around you.
-
- 
 
 There are many types of disabilities, such as those that can affect your:
 
@@ -119,7 +94,7 @@ Just like for people who don't have a disability, having a healthy lifestyle is 
 
 - Staying in touch with family and friends
 
-What kinds of resources are there for people with disabilities? 
+What kinds of resources are there for people with disabilities?
 Managing a disability can sometimes be challenging. There are resources that can help:
 
 - Assistive devices and mobility aids can make daily tasks easier.
@@ -131,10 +106,3 @@ Managing a disability can sometimes be challenging. There are resources that can
 - Government programs may provide benefits, job training, employment resources, and protection against discrimination.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Benefits for Children with Disabilities [Children] — Social Security Administration — https://www.ssa.gov/pubs/EN-05-10026.pdf
-- Caring for Siblings of Kids with Disabilities [Children] — Nemours Foundation — https://kidshealth.org/en/parents/siblings-special-needs.html
-- Disability and Health Overview [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/disability-and-health/about/
-- Individualized Education Programs (IEPs) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/iep.html
-- Safety Plan Considerations [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/child-development/disability-safety/safety-plan.html

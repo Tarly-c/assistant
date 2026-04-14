@@ -1,29 +1,6 @@
 # Stuttering
 
-- Topic ID: 3629
-- Language: English
-- URL: https://medlineplus.gov/stuttering.html
-- Date created: 11/03/2003
-- Primary institute: National Institute on Deafness and Other Communication Disorders
-
-## Also called
-- Stammering
-
-## Groups
-- Brain and Nerves
-- Symptoms
-
-## MeSH
-- Stuttering
-
-## See also
-- Stammering
-
-## Meta description
-Learn about stuttering, or stammering, a speech disorder that affects the flow of your speech. It is more common in children, who often outgrow it.
-
-## Summary
-What is stuttering? 
+What is stuttering?
 Stuttering is a speech disorder. It involves interruptions in the flow of speech. These interruptions are called disfluencies. They may involve:
 
 - Repeating sounds, syllables, or words
@@ -51,7 +28,6 @@ Stuttering is usually diagnosed by a speech-language pathologist. This is a heal
 
 To make a diagnosis, the speech-language pathologist will:
 
- 
 - Look at the case history, such as when the stuttering was first noticed, how often it happens, and in what situations it happens
 
 - Listen to you or your child speak and analyze the stuttering
@@ -67,7 +43,6 @@ To make a diagnosis, the speech-language pathologist will:
 What are the treatments for stuttering?
 There are different treatments that can help with stuttering. Some of these may help one person but not another. You need to work with the speech-language pathologist to figure out the best plan for you or your child.
 
- 
 The plan should take into account how long the stuttering has been going on and whether there are any other speech or language problems. For a child, the plan should also take into account your child's age and whether he or she is likely to outgrow the stuttering.
 
 Younger children may not need therapy right away. Their parents and teachers can learn strategies to help the child practice speaking. That can help some children. As a parent, it's important to be calm and relaxed when your child is speaking. If your child feels pressured, it can make it harder for them to talk. The speech-language pathologist will probably want to evaluate your child regularly, to see whether treatment is needed.
@@ -83,15 +58,3 @@ Speech therapy can help children and adults minimize stuttering. Some techniques
 For adults, self-help groups can help you find resources and support as you face the challenges of stuttering.
 
 There are electronic devices to help with fluency, but more research is needed to see whether they really help over the long term. Some people have tried medicines that usually treat other health problems such as epilepsy, anxiety, or depression. But these medicines are not approved for stuttering, and they often have side effects.
-
-NIH: National Institute on Deafness and Other Communication Disorders
-
-## Selected references
-- Disrupted Speech: Why Do We Stutter? [Learn More] — National Institutes of Health — https://newsinhealth.nih.gov/2020/02/disrupted-speech
-- Going to a Speech Therapist [Learn More] — Nemours Foundation — https://kidshealth.org/en/kids/speech-therapist.html
-- If You Think Your Child Is Stuttering... [Learn More] — Stuttering Foundation of America — https://www.stutteringhelp.org/if-you-think-your-child-stuttering
-- Speech-Language Therapy (For Parents) [Learn More] — Nemours Foundation — https://kidshealth.org/en/parents/speech-therapy.html
-- Stuttering [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001427.htm
-- Stuttering [Learn More] — National Institute on Deafness and Other Communication Disorders — https://www.nidcd.nih.gov/health/stuttering
-- Stuttering (For Parents) [Learn More] — Nemours Foundation — https://kidshealth.org/en/parents/stutter.html
-- Stuttering and Speech Problems (For Kids) [Learn More] — Nemours Foundation — https://kidshealth.org/en/kids/stuttering.html

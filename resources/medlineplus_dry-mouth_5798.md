@@ -1,32 +1,5 @@
 # Dry Mouth
 
-- Topic ID: 5798
-- Language: English
-- URL: https://medlineplus.gov/drymouth.html
-- Date created: 04/26/2011
-- Primary institute: National Institute of Dental and Craniofacial Research
-
-## Also called
-- Xerostomia
-
-## Groups
-- Mouth and Teeth
-
-## MeSH
-- Xerostomia
-
-## Related topics
-- Mouth Disorders
-- Salivary Gland Disorders
-- Sjogren's Syndrome
-
-## See also
-- Xerostomia
-
-## Meta description
-Everyone has a dry mouth (Xerostomia) once in a while. But if it's frequent, it can lead to serious health problems. Find a list of common symptoms.
-
-## Summary
 What is saliva?
 Saliva, or spit, is made by your salivary glands. It helps keep you and your mouth healthy. For example:
 
@@ -40,8 +13,6 @@ Saliva, or spit, is made by your salivary glands. It helps keep you and your mou
 
 What is dry mouth?
 Having dry mouth, also called xerostomia, means that you don't have enough saliva to keep your mouth wet. Everyone has a dry mouth once in a while, like when you are nervous or stressed. But if you have a dry mouth all or most of the time, it can be uncomfortable. It can make chewing, swallowing, and even talking difficult. It also raises your risk for tooth decay or infections in the mouth.
-
- 
 
 What causes dry mouth?
 There are many possible causes of dry mouth, including:
@@ -104,12 +75,3 @@ There are also several things you can do to help relieve your symptoms:
 - Use a mouthwash made for dry mouth
 
 Since dry mouth can raise your risk of tooth decay, it's important to brush and floss your teeth regularly and see your dentist at least twice a year.
-
-NIH: National Institute of Dental and Craniofacial Research
-
-## Selected references
-- Dry Mouth [Start Here, Patient Handouts] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/health-info/dry-mouth
-- Dry mouth [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007760.htm
-- Dry mouth during cancer treatment [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000032.htm
-- Dry Mouth Treatment: Tips for Controlling Dry Mouth [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/dry-mouth/expert-answers/dry-mouth/faq-20058424?p=1
-- Dry Mouth: Questions and Answers [Start Here] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/sites/default/files/2023-10/dry-mouth-questions-answers_0.pdf

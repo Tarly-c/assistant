@@ -1,32 +1,5 @@
 # Adrenal Gland Disorders
 
-- Topic ID: 128
-- Language: English
-- URL: https://medlineplus.gov/adrenalglanddisorders.html
-- Date created: 12/13/1999
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Groups
-- Endocrine System
-
-## MeSH
-- Adrenal Gland Diseases
-
-## Related topics
-- Addison Disease
-- Adrenal Gland Cancer
-- Cushing's Syndrome
-- Pheochromocytoma
-
-## See also
-- Adrenal Insufficiency
-- CAH
-- Congenital Adrenal Hyperplasia
-
-## Meta description
-Adrenal gland disorders, such as Cushing's Syndrome and Addison's Disease, happen when your glands make too much or not enough hormones.
-
-## Summary
 What are adrenal glands?
 Your adrenal glands are two small organs that sit on top of each kidney. The adrenal glands make different types of hormones you need to stay alive and healthy. Hormones are chemicals that travel in your bloodstream and control how different parts of your body work.
 
@@ -79,15 +52,3 @@ Health care providers use different tests to check for adrenal disorders dependi
 
 What are the treatments for adrenal gland disorders?
 Different types of adrenal gland disorders have different treatments. They include medicines and surgery. Radiation therapy is sometimes a treatment for tumors. There are treatments to cure certain adrenal gland disorders. For other disorders, treatments can manage your symptoms.
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- 17-Hydroxyprogesterone [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/17-hydroxyprogesterone/
-- 17-OH progesterone [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003713.htm
-- 24-hour urinary aldosterone excretion rate [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003621.htm
-- About Adrenal Gland Disorders [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/adrenalgland/conditioninfo
-- ACTH blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003695.htm
-- ACTH stimulation test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003696.htm
-- Acute adrenal crisis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000357.htm
-- Adrenal Gland Cancer: MedlinePlus Health Topic [Specifics] — National Library of Medicine — https://medlineplus.gov/adrenalglandcancer.html

@@ -1,27 +1,6 @@
 # Suicide
 
-- Topic ID: 424
-- Language: English
-- URL: https://medlineplus.gov/suicide.html
-- Date created: 06/10/1999
-- Primary institute: National Institute of Mental Health
-
-## Groups
-- Mental Health and Behavior
-- Social/Family Issues
-
-## MeSH
-- Suicide
-- Suicidal Ideation
-
-## Related topics
-- Depression
-
-## Meta description
-Suicide is the tenth most common cause of death in the United States. Read about the causes and treatment available, including a suicide hotline number
-
-## Summary
-What is suicide? 
+What is suicide?
 Suicide is the taking of one's own life. It is a death that happens when someone harms themselves because they want to end their life. A suicide attempt is when someone harms themselves to try to end their life, but they do not die.
 
 Suicide is a major public health problem and a leading cause of death in the United States. Both suicide and suicide attempts can have lasting harmful effects:
@@ -100,36 +79,17 @@ If you or someone you know has the warning signs for suicide, get help right awa
 - Be there with them. Listen carefully and find out what they are thinking and feeling.
 
 - Help them connect to resources that can help them, such as through:
- 
- - Calling or texting the 988 Suicide & Crisis Lifeline at 988.
 
- - Chatting through Lifeline Chat.
+- Calling or texting the 988 Suicide & Crisis Lifeline at 988.
 
- - For veterans, reaching the Veterans Crisis Line by: 
- 
- - Calling 988 and then pressing 1.
+- Chatting through Lifeline Chat.
 
- - Texting to 838255.
+- For veterans, reaching the Veterans Crisis Line by:
 
- - Chatting with them.
+- Calling 988 and then pressing 1.
 
- 
- 
- 
- 
- 
+- Texting to 838255.
 
- 
+- Chatting with them.
+
 - Stay connected. Staying in touch after a crisis can make a difference.
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- 988 Suicide and Crisis Lifeline [Start Here] — Substance Abuse and Mental Health Services Administration — https://988lifeline.org/
-- A Journey toward Health and Hope: Your Handbook for Recovery after a Suicide Attempt [Start Here, Patient Handouts] — Substance Abuse and Mental Health Services Administration — https://library.samhsa.gov/sites/default/files/sma15-4419.pdf
-- About Teen Suicide [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/suicide.html
-- Antidepressants for Children and Teens [Children] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/teen-depression/in-depth/antidepressants/art-20047502?p=1
-- Are You Thinking about Suicide? How to Stay Safe and Find Treatment [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/suicide/in-depth/suicide/art-20048230?p=1
-- Frequently Asked Questions about Suicide [Start Here] — National Institute of Mental Health — https://www.nimh.nih.gov/health/publications/suicide-faq
-- How Can I Get Help in a Crisis? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/crisis-support.html
-- My Friend Is Talking about Suicide: What Should I Do? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/talking-about-suicide.html

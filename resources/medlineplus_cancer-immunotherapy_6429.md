@@ -1,22 +1,5 @@
 # Cancer Immunotherapy
 
-- Topic ID: 6429
-- Language: English
-- URL: https://medlineplus.gov/cancerimmunotherapy.html
-- Date created: 12/27/2016
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-
-## MeSH
-- Neoplasms
-- Immunotherapy
-
-## Meta description
-Immunotherapy is a cancer treatment that helps your immune system fight cancer. Learn about the different types.
-
-## Summary
 What is immunotherapy?
 Immunotherapy is a cancer treatment that helps your immune system fight cancer. It is a type of biological therapy. Biological therapy uses substances made from living organisms or versions of these substances made in a lab. Immunotherapy isn't used for all cancers, and the response to treatment varies. If you're getting immunotherapy, your health care provider will monitor your treatment closely.
 
@@ -26,32 +9,12 @@ Immunotherapy isn't used as often as other cancer treatments, such as surgery, c
 How does immunotherapy work against cancer?
 Cancer begins in your cells, which are the building blocks of your body. Usually, your body forms new cells as needed, replacing old cells that die. Sometimes, this process goes wrong. When you have cancer, some of your cells begin to multiply without stopping, and old cells don't die when they should. They spread into the surrounding tissues.
 
- 
 One reason cancer cells can keep growing and spreading is that they can hide from your immune system. Some immunotherapies can "mark" your cancer cells. This makes it easier for your immune system to find and destroy the cells. It is a type of targeted therapy that uses medicines or other substances that attack specific cancer cells with less harm to normal cells. Other types of immunotherapies work by boosting your immune system to work better against cancer.
-
- 
 
 How is immunotherapy given?
 There are different forms of immunotherapy, so how they are given varies. You could get immunotherapy intravenously (by IV), in pills or capsules, or cream for your skin. For bladder cancer, they might place it directly into your bladder.
 
- 
 How often and how long you get immunotherapy also varies. It depends on your type of cancer, how advanced it is, the type of immunotherapy you get, and how well it is working. You may have treatment every day, week, or month. Some immunotherapies are given in cycles, so your body has time to rest and recover.
-
- 
 
 What are the side effects of immunotherapy?
 You may have side effects. The most common side effects are skin reactions at the needle site if you get it by IV. Other side effects may include flu-like symptoms or, rarely, severe reactions.
-
- 
-
-NIH: National Cancer Institute
-
-## Selected references
-- Immunotherapy [Learn More] — American Cancer Society — https://www.cancer.org/cancer/managing-cancer/treatment-types/immunotherapy.html
-- Immunotherapy [Learn More] — Blood Cancer United — https://bloodcancerunited.org/types-treatment/immunotherapy
-- Immunotherapy for cancer [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000903.htm
-- Immunotherapy to Treat Cancer [Learn More] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/types/immunotherapy
-- Immunotherapy: questions to ask your doctor [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000828.htm
-- Monoclonal Antibodies [Learn More] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies
-- Off-Label Drug Use in Cancer Treatment [Learn More] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/drugs/off-label
-- PDL1 (Immunotherapy) Tests [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/pdl1-immunotherapy-tests/

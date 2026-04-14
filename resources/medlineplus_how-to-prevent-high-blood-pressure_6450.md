@@ -1,37 +1,5 @@
 # How to Prevent High Blood Pressure
 
-- Topic ID: 6450
-- Language: English
-- URL: https://medlineplus.gov/howtopreventhighbloodpressure.html
-- Date created: 02/28/2017
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Lowering high blood pressure
-
-## Groups
-- Blood, Heart and Circulation
-
-## MeSH
-- Hypertension
-
-## Related topics
-- Alcohol
-- Blood Pressure Medicines
-- DASH Eating Plan
-- High Blood Pressure
-- High Blood Pressure in Pregnancy
-- Nutrition
-- Quitting Smoking
-- Stress
-
-## See also
-- High Blood Pressure Prevention
-
-## Meta description
-Many people have high blood pressure, or are at risk for it. Learn how you may be able to prevent or treat it, with simple, healthy lifestyle changes.
-
-## Summary
 Around half of American adults have high blood pressure (hypertension). Many of those people don't know they have it because there are usually no warning signs. This can be dangerous, because high blood pressure can lead to life-threatening conditions like heart attack or stroke. The good news is that you can often prevent or treat high blood pressure. Early diagnosis and heart-healthy lifestyle changes can keep high blood pressure from seriously damaging your health.
 
 What is blood pressure?
@@ -46,48 +14,35 @@ As an example, a blood pressure reading of 120/80 means a systolic of 120 and a 
 How is high blood pressure diagnosed?
 High blood pressure usually has no symptoms. So the only way to find out if you have it is to get regular blood pressure checks from your health care provider. Your provider will use a gauge, a stethoscope or electronic sensor, and a blood pressure cuff. They will take two or more readings at separate appointments before making a diagnosis:
 
- 
+Blood Pressure Category
+Systolic Blood Pressure
 
- 
- 
- Blood Pressure Category
- Systolic Blood Pressure
- 
- Diastolic Blood Pressure
- 
- 
- 
- 
- Normal
- Less than 120
- and
- Less than 80
- 
- 
- Elevated
- 120 - 129
- and
- Less than 80
- 
- 
- High Blood Pressure Stage 1
- 130 - 139
- or
- 80 - 89
- 
- 
- High Blood Pressure Stage 2
- 140 or higher
- or
- 90 or higher
- 
+Diastolic Blood Pressure
 
- Hypertensive Crisis (dangerously high blood pressure - seek medical care right away)
- Higher than 180
- and
- Higher than 120
- 
- 
+Normal
+Less than 120
+and
+Less than 80
+
+Elevated
+120 - 129
+and
+Less than 80
+
+High Blood Pressure Stage 1
+130 - 139
+or
+80 - 89
+
+High Blood Pressure Stage 2
+140 or higher
+or
+90 or higher
+
+Hypertensive Crisis (dangerously high blood pressure - seek medical care right away)
+Higher than 180
+and
+Higher than 120
 
 For children and teens, the provider compares the blood pressure reading to what is normal for other kids who are the same age, height, and sex.
 
@@ -105,42 +60,36 @@ Anyone can develop high blood pressure, but there are certain factors that can i
 - Family history and genetics. High blood pressure often runs in families. Many genes are linked to small increases in high blood pressure risk.
 
 - Social and economic factors:
- 
- - Research shows that factors such as income, education level, where you live, and the type of job you have may raise your risk of high blood pressure. For example, working early or late shifts can raise your risk.
 
- - Experiencing discrimination and poverty has been linked to high blood pressure. Also, some research has shown that trauma in childhood may raise the risk of high blood pressure.
+- Research shows that factors such as income, education level, where you live, and the type of job you have may raise your risk of high blood pressure. For example, working early or late shifts can raise your risk.
 
- 
+- Experiencing discrimination and poverty has been linked to high blood pressure. Also, some research has shown that trauma in childhood may raise the risk of high blood pressure.
 
 - Certain medicines. Some medicines can raise your blood pressure, including:
- 
- - Certain antidepressants
 
- - Decongestants (medicines to relieve a stuffy nose)
+- Certain antidepressants
 
- - Hormonal birth control pills
+- Decongestants (medicines to relieve a stuffy nose)
 
- - Non-steroidal anti-inflammatory drugs (NSAIDs), which are a type of pain reliever
+- Hormonal birth control pills
 
- 
+- Non-steroidal anti-inflammatory drugs (NSAIDs), which are a type of pain reliever
 
 - Having certain other medical conditions, such as:
- 
- - Some tumors
 
- - Chronic kidney disease
+- Some tumors
 
- - Diabetes
+- Chronic kidney disease
 
- - Metabolic syndrome
+- Diabetes
 
- - Overweight and obesity
+- Metabolic syndrome
 
- - Sleep apnea
+- Overweight and obesity
 
- - Thyroid problems
+- Sleep apnea
 
- 
+- Thyroid problems
 
 How can I prevent high blood pressure?
 You can help prevent high blood pressure by having a healthy lifestyle. This means:
@@ -148,11 +97,11 @@ You can help prevent high blood pressure by having a healthy lifestyle. This mea
 - Eating a healthy diet. To help manage your blood pressure, you should limit the amount of sodium (salt) that you eat and increase the amount of potassium in your diet. It is also important to eat foods that are lower in fat, as well as plenty of fruits, vegetables, and whole grains. The DASH eating plan is an example of an eating plan that can help you to lower your blood pressure.
 
 - Getting regular physical activity. Regular physical activity can help you maintain a healthy weight and lower your blood pressure.
- 
+
 - Being at a healthy weight. Being overweight or having obesity increases your risk for high blood pressure. Maintaining a healthy weight can help you control high blood pressure and reduce your risk for other health problems.
- 
+
 - Limiting alcohol. Drinking too much alcohol can raise your blood pressure. It also adds extra calories, which may cause weight gain.
- 
+
 - Not smoking. Cigarette smoking raises your blood pressure and puts you at higher risk for heart attack and stroke. If you do not smoke, don't start. If you do smoke, talk to yourprovider for help in finding the best way for you to quit.
 
 - Managing stress. Learning how to relax and manage stress can improve your emotional and physical health and lower high blood pressure. Stress management techniques include exercising, listening to music, focusing on something calm or peaceful, and meditating.
@@ -160,15 +109,3 @@ You can help prevent high blood pressure by having a healthy lifestyle. This mea
 - Getting enough high-quality sleep.
 
 If you already have high blood pressure, it is important to prevent it from getting worse or causing complications. You need to get regular medical care and follow your treatment plan. Your plan will include healthy lifestyle habit recommendations and possibly medicines.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- 10 Ways to Control High Blood Pressure without Medication [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/high-blood-pressure/art-20046974?p=1
-- Blood pressure [Encyclopedia, Videos and Tutorials] — Medical Encyclopedia — https://medlineplus.gov/ency/anatomyvideos/000013.htm
-- Can Whole-Grain Foods Lower Blood Pressure? [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/expert-answers/whole-grain-foods/faq-20058417?p=1
-- Common High Blood Pressure Myths [Specifics] — American Heart Association — https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/common-high-blood-pressure-myths
-- Controlling your high blood pressure [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000101.htm
-- DASH diet to lower high blood pressure [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000770.htm
-- DASH Diet: MedlinePlus Health Topic [Specifics] — National Library of Medicine — https://medlineplus.gov/dasheatingplan.html
-- Exercise: A Drug-Free Approach to Lowering High Blood Pressure [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/high-blood-pressure/art-20045206?p=1

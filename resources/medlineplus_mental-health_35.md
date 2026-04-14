@@ -1,32 +1,5 @@
 # Mental Health
 
-- Topic ID: 35
-- Language: English
-- URL: https://medlineplus.gov/mentalhealth.html
-- Date created: 11/20/1998
-- Primary institute: National Institute of Mental Health
-
-## Groups
-- Mental Health and Behavior
-- Wellness and Lifestyle
-
-## MeSH
-- Mental Health
-
-## Related topics
-- Child Mental Health
-- How to Improve Mental Health
-- Mental Disorders
-- Older Adult Mental Health
-- Teen Mental Health
-
-## See also
-- Emotional Health
-
-## Meta description
-Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. Your mental health can change over time.
-
-## Summary
 What is mental health?
 Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act as we cope with life. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood and aging.
 
@@ -69,7 +42,6 @@ Over time, your mental health can change. For example, you may be dealing with a
 What are the signs that I might have a mental health problem?
 When it comes to your emotions, it can be hard to know what is normal and what is not. There are warning signs that you may have a mental health problem, including:
 
- 
 - A change in your eating or sleeping habits
 
 - Withdrawing from the people and activities you enjoy
@@ -98,13 +70,3 @@ When it comes to your emotions, it can be hard to know what is normal and what i
 
 What should I do if I think I have a mental health problem?
 If you think that you may have a mental health problem, get help. Talk therapy and/or medicines can treat mental disorders. If you don't know where to start, contact your primary care provider.
-
-## Selected references
-- Anger Management: 10 Tips to Tame Your Temper [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/anger-management/art-20045434?p=1
-- Child Mental Health: MedlinePlus Health Topic [Children] — National Library of Medicine — https://medlineplus.gov/childmentalhealth.html
-- Good Mental Health [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/mental-health/good-mental-health
-- Learn to manage your anger [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000858.htm
-- Men and Mental Health [Men] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/men-and-mental-health
-- Mental Health Screening [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/mental-health-screening/
-- Mental Health: What's Normal, What's Not [Diagnosis and Tests] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/mental-health/art-20044098?p=1
-- My Mental Health: Do I Need Help? [Specifics] — National Institute of Mental Health — https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help

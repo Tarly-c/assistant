@@ -1,29 +1,7 @@
 # Chlamydia Infections
 
-- Topic ID: 1307
-- Language: English
-- URL: https://medlineplus.gov/chlamydiainfections.html
-- Date created: 06/14/2000
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Sexual Health Issues
-- Female Reproductive System
-- Male Reproductive System
-
-## MeSH
-- Chlamydia Infections
-
-## Related topics
-- Sexually Transmitted Infections
-
-## Meta description
-Chlamydia is a common sexually transmitted disease contracted by men and women. Chlamydia usually does not have symptoms. Learn about tests and prevention.
-
-## Summary
 What is chlamydia?
-Chlamydia is a common sexually transmitted infection (STI). It is caused by bacteria called Chlamydia trachomatis. Anyone can get chlamydia. It often doesn't cause symptoms, so people may not know that they have it. Antibiotics can cure it. But if it's not treated, chlamydia can cause serious health problems. 
+Chlamydia is a common sexually transmitted infection (STI). It is caused by bacteria called Chlamydia trachomatis. Anyone can get chlamydia. It often doesn't cause symptoms, so people may not know that they have it. Antibiotics can cure it. But if it's not treated, chlamydia can cause serious health problems.
 
 How is chlamydia spread?
 You can get chlamydia during oral, vaginal, or anal sex with someone who has chlamydia. Chlamydia can also be passed to the baby during childbirth.
@@ -35,8 +13,6 @@ Chlamydia is more common in young people, especially young women. You are more l
 
 What are the symptoms of chlamydia?
 Chlamydia doesn't usually cause any symptoms. So you may not realize that you have it. But even if you don't have symptoms, you can still pass the infection to others.
-
- 
 
 If you do have symptoms, they may not appear until several weeks after you have sex with someone who has chlamydia.
 
@@ -61,7 +37,6 @@ If the chlamydia infects the rectum (in men or women), it can cause rectal pain,
 How is chlamydia diagnosed?
 There are lab tests to diagnose chlamydia. Your health care provider may ask you to provide a urine sample. Or your provider may use (or ask you to use) a cotton swab to get a sample from your vagina to test for chlamydia.
 
- 
 Who should be tested for chlamydia?
 You should go to your provider for a test if you have symptoms of chlamydia or if you have a partner who has an STI. If you are pregnant, you should get a test when you go to your first prenatal visit.
 
@@ -98,13 +73,3 @@ The only sure way to prevent chlamydia is to not have vaginal, anal, or oral sex
 Correct usage of latex condoms greatly reduces, but does not eliminate, the risk of catching or spreading chlamydia. If your or your partner is allergic to latex, you can use polyurethane condoms.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Chlamydia [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/chlamydia/about/
-- Chlamydia [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/chlamydia
-- Chlamydia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001345.htm
-- Chlamydia (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/chlamydia.html
-- Chlamydia infections in women [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000660.htm
-- Chlamydia Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/chlamydia-test/
-- Chlamydial infections - male [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000659.htm
-- Condom Use: An Overview [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/condom-use/

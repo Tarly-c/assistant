@@ -1,27 +1,6 @@
 # Anal Cancer
 
-- Topic ID: 3791
-- Language: English
-- URL: https://medlineplus.gov/analcancer.html
-- Date created: 03/10/2004
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Digestive System
-
-## MeSH
-- Anus Neoplasms
-
-## Related topics
-- Anal Disorders
-- Colorectal Cancer
-
-## Meta description
-Anal cancer is rare. HPV is one of the most common causes. Find out more about anal cancer symptoms, diagnosis, and treatment.
-
-## Summary
-What is anal cancer? 
+What is anal cancer?
 Your anus is the opening at the end of your large intestine. It is where stool (poop) leaves your body. The anus is formed partly from your outer layers of skin and partly from your intestine. Anal cancer is a type of cancer that forms in the tissues of your anus.
 
 Who is more likely to develop anal cancer?
@@ -61,15 +40,13 @@ To find out if you have anal cancer, your provider:
 
 - May do a digital rectal examination (DRE). A DRE is an exam of the anus and rectum. For the exam, your provider will insert a lubricated, gloved finger into the lower part of your rectum to feel for lumps or anything else that seems unusual.
 
-- May order tests that examine the anus and rectum, such as: 
- 
- - An anoscopy, an exam of the anus and lower rectum using a short, lighted tube called an anoscope. There is also a type of anoscopy called a high-resolution anoscopy. It uses a special magnifying device called a colposcope along with the anoscope to view these areas.
+- May order tests that examine the anus and rectum, such as:
 
- - A proctoscopy, a procedure to look inside the rectum and anus using a thin, tube-like instrument with a light and a lens.
+- An anoscopy, an exam of the anus and lower rectum using a short, lighted tube called an anoscope. There is also a type of anoscopy called a high-resolution anoscopy. It uses a special magnifying device called a colposcope along with the anoscope to view these areas.
 
- - An endo-anal or endorectal ultrasound, a procedure in which an ultrasound probe is inserted into the rectum.
+- A proctoscopy, a procedure to look inside the rectum and anus using a thin, tube-like instrument with a light and a lens.
 
- 
+- An endo-anal or endorectal ultrasound, a procedure in which an ultrasound probe is inserted into the rectum.
 
 - May do a biopsy during an anoscopy or proctoscopy.
 
@@ -82,13 +59,3 @@ You may be able to lower your risk of getting anal cancer by getting an HPV vacc
 It is currently not known if using condoms can prevent anal HPV infections. But using latex condoms every time you have sex can help prevent HIV, a risk factor for anal cancer. And they also help prevent other sexually transmitted infections (STIs). If your or your partner is allergic to latex, you can use polyurethane condoms.
 
 If you are an adult with HIV, it's important to get an anal cancer screening every year. The screening checks for anything that seems unusual, such as lumps, burning, and precancer cells (cells that could turn into cancer). The screening will include a digital rectal exam. If anything unusual is found, you will have an anoscopy or high resolution anoscopy.
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Anal Cancer [Start Here] — American Cancer Society — https://www.cancer.org/cancer/types/anal-cancer.html
-- Anal Cancer [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/anal-cancer/symptoms-causes/syc-20354140?p=1
-- Anal Cancer Early Detection, Diagnosis, and Staging [Diagnosis and Tests] — American Cancer Society — https://www.cancer.org/cancer/types/anal-cancer/detection-diagnosis-staging.html
-- Anal Cancer Treatment [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/types/anal/patient/anal-treatment-pdq
-- Anoscopy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003890.htm
-- Anoscopy [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/anoscopy/
-- External Beam Radiation Therapy for Cancer [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam

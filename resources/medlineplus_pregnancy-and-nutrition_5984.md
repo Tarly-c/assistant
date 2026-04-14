@@ -1,52 +1,26 @@
 # Pregnancy and Nutrition
 
-- Topic ID: 5984
-- Language: English
-- URL: https://medlineplus.gov/pregnancyandnutrition.html
-- Date created: 02/22/2012
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Groups
-- Pregnancy and Reproduction
-- Food and Nutrition
-
-## MeSH
-- Maternal Nutritional Physiological Phenomena
-
-## See also
-- Nutrition and Pregnancy
-
-## Meta description
-During pregnancy, it's important to give yourself and your baby the nutrition needed to grow and be healthy. Learn which foods can give you the right nutrients.
-
-## Summary
 What is nutrition, and why is it important during pregnancy?
 Nutrition is about eating a healthy and balanced diet so your body gets the nutrients that it needs. Nutrients are substances in foods that our bodies need so they can function and grow. They include carbohydrates, fats, proteins, vitamins, minerals, and water.
 
- 
 When you're pregnant, nutrition is more important than ever. You need more of many important nutrients than you did before pregnancy. Making healthy food choices every day will help you give your baby what they need to develop. It will also help make sure that you and your baby gain a healthy amount of weight.
 
 Do I have any special nutritional needs now that I am pregnant?
 You need more folic acid, iron, calcium, and vitamin D than you did before pregnancy:
 
-- Folic acid is a B vitamin that may help prevent neural tube defects. 
- 
- - Before pregnancy, you need 400 mcg (micrograms) per day.
- 
- - During pregnancy and when breastfeeding, you need 600 mcg per day from foods and/or vitamins. It is hard to get this amount from foods alone, so you will most likely need to take a supplement that contains folic acid.
+- Folic acid is a B vitamin that may help prevent neural tube defects.
 
- 
+- Before pregnancy, you need 400 mcg (micrograms) per day.
+
+- During pregnancy and when breastfeeding, you need 600 mcg per day from foods and/or vitamins. It is hard to get this amount from foods alone, so you will most likely need to take a supplement that contains folic acid.
 
 - Iron is important for your baby's growth and brain development. During pregnancy, the amount of blood in your body increases, so you need more iron for yourself and your growing baby. You should get 27 mg (milligrams) of iron a day.
 
 - Calcium during pregnancy can reduce your risk of preeclampsia. It's a serious medical condition that causes a sudden increase in your blood pressure. Calcium also builds up your baby's bones and teeth.
 
- 
- - Pregnant adults should get 1,000 mg (milligrams) of calcium a day
+- Pregnant adults should get 1,000 mg (milligrams) of calcium a day
 
- - Pregnant teenagers (ages 14-18) need 1,300 mg of calcium a day
-
- 
+- Pregnant teenagers (ages 14-18) need 1,300 mg of calcium a day
 
 - Vitamin D helps the calcium to build your baby's bones and teeth. All women, pregnant or not, should be getting 600 IU (international units) of vitamin D per day.
 
@@ -64,7 +38,6 @@ How much weight you should gain depends on your health and how much you weighed 
 - If you were underweight before pregnancy, you should gain more
 
 - If you were overweight or had obesity before you became pregnant, you should gain less
- 
 
 Check with your provider to find out how much weight gain during pregnancy is healthy for you. You should gain the weight gradually during your pregnancy, with most of the weight gained in the last trimester.
 
@@ -74,7 +47,7 @@ How many calories you need depends on your weight gain goals. Your provider can 
 - In the first trimester of pregnancy, you probably do not need extra calories
 
 - In the second trimester, you usually need about 340 extra calories
- 
+
 - In the last trimester, you may need around 450 extra calories per day
 
 - During the final weeks of pregnancy, you may not need extra calories
@@ -89,7 +62,7 @@ During pregnancy, you should avoid:
 - Fish that may have high levels of mercury. Limit white (albacore) tuna to 6 ounces per week. Do not eat tilefish, shark, swordfish, marlin, orange roughy, or king mackerel.
 
 - Foods that are more likely to contain germs that could cause foodborne illness, including
-	
+
 - Refrigerated smoked seafood like whitefish, salmon, and mackerel
 
 - Undercooked meat, poultry, eggs, and seafood
@@ -110,16 +83,4 @@ During pregnancy, you should avoid:
 
 - Unwashed fruits and vegetables
 
-	
-
 - Too much caffeine. Drinking high amounts of caffeine may be harmful for your baby. For most people, it's best to limit caffeine to less than 200 mg per day during pregnancy. But first check with your provider about whether you should have caffeine at all.
-
-## Selected references
-- Caffeine in Pregnancy [Specifics] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/caffeine-pregnancy/
-- Eating during Pregnancy [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/eating-pregnancy.html
-- Eating right during pregnancy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000584.htm
-- Fish and Pregnancy: What is Safe to Eat? [Specifics] — American Academy of Pediatrics — https://www.healthychildren.org/english/ages-stages/prenatal/pages/fish-pregnancy-what-is-safe-to-eat.aspx
-- Folic Acid and Pregnancy [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/preg-folic-acid.html
-- Folic Acid: MedlinePlus Health Topic [Specifics] — National Library of Medicine — https://medlineplus.gov/folicacid.html
-- Health Tips for Pregnant Women [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women
-- Managing your weight gain during pregnancy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000603.htm

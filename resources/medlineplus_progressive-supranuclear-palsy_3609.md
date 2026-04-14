@@ -1,33 +1,7 @@
 # Progressive Supranuclear Palsy
 
-- Topic ID: 3609
-- Language: English
-- URL: https://medlineplus.gov/progressivesupranuclearpalsy.html
-- Date created: 09/30/2003
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- PSP
-- Richardson-Steele-Olszewski syndrome
-- Steele-Richardson-Olszewski syndrome
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Supranuclear Palsy, Progressive
-
-## See also
-- Steele-Richardson-Olszewski Syndrome
-
-## Meta description
-Progressive supranuclear palsy (PSP) is a rare brain disease. It causes problems with balance, eye movement, and walking. Learn about what can help.
-
-## Summary
 What is progressive supranuclear palsy (PSP)?
 Progressive supranuclear palsy (PSP) is a rare brain disease. It happens because of damage to nerve cells in the brain. PSP affects your movement, including control of your walking and balance. It also affects your thinking and eye movement.
-
- 
 
 PSP is progressive, which means that it gets worse over time.
 
@@ -63,11 +37,3 @@ What are the treatments for progressive supranuclear palsy (PSP)?
 There is currently no effective treatment for PSP. Medicines may reduce some symptoms. Some non-drug treatments, such as walking aids and special glasses, may also help. People with severe swallowing problems may need gastrostomy. This is a surgery to insert a feeding tube into the stomach.
 
 PSP gets worse over time. Many people become severely disabled within three to five years after getting it. PSP isn't life-threatening on its own. It can still be dangerous because it increases your risk of pneumonia, choking from swallowing problems, and injuries from falling. But with good attention to medical and nutritional needs, many people with PSP can live 10 or more years after the first symptoms of the disease.
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- Progressive supranuclear palsy [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000767.htm
-- Progressive Supranuclear Palsy [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/progressive-supranuclear-palsy/symptoms-causes/syc-20355659?p=1
-- Progressive Supranuclear Palsy (PSP) [Learn More] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/progressive-supranuclear-palsy-psp
-- Progressive Supranuclear Palsy (PSP): Frequently Asked Questions [Learn More] — Foundation for PSP/CBD and Related Brain Diseases — https://www.psp.org/iwanttolearn/faq

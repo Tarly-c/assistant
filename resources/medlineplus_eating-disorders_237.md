@@ -1,37 +1,6 @@
 # Eating Disorders
 
-- Topic ID: 237
-- Language: English
-- URL: https://medlineplus.gov/eatingdisorders.html
-- Date created: 01/15/1999
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- Anorexia nervosa
-- Binge eating
-- Bulimia
-
-## Groups
-- Mental Health and Behavior
-- Food and Nutrition
-
-## MeSH
-- Feeding and Eating Disorders
-
-## Related topics
-- Weight Control
-
-## See also
-- Anorexia Nervosa
-- Binge Eating
-- Bulimia
-- Pica
-
-## Meta description
-Did you know that more women than men have eating disorders? Learn more about eating disorders such as bulimia, anorexia, and binge eating.
-
-## Summary
-What are eating disorders? 
+What are eating disorders?
 Eating disorders are serious mental health disorders. They involve severe problems with your thoughts about food and your eating behaviors. You may eat much less or much more than you need.
 
 Eating disorders are medical conditions; they are not a lifestyle choice. They affect your body's ability to get proper nutrition. This can lead to health issues, such as heart and kidney problems, or sometimes even death. But there are treatments that can help.
@@ -165,15 +134,3 @@ Treatment plans for eating disorders are tailored to individual needs. You will 
 - Medicines, such as antidepressants, antipsychotics, or mood stabilizers, may help treat some eating disorders. The medicines can also help with the depression and anxiety symptoms that often go along with eating disorders.
 
 Some people with serious eating disorders may need to be in a hospital or in a residential treatment program. Residential treatment programs combine housing and treatment services.
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- Anorexia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000362.htm
-- Anorexia and Bulimia: How Eating Disorders Can Affect Your Child [Children] — American Academy of Pediatrics — https://www.healthychildren.org/english/health-issues/conditions/emotional-problems/pages/eating-disorders-anorexia.aspx
-- Anorexia Nervosa [Specifics] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/mental-health/mental-health-conditions/eating-disorders/anorexia-nervosa
-- Avoidant/Restrictive Food Intake Disorder (ARFID) [Specifics] — Merck & Co., Inc. — https://www.merckmanuals.com/home/mental-health-disorders/feeding-and-eating-disorders/avoidant-restrictive-food-intake-disorder-arfid
-- Avoidant/Restrictive Food Intake Disorder (ARFID) (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/arfid.html
-- Binge Eating Disorder [Specifics] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder
-- Binge Eating Disorder [Specifics] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/mental-health/mental-health-conditions/eating-disorders/binge-eating-disorder
-- Binge Eating Disorder [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/binge-eating.html

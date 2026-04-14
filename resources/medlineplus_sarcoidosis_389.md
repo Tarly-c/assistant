@@ -1,25 +1,6 @@
 # Sarcoidosis
 
-- Topic ID: 389
-- Language: English
-- URL: https://medlineplus.gov/sarcoidosis.html
-- Date created: 02/10/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Lungs and Breathing
-
-## MeSH
-- Sarcoidosis
-
-## Related topics
-- Pulmonary Rehabilitation
-
-## Meta description
-Sarcoidosis is a disease that leads to inflammation, usually in lungs, skin, or lymph nodes. It starts as granulomas. Discover symptoms and tests.
-
-## Summary
-What is sarcoidosis? 
+What is sarcoidosis?
 Sarcoidosis is a condition in which groups of cells in your immune system form small, red, and swollen (inflamed) lumps. These lumps are called granulomas. They can form in any organ in the body. But they most commonly affect the lungs and lymph nodes in the chest. Over time, sarcoidosis can cause permanent scarring of organs.
 
 What causes sarcoidosis?
@@ -74,18 +55,16 @@ The symptoms of sarcoidosis in other parts of the body can include:
 - Jaundice, which can make your eyes or skin yellow
 
 - Nervous system problems, such as:
- 
- - Headache
 
- - Dizziness
+- Headache
 
- - Vision problems
+- Dizziness
 
- - Seizures
+- Vision problems
 
- - Numbness or tingling
+- Seizures
 
- 
+- Numbness or tingling
 
 - Heart palpitations or an irregular heartbeat (arrhythmia)
 
@@ -126,28 +105,24 @@ There is no single test that can diagnose sarcoidosis, and its symptoms can be s
 - Will ask about your medical history, including your symptoms, lifestyle, and any other health conditions you may have.
 
 - Will do a physical exam, which may include:
- 
- - Checking your temperature
 
- - Checking to see if your lymph nodes, spleen, or liver are swollen
+- Checking your temperature
 
- - Listening to your chest with a stethoscope as you breathe in and out
+- Checking to see if your lymph nodes, spleen, or liver are swollen
 
- - Looking for rashes or sores on your body, such as scalp and lower legs
+- Listening to your chest with a stethoscope as you breathe in and out
 
- 
+- Looking for rashes or sores on your body, such as scalp and lower legs
 
 - Will likely order various tests, such as:
- 
- - Chest x-rays
 
- - A biopsy of the skin, lymph nodes, lungs, or other affected organs
+- Chest x-rays
 
- - Blood tests to check your blood counts, hormone levels, and how well your kidneys are working
+- A biopsy of the skin, lymph nodes, lungs, or other affected organs
 
- - Other imaging tests
+- Blood tests to check your blood counts, hormone levels, and how well your kidneys are working
 
- 
+- Other imaging tests
 
 If you are diagnosed with sarcoidosis, your provider may order other tests to look at how sarcoidosis is affecting the body.
 
@@ -167,15 +142,3 @@ You may not need treatment, and sometimes the condition goes away on its own. If
 If you have complications from sarcoidosis, you may need other treatments, such as other medicines, surgery, oxygen therapy, pulmonary rehabilitation, or an implanted cardiac pacemaker or defibrillator.
 
 Whether or not you have symptoms from sarcoidosis, it's important to get regular follow-up care from your provider, make healthy lifestyle changes, and contact your provider if you have any new symptoms.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- ACE blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003567.htm
-- Bronchoscopy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003857.htm
-- Calcium - urine [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003603.htm
-- Cardiac Sarcoidosis [Specifics] — Johns Hopkins Medicine — https://www.hopkinsmedicine.org/health/conditions-and-diseases/cardiac-sarcoidosis
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm
-- Interstitial lung disease - adults - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000016.htm
-- Learn about Sarcoidosis [Start Here] — American Lung Association — https://www.lung.org/lung-health-diseases/lung-disease-lookup/sarcoidosis/learn-about-sarcoidosis
-- Lung diffusion testing [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003854.htm

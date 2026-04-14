@@ -1,30 +1,5 @@
 # Pregnancy and Opioids
 
-- Topic ID: 7131
-- Language: English
-- URL: https://medlineplus.gov/pregnancyandopioids.html
-- Date created: 08/27/2018
-- Primary institute: National Institute on Drug Abuse
-
-## Groups
-- Substance Use and Disorders
-- Pregnancy and Reproduction
-- Female Reproductive System
-
-## MeSH
-- Opioid-Related Disorders
-- Pregnancy
-
-## Related topics
-- Opioid Use Disorder (OUD) Treatment
-- Pregnancy and Medicines
-- Pregnancy and Substance Use
-- Safe Opioid Use
-
-## Meta description
-There are risks to you and your baby if you take opioids while pregnant. Learn about these risks and the treatments for opioid use disorder (OUD) in pregnancy.
-
-## Summary
 You may need to take medicines while you are pregnant. But not all medicines are safe during pregnancy. Many medicines carry risks for you, your baby, or both. Opioids, especially when misused, can cause problems for you and your baby while you are pregnant.
 
 What are opioids?
@@ -75,12 +50,3 @@ What is the treatments for opioid use disorder (OUD) in pregnancy?
 If you are pregnant and have an opioid use disorder, do not stop taking opioids suddenly. Instead, see your provider so you can get help. The treatment for opioid use disorder (OUD) is called medication for opioid use disorder (MOUD). For MOUD during pregnancy, providers prescribe either buprenorphine or methadone. These medicines can reduce your cravings and help prevent withdrawal.
 
 Counseling, including behavioral therapies, can also help you to change your attitudes and behaviors related to drug use and build healthy life skills.
-
-## Selected references
-- About Opioid Use During Pregnancy [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/opioid-use-during-pregnancy/about/
-- Heroin and Pregnancy [Specifics] — March of Dimes Foundation — https://www.marchofdimes.org/find-support/topics/pregnancy/heroin-and-pregnancy
-- Infant of a substance-using mother [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007238.htm
-- Neonatal abstinence syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007313.htm
-- Opioid Use Disorder and Pregnancy [Start Here] — American College of Obstetricians and Gynecologists — https://www.acog.org/womens-health/faqs/opioid-use-disorder-and-pregnancy
-- Prescription Opioids during Pregnancy [Start Here] — March of Dimes Foundation — https://www.marchofdimes.org/find-support/topics/pregnancy/prescription-opioids-during-pregnancy
-- Treating Opioid Use Disorder During Pregnancy [Patient Handouts, Treatments and Therapies] — Substance Abuse and Mental Health Services Administration — https://library.samhsa.gov/sites/default/files/sma18-5071fs2.pdf

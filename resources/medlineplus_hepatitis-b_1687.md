@@ -1,30 +1,5 @@
 # Hepatitis B
 
-- Topic ID: 1687
-- Language: English
-- URL: https://medlineplus.gov/hepatitisb.html
-- Date created: 06/12/2002
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- HBV
-
-## Groups
-- Digestive System
-- Infections
-
-## MeSH
-- Hepatitis B
-
-## Related topics
-- Hepatitis
-- Hepatitis A
-- Hepatitis C
-
-## Meta description
-Hepatitis B virus is a contagious liver infection spread from person-to-person via blood or body fluids. Who is at risk for HBV? Read about it here.
-
-## Summary
 What is hepatitis?
 Hepatitis is inflammation of the liver. Inflammation is swelling that happens when tissues of the body are injured or infected. It can damage your liver. This swelling and damage can affect how well your liver functions.
 
@@ -35,8 +10,6 @@ Thanks to a vaccine, hepatitis B is not very common in the United States. It is 
 
 What causes hepatitis B?
 Hepatitis B is caused by the hepatitis B virus. The virus spreads through contact with blood, semen, or other body fluids from a person who has the virus.
-
- 
 
 Who is at risk for hepatitis B?
 Anyone can get hepatitis B, but the risk is higher in:
@@ -62,8 +35,6 @@ Anyone can get hepatitis B, but the risk is higher in:
 What are the symptoms of hepatitis B?
 Often, people with hepatitis B don't have symptoms. Adults and children over 5 are more likely to have symptoms than younger children.
 
- 
-
 Some people with acute hepatitis B have symptoms 2 to 5 months after infection. These symptoms can include:
 
 - Dark yellow urine
@@ -87,8 +58,6 @@ Some people with acute hepatitis B have symptoms 2 to 5 months after infection. 
 - Yellowish eyes and skin, called jaundice
 
 If you have chronic hepatitis B, you may not have symptoms until complications develop. This could be decades after you were infected. For this reason, hepatitis B screening is important, even if you have no symptoms. Screening means that you are tested for a disease even though you don't have symptoms. If you are at high risk, your health care provider may suggest screening.
-
- 
 
 What other problems can hepatitis B cause?
 In rare cases, acute hepatitis B can cause liver failure.
@@ -127,13 +96,3 @@ You can also reduce your chance of hepatitis B infection by:
 If you think you have been in contact with the hepatitis B virus, see your health care provider right away. Your provider may give you a dose of the hepatitis B vaccine to prevent infection. In some cases, your provider may also give you a medicine called hepatitis B immune globulin (HBIG). You need to get the vaccine and the HBIG (if needed) as soon as possible after coming into contact with the virus. It is best if you can get them within 24 hours.
 
 National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Approved Drugs for Adults [Treatments and Therapies] — Hepatitis B Foundation — https://www.hepb.org/treatment-and-management/treatment/approved-drugs-for-adults/
-- Gianotti-Crosti syndrome [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001446.htm
-- Hepatitis [Children] — Nemours Foundation — https://kidshealth.org/en/kids/hepatitis.html
-- Hepatitis B [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000279.htm
-- Hepatitis B [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/std-hepatitis.html
-- Hepatitis B [Start Here, Patient Handouts] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-b
-- Hepatitis B [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/hepatitis-b/
-- Hepatitis B - children [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007671.htm

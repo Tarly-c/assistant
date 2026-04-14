@@ -1,42 +1,6 @@
 # Metabolic Syndrome
 
-- Topic ID: 3528
-- Language: English
-- URL: https://medlineplus.gov/metabolicsyndrome.html
-- Date created: 07/21/2003
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Insulin resistance syndrome
-- Metabolic syndrome X
-
-## Groups
-- Blood, Heart and Circulation
-- Endocrine System
-- Metabolic Problems
-- Diabetes Mellitus
-
-## MeSH
-- Metabolic Syndrome
-
-## Related topics
-- Angina
-- Cholesterol
-- Diabetes
-- Heart Diseases
-- Metabolic Disorders
-- Obesity
-- Prediabetes
-
-## See also
-- Insulin Resistance
-- Syndrome X (Metabolic)
-
-## Meta description
-Metabolic syndrome (also called insulin resistance syndrome) is a group of conditions that put you at risk for heart disease and diabetes. Read more.
-
-## Summary
-What is metabolic syndrome? 
+What is metabolic syndrome?
 Metabolic syndrome is the name for a group of risk factors for heart disease, diabetes, and other health problems. You can have just one risk factor, but people often have several of them together. When you have at least three of them, it is called metabolic syndrome. These risk factors include:
 
 - A large waistline, also called abdominal obesity or "having an apple shape." Too much fat around the stomach is a greater risk factor for heart disease than too much fat in other parts of the body.
@@ -44,14 +8,12 @@ Metabolic syndrome is the name for a group of risk factors for heart disease, di
 - Having a high triglyceride level. Triglycerides are a type of fat found in the blood.
 
 - Having a low HDL cholesterol level. HDL is sometimes called the "good" cholesterol because it helps remove cholesterol from your arteries.
- 
+
 - Having high blood pressure. If your blood pressure stays high over time, it can damage your heart and lead to other health problems.
 
 - Having a high fasting blood sugar. Mildly high blood sugar may be an early sign of diabetes.
 
 The more factors you have, the higher your risk for heart disease, diabetes, and stroke is.
-
- 
 
 What causes metabolic syndrome?
 Metabolic syndrome has several causes that act together:
@@ -63,7 +25,7 @@ Metabolic syndrome has several causes that act together:
 - Insulin resistance, a condition in which the body can't use insulin properly. Insulin is a hormone that helps move blood sugar into your cells to give them energy. Insulin resistance can lead to high blood sugar levels.
 
 - Age - your risk goes up as get older
- 
+
 - Genetics - ethnicity and family history
 
 People who have metabolic syndrome often also have excessive blood clotting and inflammation throughout the body. Researchers don't know whether these conditions cause metabolic syndrome or worsen it.
@@ -95,23 +57,19 @@ Most of the metabolic risk factors have no obvious signs or symptoms, except for
 How is metabolic syndrome diagnosed?
 Your health care provider will diagnose metabolic syndrome based on the results of a physical exam and blood tests. You must have at least three of the risk factors to be diagnosed with metabolic syndrome:
 
-- A large waistline, which means a waist measurement of 
- 
- - 35 inches or more for women
+- A large waistline, which means a waist measurement of
 
- - 40 inches or more for men
+- 35 inches or more for women
 
- 
+- 40 inches or more for men
 
 - A high triglyceride level, which is 150 mg/dL or higher
 
 - A low HDL cholesterol level, which is
- 
- - Less than 50 mg/dL for women
 
- - Less than 40 mg/dL for men
+- Less than 50 mg/dL for women
 
- 
+- Less than 40 mg/dL for men
 
 - High blood pressure, which is a reading of 130/85 mmHg or higher.
 
@@ -134,10 +92,3 @@ If making lifestyle changes is not enough, you may need to take medicines. For e
 
 Can metabolic syndrome be prevented?
 The best way to prevent metabolic syndrome is through the heart-healthy lifestyle changes.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Metabolic syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007290.htm
-- Metabolic Syndrome (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/metabolic-syndrome.html
-- What Is Metabolic Syndrome? [Start Here] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/metabolic-syndrome

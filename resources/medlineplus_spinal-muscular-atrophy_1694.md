@@ -1,36 +1,8 @@
 # Spinal Muscular Atrophy
 
-- Topic ID: 1694
-- Language: English
-- URL: https://medlineplus.gov/spinalmuscularatrophy.html
-- Date created: 06/27/2002
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- SMA
-
-## Groups
-- Brain and Nerves
-- Genetics/Birth Defects
-
-## MeSH
-- Muscular Atrophy, Spinal
-
-## Related topics
-- Muscular Dystrophy
-- Neuromuscular Disorders
-
-## See also
-- SMA
-
-## Meta description
-Spinal muscular atrophy (SMA) attacks nerve cells in the spinal cord, weakening voluntary muscles. Read about the genetics, types, and what may help.
-
-## Summary
-What is spinal muscular atrophy (SMA)? 
+What is spinal muscular atrophy (SMA)?
 Spinal muscular atrophy (SMA) is a group of genetic diseases that damages and kills motor neurons. Motor neurons are a type of nerve cell in the spinal cord and lower part of the brain. They control movement in your arms, legs, face, chest, throat, and tongue.
 
- 
 As the motor neurons die off, your muscles start to weaken and atrophy (waste away). The muscle damage gets worse over time and can affect speaking, walking, swallowing, and breathing.
 
 What are the types of spinal muscular atrophy (SMA) and what are their symptoms?
@@ -80,16 +52,3 @@ There is no cure for SMA. Treatments can help manage symptoms and prevent compli
 - Good nutrition and a balanced diet to help maintain weight and strength. Some people might need a feeding tube in order to get the nutrition they need.
 
 - Breathing support for people who have muscle weakness in the neck, throat, and chest. The support may include devices to help with breathing during the day and to prevent sleep apnea at night. Some people might need to be on a ventilator.
- 
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- About Spinal Muscular Atrophy (SMA): Frequently Asked Questions [Start Here] — Spinal Muscular Atrophy Foundation — https://smafoundation.org/about-sma/faq/
-- Describing SMA [Start Here] — Cure SMA — https://www.curesma.org/describing-sma/
-- Electromyography (EMG) and Nerve Conduction Studies [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/electromyography-emg-and-nerve-conduction-studies/
-- Newborn Screening for SMA [Diagnosis and Tests] — Cure SMA — https://www.curesma.org/newborn-screening-for-sma/
-- SMA: Infants and Children [Children] — Cure SMA — https://www.curesma.org/infants-and-children/
-- SMA: Testing & Diagnosis [Diagnosis and Tests] — Cure SMA — https://www.curesma.org/testing-diagnosis/
-- SMArt Moves: Early Treatment [Treatments and Therapies] — Cure SMA — https://smartmoves.curesma.org/early-treatment/
-- Spinal muscular atrophy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000996.htm

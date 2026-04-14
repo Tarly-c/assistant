@@ -1,24 +1,5 @@
 # Body Lice
 
-- Topic ID: 6071
-- Language: English
-- URL: https://medlineplus.gov/bodylice.html
-- Date created: 10/10/2012
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Skin, Hair and Nails
-- Sexual Health Issues
-
-## MeSH
-- Lice Infestations
-- Pediculus
-
-## Meta description
-Body lice are parasitic insects. They spread through physical contact with a person who has body lice or though contact with their clothing. They are most common in homeless people. Find out how to kn
-
-## Summary
 What are body lice?
 Body lice (also called clothes lice) are tiny insects which live and lay nits (lice eggs) on clothing. They are parasites, and they need to feed on human blood to survive. They usually only move to the skin to feed.
 
@@ -44,8 +25,3 @@ What are the treatments for body lice?
 The main treatment for body lice is to improve personal hygiene. That means regular showers and washing clothes, bedding, and towels at least once a week. Use hot water to wash the laundry, and dry it using the hot cycle of the dryer. Some people may also need a lice-killing medicine.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Body Lice [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/lice/about/body-lice.html
-- Body Lice [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/body-lice/symptoms-causes/syc-20350310?p=1
-- Body lice [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000838.htm

@@ -1,32 +1,6 @@
 # Oral Cancer
 
-- Topic ID: 331
-- Language: English
-- URL: https://medlineplus.gov/oralcancer.html
-- Date created: 10/28/1999
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Mouth and Teeth
-
-## MeSH
-- Mouth Neoplasms
-
-## Related topics
-- Mouth Disorders
-- Salivary Gland Cancer
-- Throat Cancer
-
-## See also
-- Mouth Cancer
-- Tongue Cancer
-
-## Meta description
-Oral cancer can form in the mouth or throat but usually begins in the tongue and floor of the mouth. Read about the common oral cancer symptoms.
-
-## Summary
-What is oral cancer? 
+What is oral cancer?
 Oral cancer is cancer of the mouth. It is a type of head and neck cancer. Most oral cancers are squamous cell cancers. They begin in the flat cells that cover the surfaces of your mouth, tongue, and lips. The cancer cells may spread into deeper tissue as the cancer grows.
 
 Most oral cancers are related to tobacco use, heavy alcohol use, or an HPV infection.
@@ -81,7 +55,6 @@ To find out if you have oral cancer, your provider may use:
 - A biopsy or other procedure to collect cells from the lip or oral cavity. The cells are viewed under a microscope to find out if they are abnormal.
 
 - Imaging tests.
- 
 
 What are the treatments for oral cancer?
 The treatments for oral cancer include surgery, radiation therapy, or both. After surgery, some people also need chemotherapy to kill any cancer cells that are left.
@@ -94,15 +67,3 @@ There are steps you can take to help prevent oral cancer:
 - Limiting alcohol use or not drinking at all
 
 - Getting regular dental exams
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Childhood Oral Cavity Cancer [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/oral-cavity-treatment-pdq
-- General Information about Lip and Oral Cavity Cancer [Start Here] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/adult/lip-mouth-treatment-pdq#_1
-- Gum biopsy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003852.htm
-- Leukoplakia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001046.htm
-- Mouth and neck radiation - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000058.htm
-- Mouth Cancer [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/mouth-cancer/symptoms-causes/syc-20350997?p=1
-- Oral cancer [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001035.htm

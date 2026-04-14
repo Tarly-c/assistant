@@ -1,32 +1,5 @@
 # Immune System and Disorders
 
-- Topic ID: 295
-- Language: English
-- URL: https://medlineplus.gov/immunesystemanddisorders.html
-- Date created: 12/13/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Immune System
-
-## MeSH
-- Immune System Diseases
-- Immune System
-
-## Related topics
-- Autoimmune Diseases
-- Vaccines
-
-## See also
-- Chronic Granulomatous Disease
-- Primary Immunodeficiency Diseases
-- SCID
-- Severe Combined Immunodeficiency
-
-## Meta description
-Your immune system is made up of cells, tissues, and organs that fight infections and diseases. Learn how it works, and about diseases of the immune system.
-
-## Summary
 What is the immune system?
 Your immune system is a complex network of cells, tissues, and organs. Together they help the body fight infections and other diseases.
 
@@ -65,13 +38,3 @@ Sometimes a person may have an immune response even though there is no real thre
 Other immune system problems happen when your immune system does not work correctly. These problems include immunodeficiency diseases. If you have an immunodeficiency disease, you get sick more often. Your infections may last longer and can be more serious and harder to treat. They are often genetic disorders.
 
 There are other diseases that can affect your immune system. For example, HIV is a virus that harms your immune system by destroying your white blood cells. If HIV is not treated, it can lead to AIDS (acquired immunodeficiency syndrome). People with AIDS have badly damaged immune systems. They get an increasing number of severe illnesses.
-
-## Selected references
-- 22q11.2 Deletion Syndrome (DiGeorge Syndrome) (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/22q11-deletion.html
-- Agammaglobulinemia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001307.htm
-- Aging changes in immunity [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/004008.htm
-- Antibody titer blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003333.htm
-- Chediak-Higashi syndrome [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001312.htm
-- Chronic granulomatous disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001239.htm
-- Chronic Granulomatous Disease (CGD) [Specifics] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/chronic-granulomatous-disease-cgd
-- Common Variable Immunodeficiency (CVID) [Specifics] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/common-variable-immunodeficiency-cvid

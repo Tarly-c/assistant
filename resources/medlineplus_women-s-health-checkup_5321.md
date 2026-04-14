@@ -1,32 +1,6 @@
 # Women's Health Checkup
 
-- Topic ID: 5321
-- Language: English
-- URL: https://medlineplus.gov/womenshealthcheckup.html
-- Date created: 01/04/2010
-
-## Groups
-- Women
-- Wellness and Lifestyle
-
-## MeSH
-- Women's Health
-- Physical Examination
-
-## Related topics
-- Health Checkup
-- Women's Health
-
-## See also
-- Pelvic Exam
-
-## Meta description
-Women's health checkup exams and screenings may include a pelvic exam, pap test, mammogram, clinical breast exam and testing for HPV.
-
-## Summary
 Regular checkups with your health care provider are different from appointments for sickness or injury. Your checkups, which are also called well-woman exams, include physical exams as well as preventive care. They can help find health problems early, when they may be easier to treat.
-
- 
 
 Your checkup is usually done by a provider with special training in caring for women. It will include screenings for chronic diseases. As a woman, you may also get special exams and screenings, such as:
 
@@ -53,13 +27,3 @@ During your checkup, you and your provider may also talk about other issues, suc
 - Your overall physical health and mental well-being, including suggestions on how to have a healthy lifestyle
 
 To make the most of your next checkup, bring a list of any questions or concerns you have, so you can talk about them with your provider.
-
-## Selected references
-- Cervical cancer - screening and prevention [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000419.htm
-- Cervical Cancer Screening [Specifics] — National Cancer Institute — https://www.cancer.gov/types/cervical/screening
-- Get Your Well-Woman Visit Every Year [Start Here] — Office of Disease Prevention and Health Promotion — https://odphp.health.gov/myhealthfinder/healthy-living/sexual-health/get-your-well-woman-visit-every-year
-- Gyn Checkups [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/obgyn.html
-- Health screenings for women age 65 and older [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007463.htm
-- Health screenings for women ages 18 to 39 [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007462.htm
-- Health screenings for women ages 40 to 64 [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007467.htm
-- Healthy Living by Age [Specifics] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/healthy-living-age

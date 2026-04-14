@@ -1,35 +1,7 @@
 # Premenstrual Syndrome
 
-- Topic ID: 3793
-- Language: English
-- URL: https://medlineplus.gov/premenstrualsyndrome.html
-- Date created: 03/10/2004
-
-## Also called
-- PMS
-
-## Groups
-- Women
-- Female Reproductive System
-
-## MeSH
-- Premenstrual Dysphoric Disorder
-- Premenstrual Syndrome
-
-## Related topics
-- Menstruation
-
-## See also
-- PMS
-
-## Meta description
-For some women, premenstrual syndrome (PMS) may be so severe it can interfere with normal activities. Find out what you can do to lessen symptoms.
-
-## Summary
 What is premenstrual syndrome (PMS)?
 Premenstrual syndrome, or PMS, is a group of physical and emotional symptoms that start one to two weeks before your period. Most women have at least some symptoms of PMS, and the symptoms go away after their periods start. The symptoms may range from mild to severe.
-
- 
 
 What is premenstrual dysphoric disorder (PMDD)?
 Premenstrual dysphoric disorder (PMDD) is a severe type of PMS. With PMDD, the symptoms are severe enough to interfere with your life. PMDD much less common than PMS.
@@ -43,7 +15,7 @@ PMS symptoms are different for everyone. You may get physical symptoms, emotiona
 Physical symptoms may include:
 
 - Breast swelling and tenderness
- 
+
 - Acne
 
 - Bloating and weight gain
@@ -57,7 +29,6 @@ Physical symptoms may include:
 - Constipation or diarrhea
 
 - Food cravings
- 
 
 Emotional symptoms may include:
 
@@ -70,7 +41,7 @@ Emotional symptoms may include:
 - Depression
 
 - Anxiety
- 
+
 - Sleeping too much or too little
 
 - Trouble with concentration and memory
@@ -91,12 +62,12 @@ There is no single test for PMS. Your provider will talk with you about your sym
 Your provider may wish to do tests to rule out other conditions which may cause similar symptoms.
 
 What are the treatments for premenstrual syndrome (PMS)?
- No single PMS treatment works for everyone. If your symptoms are not severe, you may be able to manage them with: 
+No single PMS treatment works for everyone. If your symptoms are not severe, you may be able to manage them with:
 
 - Over-the-counter pain relievers such as ibuprofen, aspirin, or naproxen, to help ease cramps, headaches, backaches, and breast tenderness
- 
+
 - Getting regular exercise
- 
+
 - Getting enough sleep
 
 - Eating healthy foods
@@ -104,8 +75,6 @@ What are the treatments for premenstrual syndrome (PMS)?
 - Avoiding salt, caffeine, sugar, and alcohol in the two weeks before your period
 
 Some studies have shown that certain vitamins may help with some symptoms of PMS. They include calcium and vitamin B6.
-
- 
 
 Some women take certain herbal supplements for PMS symptoms. But there is not enough evidence to prove that supplements are effective for PMS. Check with your provider before taking any vitamins or supplements.
 
@@ -120,13 +89,3 @@ If you are not able to manage your PMS symptoms, your provider may suggest presc
 - Anti-anxiety medicine to ease symptoms of anxiety.
 
 Dept. of Health and Human Services Office on Women's Health
-
-## Selected references
-- Black Cohosh [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/black-cohosh
-- Chasteberry [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/chasteberry
-- Evening Primrose Oil [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/evening-primrose-oil
-- Menstrual Period: Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD) [Teenagers] — Boston Children's Hospital — https://youngwomenshealth.org/guides/pms/
-- PMS, Cramps, and Irregular Periods (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/menstrual-problems.html
-- Premenstrual breast changes [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003153.htm
-- Premenstrual dysphoric disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007193.htm
-- Premenstrual syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001505.htm

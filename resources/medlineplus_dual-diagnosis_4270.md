@@ -1,22 +1,5 @@
 # Dual Diagnosis
 
-- Topic ID: 4270
-- Language: English
-- URL: https://medlineplus.gov/dualdiagnosis.html
-- Date created: 01/12/2006
-- Primary institute: National Institute on Drug Abuse
-
-## Groups
-- Mental Health and Behavior
-- Substance Use and Disorders
-
-## MeSH
-- Diagnosis, Dual (Psychiatry)
-
-## Meta description
-Many people with a mental illness also have problems with substance abuse. This is called dual diagnosis, or co-occuring disorders. Learn more.
-
-## Summary
 What is dual diagnosis?
 If you have a dual diagnosis, that means that you have both a mental disorder and a substance use disorder (SUD), either with alcohol or drugs. A dual diagnosis is a type of comorbidity, which is when someone has two disorders at the same time. Another name for this is co-occurring disorders.
 
@@ -25,14 +8,13 @@ Mental and substance use disorders often occur together. Many people who develop
 Why do substance use disorders and mental disorders occur together?
 Although these problems often occur together, this does not mean that one caused the other, even if one appeared first. In fact, it can be hard to figure out which came first. Researchers think that there are three possible reasons as to why they often occur together:
 
- 
 - Common risk factors can contribute to both mental disorders and SUDs. These factors include:
- 
- - Genetics.
 
- - Stress.
+- Genetics.
 
- - Trauma, especially in childhood. Veterans with post-traumatic stress disorder (PTSD) are also at risk for SUDs
+- Stress.
+
+- Trauma, especially in childhood. Veterans with post-traumatic stress disorder (PTSD) are also at risk for SUDs
 
 - Mental disorders can contribute to drug use and SUDs. For example, people with mental disorders may use drugs or alcohol to try to feel better temporarily. This is known as self-medication. Also, mental disorders may change the brain to make it more likely that you will become addicted.
 
@@ -46,14 +28,3 @@ If you have a dual diagnosis, it is usually better to treat both conditions at t
 - Medicines. There are effective medicines that treat opioid, alcohol, and nicotine addiction. There are also medicines that can lessen the symptoms of many mental disorders. Some medicines may treat more than one disorder.
 
 - A referral to a support group. Support groups can give you emotional and social support. They are also a place where people can share tips about how to deal with day-to-day challenges.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- Bipolar Disorder and Alcoholism: Are They Related? [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/expert-answers/bipolar-disorder/faq-20057890?p=1
-- Co-Occurring Disorders and Health Conditions [Learn More] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/co-occurring-disorders-health-conditions
-- Co-Occurring: Mental Health and Substance Use Disorders [Learn More] — Mental Health America — https://mhanational.org/conditions/co-occurring-mental-health-and-substance-use-disorders/
-- FindTreatment.gov [Learn More] — Substance Abuse and Mental Health Services Administration — https://findtreatment.gov/
-- Substance Abuse and Mental Health Services Administration [Learn More] — Substance Abuse and Mental Health Services Administration — https://www.samhsa.gov/
-- Substance Use and Co-Occurring Mental Disorders [Learn More] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health
-- Substance Use Disorders [Learn More] — NAMI — https://www.nami.org/co-occurring-conditions/substance-use-disorders/

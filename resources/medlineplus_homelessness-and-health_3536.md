@@ -1,26 +1,5 @@
 # Homelessness and Health
 
-- Topic ID: 3536
-- Language: English
-- URL: https://medlineplus.gov/homelessnessandhealth.html
-- Date created: 08/05/2003
-
-## Groups
-- Social/Family Issues
-
-## MeSH
-- Ill-Housed Persons
-
-## Related topics
-- Veterans and Military Health
-
-## See also
-- Runaways
-
-## Meta description
-Homelessness and health are closely connected. Limited access to healthcare can contribute to the problem. Learn about news and specific resources.
-
-## Summary
 What are the causes of homelessness?
 Each night, hundreds of thousands of people experience homelessness in the United States. Some of these people experience chronic homelessness, while others have temporarily lost their shelter. The reasons why they are homelessness are complex. They can include a combination of factors such as:
 
@@ -63,7 +42,7 @@ Poor health can contribute to homelessness. And being homeless can contribute to
 
 - Exposure to severe weather
 
-What are some of the common health problems that people experiencing homelessness have? 
+What are some of the common health problems that people experiencing homelessness have?
 Some of the common health problems that people experiencing homelessness may have include:
 
 - HIV
@@ -81,7 +60,3 @@ Some of the common health problems that people experiencing homelessness may hav
 Many people experiencing homelessness are dealing with trauma. They may have been abused or assaulted. This includes children, who are at risk for emotional and behavioral problems.
 
 Contact your local homelessness assistance agency to get the help you need, such as access to shelters, health centers, and free meals.
-
-## Selected references
-- Homelessness Assistance Programs [Start Here] — Department of Housing and Urban Development — https://www.hudexchange.info/homelessness-assistance/
-- Running Away [Children] — Nemours Foundation — https://kidshealth.org/en/kids/running-away.html

@@ -1,45 +1,12 @@
 # Shingles
 
-- Topic ID: 90
-- Language: English
-- URL: https://medlineplus.gov/shingles.html
-- Date created: 10/22/1998
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- Herpes zoster
-- Postherpetic neuralgia
-
-## Groups
-- Older Adults
-- Infections
-- Brain and Nerves
-- Skin, Hair and Nails
-
-## MeSH
-- Neuralgia, Postherpetic
-- Herpes Zoster
-
-## Related topics
-- Chickenpox
-
-## See also
-- Herpes Zoster
-- Post-herpetic Neuralgia
-
-## Meta description
-Learn about shingles (herpes zoster), which is a painful rash, often on one side of the body. It is caused by the same virus that causes chickenpox.
-
-## Summary
 What is shingles?
-Shingles (herpes zoster) is an infection that causes a painful rash. It is caused by the varicella-zoster virus (VZV). This is the same virus that causes chickenpox. After you have chickenpox, the virus stays in your body. It may not cause problems for many years. But as you get older, the virus may become active again and cause shingles. 
+Shingles (herpes zoster) is an infection that causes a painful rash. It is caused by the varicella-zoster virus (VZV). This is the same virus that causes chickenpox. After you have chickenpox, the virus stays in your body. It may not cause problems for many years. But as you get older, the virus may become active again and cause shingles.
 
 Is shingles contagious?
-Shingles is not contagious. You cannot get shingles from someone else. But you can catch chickenpox from someone with shingles if you have direct contact with fluid from their shingles rash. 
+Shingles is not contagious. You cannot get shingles from someone else. But you can catch chickenpox from someone with shingles if you have direct contact with fluid from their shingles rash.
 
 The risk of spreading the virus is low if the shingles rash is kept covered. People with shingles cannot spread the virus before their rash blisters appear or after the rash crusts.
-
- 
 
 Who is at risk for shingles?
 Anyone who has had chickenpox can get shingles. But the risk of shingles goes up as you get older. Shingles is most common in people over age 50.
@@ -59,7 +26,7 @@ It is rare, but possible, to get shingles more than once.
 What are the symptoms of shingles?
 Early signs of shingles include burning or shooting pain and tingling or itching. It is usually on one side of the body or face. The pain can be mild to severe.
 
-Up to several days later, you will get a rash. It consists of blisters that typically scab over in 7 to 10 days. The rash is usually a single stripe around either the left or the right side of the body. In other cases, the rash is only on one side of the face. In rare cases (usually among people with weakened immune systems), the rash may be more widespread. It might look similar to a chickenpox rash. 
+Up to several days later, you will get a rash. It consists of blisters that typically scab over in 7 to 10 days. The rash is usually a single stripe around either the left or the right side of the body. In other cases, the rash is only on one side of the face. In rare cases (usually among people with weakened immune systems), the rash may be more widespread. It might look similar to a chickenpox rash.
 
 Some people may also have other symptoms:
 
@@ -96,14 +63,12 @@ There is a vaccine, called Shingrix, to help prevent shingles and its complicati
 If you have shingles, you can help prevent spreading the virus to others by:
 
 - Staying away from:
- 
- - People with weakened immune systems
 
- - People who have not had chickenpox or the chickenpox vaccine, especially if they are pregnant
+- People with weakened immune systems
 
- - Premature or low birth weight babies
+- People who have not had chickenpox or the chickenpox vaccine, especially if they are pregnant
 
- 
+- Premature or low birth weight babies
 
 - Keeping the rash covered
 
@@ -112,13 +77,3 @@ If you have shingles, you can help prevent spreading the virus to others by:
 - Washing your hands often
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Shingles (Herpes Zoster) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/shingles/about/
-- Antibody Serology Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/antibody-serology-tests/
-- Chickenpox and Shingles Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/chickenpox-and-shingles-tests/
-- Geniculate Herpes Zoster (Ramsay Hunt Syndrome) [Specifics] — Genetic and Rare Diseases Information Center — https://rarediseases.info.nih.gov/diseases/7525/ramsay-hunt-syndrome
-- Herpes Zoster Oticus [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/herpes-zoster-oticus
-- Postherpetic Neuralgia [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/postherpetic-neuralgia/symptoms-causes/syc-20376588?p=1
-- Postherpetic neuralgia - aftercare [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000555.htm
-- Ramsay Hunt syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001647.htm

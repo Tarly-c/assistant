@@ -1,35 +1,7 @@
 # Common Cold
 
-- Topic ID: 196
-- Language: English
-- URL: https://medlineplus.gov/commoncold.html
-- Date created: 10/01/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Ear, Nose and Throat
-
-## MeSH
-- Common Cold
-
-## Related topics
-- Cold and Cough Medicines
-- Flu
-- Sinusitis
-- Viral Infections
-
-## See also
-- Cold, Common
-
-## Meta description
-Common cold symptoms usually begin 2 or 3 days after infection and last 2 to 14 days. There is no cure for the common cold. Learn tips for relief.
-
-## Summary
-What is the common cold? 
+What is the common cold?
 The common cold is a mild infection of your upper respiratory tract (which includes your nose and throat). Colds are probably the most common illness. Adults have an average of 2-3 colds per year, and children have even more. Colds are more common in the winter and spring, but you can get them at any time.
-
- 
 
 What causes the common cold?
 More than 200 different viruses can cause a cold, but rhinoviruses are the most common type. The viruses that cause colds are very contagious. They can spread from person to person through the air and close personal contact. You can also get infected when you touch something that has the virus on it and then touch your eyes, mouth, or nose. For example, you could get a cold after you shake hands with someone who has a cold or touch a doorknob that has the germs on it, and then touch your face.
@@ -61,18 +33,16 @@ There is no cure for the common cold. But there are treatments that can make you
 - Using a clean humidifier or cool mist vaporizer.
 
 - Gargling with warm salt water.
- 
+
 - Using saline nose drops or sprays.
 
 - Taking over-the-counter pain or cold and cough medicines. But you need to be careful with certain medicines:
-	
- - Children and teens should not take aspirin.
- 
- - Some cold and cough medicines contain ingredients that are not recommended for children. Talk with your child's health care provider before giving your child any cold and cough medicines.
 
- - Some cold and cough medicines contain pain relievers. If you also take a separate pain reliever with these medicines, you could be getting a dangerous amount of the pain reliever. Read the labels on the medicines and follow the instructions carefully. If you have questions, ask your provider or a pharmacist.
+- Children and teens should not take aspirin.
 
-	
+- Some cold and cough medicines contain ingredients that are not recommended for children. Talk with your child's health care provider before giving your child any cold and cough medicines.
+
+- Some cold and cough medicines contain pain relievers. If you also take a separate pain reliever with these medicines, you could be getting a dangerous amount of the pain reliever. Read the labels on the medicines and follow the instructions carefully. If you have questions, ask your provider or a pharmacist.
 
 Antibiotics will not help with a cold. Antibiotics help with bacterial infections, not with viral infections such as colds.
 
@@ -106,13 +76,3 @@ There is no vaccine to protect against the common cold. But you may be able to r
 - Staying home when sick.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- 5 Tips: Natural Products for the Flu and Colds: What Does the Science Say? [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/tips-natural-products-for-the-flu-and-colds-what-does-the-science-say
-- Antibiotics Aren't Always the Answer [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/antibiotic-use/media/pdfs/Arent-Always-The-Answer-FS-508.pdf
-- Cold and Flu [Diagnosis and Tests] — American Academy of Family Physicians — https://familydoctor.org/symptom/cold-and-flu/
-- Colds and the Flu [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/colds-and-the-flu/
-- Colds and the flu - what to ask your doctor - adult [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000249.htm
-- Colds and the flu - what to ask your doctor - child [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000250.htm
-- Colds, Flu, and Complementary Health Approaches [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/colds-flu-and-complementary-health-approaches
-- Common cold [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000678.htm

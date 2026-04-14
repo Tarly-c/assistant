@@ -1,36 +1,10 @@
 # Teen Sexual Health
 
-- Topic ID: 1459
-- Language: English
-- URL: https://medlineplus.gov/teensexualhealth.html
-- Date created: 02/03/2025
-
-## Groups
-- Children and Teenagers
-- Sexual Health Issues
-
-## MeSH
-- Adolescent
-- Sexual Behavior
-
-## Related topics
-- Teen Development
-- Teen Health
-- Teenage Pregnancy
-
-## See also
-- Sexual Health, Teen
-
-## Meta description
-During your teens you go through puberty and become sexually mature. Whether you choose to have sex or not, you should know how sex affects your health.
-
-## Summary
 What is teen sexual health?
 Teen sexual health is about how sex affects your physical and emotional health. It means knowing how to form healthy relationships and making decisions about sex that are right for you.
 
-As your body changes during puberty, how you think, feel, and interact with others also changes. You may have new feelings and thoughts about sex. Understanding who you're becoming as a sexual young adult is also part of teen sexual health. 
+As your body changes during puberty, how you think, feel, and interact with others also changes. You may have new feelings and thoughts about sex. Understanding who you're becoming as a sexual young adult is also part of teen sexual health.
 
- 
 For all teens, taking responsibility for sexual health is part of growing up. Whether you choose to have sex or wait, responsibility includes knowing about:
 
 - Sexually transmitted infections (STIs)
@@ -63,9 +37,7 @@ There are more than 20 types of STIs, including:
 STIs don't always cause symptoms. So it is possible to have an infection without knowing it and then pass it on to someone else. The only way to know for sure whether you have an STI is to get tested.
 
 How can I reduce my chances of getting a sexually transmitted infection (STI)?
-The most reliable way to avoid infection is to not have vaginal, oral, or anal sex. Saying "no" to sex is the right choice for many teens. 
-
- 
+The most reliable way to avoid infection is to not have vaginal, oral, or anal sex. Saying "no" to sex is the right choice for many teens.
 
 If you decide to have sex, "safer sex" practices will lower your chance of getting an STI. They include:
 
@@ -73,17 +45,15 @@ If you decide to have sex, "safer sex" practices will lower your chance of getti
 
 - Getting the HPV vaccine. You can be vaccinated between ages 9 and 26.
 
-- Using condoms correctly every time you have vaginal, oral, or anal sex: 
- 
- - External (male) latex condoms provide the best protection against STIs. If you or your partner is allergic to latex, you can use polyurethane condoms.
+- Using condoms correctly every time you have vaginal, oral, or anal sex:
 
- - Internal (female) condoms, made of nitrile, are placed inside the body (vagina or anus). They may be less effective against STIs than latex external condoms.
+- External (male) latex condoms provide the best protection against STIs. If you or your partner is allergic to latex, you can use polyurethane condoms.
 
- - Don't use both type of condoms together because that increases the chance they'll rip
+- Internal (female) condoms, made of nitrile, are placed inside the body (vagina or anus). They may be less effective against STIs than latex external condoms.
 
- - Use a dental dam (a square piece of latex, polyurethane, or nitrile) to protect the mouth during oral sex
+- Don't use both type of condoms together because that increases the chance they'll rip
 
- 
+- Use a dental dam (a square piece of latex, polyurethane, or nitrile) to protect the mouth during oral sex
 
 - Having sex with only one person who has sex only with you (mutual monogamy). But first, both of you should get tested for STIs.
 
@@ -102,7 +72,7 @@ Healthy sex starts with a healthy relationship, so it's important to take an hon
 - Respect. You and your partner value each other's feelings. Neither of you pressure the other to do things they don't want to do.
 
 - Trust and honesty. You always tell the truth and trust your partner to do the same.
- 
+
 - Good communication. You feel safe talking openly about your feelings, STIs, and other relationships. And you both listen.
 
 Your relationship may be unhealthy if it includes:
@@ -110,19 +80,9 @@ Your relationship may be unhealthy if it includes:
 - Jealousy and control. One of you wants to make all the decisions and tries to keep the other from spending time with their friends and family.
 
 - Disrespect. One of you makes fun of the other person's ideas and feelings.
- 
+
 - Pressure. One of you tries to bully the other into doing sexual things they don't want to do.
- 
+
 - Violence. Hitting, shoving, grabbing, and sexual assault should never be part of a relationship. If you don't know how to end a violent relationship, get help.
 
 Your decisions about sex can affect your future health. Make sure that you know the facts so you can decide what is right for you.
-
-## Selected references
-- Are Condoms 100% Effective? (For Teens) [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/effective-condoms.html
-- Can a Doctor Tell if You've Been Masturbating? [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/would-doc-know.html
-- Can I Get Pregnant From Oral Sex? [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/pregancy-risk.html
-- Can I Get Pregnant Right After My Period Ends? [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/expert-pregnant.html
-- Can You Use Two Condoms for Extra Protection? [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/2-condoms.html
-- Delayed Puberty (For Teens) [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/delayed-puberty.html
-- Estrogen Levels Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/estrogen-levels-test/
-- Expect Respect: Healthy Relationships [Specifics] — American Academy of Pediatrics — https://www.healthychildren.org/English/ages-stages/teen/dating-sex/pages/Expect-Respect-Healthy-Relationships.aspx

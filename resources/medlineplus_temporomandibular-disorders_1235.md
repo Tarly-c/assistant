@@ -1,35 +1,7 @@
 # Temporomandibular Disorders
 
-- Topic ID: 1235
-- Language: English
-- URL: https://medlineplus.gov/temporomandibulardisorders.html
-- Date created: 03/20/2000
-- Primary institute: National Institute of Dental and Craniofacial Research
-
-## Also called
-- TMD
-- TMJ disorders
-- Temporomandibular joint dysfunction
-
-## Groups
-- Mouth and Teeth
-
-## MeSH
-- Temporomandibular Joint Disorders
-
-## See also
-- TMD
-- TMJ
-- Temporomandibular Joint Dysfunction
-
-## Meta description
-Temporomandibular disorders (TMDs) affect the joints that connect your lower jaw to your skull. TMDs can cause jaw pain and stiffness. Learn about treatments.
-
-## Summary
-What are temporomandibular disorders (TMDs)? 
+What are temporomandibular disorders (TMDs)?
 Temporomandibular disorders (TMDs) are a group of more than 30 conditions that affect your temporomandibular joints (TMJs). You have two TMJs; one on each side of your jaw. They connect your lower jaw to your skull.
-
- 
 
 TMDs can cause problems in your jaw joint and your muscles that control jaw movement. These problems can include pain, stiffness, and trouble chewing.
 
@@ -49,12 +21,12 @@ Sometimes an injury to the jaw or TMJ can cause a TMD. But in most cases, the ca
 Research suggests that certain factors may play a role in why a TMD starts and whether it will be long lasting:
 
 - Genetics
- 
+
 - Psychological and life stressors
 
 - How someone perceives pain
 
-Who is more likely to develop a temporomandibular disorder (TMD)? 
+Who is more likely to develop a temporomandibular disorder (TMD)?
 Anyone can develop a TMD, but it is more common in women than in men. It is most common in women between 35 and 44 years old.
 
 What are the symptoms of temporomandibular disorders (TMDs)?
@@ -80,28 +52,24 @@ There is no standard test used to diagnose TMDs, and some other conditions can c
 To find out if you have a TMD, your health care provider or dentist:
 
 - Will take a detailed medical history, which includes asking about your symptoms. They will want to know:
-	
- - Where the pain is
- 
- - When you have it
 
- - What makes it better or worse
+- Where the pain is
 
- - If it stays in one area or spreads to other parts of your body
+- When you have it
 
- - If you have any other pain conditions such as headache or back pain
+- What makes it better or worse
 
-	
+- If it stays in one area or spreads to other parts of your body
+
+- If you have any other pain conditions such as headache or back pain
 
 - Will examine your head, neck, face, and jaw for:
-	
- - Tenderness
 
- - Jaw clicking or popping
+- Tenderness
 
- - Problems moving your jaw
+- Jaw clicking or popping
 
-	
+- Problems moving your jaw
 
 - May order imaging studies such as an x-ray, MRI, or CT
 
@@ -121,52 +89,31 @@ If those do not help, your provider or dentist may suggest other treatments such
 - Physical therapy
 
 - Self-management and behavioral health approaches, which can include:
-	
- - Cognitive behavioral therapy (CBT), a type of psychotherapy. It can help you identify negative thoughts and change them. It can also teach you coping skills.
 
- - Biofeedback, which involves using electronic devices to teach you to control certain body functions, such as your heartbeat, blood pressure, and muscle tension. For example, it can detect when you tighten your jaw muscles. You can learn how to recognize when this happens and then relax your muscles.
- 
-	
+- Cognitive behavioral therapy (CBT), a type of psychotherapy. It can help you identify negative thoughts and change them. It can also teach you coping skills.
+
+- Biofeedback, which involves using electronic devices to teach you to control certain body functions, such as your heartbeat, blood pressure, and muscle tension. For example, it can detect when you tighten your jaw muscles. You can learn how to recognize when this happens and then relax your muscles.
 
 - Medicines such as:
-	
- - Anti-anxiety medicines
 
- - Antidepressants
+- Anti-anxiety medicines
 
- - Anti-seizure medicines
+- Antidepressants
 
- - Prescription pain relievers
+- Anti-seizure medicines
 
-	
+- Prescription pain relievers
 
-- An intraoral appliance, which is a device that fits over your teeth. Types of intraoral appliances include oral splints and mouth guards. If you are going to use one, it's important to: 
-	
- - Know that there is not a lot of evidence that they improve TMD pain.
- 
- - Make sure that the appliance you have is not designed to permanently change your bite.
+- An intraoral appliance, which is a device that fits over your teeth. Types of intraoral appliances include oral splints and mouth guards. If you are going to use one, it's important to:
 
- - Let your provider or dentist know if it makes your pain worse.
+- Know that there is not a lot of evidence that they improve TMD pain.
 
-	
+- Make sure that the appliance you have is not designed to permanently change your bite.
+
+- Let your provider or dentist know if it makes your pain worse.
 
 - Complementary treatments, which are treatments that are used along with mainstream medical care. There is limited evidence showing that they help with TMD symptoms. But some providers and dentists may recommend acupuncture and transcutaneous electrical stimulation (TENS). TENS involves using a device to send a gentle electric current to your nerves or muscles. It may help treat pain by interrupting or blocking the pain signals.
- 
 
 If you are still having severe symptoms from a TMD, your provider or dentist may suggest surgery, including implant surgery, or another procedure.
 
- 
-
 It's important to be careful, because sometimes surgery or another procedure may not work or may even make your symptoms worse. Before any surgery or other procedure, it is very important to get opinions from more than one provider and to completely understand the risks. If possible, get an opinion from a surgeon who specializes in treating TMDs.
-
-NIH: National Institute of Dental and Craniofacial Research
-
-## Selected references
-- Bruxism [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001413.htm
-- Less Is Often Best in Treating TMD [Treatments and Therapies] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/sites/default/files/2024-10/tmd-less-is-often-best.pdf
-- Panoramic Dental X-Ray [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/panoramic-xray
-- Temporomandibular Disorders (TMD) Devices [Treatments and Therapies] — Food and Drug Administration — https://www.fda.gov/medical-devices/dental-devices/temporomandibular-disorders-tmd-devices
-- TMD (Temporomandibular Disorders) [Start Here, Patient Handouts] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/health-info/tmd
-- TMJ and Facial Pain [Start Here] — American Association of Oral and Maxillofacial Surgeons — https://myoms.org/wp-content/uploads/2019/09/Ebook_TMJ_R.pdf
-- TMJ Disorders [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/tmj/symptoms-causes/syc-20350941?p=1
-- TMJ disorders [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001227.htm

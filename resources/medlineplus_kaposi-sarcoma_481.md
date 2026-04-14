@@ -1,28 +1,5 @@
 # Kaposi Sarcoma
 
-- Topic ID: 481
-- Language: English
-- URL: https://medlineplus.gov/kaposisarcoma.html
-- Date created: 10/18/1999
-- Primary institute: National Cancer Institute
-
-## Also called
-- KS
-
-## Groups
-- Cancers
-- Skin, Hair and Nails
-
-## MeSH
-- Sarcoma, Kaposi
-
-## Related topics
-- HIV
-
-## Meta description
-Kaposi sarcoma or KS is a cancer that causes red or purple patches of abnormal tissue to grow under the skin. Can spread to organs and cause bleeding.
-
-## Summary
 What is Kaposi sarcoma?
 Kaposi sarcoma, sometimes called KS, is a type of cancer. It causes lesions (abnormal tissue) to grow in different parts of the body, including:
 
@@ -97,15 +74,3 @@ The treatment options for Kaposi sarcoma may include:
 - Chemotherapy
 
 - Immunotherapy
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Classic Kaposi Sarcoma [Specifics] — National Cancer Institute — https://www.cancer.gov/types/soft-tissue-sarcoma/patient/kaposi-treatment-pdq#_125
-- Drugs Approved for Kaposi Sarcoma [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/drugs/kaposi-sarcoma
-- Epidemic Kaposi Sarcoma (HIV-Associated Kaposi Sarcoma) [Specifics] — National Cancer Institute — https://www.cancer.gov/types/soft-tissue-sarcoma/patient/kaposi-treatment-pdq#_131
-- General Information about Kaposi Sarcoma [Start Here] — National Cancer Institute — https://www.cancer.gov/types/soft-tissue-sarcoma/patient/kaposi-treatment-pdq#_1
-- Kaposi sarcoma [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000661.htm
-- Kaposi Sarcoma Early Detection, Diagnosis, and Staging [Diagnosis and Tests] — American Cancer Society — https://www.cancer.org/cancer/types/kaposi-sarcoma/detection-diagnosis-staging.html
-- Treatment Option Overview (Kaposi Sarcoma) [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/types/soft-tissue-sarcoma/patient/kaposi-treatment-pdq#_50

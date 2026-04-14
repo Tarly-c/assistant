@@ -1,35 +1,5 @@
 # Talking With Your Doctor
 
-- Topic ID: 3073
-- Language: English
-- URL: https://medlineplus.gov/talkingwithyourdoctor.html
-- Date created: 01/15/2003
-- Primary institute: NIH Office of the Director
-
-## Groups
-- Social/Family Issues
-- Health System
-- Personal Health Issues
-
-## MeSH
-- Physician-Patient Relations
-- Dentist-Patient Relations
-- Nurse-Patient Relations
-
-## Related topics
-- Patient Rights
-- Patient Safety
-- Telehealth
-
-## See also
-- Communicating With Your Healthcare Provider
-- Second Opinion
-- Talk to Your Doctor
-
-## Meta description
-Good communication helps you make the most of your doctor visits. Learn how to talk about your concerns and get tips on preparing for talking with your doctor.
-
-## Summary
 How well you and your doctor or provider communicate with each other is one of the most important parts of getting good health care. Being prepared can help you make the most of your visit, whether it is in person or through telehealth. Here are some things you can do to make the most of your appointment:
 
 - Make lists of any allergies you have and all the medicines, herbs, vitamins, and supplements you take.
@@ -55,13 +25,3 @@ How well you and your doctor or provider communicate with each other is one of t
 - Ask for your doctor's or provider's contact information and find out the best way to communicate with them.
 
 - Find out what to do if you need more information later.
-
-## Selected references
-- 4 Tips: Start Talking with Your Health Care Providers about Complementary Health Approaches [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/tips-start-talking-with-your-health-care-providers-about-complementary-health-approaches
-- Getting Health Visits in Your Preferred Language [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/health-care-language.html
-- Getting the Most From a Doctor's Visit [Children] — Nemours Foundation — https://kidshealth.org/en/parents/talk-doctor.html
-- Getting the Most Out of Your Doctor Appointment [Start Here] — American Academy of Family Physicians — https://familydoctor.org/tips-for-talking-to-your-doctor/
-- How Can I See My Doctor Without My Parents? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/doctor-alone.html
-- Make the most of your doctor visit [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000860.htm
-- Questions Are the Answer [Start Here] — Agency for Healthcare Research and Quality — https://www.ahrq.gov/questions/index.html
-- Shared decision making [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000877.htm

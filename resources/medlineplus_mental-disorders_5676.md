@@ -1,50 +1,5 @@
 # Mental Disorders
 
-- Topic ID: 5676
-- Language: English
-- URL: https://medlineplus.gov/mentaldisorders.html
-- Date created: 11/02/2010
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- Mental illness
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Mental Disorders
-- Psychiatric Rehabilitation
-
-## Related topics
-- Anxiety
-- Bipolar Disorder
-- Child Mental Health
-- Compulsive Gambling
-- Delirium
-- Depression
-- Eating Disorders
-- Mental Health
-- Mood Disorders
-- Obsessive-Compulsive Disorder
-- Older Adult Mental Health
-- Panic Disorder
-- Personality Disorders
-- Phobias
-- Post-Traumatic Stress Disorder
-- Psychotic Disorders
-- Schizophrenia
-- Self-Harm
-- Suicide
-- Teen Mental Health
-
-## See also
-- Psychiatric Disorders
-
-## Meta description
-Mental disorders (also called mental illnesses) include a wide range of problems. There are many causes. Learn more about what can help.
-
-## Summary
 What are mental disorders?
 Mental disorders (or mental illnesses) are conditions that affect your thinking, feeling, mood, and behavior. They may happen over a short period of time or come and go. Some can be chronic (long-lasting). They can affect your ability to relate to others and function each day..
 
@@ -99,16 +54,4 @@ The steps to getting a diagnosis include:
 What are the treatments for mental disorders?
 Treatment depends on which mental disorder you have and how serious it is. You and your provider will work on a treatment plan just for you. It usually involves some type of therapy. You may also take medicines. Some people also need social support and education on managing their condition.
 
- 
-
 In some cases, you may need more intensive treatment. You may need to go to a psychiatric hospital. This could be because your mental illness is severe. Or it could be because you are at risk of hurting yourself or someone else. In the hospital, you will get counseling, group discussions, and activities with mental health professionals and other patients.
-
-## Selected references
-- Adjustment disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000932.htm
-- Body Dysmorphic Disorder [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/body-dysmorphic-disorder/symptoms-causes/syc-20353938?p=1
-- Brain Stimulation Therapies [Treatments and Therapies] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies
-- Child Mental Health: MedlinePlus Health Topic [Children] — National Library of Medicine — https://medlineplus.gov/childmentalhealth.html
-- Depersonalization-Derealization Disorder [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/depersonalization-derealization-disorder/symptoms-causes/syc-20352911?p=1
-- Dissociative Disorders [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/dissociative-disorders/symptoms-causes/syc-20355215?p=1
-- Electroconvulsive therapy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007474.htm
-- Factitious Disorder [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/factitious-disorder/symptoms-causes/syc-20356028?p=1

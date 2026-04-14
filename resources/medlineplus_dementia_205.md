@@ -1,35 +1,5 @@
 # Dementia
 
-- Topic ID: 205
-- Language: English
-- URL: https://medlineplus.gov/dementia.html
-- Date created: 07/13/1999
-- Primary institute: National Institute on Aging
-
-## Also called
-- Senility
-
-## Groups
-- Mental Health and Behavior
-- Older Adults
-- Brain and Nerves
-
-## MeSH
-- Dementia
-
-## Related topics
-- Alzheimer's Disease
-- Delirium
-- Lewy Body Dementia
-- Memory
-
-## See also
-- Senility
-
-## Meta description
-People with dementia have serious problems with two or more brain functions, such as memory and language. Affects the ability to do normal activities.
-
-## Summary
 What is dementia?
 Dementia is a loss of mental functions that is severe enough to affect your daily life and activities. These functions include:
 
@@ -51,16 +21,14 @@ What are the types of dementia?
 The most common types of dementia are known as neurodegenerative disorders. These are diseases in which the cells of the brain stop working or die. They include:
 
 - Alzheimer's disease, which is the most common form of dementia among older people. People with Alzheimer's have plaques and tangles in their brain. These are abnormal buildups of different proteins. Beta-amyloid protein clumps up and forms plaques in between your brain cells. Tau protein builds up and forms tangles inside the nerve cells of your brain. There is also a loss of connection between nerve cells in the brain.
- 
+
 - Lewy body dementia, which causes movement symptoms along with dementia. Lewy bodies are abnormal deposits of a protein in the brain.
 
 - Frontotemporal disorders, which cause changes to certain parts of the brain:
-	
- - Changes in the frontal lobe lead to behavioral symptoms
 
- - Changes in the temporal lobe lead to language and emotional disorders
+- Changes in the frontal lobe lead to behavioral symptoms
 
-	
+- Changes in the temporal lobe lead to language and emotional disorders
 
 - Vascular dementia, which involves changes to the brain's blood supply. It is often caused by a stroke or atherosclerosis (hardening of the arteries) in the brain.
 
@@ -104,7 +72,6 @@ The symptoms of dementia can vary, depending on which parts of the brain are aff
 
 - Need help doing tasks that they used to do by themselves
 
- 
 Some people with dementia cannot control their emotions and their personalities may change. They may become apathetic, meaning that they are no longer interested in normal daily activities or events. They may lose their inhibitions and stop caring about other peoples' feelings.
 
 Certain types of dementia can also cause problems with balance and movement.
@@ -139,13 +106,3 @@ There is no cure for most types of dementia, including Alzheimer's disease and L
 
 Can dementia be prevented?
 Researchers have not found a proven way to prevent dementia. Living a healthy lifestyle might influence some of your risk factors for dementia.
-
-## Selected references
-- 7 Things To Know About Dietary Supplements for Cognitive Function, Dementia, and Alzheimer's Disease [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/things-to-know-about-dietary-supplements-for-cognitive-function-dementia-and-alzheimers-disease
-- Brain PET scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007341.htm
-- CADASIL [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/cadasil
-- Cognitive Impairment in Older Adults: Screening [Diagnosis and Tests] — U.S. Preventive Services Task Force — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening
-- Dementia [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/dementia/
-- Dementia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000739.htm
-- Dementia - behavior and sleep problems [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000029.htm
-- Dementia - daily care [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000030.htm

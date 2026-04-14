@@ -1,29 +1,7 @@
 # Cerebral Palsy
 
-- Topic ID: 180
-- Language: English
-- URL: https://medlineplus.gov/cerebralpalsy.html
-- Date created: 09/09/1999
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- CP
-
-## Groups
-- Brain and Nerves
-- Genetics/Birth Defects
-
-## MeSH
-- Cerebral Palsy
-
-## Meta description
-Cerebral palsy, CP happens when areas of the brain that control movement and posture do not develop correctly or get damaged. Treatment can improve.
-
-## Summary
 What is cerebral palsy (CP)?
 Cerebral palsy (CP) is a group of neurologic disorders that cause problems with movement, balance, and posture. The first part of the name, cerebral, means having to do with the brain. The second part, palsy, means weakness or problems with using the muscles.
-
- 
 
 CP can range from mild to severe. The brain damage and the disabilities it causes are permanent. But treatments can improve the lives of people who have the condition. For example, treatments can help to improve their motor skills and ability to communicate.
 
@@ -91,7 +69,7 @@ There are many different types and levels of disability with CP. So the signs ca
 
 - Abnormal muscle tone. Your child may seem floppy, or they may be stiff or rigid.
 
-- An unusual posture or favoring one side of the body when reaching, crawling, or moving. 
+- An unusual posture or favoring one side of the body when reaching, crawling, or moving.
 
 - Stiff or tight muscles and exaggerated reflexes (spasticity).
 
@@ -109,14 +87,12 @@ Diagnosing CP involves several steps:
 - Developmental screening involves giving your child a short test to check for motor, movement, or other developmental delays. If the screenings are not normal, the provider will recommend more evaluations.
 
 - Developmental and medical evaluations are done to diagnose which disorder your child has. To make the diagnosis, your provider:
- 
- - Will check your child's motor skills, muscle tone, reflexes, and posture
 
- - Will ask about their medical history
+- Will check your child's motor skills, muscle tone, reflexes, and posture
 
- - May order lab tests, genetic tests, and/or imaging tests
+- Will ask about their medical history
 
- 
+- May order lab tests, genetic tests, and/or imaging tests
 
 What are the treatments for cerebral palsy (CP)?
 There is no cure for CP, but treatment can improve the lives of those who have it. It is important to begin a treatment program as early as possible.
@@ -139,13 +115,3 @@ You cannot prevent the genetic problems that can cause CP. But it may be possibl
 - Get regular prenatal care, which can reduce the risk of preterm birth or having a low birthweight baby. It can also help you manage any health conditions that could raise the risk of CP.
 
 - Use car seats for your baby to prevent head injuries that could cause CP.
-
-## Selected references
-- About Cerebral Palsy [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/cerebral-palsy/about/
-- Ataxic Cerebral Palsy [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/ataxic-cp.html
-- Caring for Your Child with Cerebral Palsy (CP): Ages 6-12 [Children] — Nemours Foundation — https://kidshealth.org/en/parents/cp-checklist-big-kids.html
-- Caring for Your Child with CP: Birth to Age 5 [Children] — Nemours Foundation — https://kidshealth.org/en/parents/cp-checklist-younger.html
-- Caring for Your Teen With Cerebral Palsy (CP): Age 13 and Up [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/cp-checklist-teens.html
-- Cerebral Palsy [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/cerebral-palsy/diagnosis-treatment/drc-20354005?p=1
-- Cerebral Palsy [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/cerebral-palsy
-- Cerebral palsy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000716.htm

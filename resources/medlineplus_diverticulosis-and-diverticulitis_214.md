@@ -1,30 +1,5 @@
 # Diverticulosis and Diverticulitis
 
-- Topic ID: 214
-- Language: English
-- URL: https://medlineplus.gov/diverticulosisanddiverticulitis.html
-- Date created: 01/27/1999
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Diverticular disease
-
-## Groups
-- Digestive System
-
-## MeSH
-- Diverticulum, Colon
-- Diverticulitis, Colonic
-- Diverticular Diseases
-- Diverticulosis, Colonic
-
-## See also
-- Diverticulitis
-
-## Meta description
-Diverticulosis is a condition in which you have small pouches in your colon. If the pouches get inflamed or infected, it's called diverticulitis. Learn more.
-
-## Summary
 What is diverticulosis?
 Diverticula are small pouches, or sacs, that bulge outward through weak spots in your colon. They mostly form in the lower part of the colon. Diverticulosis is a condition in which you have these pouches. Most people who have diverticulosis do not have symptoms or problems. But sometimes the pouches can cause symptoms or become inflamed.
 
@@ -46,18 +21,16 @@ Researchers aren't sure what causes diverticulosis and diverticulitis. They thin
 - Your genetics. Certain genes may make some people more likely to develop the conditions.
 
 - Lifestyle factors such as:
- 
- - Diets low in fiber and high in red meat
 
- - Lack of physical activity
+- Diets low in fiber and high in red meat
 
- - Taking certain medicines, such as nonsteroidal anti-inflammatory drugs (NSAIDs) and steroids
+- Lack of physical activity
 
- - Having obesity
+- Taking certain medicines, such as nonsteroidal anti-inflammatory drugs (NSAIDs) and steroids
 
- - Smoking
+- Having obesity
 
- 
+- Smoking
 
 Researchers are also looking at other possible factors that may play a role in these conditions. Those factors include bacteria or stool (poop) getting caught in a pouch in your colon and changes in the microbiome in the intestines. Your microbiome is made up of the bacteria and other organisms in your intestines.
 
@@ -123,7 +96,7 @@ If your diverticulosis is causing chronic symptoms, your provider may recommend:
 
 - Probiotics
 
-If you have diverticulitis without complications, your provider may recommend treatment at home. However, you probably need treatment in the hospital if you have severe diverticulitis, diverticulitis with complications, or a high risk for complications. 
+If you have diverticulitis without complications, your provider may recommend treatment at home. However, you probably need treatment in the hospital if you have severe diverticulitis, diverticulitis with complications, or a high risk for complications.
 
 Treatments for diverticulitis may include:
 
@@ -147,15 +120,3 @@ Your provider may recommend lifestyle changes to prevent diverticulitis:
 - Not smoking (and quitting smoking if you are a smoker)
 
 - Reaching and maintaining a healthy weight
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Abdominal and Pelvic CT [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/abdominct
-- Abdominal CT scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003789.htm
-- Abdominal exploration [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002928.htm
-- Abdominal exploration - series [Diagnosis and Tests, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100049_1.htm
-- Barium enema [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003817.htm
-- Black or tarry stools [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003130.htm
-- Bland diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000068.htm
-- Colon diverticula - series [Treatments and Therapies, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100158_1.htm

@@ -1,39 +1,5 @@
 # Opioids and Opioid Use Disorder (OUD)
 
-- Topic ID: 6431
-- Language: English
-- URL: https://medlineplus.gov/opioidsandopioidusedisorderoud.html
-- Date created: 12/27/2016
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Opioid abuse
-- Opioid addiction
-- Opioid misuse
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Opioid-Related Disorders
-- Prescription Drug Misuse
-
-## Related topics
-- Heroin
-- Opioid Overdose
-- Opioid Use Disorder (OUD) Treatment
-- Pregnancy and Opioids
-- Prescription Drug Misuse
-- Safe Opioid Use
-
-## See also
-- Opiates
-- Opioid Abuse and Addiction
-
-## Meta description
-Opioid use disorder (OUD) a serious public health problem in the U.S. Learn about opioids, how they affect the body, and what OUD is.
-
-## Summary
 What are opioids?
 Opioids, sometimes called narcotics, are a type of drug. They include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol. The illegal drug heroin is also an opioid. Some opioids are made from the opium plant, and others are synthetic (man-made).
 
@@ -66,12 +32,9 @@ What is opioid use disorder (OUD)?
 
 Opioid use disorder (OUD) means that you have a problematic pattern of using opioids. The pattern causes a lot of distress and impairment (meaning that it causes problems in and interferes with your daily life). Instead of OUD, sometimes people use the terms "opioid dependence" and "opioid addiction." Dependence means feeling withdrawal symptoms when not taking the drug. Addiction is a chronic brain disease that causes a person to compulsively seek out drugs, even though they cause harm.
 
- 
 The risk of OUD is higher if you misuse the medicines. Misuse can include taking more than your prescribed dose or taking it more often, using it to get high, or taking someone else's opioids.
 
 Opioid use disorder and overdoses are serious public health problems in the United States. As more people misuse opioids, more women are misusing opioids during pregnancy. This can lead to health risks for the mother and baby. The baby may be born with neonatal abstinence syndrome (NAS). NAS is a group of withdrawal symptoms that a baby has after being exposed to drugs during pregnancy.
-
- 
 
 Another problem with increased opioid misuse is that it can also lead to more heroin use. There are some people who switch from prescription opioids to heroin because heroin may be cheaper and easier to get.
 
@@ -83,15 +46,3 @@ There is also a medicine called naloxone which can treat opioid overdoses. It ca
 
 How can I prevent problems when taking prescription opioids?
 To prevent problems with prescription opioids, be sure to follow your doctor's instructions when taking them. Do not share your medicines with anyone else. Contact your doctor if you have any concerns about taking the medicines.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- About Prescription Opioids [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/overdose-prevention/about/prescription-opioids.html
-- Accidental Exposures to Fentanyl Patches Continue to Be Deadly to Children [Children] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/accidental-exposures-fentanyl-patches-continue-be-deadly-children
-- Acetaminophen and codeine overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002562.htm
-- Codeine overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002613.htm
-- Drug Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-testing/
-- Drug Use Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-use-screening-tests/
-- Fentanyl [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/overdose-prevention/about/fentanyl.html
-- Fentanyl [Specifics] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/fentanyl

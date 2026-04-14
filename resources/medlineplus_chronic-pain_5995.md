@@ -1,36 +1,10 @@
 # Chronic Pain
 
-- Topic ID: 5995
-- Language: English
-- URL: https://medlineplus.gov/chronicpain.html
-- Date created: 03/06/2012
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Brain and Nerves
-- Symptoms
-
-## MeSH
-- Chronic Pain
-
-## Related topics
-- Non-Drug Pain Management
-- Pain
-- Pain Relievers
-
-## See also
-- Pain, Chronic
-
-## Meta description
-Chronic pain lasts longer than three months or the time in which you should have healed. It is not always curable, but treatments can help.
-
-## Summary
 What is chronic pain?
 Pain is a signal from your nervous system that something may be wrong. It is an unpleasant feeling, such as a prick, tingle, sting, burn, or ache. Pain may be sharp or dull. You may feel pain in one area of your body or all over. Each person feels pain differently, even if the reason for the pain is the same.
 
 Pain might be acute or chronic. The type of pain is based on how long and how often you have pain. Acute pain starts suddenly and goes away when the cause is treated or healed. This pain lets you know that you may be injured or have a problem you need to take care of. Chronic pain lasts longer than three months or the time in which you should have healed.
 
- 
 If you have chronic pain, it can occur most days or every day and may last for weeks, months, or even years. It can affect all aspects of daily life, including your mood and relationships. Treatment may not get rid of chronic pain, but it can help with your symptoms.
 
 What causes chronic pain?
@@ -38,8 +12,6 @@ Sometimes, acute pain can become chronic pain. The original cause may have been 
 
 What are the symptoms of chronic pain?
 Since people feel pain in different ways, two people could have the same issue, but each may have different symptoms. Chronic pain can occur anywhere in your body and may cause other symptoms such as fatigue, mood changes, or difficulty sleeping. If you have depression or stress, it may make chronic pain worse.
-
- 
 
 Who is more likely to get chronic pain?
 Many older adults have chronic pain. Women also report having more chronic pain than men, and they are at a greater risk for many pain conditions. Some people have two or more chronic pain conditions. You may be more likely to have chronic pain if you have certain medical conditions such as:
@@ -66,7 +38,6 @@ Chronic pain lasts three months or longer or when pain continues after your body
 - Do a physical exam
 
 - Order blood tests or other medical tests
- 
 
 What are the treatments for chronic pain?
 Chronic pain is not always curable, but treatments can help. Treatments may include medicines, including pain relievers. There are also non-drug treatments, such as acupuncture, physical therapy, and sometimes surgery.
@@ -80,13 +51,3 @@ Depending on the cause of your pain and your symptoms, your provider may also re
 - Getting to and staying at a healthy weight
 
 - Adding low-impact exercise
-
-## Selected references
-- Amplified Musculoskeletal Pain Syndrome (AMPS) [Specifics] — American College of Rheumatology — https://rheumatology.org/patients/amplified-musculoskeletal-pain-syndrome-amps
-- Antidepressants: Another Weapon against Chronic Pain [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/back-pain/in-depth/pain-medications/art-20045647?p=1
-- Central Pain Syndrome [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/central-pain-syndrome
-- Managing Pain: Moving beyond Opioids [Treatments and Therapies] — National Institutes of Health — https://newsinhealth.nih.gov/2018/10/managing-pain
-- Managing your chronic back pain [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000516.htm
-- Myofascial Pain Syndrome [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/myofascial-pain-syndrome/symptoms-causes/syc-20375444?p=1
-- Non-Drug Pain Management: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/nondrugpainmanagement.html
-- Pain [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/pain

@@ -1,40 +1,10 @@
 # Blood Clots
 
-- Topic ID: 6076
-- Language: English
-- URL: https://medlineplus.gov/bloodclots.html
-- Date created: 12/05/2012
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Hypercoagulability
-
-## Groups
-- Blood, Heart and Circulation
-
-## MeSH
-- Thrombosis
-
-## Related topics
-- Bleeding Disorders
-- Deep Vein Thrombosis
-- Platelet Disorders
-- Pulmonary Embolism
-
-## See also
-- Thrombophlebitis
-- Venous Thrombosis
-
-## Meta description
-Your blood forms clots to stop bleeding. Some people get too many clots or their blood clots abnormally. Learn about the causes and treatments.
-
-## Summary
 What is a blood clot?
 A blood clot is a mass of blood that forms when platelets, proteins, and cells in the blood stick together. When you get hurt, your body forms a blood clot to stop the bleeding. After the bleeding stops and healing takes place, your body usually breaks down and removes the blood clot. But sometimes the blood clots form where they shouldn't, your body makes too many blood clots or abnormal blood clots, or the blood clots don't break down like they should. These blood clots can be dangerous and may cause other health problems.
 
 Blood clots can form in, or travel to, the blood vessels in the limbs, lungs, brain, heart, and kidneys. The types of problems blood clots can cause will depend on where they are:
 
- 
 - Deep vein thrombosis (DVT) is a blood clot in a deep vein, usually in the lower leg, thigh, or pelvis. It can block a vein and cause damage to your leg.
 
 - A pulmonary embolism (PE) can happen when a DVT breaks off and travels through the bloodstream to the lungs. A PE, especially if it is large, can damage your lungs and prevent your other organs from getting enough oxygen.
@@ -46,7 +16,6 @@ Blood clots can form in, or travel to, the blood vessels in the limbs, lungs, br
 Who is more likely to develop blood clots?
 Certain factors can raise your risk of developing blood clots:
 
- 
 - Atherosclerosis
 
 - Atrial fibrillation
@@ -77,11 +46,9 @@ Certain factors can raise your risk of developing blood clots:
 
 - Staying in one position for a long time, such as being in the hospital or taking a long car or plane ride
 
- 
 What are the symptoms of blood clots?
 The symptoms for blood clots can be different, depending on where the blood clot is:
 
- 
 - In the abdomen: Abdominal pain, nausea and vomiting
 
 - In an arm or leg: Sudden or gradual pain, swelling, tenderness, and warmth
@@ -92,11 +59,9 @@ The symptoms for blood clots can be different, depending on where the blood clot
 
 - In the heart: Chest pain, sweating, shortness of breath, and pain in the left arm
 
- 
 How are blood clots diagnosed?
-To find out if you have one or more blood clots, your health care provider: 
+To find out if you have one or more blood clots, your health care provider:
 
- 
 - Will do a physical exam.
 
 - Will take your medical history, which includes asking about your symptoms.
@@ -104,33 +69,25 @@ To find out if you have one or more blood clots, your health care provider:
 - May order blood tests, including a D-dimer test.
 
 - May order imaging tests, such as
- 
- - Ultrasound.
 
- - X-rays of the veins (venography) or blood vessels (angiography) that are taken after you get an injection of special dye. The dye shows up on the x-ray and allows the provider to see how the blood flows.
+- Ultrasound.
 
- - CT Scan.
+- X-rays of the veins (venography) or blood vessels (angiography) that are taken after you get an injection of special dye. The dye shows up on the x-ray and allows the provider to see how the blood flows.
 
- 
+- CT Scan.
 
- 
-
- 
 What are the treatments for blood clots?
 Treatments for blood clots depend on where the blood clot is located and how severe it is. Treatments may include:
 
- 
 - Blood thinners.
 
 - Other medicines, including thrombolytics. Thrombolytics are medicines that dissolve blood clots. They are usually used where the blood clots are severe.
 
 - Surgery and other procedures to remove the blood clots
 
- 
 Can blood clots be prevented?
 You may be able to help prevent blood clots by:
 
- 
 - Moving around as soon as possible after having been confined to your bed, such as after surgery, illness, or injury
 
 - Getting up and moving around every few hours when you have to sit for long periods of time, for example if you are on a long flight or car trip
@@ -144,13 +101,3 @@ You may be able to help prevent blood clots by:
 - Staying at a healthy weight
 
 Some people at high risk may need to take blood thinners to prevent blood clots.
-
-## Selected references
-- Antiphospholipid Syndrome (APS) [Specifics] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/antiphospholipid-syndrome
-- Antiphospholipid syndrome - APS [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000547.htm
-- Antithrombin III blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003661.htm
-- Arterial embolism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001102.htm
-- Blood (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/blood.html
-- Blood Clots [Start Here] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/bloodclot
-- Blood clots [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001124.htm
-- Blood Clots [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/symptoms/blood-clots/basics/definition/SYM-20050850?p=1

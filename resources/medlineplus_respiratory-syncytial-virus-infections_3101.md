@@ -1,37 +1,7 @@
 # Respiratory Syncytial Virus Infections
 
-- Topic ID: 3101
-- Language: English
-- URL: https://medlineplus.gov/respiratorysyncytialvirusinfections.html
-- Date created: 01/21/2003
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- RSV
-
-## Groups
-- Children and Teenagers
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Respiratory Syncytial Virus Infections
-
-## Related topics
-- Viral Infections
-
-## See also
-- Bronchiolitis
-- RSV Infections
-
-## Meta description
-Respiratory Syncytial Virus (RSV) causes cold-like symptoms in adults and healthy children, but can cause serious problems in babies. Read more.
-
-## Summary
-What is respiratory syncytial virus (RSV)? 
+What is respiratory syncytial virus (RSV)?
 Respiratory syncytial virus, or RSV, is a common respiratory virus. It usually causes mild, cold-like symptoms. But it can cause serious lung infections, especially in infants, older adults, and people with serious medical problems.
-
- 
 
 How is respiratory syncytial virus (RSV) spread?
 RSV spreads from person to person through:
@@ -87,7 +57,6 @@ Your health care provider may use many tools to make a diagnosis:
 
 - Tests to check for complications in people with severe infection. The tests may include a chest x-ray and blood and urine tests.
 
- 
 What are the treatments for respiratory syncytial virus (RSV) infections?
 There is no specific treatment for RSV infection. Most infections go away on their own in a week or two. Over-the-counter pain relievers can help with the fever and pain. However, do not give aspirin to children. And do not give cough medicine to children under four. It is also important to get enough fluids to prevent dehydration.
 
@@ -126,17 +95,4 @@ There are also some steps you can take to lower your risk of getting or spreadin
 
 - Staying home when sick
 
- 
-
- 
- Centers for Disease Control and Prevention
-
-## Selected references
-- Bronchiolitis [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/bronchiolitis/symptoms-causes/syc-20351565?p=1
-- Bronchiolitis (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/bronchiolitis.html
-- Learn about Respiratory Syncytial Virus (RSV) [Start Here] — American Lung Association — https://www.lung.org/lung-health-diseases/lung-disease-lookup/rsv/learn-about-rsv
-- Nasal Swab [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/nasal-swab/
-- Nasopharyngeal culture [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003747.htm
-- Respiratory Syncytial Virus (RSV) [Start Here] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/respiratory-syncytial-virus-rsv
-- Respiratory Syncytial Virus (RSV) [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/rsv.html
-- Respiratory syncytial virus (RSV) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001564.htm
+Centers for Disease Control and Prevention

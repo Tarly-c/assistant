@@ -1,22 +1,6 @@
 # Delirium
 
-- Topic ID: 5562
-- Language: English
-- URL: https://medlineplus.gov/delirium.html
-- Date created: 07/06/2010
-
-## Groups
-- Mental Health and Behavior
-- Brain and Nerves
-
-## MeSH
-- Delirium
-
-## Meta description
-Delirium is a mental state in which you are confused, disoriented, and not able to think or remember clearly. It is often temporary and treatable.
-
-## Summary
-What is delirium? 
+What is delirium?
 Delirium is a mental state in which you are confused, disoriented, and not able to think or remember clearly. It usually starts suddenly. It is often temporary and treatable.
 
 There are three types of delirium:
@@ -105,13 +89,11 @@ Your health care provider may use many tools to make a diagnosis:
 
 - Physical and neurological exams
 
-- Mental status testing, which checks for problems with your thinking and alertness 
+- Mental status testing, which checks for problems with your thinking and alertness
 
 - Lab and diagnostic imaging tests
 
 Delirium and dementia have similar symptoms, so it can be hard to tell them apart. You can also have both at the same time. The differences between them are that:
-
- 
 
 - Delirium starts suddenly and can cause hallucinations. It is mainly a problem with attention and staying alert. The symptoms may get better or worse and can last for hours or weeks.
 
@@ -128,13 +110,3 @@ Treatment of delirium focuses on the causes and symptoms of delirium. The first 
 
 Can delirium be prevented?
 Treating the conditions that can cause delirium may reduce the risk of getting it. Hospitals can help lower the risk of delirium by avoiding sedatives and making sure that hospital rooms are kept quiet, calm, and well-lit. It can also help to have family members around and to have the same staff members treat the person each day (if possible).
-
-## Selected references
-- Delirium [Learn More] — Merck & Co., Inc. — https://www.merckmanuals.com/home/brain-spinal-cord-and-nerve-disorders/delirium-and-dementia/delirium
-- Delirium [Learn More] — AGS Health in Aging Foundation — https://www.healthinaging.org/a-z-topic/delirium
-- Delirium [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000740.htm
-- Delirium tremens [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000766.htm
-- Delirium: Cancer Treatment Side Effect [Learn More] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/side-effects/delirium
-- Managing Delirium in Older Adults [Learn More] — AGS Health in Aging Foundation — https://www.healthinaging.org/sites/default/files/media/pdf/HIA-TipSheet%20ManagingDeliriumJuly19.pdf
-- National Institute of Neurological Disorders and Stroke [Learn More] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/
-- What to Ask: Delirium [Learn More] — AGS Health in Aging Foundation — https://www.healthinaging.org/tools-and-tips/what-ask-delirium

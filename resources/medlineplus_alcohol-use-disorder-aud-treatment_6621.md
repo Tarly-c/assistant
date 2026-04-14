@@ -1,29 +1,5 @@
 # Alcohol Use Disorder (AUD) Treatment
 
-- Topic ID: 6621
-- Language: English
-- URL: https://medlineplus.gov/alcoholusedisorderaudtreatment.html
-- Date created: 09/26/2017
-- Primary institute: National Institute on Alcohol Abuse and Alcoholism
-
-## Also called
-- Alcohol Abuse Treatment
-- Alcoholism Treatment
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Alcohol-Related Disorders
-
-## Related topics
-- Alcohol
-- Alcohol Use Disorder (AUD)
-
-## Meta description
-An alcohol use disorder (AUD) is drinking that causes distress and harm. Learn about the medicines and behavioral therapies that treat AUD.
-
-## Summary
 What is an alcohol use disorder?
 
 An alcohol use disorder (AUD) is drinking that causes distress and harm. It is a medical condition in which you:
@@ -69,15 +45,3 @@ Another name for behavioral therapies for AUD is alcohol counseling. It involves
 Is treatment for alcohol use disorder effective?
 
 For most people, treatment for an AUD is helpful. But overcoming an alcohol use disorder is an ongoing process, and you may relapse (start drinking again). You should look at relapse as a temporary setback, and keep trying. Many people repeatedly try to cut back or quit drinking, have a setback, then try to quit again. Having a relapse does not mean that you cannot recover. If you do relapse, it is important to return to treatment right away, so you can learn more about your relapse triggers and improve your coping skills. This may help you be more successful the next time.
-
-NIH: National Institute on Alcohol Abuse and Alcoholism
-
-## Selected references
-- Acamprosate [Specifics] — American Society of Health-System Pharmacists — https://medlineplus.gov/druginfo/meds/a604028.html
-- Deciding to quit drinking alcohol [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000523.htm
-- Disulfiram [Specifics] — American Society of Health-System Pharmacists — https://medlineplus.gov/druginfo/meds/a682602.html
-- Getting Help: Where to Get Help for an Alcohol-Related Problem [Teenagers] — National Institute on Alcohol Abuse and Alcoholism — https://niaaaforteens.niaaa.nih.gov/getting-help
-- How to stop drinking [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000857.htm
-- Intervention: Help a Loved One Overcome Addiction [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/intervention/art-20047451?p=1
-- Naltrexone [Specifics] — American Society of Health-System Pharmacists — https://medlineplus.gov/druginfo/meds/a685041.html
-- Naltrexone Injection [Specifics] — American Society of Health-System Pharmacists — https://medlineplus.gov/druginfo/meds/a609007.html

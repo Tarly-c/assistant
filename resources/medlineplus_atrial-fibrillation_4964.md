@@ -1,32 +1,5 @@
 # Atrial Fibrillation
 
-- Topic ID: 4964
-- Language: English
-- URL: https://medlineplus.gov/atrialfibrillation.html
-- Date created: 04/13/2009
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- AF
-- AFib
-
-## Groups
-- Blood, Heart and Circulation
-
-## MeSH
-- Atrial Fibrillation
-
-## Related topics
-- Arrhythmia
-- Heart Health Tests
-
-## See also
-- AF
-
-## Meta description
-Atrial fibrillation (AF or AFib) is the most common type of arrhythmia (irregular heartbeat). Read about symptoms and treatment.
-
-## Summary
 What is atrial fibrillation (AFib)?
 Atrial fibrillation, also known as AFib or AF, is one of the most common types of arrhythmias. Arrhythmias are problems with the rate or rhythm of your heartbeat. They can cause your heart to beat too slowly, too fast, or in an irregular way.
 
@@ -43,30 +16,28 @@ Anyone can develop AFib, but there are certain things that raise your risk for i
 - Aging. The risk of atrial fibrillation increases as you get older, especially when you are over age 65.
 
 - Family history and genetics. AFib can run in families. So can heart disease, which raises your risk of AFib.
- 
+
 - Some lifestyle choices. Your risk is higher if you drink a lot of alcohol, use certain illegal drugs such as cocaine and methamphetamines, or smoke.
 
 - Having certain health conditions, such as:
- 
- - High blood pressure
 
- - Diabetes
+- High blood pressure
 
- - Heart failure
+- Diabetes
 
- - Heart valve diseases
+- Heart failure
 
- - Obesity
+- Heart valve diseases
 
- - Hyperthyroidism
+- Obesity
 
- - Chronic kidney disease
+- Hyperthyroidism
 
- - COPD and other lung diseases
+- Chronic kidney disease
 
- - Sleep apnea
+- COPD and other lung diseases
 
- 
+- Sleep apnea
 
 - Race. AFib is more common in people with European ancestry.
 
@@ -127,72 +98,52 @@ The treatments for AFib may include:
 - Medicines to control your heart's rhythm and rate.
 
 - Following heart-healthy lifestyle changes, such as:
- 
- - Following a heart-healthy eating plan that limits saturated fats, salt, and cholesterol. An example is the DASH eating plan.
 
- - Limiting or avoiding alcohol, because it can increase your heart rate.
+- Following a heart-healthy eating plan that limits saturated fats, salt, and cholesterol. An example is the DASH eating plan.
 
- - Aiming for a healthy weight.
+- Limiting or avoiding alcohol, because it can increase your heart rate.
 
- - Getting regular physical activity.
+- Aiming for a healthy weight.
 
- - Managing stress.
+- Getting regular physical activity.
 
- - Quitting smoking.
+- Managing stress.
 
- 
+- Quitting smoking.
 
 - Procedures such as:
- 
- - Electrical cardioversion, which restores your heart rhythm using low-energy shocks to your heart.
 
- - Catheter ablation, which scars the tissue that is causing the arrhythmia. The scar tissue blocks the abnormal heart signals.
+- Electrical cardioversion, which restores your heart rhythm using low-energy shocks to your heart.
 
- 
+- Catheter ablation, which scars the tissue that is causing the arrhythmia. The scar tissue blocks the abnormal heart signals.
 
 - Surgeries such as:
- 
- - Surgery to put in a pacemaker to help control the arrhythmia.
 
- - A Maze procedure, which creates scar tissue in a maze-like pattern in certain parts of the heart.
+- Surgery to put in a pacemaker to help control the arrhythmia.
 
- - Left atrial appendage closure, a surgery on a small sac in the muscle wall of your left atrium (the upper left chamber of your heart). It helps prevent blood clots and can reduce your risk of stroke. This surgery is for people who are not able to take blood thinners.
+- A Maze procedure, which creates scar tissue in a maze-like pattern in certain parts of the heart.
 
- 
+- Left atrial appendage closure, a surgery on a small sac in the muscle wall of your left atrium (the upper left chamber of your heart). It helps prevent blood clots and can reduce your risk of stroke. This surgery is for people who are not able to take blood thinners.
 
 Can atrial fibrillation (AFib) be prevented?
 There are steps you can take to help lower your risk of atrial fibrillation, such as:
 
 - Making heart-healthy lifestyle changes:
- 
- - Following a heart-healthy eating plan
 
- - Limiting or avoiding alcohol
+- Following a heart-healthy eating plan
 
- - Aiming for a healthy weight
+- Limiting or avoiding alcohol
 
- - Getting regular physical activity
+- Aiming for a healthy weight
 
- - Managing stress
+- Getting regular physical activity
 
- - Not smoking
+- Managing stress
 
- 
+- Not smoking
 
 - Avoiding illegal drugs, such as cocaine and methamphetamines
 
 - Taking antiarrhythmic medicine (medicine to treat arrhythmia) if you are having heart surgery
 
 - Treating any health conditions that could raise your risk of AFib
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- About Atrial Fibrillation [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/heart-disease/about/atrial-fibrillation.html
-- Antiarrhythmics [Treatments and Therapies] — Texas Heart Institute — https://www.texasheart.org/heart-health/heart-information-center/topics/antiarrhythmics/
-- Atrial fibrillation - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000237.htm
-- Atrial fibrillation and atrial flutter [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000184.htm
-- Atrial Fibrillation Medications [Treatments and Therapies] — American Heart Association — https://www.heart.org/en/health-topics/atrial-fibrillation/treatment-and-prevention-of-atrial-fibrillation/atrial-fibrillation-medications
-- Cardiac ablation procedures [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007368.htm
-- Cardiac event monitors [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007700.htm
-- Digitalis toxicity [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000165.htm

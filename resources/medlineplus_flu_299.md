@@ -1,38 +1,5 @@
 # Flu
 
-- Topic ID: 299
-- Language: English
-- URL: https://medlineplus.gov/flu.html
-- Date created: 01/07/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Grippe
-- Influenza
-- Seasonal flu
-
-## Groups
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Influenza, Human
-
-## Related topics
-- Bird Flu
-- Common Cold
-- Flu Shot
-- H1N1 Flu (Swine Flu)
-- Viral Infections
-
-## See also
-- Grippe
-- Influenza
-
-## Meta description
-The flu can cause serious illness in people over 65, babies, and people with certain chronic illnesses. The best way to prevent the flu is to get a vaccine.
-
-## Summary
 What is the flu?
 The flu, also called influenza, is a respiratory infection caused by viruses. Each year, millions of Americans get sick with the flu. Sometimes it causes mild illness. But it can also be serious or even deadly, especially for people over 65, newborn babies, and people with certain chronic illnesses.
 
@@ -60,46 +27,33 @@ Some people may also have vomiting and diarrhea. This is more common in children
 
 Sometimes people have trouble figuring out whether they have a cold or the flu. There are differences between them:
 
-	
- 
- Signs and Symptoms
- Cold
- Flu
- 
-	
-	
- 
- Start of symptoms
- Slowly
- Suddenly
- 
- 
- Fever
- Rarely
- Usually
- 
- 
- Aches
- Sometimes (slight)
- Usually
- 
- 
- Fatigue, weakness
- Sometimes
- Usually
- 
- 
- Headache
- Rarely
- Common
- 
- 
- Stuffy nose, sneezing, or sore throat
- Common
- Sometimes
- 
-	
- 
+Signs and Symptoms
+Cold
+Flu
+
+Start of symptoms
+Slowly
+Suddenly
+
+Fever
+Rarely
+Usually
+
+Aches
+Sometimes (slight)
+Usually
+
+Fatigue, weakness
+Sometimes
+Usually
+
+Headache
+Rarely
+Common
+
+Stuffy nose, sneezing, or sore throat
+Common
+Sometimes
 
 Sometimes people say that they have a "flu" when they really have something else. For example, "stomach flu" isn't the flu; it's gastroenteritis.
 
@@ -131,27 +85,14 @@ Certain people are more likely to have complications from the flu, including:
 How is the flu diagnosed?
 To diagnose the flu, health care providers will first do a medical history and ask about your symptoms. There are several tests for the flu. For the tests, your provider will swipe the inside of your nose or the back of your throat with a swab. Then the swab will be tested for the flu virus.
 
- 
 Some tests are quick and give results in 15-20 minutes. But these tests are not as accurate as other flu tests. These other tests can give you the results in one hour or several hours.
 
 What are the treatments for the flu?
 Most people with the flu recover on their own without medical care. People with mild cases of the flu should stay home and avoid contact with others, except to get medical care.
 
- 
-
 But if you have symptoms of flu and are in a high risk group or are very sick or worried about your illness, contact your health care provider. You might need antiviral medicines to treat your flu. Antiviral medicines can make the illness milder and shorten the time you are sick. They also can prevent serious flu complications. They usually work best when you start taking them within 2 days of getting sick.
 
-Can the flu be prevented? 
+Can the flu be prevented?
 The best way to prevent the flu is to get a flu vaccine every year. But it's also important to have good health habits like covering your cough and washing your hands often. This can help stop the spread of germs and prevent the flu.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- 2023-2024 Flu Season [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/season/2023-2024.html
-- 5 Tips: Natural Products for the Flu and Colds: What Does the Science Say? [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/tips-natural-products-for-the-flu-and-colds-what-does-the-science-say
-- About Influenza [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/about/
-- Caregivers of Infants and Young Children [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/takingcare/infantcare.html
-- Colds and the Flu [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/colds-and-the-flu/
-- Colds and the flu - what to ask your doctor - adult [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000249.htm
-- Colds and the flu - what to ask your doctor - child [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000250.htm
-- Colds, Flu, and Complementary Health Approaches [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/colds-flu-and-complementary-health-approaches

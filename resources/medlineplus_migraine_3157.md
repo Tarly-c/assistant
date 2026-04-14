@@ -1,27 +1,5 @@
 # Migraine
 
-- Topic ID: 3157
-- Language: English
-- URL: https://medlineplus.gov/migraine.html
-- Date created: 03/05/2003
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Migraine Disorders
-
-## Related topics
-- Headache
-
-## See also
-- Vascular Headache
-
-## Meta description
-Migraines are pulsing or throbbing headaches in one area of the head. Learn about other symptoms, what triggers migraines, and how to treat them.
-
-## Summary
 What are migraines?
 Migraines are a recurring type of headache. They cause moderate to severe pain that is throbbing or pulsing. The pain is often on one side of your head. You may also have other symptoms, such as nausea and weakness. You may be sensitive to light and sound.
 
@@ -58,23 +36,21 @@ Researchers believe that migraine has a genetic cause. There are also a number o
 
 Some people have found that certain foods or ingredients can trigger headaches, especially when they are combined with other triggers. These foods and ingredients include:
 
- - Alcohol
+- Alcohol
 
- - Chocolate
+- Chocolate
 
- - Aged cheeses
+- Aged cheeses
 
- - Monosodium glutamate (MSG)
+- Monosodium glutamate (MSG)
 
- - Some fruits and nuts
+- Some fruits and nuts
 
- - Fermented or pickled goods
+- Fermented or pickled goods
 
- - Yeast
+- Yeast
 
- - Cured or processed meats
-
- 
+- Cured or processed meats
 
 Who is at risk for migraines?
 About 12% of Americans get migraines. They can affect anyone, but you are more likely to have them if you:
@@ -94,14 +70,11 @@ There are four different phases of migraines. You may not always go through ever
 
 - Headache. A migraine usually starts gradually and then becomes more severe. It typically causes throbbing or pulsing pain, which is often on one side of your head. But sometimes you can have a migraine without a headache. Other migraine symptoms may include
 
- 
- - Increased sensitivity to light, noise, and odors
+- Increased sensitivity to light, noise, and odors
 
- - Nausea and vomiting
+- Nausea and vomiting
 
- - Worsened pain when you move, cough, or sneeze
-
- 
+- Worsened pain when you move, cough, or sneeze
 
 - Postdrome (following the headache). You may feel exhausted, weak, and confused after a migraine. This can last up to a day.
 
@@ -136,27 +109,11 @@ There are some lifestyle changes you can make to prevent migraines:
 - Stress management strategies, such as exercise, relaxation techniques, and biofeedback, may reduce the number and severity of migraines. Biofeedback uses electronic devices to teach you to control certain body functions, such as your heartbeat, blood pressure, and muscle tension.
 
 - Make a log of what seems to trigger your migraines. You can learn what you need to avoid, such as certain foods and medicines. It also help you figure out what you should do, such as establishing a consistent sleep schedule and eating regular meals.
- 
-- Hormone therapy may help some women whose migraines seem to be linked to their menstrual cycle
- 
-- If you have obesity, losing weight may also be helpful
 
- 
+- Hormone therapy may help some women whose migraines seem to be linked to their menstrual cycle
+
+- If you have obesity, losing weight may also be helpful
 
 If you have frequent or severe migraines, you may need to take medicines to prevent further attacks. Talk with your health care provider about which drug would be right for you.
 
- 
-
 Certain natural treatments, such as riboflavin (vitamin B2) and coenzyme Q10, may help prevent migraines. If your magnesium level is low, you can try taking magnesium. There is also an herb, butterbur, which some people take to prevent migraines. But butterbur may not be safe for long-term use. Always check with your health care provider before taking any supplements.
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- Abdominal Migraine [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/abdominal-migraine.html
-- Acute Therapy: Why Not Over-The-Counter or Other Nonspecific Options? [Treatments and Therapies] — American Migraine Foundation — https://americanmigrainefoundation.org/resource-library/acute-therapy-why-not-otc-options/
-- Butterbur [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/butterbur
-- Chronic Pain and Complementary Health Approaches [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/chronic-pain-and-complementary-health-approaches-usefulness-and-safety
-- Commonly Used Acute Migraine Treatments [Treatments and Therapies] — American Migraine Foundation — https://americanmigrainefoundation.org/resource-library/acute-migraine-treatments/
-- Do I Need an MRI for My Migraine? [Diagnosis and Tests] — American Migraine Foundation — https://americanmigrainefoundation.org/resource-library/do-i-need-an-mri-for-my-migraine/
-- Feverfew [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/feverfew
-- Headache [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/headache

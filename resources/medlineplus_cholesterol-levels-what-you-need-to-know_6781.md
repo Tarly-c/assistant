@@ -1,49 +1,8 @@
 # Cholesterol Levels: What You Need to Know
 
-- Topic ID: 6781
-- Language: English
-- URL: https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html
-- Date created: 12/04/2017
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Blood, Heart and Circulation
-- Food and Nutrition
-
-## MeSH
-- Cholesterol
-- Hypercholesterolemia
-
-## Related topics
-- Cholesterol
-- Cholesterol Medicines
-- Dietary Fats
-- HDL: The "Good" Cholesterol
-- Heart Diseases
-- High Cholesterol in Children and Teens
-- How to Lower Cholesterol
-- How to Lower Cholesterol with Diet
-- LDL: The "Bad" Cholesterol
-- Nutrition
-- Statins
-- Triglycerides
-- VLDL Cholesterol
-
-## See also
-- Familial Combined Hyperlipidemia
-- Familial Dysbetalipoproteinemia
-- Familial Hypercholesterolemia
-- Hypercholesterolemia
-- Hyperlipidemia
-
-## Meta description
-High cholesterol levels can put you at risk of heart diseases. It's important to get regular cholesterol tests and make sure your levels are in a healthy range.
-
-## Summary
 What is cholesterol?
 Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your body needs some cholesterol to work properly. But if you have too much of it in your blood, it can stick to the walls of your arteries and narrow or even block them. This puts you at risk of coronary artery disease and other heart diseases.
 
- 
 How do you measure cholesterol levels?
 A blood test called a lipoprotein or lipid panel can measure your cholesterol levels. Before the test, you'll need to fast (not eat or drink anything but water) for 9 to 12 hours. The test gives information about your:
 
@@ -62,88 +21,58 @@ Cholesterol numbers are measured in milligrams per deciliter (mg/dL). Talk with 
 
 Anyone age 19 or younger:
 
- 
- 
- Type of Cholesterol
- Healthy Level
- 
- 
- 
- 
- Total Cholesterol
- Less than 170 mg/dL 
- 
- 
- Non-HDL
- Less than 120 mg/dL 
- 
- 
- LDL
- Less than 110 mg/dL 
- 
- 
- HDL
- More than 45 mg/dL 
- 
- 
+Type of Cholesterol
+Healthy Level
+
+Total Cholesterol
+Less than 170 mg/dL
+
+Non-HDL
+Less than 120 mg/dL
+
+LDL
+Less than 110 mg/dL
+
+HDL
+More than 45 mg/dL
 
 Men age 20 or older:
 
- 
- 
- Type of Cholesterol
- Healthy Level
- 
- 
- 
- 
- Total Cholesterol
- Less than 200 mg/dL 
- 
- 
- Non-HDL
- Less than 130 mg/dL 
- 
- 
- LDL
- Less than 100 mg/dL 
- 
- 
- HDL
- Greater than or equal to 60 mg/dL is best.
+Type of Cholesterol
+Healthy Level
 
- Levels less than 40 mg/dL are considered low. 
- 
- 
+Total Cholesterol
+Less than 200 mg/dL
+
+Non-HDL
+Less than 130 mg/dL
+
+LDL
+Less than 100 mg/dL
+
+HDL
+Greater than or equal to 60 mg/dL is best.
+
+Levels less than 40 mg/dL are considered low.
 
 Women age 20 or older:
 
- 
- 
- Type of Cholesterol
- Healthy Level
- 
- 
- 
- 
- Total Cholesterol
- Less than 200 mg/dL 
- 
- 
- Non-HDL
- Less than 130 mg/dL 
- 
- 
- LDL
- Less than 100 mg/dL 
- 
- 
- HDL
- Greater than or equal to 60 mg/dL is best.
+Type of Cholesterol
+Healthy Level
 
- Levels less than 50 mg/dL are considered low. 
- 
- 
+Total Cholesterol
+Less than 200 mg/dL
+
+Non-HDL
+Less than 130 mg/dL
+
+LDL
+Less than 100 mg/dL
+
+HDL
+Greater than or equal to 60 mg/dL is best.
+
+Levels less than 50 mg/dL are considered low.
 
 Triglycerides are not a type of cholesterol, but they are also measured in this test. A normal triglyceride level is below 150 mg/dL. You might need treatment if you have triglyceride levels that are borderline high (150-199 mg/dL) or high (200 mg/dL or more).
 
@@ -177,9 +106,8 @@ Many factors can affect your cholesterol levels. Some of them are things you can
 
 - Lack of physical activity. Not being physically active is a risk factor for heart disease.
 
-- Smoking. Cigarette smoking lowers your HDL cholesterol. Since HDL helps to remove cholesterol from your arteries, having a lower HDL level can contribute to a higher cholesterol level. 
+- Smoking. Cigarette smoking lowers your HDL cholesterol. Since HDL helps to remove cholesterol from your arteries, having a lower HDL level can contribute to a higher cholesterol level.
 
- 
 Some factors that you cannot change can also affect cholesterol levels, such as:
 
 - Age. Your cholesterol levels tend to rise as you get older. Even though it is less common, younger people, including children and teens, can also have high cholesterol.
@@ -188,23 +116,10 @@ Some factors that you cannot change can also affect cholesterol levels, such as:
 
 - Family history. Your genes partly determine how much cholesterol your body makes. High cholesterol can run in families.
 
-- Race or ethnicity. People from certain racial or ethnic groups may have an increased risk of high cholesterol. For example, Asian Americans are more likely to have high levels of LDL cholesterol than other groups. And non-Hispanic White people are more likely than other groups to have high levels of total cholesterol. 
+- Race or ethnicity. People from certain racial or ethnic groups may have an increased risk of high cholesterol. For example, Asian Americans are more likely to have high levels of LDL cholesterol than other groups. And non-Hispanic White people are more likely than other groups to have high levels of total cholesterol.
 
- 
 How can I lower my cholesterol?
 
 You can lower your cholesterol through heart-healthy lifestyle changes. They include a heart-healthy eating plan, weight management, and regular physical activity.
 
 If the lifestyle changes alone do not lower your cholesterol enough, you may also need to take medicines. There are several types of cholesterol-lowering medicines available, including statins. If you take medicines to lower your cholesterol, you still should continue with the lifestyle changes.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Cholesterol - what to ask your doctor [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000211.htm
-- Cholesterol and lifestyle [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000099.htm
-- Cholesterol Good and Bad [Learn More] — National Library of Medicine — https://medlineplus.gov/medlineplus-videos/cholesterol-good-and-bad/
-- Cholesterol Levels [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/cholesterol-levels/
-- Cholesterol testing and results [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000386.htm
-- High blood cholesterol levels [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000403.htm
-- Test Your Cholesterol Knowledge [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/quiz/000403_9.htm
-- Total Cholesterol [Learn More] — American Heart Association — https://www.heart.org/-/media/Files/Health-Topics/Cholesterol/Cholesterol-Score-Explained-English.pdf

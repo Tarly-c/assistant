@@ -1,51 +1,16 @@
 # Stress
 
-- Topic ID: 422
-- Language: English
-- URL: https://medlineplus.gov/stress.html
-- Date created: 06/15/1999
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- Psychological stress
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Stress, Psychological
-
-## Related topics
-- Anxiety
-- Mental Health
-- Post-Traumatic Stress Disorder
-
-## See also
-- Psychological Stress
-
-## Meta description
-Read about causes, symptoms and treatments associated with stress, something that most people encounter from time to time.
-
-## Summary
 What is stress?
 Stress is how your brain and body respond to a challenge or demand. When you are stressed, your body releases certain hormones. Hormones are chemicals that travel in your bloodstream and control how different parts of your body work. The hormones that are released when you are stressed make you alert and ready to act. They can raise your blood pressure, heart rate, and blood glucose (blood sugar) levels. This response is sometimes called a "fight or flight" response.
 
 Everyone gets stressed from time to time. There are different types of stress. It can be short-term or long-term. It can be caused by something that happens once or something that keeps happening.
 
- 
-
 Not all stress is bad. In fact, it can help you survive in a dangerous situation. For example, one kind of stress is the jolt you may feel when a car pulls out in front of you while you are driving. This jolt of hormones helps you quickly hit the brakes to avoid an accident. A little short-term stress can sometimes be helpful. For example, the stress of having a deadline for school or your job may push you to get your work done on time. Once you finish it, that stress goes away.
-
- 
 
 But stress that lasts a long time can harm your health.
 
- 
-
 What causes long-term stress?
 Long-term stress, or chronic stress, lasts for weeks, months, or longer. As you go about your life, your body is acting as if you're being threatened.
-
- 
 
 Causes of long-term stress include:
 
@@ -70,7 +35,6 @@ People respond to stress in different ways. If you're stressed for a long time y
 
 When stress keeps going, your body acts as if you're always in danger. That's a lot of strain that may play a part in developing serious health problems, including:
 
- 
 - Depression
 
 - Anxiety
@@ -86,12 +50,10 @@ It's possible to get used to the symptoms of stress and not even realize there's
 How can I manage long-term stress?
 Simple things that improve your mental health may be helpful in managing long-term stress, such as:
 
- 
-
 - Get regular exercise. A 30-minute daily walk can help you feel better and help keep your immune system strong, so you don't get sick.
 
 - Try relaxing activities. You could look for an app or wellness program that uses breathing, meditation, or muscle relaxation exercises.
- 
+
 - Get enough sleep every night.
 
 - Avoid too much caffeine.
@@ -99,7 +61,6 @@ Simple things that improve your mental health may be helpful in managing long-te
 - Decide what you need to do now and what can wait. And focus on what you got done each day, not on what you weren't able to do.
 
 - Ask your family or friends for support.
- 
 
 When should I ask my health care provider for help with stress?
 Get help if you're having severe symptoms for 2 weeks or more, including:
@@ -118,7 +79,6 @@ Get help if you're having severe symptoms for 2 weeks or more, including:
 
 Always get help right away if stress is causing you to:
 
- 
 - Have thoughts of suicide
 
 - Feel you can't cope
@@ -126,17 +86,3 @@ Always get help right away if stress is causing you to:
 - Use drugs or alcohol more often than usual
 
 Your health care provider may refer you to a mental health professional such as a psychologist or social worker.
-
- 
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- 5 Things To Know About Relaxation Techniques for Stress [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/things-to-know-about-relaxation-techniques-for-stress
-- 5 Ways to Beat Pre-Performance Nerves [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/nerves.html
-- About Adverse Childhood Experiences [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/aces/about/
-- Adjustment disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000932.htm
-- Buffering Childhood Stress: Safe, Secure Relationships For Better Health [Children] — National Institutes of Health — https://newsinhealth.nih.gov/2024/07/buffering-childhood-stress
-- Childhood Stress: How Parents Can Help [Children] — Nemours Foundation — https://kidshealth.org/en/parents/stress.html
-- Coping with Stress [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/stress-situations.html
-- Dr. Richard Davidson on Reducing Stress [Treatments and Therapies] — National Institutes of Health — https://newsinhealth.nih.gov/2021/01/dr-richard-davidson-reducing-stress

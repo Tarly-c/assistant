@@ -1,46 +1,15 @@
 # Opioid Use Disorder (OUD) Treatment
 
-- Topic ID: 7129
-- Language: English
-- URL: https://medlineplus.gov/opioidusedisorderoudtreatment.html
-- Date created: 08/27/2018
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Medications for opioid use disorder (MOUD)
-- Opioid abuse and addiction treatment
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Opioid-Related Disorders
-
-## Related topics
-- Opioid Overdose
-- Opioids and Opioid Use Disorder (OUD)
-- Prescription Drug Misuse
-
-## See also
-- Opioid Abuse and Addiction Treatment
-
-## Meta description
-Opioid use disorder (OUD) is a serious problem. Treatments include medications for opioid use disorder (MOUD) and counseling.
-
-## Summary
 What are opioids?
 Opioids, sometimes called narcotics, are a type of drug. They include strong prescription pain relievers, such as oxycodone, hydrocodone, fentanyl, and tramadol. The illegal drug heroin is also an opioid.
 
- 
 A health care provider may give you a prescription opioid to reduce pain after you have had a major injury or surgery. You may get them if you have severe pain from health conditions like cancer. Some health care providers prescribe them for chronic pain.
 
- 
 Prescription opioids used for pain relief are generally safe when taken for a short time and as prescribed by your provider. However, opioid use disorder (OUD) is still a possible risk.
 
 What is opioid use disorder (OUD)?
-Opioid use disorder (OUD) means that you have a problematic pattern of using opioids. The pattern causes a lot of distress and impairment (meaning that it causes problems in and interferes with your daily life). Instead of OUD, sometimes people use the terms "opioid dependence" and "opioid addiction." Dependence means feeling withdrawal symptoms when not taking the drug. Addiction is a chronic brain disease that causes a person to compulsively seek out drugs, even though they cause harm. 
+Opioid use disorder (OUD) means that you have a problematic pattern of using opioids. The pattern causes a lot of distress and impairment (meaning that it causes problems in and interferes with your daily life). Instead of OUD, sometimes people use the terms "opioid dependence" and "opioid addiction." Dependence means feeling withdrawal symptoms when not taking the drug. Addiction is a chronic brain disease that causes a person to compulsively seek out drugs, even though they cause harm.
 
- 
 What are the treatments for opioid use disorder (OUD)?
 Treatments for OUD include:
 
@@ -73,20 +42,16 @@ Counseling for OUD can help you:
 There are different types of counseling for OUD, including:
 
 - Individual counseling, which may include setting goals, talking about setbacks, and celebrating progress. You may also talk about legal concerns and family problems. Counseling often includes specific behavioral therapies, such as
- 
- 
- - Cognitive-behavioral therapy (CBT), which helps you recognize and stop negative patterns of thinking and behavior. It teaches you coping skills, including how to manage stress and change the thoughts that cause you to want to misuse opioids.
 
- - Motivational enhancement therapy, which helps you build up motivation to stick with your treatment plan.
+- Cognitive-behavioral therapy (CBT), which helps you recognize and stop negative patterns of thinking and behavior. It teaches you coping skills, including how to manage stress and change the thoughts that cause you to want to misuse opioids.
 
- - Contingency management, which focuses on giving you incentives for positive behaviors such as staying off the opioids.
+- Motivational enhancement therapy, which helps you build up motivation to stick with your treatment plan.
 
- 
+- Contingency management, which focuses on giving you incentives for positive behaviors such as staying off the opioids.
 
 - Group counseling, which can help you feel that you are not alone with your issues. You get a chance to hear about the difficulties and successes of others who have the same challenges. This can help you learn new strategies for dealing with the situations you may come across.
 
 - Family counseling, which includes partners or spouses and other family members who are close to you. It can help to repair and improve your family relationships.
- 
 
 Counselors can also refer you to other resources that you might need, such as:
 
@@ -104,11 +69,3 @@ Counselors can also refer you to other resources that you might need, such as:
 
 What are residential and hospital-based treatments for opioid use disorder (OUD)?
 Residential programs combine housing and treatment services. You are living with your peers, and you can support each other to stay in recovery. Inpatient hospital-based programs combine health care and OUD treatment services for people with medical problems. Hospitals may also offer intensive outpatient treatment. All these types of treatments are very structured, and usually include several different kinds of counseling and behavioral therapies. They usually also include MOUD.
-
-## Selected references
-- Buprenorphine [Specifics] — Substance Abuse and Mental Health Services Administration — https://www.samhsa.gov/substance-use/treatment/options/buprenorphine
-- Information about Medications for Opioid Use Disorder (MOUD) [Specifics] — Food and Drug Administration — https://www.fda.gov/drugs/information-drug-class/information-about-medications-opioid-use-disorder-moud
-- Medications for Opioid Overdose, Withdrawal, and Addiction [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/opioids/medications-opioid-overdose-withdrawal-addiction-infographic
-- Medications for Opioid Use Disorder [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/medications-opioid-use-disorder
-- Opioid Overdose Reversal Medications (OORM) [Specifics] — Substance Abuse and Mental Health Services Administration — https://www.samhsa.gov/substance-use/treatment/overdose-prevention/opioid-overdose-reversal
-- What Is Methadone? [Specifics] — Substance Abuse and Mental Health Services Administration — https://www.samhsa.gov/substance-use/treatment/options/methadone

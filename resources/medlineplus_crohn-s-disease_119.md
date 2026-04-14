@@ -1,39 +1,8 @@
 # Crohn's Disease
 
-- Topic ID: 119
-- Language: English
-- URL: https://medlineplus.gov/crohnsdisease.html
-- Date created: 11/27/1998
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Regional enteritis
-- Regional ileitis
-
-## Groups
-- Digestive System
-
-## MeSH
-- Crohn Disease
-
-## Related topics
-- Colonic Diseases
-- Ulcerative Colitis
-
-## See also
-- Ileocolitis
-- Inflammatory Bowel Disease
-- Regional Enteritis
-- Regional Ileitis
-
-## Meta description
-Crohn's Disease can cause inflammation in any area from the mouth to the anus. Read about medicines, surgery or dietary management to treat symptoms.
-
-## Summary
-What is Crohn's disease? 
+What is Crohn's disease?
 Crohn's disease is a chronic (long-lasting) disease that causes inflammation in your digestive tract. It can affect any part of your digestive tract, which runs from your mouth to your anus. But it usually affects your small intestine and the beginning of your large intestine.
 
- 
 Crohn's disease is an inflammatory bowel disease (IBD). Ulcerative colitis and microscopic colitis are other common types of IBD.
 
 What causes Crohn's disease?
@@ -51,7 +20,6 @@ There are certain factors that may raise your risk of Crohn's disease:
 - Certain medicines, such as antibiotics, birth-control pills, and nonsteroidal anti-inflammatory drugs (NSAIDs) such as aspirin or ibuprofen. These may slightly increase your chance of developing Crohn's.
 
 - A high-fat diet. This may also slightly increase your risk of Crohn's.
- 
 
 What are the symptoms of Crohn's disease?
 The symptoms of Crohn's disease can vary, depending where and how severe your inflammation is. The most common symptoms include:
@@ -105,27 +73,22 @@ Your health care provider may use many tools to make a diagnosis:
 - A family history
 
 - A physical exam, including:
-	
- - Checking for bloating in your abdomen.
 
- - Listening to sounds within your abdomen using a stethoscope.
+- Checking for bloating in your abdomen.
 
- - Tapping on your abdomen to check for tenderness and pain and to see if your liver or spleen is abnormal or enlarged.
+- Listening to sounds within your abdomen using a stethoscope.
 
-	
+- Tapping on your abdomen to check for tenderness and pain and to see if your liver or spleen is abnormal or enlarged.
 
-	
 - Various tests, including:
-	
- - Blood and stool tests.
 
- - A colonoscopy.
+- Blood and stool tests.
 
- - An upper GI endoscopy, a procedure in which your provider uses a scope to look inside your mouth, esophagus, stomach, and small intestine.
+- A colonoscopy.
 
- - Diagnostic imaging tests, such as a CT scan or an upper GI series. An upper GI series uses a special liquid called barium and x-rays. Drinking the barium will make your upper GI tract more visible on an x-ray.
+- An upper GI endoscopy, a procedure in which your provider uses a scope to look inside your mouth, esophagus, stomach, and small intestine.
 
-	
+- Diagnostic imaging tests, such as a CT scan or an upper GI series. An upper GI series uses a special liquid called barium and x-rays. Drinking the barium will make your upper GI tract more visible on an x-ray.
 
 What are the treatments for Crohn's disease?
 There is no cure for Crohn's disease, but treatments can decrease inflammation in your intestines, relieve symptoms, and prevent complications. Treatments include medicines, bowel rest, and surgery. No single treatment works for everyone. You and your provider can work together to figure out which treatment is best for you:
@@ -133,22 +96,18 @@ There is no cure for Crohn's disease, but treatments can decrease inflammation i
 - Medicines for Crohn's include various medicines that decrease the inflammation. Many of these medicines do this by reducing the activity of your immune system. Certain medicines can also help with symptoms or complications, such as nonsteroidal anti-inflammatory drugs and anti-diarrheal medicines. If your Crohn's causes an infection, you may need antibiotics.
 
 - Bowel rest involves drinking only certain liquids or not eating or drinking anything. This allows your intestines to rest. You may need to do this if your Crohn's disease symptoms are severe. You get your nutrients through drinking a liquid, a feeding tube, or an intravenous (IV) tube. You may need to do bowel rest in the hospital, or you may be able to do it at home. It will last for a few days or up to several weeks.
- 
+
 - Surgery can treat complications and reduce symptoms when other treatments are not helping enough. The surgery will involve removing a damaged part of your digestive tract to treat:
-	
- - Fistulas
 
- - Bleeding that is life threatening
+- Fistulas
 
- - Intestinal obstructions
+- Bleeding that is life threatening
 
- - Side effects from medicines when they threaten your health
+- Intestinal obstructions
 
- - Symptoms when medicines do not improve your condition
+- Side effects from medicines when they threaten your health
 
-	
-
-	
+- Symptoms when medicines do not improve your condition
 
 Changing your diet can help reduce symptoms. Your provider may recommend that you make changes to your diet, such as:
 
@@ -177,13 +136,3 @@ In some cases, your provider may ask you to go on a special diet, such as a diet
 If you are not absorbing enough nutrients, you may need to take nutritional supplements and vitamins.
 
 National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Albumin blood (serum) test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003480.htm
-- Bacteria Culture Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bacteria-culture-test/
-- Barium enema [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003817.htm
-- Black or tarry stools [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003130.htm
-- C-Reactive Protein (CRP) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/
-- Calprotectin Stool Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/calprotectin-stool-test/
-- Colonoscopy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003886.htm
-- Colonoscopy: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/colonoscopy.html

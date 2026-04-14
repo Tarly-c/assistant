@@ -1,40 +1,7 @@
 # Diabetes Medicines
 
-- Topic ID: 4935
-- Language: English
-- URL: https://medlineplus.gov/diabetesmedicines.html
-- Date created: 02/26/2009
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Groups
-- Endocrine System
-- Drug Therapy
-- Diabetes Mellitus
-
-## MeSH
-- Insulins
-- Hypoglycemic Agents
-- Insulin
-
-## Related topics
-- Blood Glucose
-- Diabetes
-- Diabetes in Children and Teens
-- Diabetes Type 1
-- Diabetes Type 2
-
-## See also
-- Hypoglycemic Medicines
-- Insulin
-
-## Meta description
-Diabetes medicines can help to control your Diabetes. The right medicines depend on factors such as the type of Diabetes you have.
-
-## Summary
 What is diabetes?
 Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. The cells of your body need glucose for energy. A hormone called insulin helps the glucose get into your cells.
-
- 
 
 With type 1 diabetes, your body does not make insulin. With type 2 diabetes,your body does not make or use insulin well. Without enough insulin, glucose can't get into your cells as quickly as usual. The glucose builds up in your blood and causes high blood sugar levels.
 
@@ -51,10 +18,8 @@ The kind of medicine you take depends on your type of diabetes, daily schedule, 
 What are the types of medicines for type 1 diabetes?
 If you have type 1 diabetes, you must take insulin because your body no longer makes it. There are different types of insulin that start to work at different speeds, and the effects of each last a different length of time. Your health care provider will measure your blood glucose to decide on the type of insulin. You may need to use more than one type.
 
- 
 You will also need to check your blood sugar at home. Your provider will tell you how often. The results of your blood sugar testing can help you make decisions about food, physical activity, and medicines.
 
- 
 You can take insulin several different ways. The most common are with a needle and syringe, an insulin pen, or an insulin pump. If you use a needle and syringe or a pen, you have to take insulin several times during the day, including with meals. An insulin pump gives you small, steady doses throughout the day. Less common ways to take insulin include inhalers, injection ports, and jet injectors.
 
 In rare cases, taking insulin alone might not be enough to manage your blood sugar. Then you would need to take another diabetes medicine.
@@ -62,13 +27,9 @@ In rare cases, taking insulin alone might not be enough to manage your blood sug
 What are the types of medicines for type 2 diabetes?
 There are several different medicines for type 2 diabetes. Each works in a different way. Many of them are pills. There are also medicines that you inject under your skin, such as insulin.
 
- 
-
 Over time, you may need more than one diabetes medicine to manage your blood sugar. You might add another diabetes medicine or switch to a combination medicine. A combination medicine contains more than one type of diabetes medicine in the same pill. Some people with type 2 diabetes take both pills and injections.
 
 Even if you don't usually take insulin, you may need it at special times, such as during pregnancy or if you are in the hospital.
-
- 
 
 What else should I know about taking medicines for diabetes?
 Even if you take medicines for diabetes, you still need to eat a healthy diet, stop smoking, take your other medicines, and get regular physical activity. These will help you manage your diabetes.
@@ -84,15 +45,3 @@ It is important to make sure that you understand your diabetes treatment plan. T
 - If you will have any side effects from the diabetes medicines
 
 You should not change or stop your diabetes medicines on your own. Talk to your provider first.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Diabetes - insulin therapy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000965.htm
-- Diabetes Medications [Start Here] — American Heart Association — https://www.heart.org/en/health-topics/diabetes/prevention--treatment-of-diabetes/diabetes-medications
-- Diabetes Treatment: Medications for Type 2 Diabetes [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/in-depth/diabetes-treatment/art-20051004?p=1
-- Diabetes Treatments [Specifics] — Endocrine Society — https://www.endocrine.org/patient-engagement/endocrine-library/diabetes-treatments
-- Giving an insulin injection [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000660.htm
-- Insulin [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/free-publications-women/insulin
-- Insulin pumps [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000963.htm
-- Insulin, Medicines, and Other Diabetes Treatments [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments

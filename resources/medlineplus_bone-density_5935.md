@@ -1,32 +1,5 @@
 # Bone Density
 
-- Topic ID: 5935
-- Language: English
-- URL: https://medlineplus.gov/bonedensity.html
-- Date created: 12/05/2011
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Bone mass
-
-## Groups
-- Bones, Joints and Muscles
-
-## MeSH
-- Bone Density
-
-## Related topics
-- Fractures
-- Osteoporosis
-
-## See also
-- Bone Loss
-- Osteopenia
-
-## Meta description
-Bone density or bone mineral density (BMD) is the amount of bone mineral in your bones. A BMD test measures bone health and risk for breaking bones.
-
-## Summary
 What is bone density?
 Your bones are made of living tissue. To keep them strong, your body breaks down old bone and replaces it with new bone. But when more bone is broken down than replaced, you lose bone density, also called bone mass. Bone density is a measure of the amount of calcium and other minerals in bone. Bones containing more minerals are denser. They tend to be stronger and less likely to fracture (break).
 
@@ -40,30 +13,26 @@ Your bones become less dense as you age. Other factors can also make you more li
 - Not developing good bone mass when you are young
 
 - Having certain medical conditions, such as:
-	
- - Endocrine diseases
 
- - Certain digestive diseases
+- Endocrine diseases
 
- - Rheumatoid arthritis
+- Certain digestive diseases
 
- - Certain types of cancer
+- Rheumatoid arthritis
 
- - HIV
+- Certain types of cancer
 
- - Anorexia nervosa, a type of eating disorder
+- HIV
 
-	
+- Anorexia nervosa, a type of eating disorder
 
-- Taking certain medicines, such as: 
-	
- - Corticosteroids
+- Taking certain medicines, such as:
 
- - Proton pump inhibitors (which treat GERD)
+- Corticosteroids
 
- - Medicines to treat epilepsy
+- Proton pump inhibitors (which treat GERD)
 
-	
+- Medicines to treat epilepsy
 
 - Smoking tobacco
 
@@ -86,15 +55,3 @@ A bone density scan is the best way to measure your bone health. It compares you
 
 How can I keep my bones strong?
 To help keep your bones strong and help prevent osteoporosis, the best thing to do is to eat a healthy diet rich in calcium and vitamin D. Getting regular physical activity, limiting alcohol, and not smoking can also help. In some cases, your health care provider may prescribe medicines to prevent osteoporosis.
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- Bone Density Scan [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bone-density-scan/
-- Bone mineral density test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007197.htm
-- Bone Mineral Density Tests: What the Numbers Mean [Start Here] — National Institute of Arthritis and Musculoskeletal and Skin Diseases — https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean
-- Breast Cancer and Bone Loss [Women] — Endocrine Society — https://www.endocrine.org/patient-engagement/endocrine-library/breast-cancer-and-bone-loss
-- HIV and Osteoporosis [Specifics] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-and-osteoporosis
-- Kids and Their Bones [Children] — National Institute of Arthritis and Musculoskeletal and Skin Diseases — https://www.niams.nih.gov/health-topics/kids-and-their-bones
-- Low Bone Density [Start Here] — Bone Health and Osteoporosis Foundation — https://www.bonehealthandosteoporosis.org/patients/diagnosis-information/bone-density-examtesting/low-bone-density/
-- Menopause and Bone Loss [Women] — Endocrine Society — https://www.endocrine.org/patient-engagement/endocrine-library/menopause-and-bone-loss

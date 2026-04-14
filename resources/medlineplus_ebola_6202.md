@@ -1,31 +1,5 @@
 # Ebola
 
-- Topic ID: 6202
-- Language: English
-- URL: https://medlineplus.gov/ebola.html
-- Date created: 08/13/2014
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Ebola disease
-- Ebola hemorrhagic fever
-- Ebola virus disease
-
-## Groups
-- Infections
-
-## MeSH
-- Ebolavirus
-- Ebola Vaccines
-- Hemorrhagic Fever, Ebola
-
-## Related topics
-- Hemorrhagic Fevers
-
-## Meta description
-Ebola, a type of hemorrhagic fever, is a rare and often deadly disease caused by several different types of Ebola viruses. Learn about treatment and prevention.
-
-## Summary
 What is Ebola?
 Ebola, also known as Ebola virus disease (EVD), is a type of hemorrhagic fever. It is a rare and often deadly disease. It can be caused by several different types of Ebola viruses. There are occasional outbreaks of Ebola, and they mostly occur in Africa.
 
@@ -67,7 +41,6 @@ The early symptoms of Ebola are similar to other more common diseases. This make
 What are the treatments for Ebola?
 In the United States, there are two approved medicines to treat Ebola that is caused by one specific type of virus (Zaire ebolavirus). These medicines have not been evaluated to treat Ebola caused by other types of Ebola viruses. The medicines are monoclonal antibodies, which are immune system proteins that are created in the lab.
 
- 
 Whether or not there are medicines to treat a case of Ebola, there is supportive care. This type of care can improve the chances of survival, especially when given early. Supportive care includes:
 
 - Giving fluids and electrolytes
@@ -94,11 +67,3 @@ If you live in or plan to travel to a region where Ebola virus may be present, y
 - Bats, forest antelopes, and nonhuman primates (such as monkeys and chimpanzees), including their blood, fluids, or meat
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Ebola (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/ebola.html
-- Ebola Disease [Start Here] — World Health Organization — https://www.who.int/news-room/fact-sheets/detail/ebola-disease
-- Ebola Disease Basics [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/ebola/about/
-- Ebola Vaccine: What You Need to Know [Patient Handouts, Prevention and Risk Factors] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines/hcp/current-vis/downloads/ebola.pdf
-- Ebola virus disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001339.htm
-- Facts about Ebola in the U.S. [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/ebola/hcp/communication-resources/facts-about-ebola-in-the-u-s.html

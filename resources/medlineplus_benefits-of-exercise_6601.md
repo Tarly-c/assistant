@@ -1,24 +1,5 @@
 # Benefits of Exercise
 
-- Topic ID: 6601
-- Language: English
-- URL: https://medlineplus.gov/benefitsofexercise.html
-- Date created: 08/30/2017
-
-## Groups
-- Wellness and Lifestyle
-- Fitness and Exercise
-
-## MeSH
-- Exercise
-
-## See also
-- Exercise Benefits
-
-## Meta description
-Regular exercise is one of the best things you can do for your health. Learn about all of the benefits, plus tips on adding exercise to your routine.
-
-## Summary
 We have heard it many times before -- regular exercise is good for you, and it can help you manage your weight. But if you are like many people, you are busy, you sit most of the day at your job, and you haven't yet changed your exercise habits. The good news is that it's never too late to start. You can start slowly and find ways to fit more physical activity into your life. To get the most benefit, you should try to get the recommended amount of physical activity for your age. If you can do that, the payoff is that you will feel better, may help prevent or control many diseases, and will likely even live longer.
 
 What are the health benefits of exercise?
@@ -32,7 +13,6 @@ Regular exercise and physical activity may:
 - Help your body manage blood glucose (blood sugar) and insulin levels. Exercise can lower your blood glucose levels and help your insulin work better. This can reduce your risk of metabolic syndrome and type 2 diabetes. And if you already have one of these diseases, exercise can help you manage it.
 
 - Help you manage a chronic health condition. For example, regular physical activity may help reduce pain and improve function in adults with arthritis. It can also help support daily living activities for people with disabilities. This may help them be more independent.
- 
 
 - Help you quit smoking. Exercise may make it easier to quit smoking by reducing your cravings and withdrawal symptoms. It can also help limit the weight you might gain when you stop smoking.
 
@@ -41,17 +21,14 @@ Regular exercise and physical activity may:
 - Help keep your thinking, learning, and judgment skills sharp as you age. Exercise stimulates your body to release proteins and other chemicals that improve the structure and function of your brain.
 
 - Strengthen your bones and muscles. Regular exercise can help kids and teens build strong bones. Later in life, it can also slow the loss of bone density that comes with age. Doing muscle-strengthening activities can help you increase or maintain your muscle mass and strength. For older adults, this can mean staying independent, like being able to get in and out of a chair or bed without help.
- 
 
 - Reduce your risk of some cancers, including colon, breast, uterine, bladder, esophageal, kidney, stomach, and lung cancer. There are different ways that physical activity may lower the risk of these cancers. For example, it can strengthen your immune system and reduce inflammation in your body. It also helps prevent obesity, which is a risk factor for many cancers.
- 
 
 - Reduce your risk of falls. For older adults, doing balance and muscle-strengthening activities can help reduce your risk of falling.
 
 - Improve your sleep. Exercise can help you fall asleep faster and stay asleep longer.
 
 - Boost your energy. Exercise helps your heart and lungs work better, which can leave you feeling more energetic throughout the day.
- 
 
 - Improve your sexual health. Regular exercise may lower the risk of erectile dysfunction (ED) in men. For those who already have ED, exercise may help improve their sexual function. In women, exercise may increase sexual arousal.
 
@@ -72,13 +49,3 @@ Here are some tips to help you make exercise part of your daily routine:
 - Find activities that you can do even when the weather is bad. You can walk in a mall, climb stairs, or work out in a gym even if the weather stops you from exercising outside.
 
 - Remember that some physical activity is better than none. Do what you can! Even 5 minutes of physical activity has real health benefits.
-
-## Selected references
-- Benefits of Physical Activity [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/physical-activity-basics/benefits/
-- Exercise and Bone Health [Learn More] — American Academy of Orthopaedic Surgeons — https://orthoinfo.aaos.org/en/staying-healthy/exercise-and-bone-health
-- Exercise and immunity [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007165.htm
-- Exercise, lifestyle, and your bones [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000492.htm
-- Fitness Facts & Fiction Quiz [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/quiz/007165_45.htm
-- Give your heart a workout [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000763.htm
-- Health Benefits of Exercise and Physical Activity [Learn More] — National Institute on Aging — https://www.nia.nih.gov/health/exercise-and-physical-activity/health-benefits-exercise-and-physical-activity
-- Move More: Making Physical Activity Routine [Patient Handouts] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/resources/move-more-making-physical-activity-routine

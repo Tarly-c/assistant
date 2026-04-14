@@ -1,26 +1,6 @@
 # Encephalitis
 
-- Topic ID: 241
-- Language: English
-- URL: https://medlineplus.gov/encephalitis.html
-- Date created: 07/13/1999
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Encephalitis
-
-## Related topics
-- Meningitis
-- West Nile Virus
-
-## Meta description
-Encephalitis is inflammation of the brain, often caused by a viral infection. There are several types of Encephalitis.  Read about their symptoms, diagnosis, and treatment.
-
-## Summary
-What is encephalitis? 
+What is encephalitis?
 Encephalitis is inflammation (swelling) of the brain. It can happen when an infection or medical condition that affects the brain activates your immune system. The inflammation can cause a wide range of symptoms. In extreme cases, it can lead to brain damage, stroke, or even death.
 
 What causes encephalitis?
@@ -92,11 +72,11 @@ How is encephalitis diagnosed?
 To find out if you have encephalitis, your health care provider:
 
 - Will do a physical exam
- 
+
 - Will take your medical history, which includes asking about your symptoms
 
 - May do a neurologic exam
- 
+
 - May order imaging tests, such as a brain CT scan or MRI
 
 - May order an EEG (electroencephalography), which use small electric sensors to measure your brain activity
@@ -106,7 +86,7 @@ To find out if you have encephalitis, your health care provider:
 What are the treatments for encephalitis?
 Most people with encephalitis will need treatment in the hospital. Depending on the cause, treatments may include antiviral medicines, antibiotics, corticosteroids, and other medicines.
 
-For some types of encephalitis, there is no medicine to treat it. But rest, nutrition, and fluids can help your body fight the infection and relieve symptoms. 
+For some types of encephalitis, there is no medicine to treat it. But rest, nutrition, and fluids can help your body fight the infection and relieve symptoms.
 
 Some people may need physical, speech, and occupational therapy once the illness is under control.
 
@@ -120,23 +100,9 @@ There are steps you can take to help prevent encephalitis that is caused by infe
 - Get vaccines for viruses that can cause encephalitis.
 
 - Avoid mosquito and tick bites, for example by:
- 
- - Wearing insect repellent with DEET or another U.S. Environmental Protection Agency (EPA)-registered insect repellent. Make sure to follow the instructions for using the repellant.
 
- - Wearing clothes that cover your arms, legs and feet.
+- Wearing insect repellent with DEET or another U.S. Environmental Protection Agency (EPA)-registered insect repellent. Make sure to follow the instructions for using the repellant.
 
- - Treating your clothing and gear with products containing 0.5% permethrin before you go in grassy or woody areas.
+- Wearing clothes that cover your arms, legs and feet.
 
- 
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- About Eastern Equine Encephalitis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/eastern-equine-encephalitis/about/
-- About Japanese Encephalitis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/japanese-encephalitis/about/
-- About St. Louis Encephalitis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/sle/about/
-- About Tick-Borne Encephalitis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/tick-borne-encephalitis/about/
-- Cerebral spinal fluid (CSF) collection [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003428.htm
-- Cerebrospinal Fluid (CSF) Analysis [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/
-- CSF analysis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003369.htm
-- CSF cell count [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003625.htm
+- Treating your clothing and gear with products containing 0.5% permethrin before you go in grassy or woody areas.

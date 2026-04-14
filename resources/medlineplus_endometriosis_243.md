@@ -1,37 +1,7 @@
 # Endometriosis
 
-- Topic ID: 243
-- Language: English
-- URL: https://medlineplus.gov/endometriosis.html
-- Date created: 06/21/1999
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- Endo
-
-## Groups
-- Women
-- Female Reproductive System
-
-## MeSH
-- Endometriosis
-
-## Related topics
-- Female Infertility
-- Menstruation
-- Uterine Diseases
-
-## See also
-- Adenomyosis
-
-## Meta description
-Endometriosis happens when tissue similar to the lining of the uterus grows in other places in the body. Symptoms include pain, heavy bleeding during your period and infertility. There is no cure but there are treatments for symptoms.
-
-## Summary
 What is endometriosis?
 The uterus, or womb, is the place where a fetus grows during pregnancy. The uterus is lined with tissue (endometrium). Endometriosis is a disease in which tissue like the lining of the uterus grows in other places in your body. These patches of tissue are called "implants," "nodules," or "lesions." They are most often found:
-
- 
 
 - On or under the ovaries
 
@@ -53,7 +23,6 @@ Endometriosis can affect anyone who menstruates. Certain factors can raise or lo
 
 You are at higher risk if:
 
- 
 - You have a mother, sister, or daughter with endometriosis
 
 - Your period started before age 11
@@ -69,12 +38,10 @@ You have a lower risk if:
 - Your periods started late in adolescence
 
 - You breastfeed your babies
- 
 
 What are the symptoms of endometriosis?
 The main symptoms of endometriosis are:
 
- 
 - Pelvic pain, which often happens during your period
 
 - Infertility
@@ -109,33 +76,18 @@ Treatments for endometriosis pain include:
 
 - Pain relievers, including nonsteroidal anti-inflammatory drugs (NSAIDS) such as ibuprofen and a prescription medicine specifically for endometriosis. Providers may sometimes prescribe opioids for severe pain.
 
-- Hormone therapy, which stops the ovaries from making hormones. This may slow the growth of the endometrial tissue and may stop new areas from growing. Types of hormone therapy include: 
-	
- - Birth control pills.
+- Hormone therapy, which stops the ovaries from making hormones. This may slow the growth of the endometrial tissue and may stop new areas from growing. Types of hormone therapy include:
 
- - Progestin therapy.
+- Birth control pills.
 
- - Gonadotropin-releasing hormone (GnRH) medicines (GnRH agonists and antagonists). These medicines cause a temporary menopause. After your stop taking the medicines, your menstrual periods will start again, and pregnancy is possible.
+- Progestin therapy.
 
-	
+- Gonadotropin-releasing hormone (GnRH) medicines (GnRH agonists and antagonists). These medicines cause a temporary menopause. After your stop taking the medicines, your menstrual periods will start again, and pregnancy is possible.
 
 - Surgical treatments for severe pain, including procedures to remove the endometriosis patches or cut some nerves in the pelvis. The surgery may be a laparoscopy or major surgery.
- 
 
 Treatments for infertility caused by endometriosis include:
 
 - Laparoscopy to remove the endometriosis patches
 
 - In vitro fertilization
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- Abdominal exploration [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002928.htm
-- Abdominal exploration - series [Diagnosis and Tests, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100049_1.htm
-- Adenomyosis [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/adenomyosis/symptoms-causes/syc-20369138?p=1
-- Diagnostic laparoscopy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003918.htm
-- Endometriosis [Start Here] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/endometriosis
-- Endometriosis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000915.htm
-- Endometriosis [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/endometriosis/symptoms-causes/syc-20354656?p=1
-- Endometriosis (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/endometriosis.html

@@ -193,7 +193,6 @@ def search_local(
     for doc in docs:
         content = (doc.page_content or "").strip()
         score = max(
-            _lexical_score(question, content),
             _lexical_score(local_query, content),
         )
         hits.append(

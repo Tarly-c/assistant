@@ -1,37 +1,10 @@
 # Developmental Disabilities
 
-- Topic ID: 209
-- Language: English
-- URL: https://medlineplus.gov/developmentaldisabilities.html
-- Date created: 07/08/1999
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Children and Teenagers
-- Mental Health and Behavior
-
-## MeSH
-- Developmental Disabilities
-
-## Related topics
-- Autism Spectrum Disorder
-- Disabilities
-- Down Syndrome
-- Fetal Alcohol Spectrum Disorders
-- Learning Disabilities
-
-## See also
-- Mental Retardation
-
-## Meta description
-Developmental disabilities can be physical, mental, or both. The problems are usually life-long, but therapy can help. Learn more.
-
-## Summary
 What are developmental disabilities?
 Developmental disabilities are conditions that are usually present at birth. They can affect a child's growth and development. These conditions can cause physical, learning, language, or behavior issues. They can include:
 
 - Learning disabilities. These conditions affect the ability to learn.
- 
+
 - Autism spectrum disorder (ASD). This is a disorder that affects behavior, communication, and social skills.
 
 - Cerebral palsy (CP). This is a condition that affects movement, coordination, and balance.
@@ -70,21 +43,9 @@ What are the treatments for developmental disabilities?
 If your child has a developmental disability, these are usually lifelong conditions. Often, there is no cure, but treatment can help the symptoms. Treatments can include:
 
 - Physical, speech, and occupational therapy
- 
+
 - Special teaching methods
 
 - Psychological counseling
 
 - To keep track of how your child grows and changes over time
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- About Cri du Chat Syndrome [Specifics] — National Human Genome Research Institute — https://www.genome.gov/Genetic-Disorders/Cri-du-Chat
-- Angelman Syndrome [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/angelman-syndrome
-- Angelman syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007616.htm
-- Cri du chat syndrome [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001593.htm
-- Developmental and Behavioral Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/developmental-and-behavioral-screening-tests/
-- Developmental coordination disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001533.htm
-- Developmental Disability Basics [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/child-development/about/developmental-disability-basics.html
-- Developmental Monitoring and Screening [Diagnosis and Tests, Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/ncbddd/actearly/pdf/parents_pdfs/DevelopmentalScreening.pdf

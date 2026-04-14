@@ -1,26 +1,6 @@
 # Legionnaires' Disease
 
-- Topic ID: 1526
-- Language: English
-- URL: https://medlineplus.gov/legionnairesdisease.html
-- Date created: 08/23/2001
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Legionellosis
-
-## Groups
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Legionnaires' Disease
-
-## Meta description
-Legionnaires' Disease (Legionella Pneumonia) is caused by bacteria. You get it by breathing in mist from water that contains the bacteria. Learn more.
-
-## Summary
-What is Legionnaires' Disease? 
+What is Legionnaires' Disease?
 Legionnaires' disease is a serious type of pneumonia caused by Legionella bacteria. The disease got its name when a group of people at an American Legion convention became ill with this type of pneumonia.
 
 Legionella is found naturally in freshwater, such as lakes and rivers. It can also be found in soil. But people usually only get sick from it when if it grows and spreads in man-made water systems. These systems can include hot tubs, fountains, and the plumbing systems of large buildings, such as hotels or nursing homes.
@@ -49,10 +29,8 @@ Most healthy people who come in contact with the bacteria do not become sick. Yo
 
 - Have recently stayed in a hospital or had surgery requiring anesthesia
 
-What are the symptoms of Legionnaires' disease? 
+What are the symptoms of Legionnaires' disease?
 The symptoms usually show up 2 to 14 days after you were exposed to Legionella bacteria. Most of the symptoms are similar to those of other types of pneumonia. But Legionnaires' disease may also cause gastrointestinal symptoms and mental changes.
-
- 
 
 The symptoms of Legionnaires' disease may include:
 
@@ -101,13 +79,3 @@ You can lower your risk of getting Legionnaires' disease if you:
 - Ask about how well your buildings' water systems are maintained.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Legionella Control [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/control-legionella/about/
-- About Legionnaires' Disease [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/legionella/about/
-- About Pontiac Fever [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/legionella/about/about-pontiac-fever.html
-- How Legionella Spreads [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/legionella/causes/
-- How the Lungs Work [Learn More] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/lungs
-- Legionella Resources [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/legionella/communication-resources/
-- Legionella Tests [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/legionella-tests/
-- Legionnaires disease [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000616.htm

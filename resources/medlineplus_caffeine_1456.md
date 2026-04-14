@@ -1,23 +1,5 @@
 # Caffeine
 
-- Topic ID: 1456
-- Language: English
-- URL: https://medlineplus.gov/caffeine.html
-- Date created: 04/11/2001
-
-## Groups
-- Food and Nutrition
-
-## MeSH
-- Caffeine
-
-## See also
-- Energy Drinks
-
-## Meta description
-Many people enjoy a cup of coffee or tea to give them a boost. But is it safe? Learn more about caffeine.
-
-## Summary
 What is caffeine?
 Caffeine is a bitter substance that occurs naturally in more than 60 plants including:
 
@@ -80,8 +62,6 @@ Some people are more sensitive to the effects of caffeine than others.
 What are energy drinks, and why can they be a problem?
 Energy drinks are beverages that have added caffeine. The amount of caffeine in energy drinks can vary widely, and sometimes the labels on the drinks do not give you the actual amount of caffeine in them. Energy drinks may also contain sugars, vitamins, herbs, and supplements.
 
- 
-
 Companies that make energy drinks claim that the drinks can increase alertness and improve physical and mental performance. This has helped make the drinks popular with American teens and young adults. There's limited data showing that energy drinks might temporarily improve alertness and physical endurance. There is not enough evidence to show that they enhance strength or power. But what we do know is that energy drinks can be dangerous because they have large amounts of caffeine. And since they have lots of sugar, they can contribute to weight gain and worsen diabetes.
 
 Sometimes young people mix their energy drinks with alcohol. It is dangerous to combine alcohol and caffeine. Caffeine can interfere with your ability to recognize how drunk you are, which can lead you to drink more. This also makes you more likely to make bad decisions.
@@ -89,7 +69,6 @@ Sometimes young people mix their energy drinks with alcohol. It is dangerous to 
 Who should avoid or limit caffeine?
 You should check with your health care provider about whether you should limit or avoid caffeine if you:
 
- 
 - Are pregnant, since caffeine passes through the placenta to your baby.
 
 - Are breastfeeding, since a small amount of caffeine that you consume is passed along to your baby.
@@ -124,13 +103,3 @@ If you have been consuming caffeine on a regular basis and then suddenly stop, y
 - Trouble concentrating
 
 These symptoms usually go away after a couple of days.
-
-## Selected references
-- Caffeine (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/child-caffeine.html
-- Caffeine Content for Coffee, Tea, Soda, and more [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372?p=1
-- Caffeine in Pregnancy [Women] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/caffeine-pregnancy/
-- Caffeine in the diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002445.htm
-- Caffeine overdose [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002579.htm
-- Caffeine: How Much Is Too Much? [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678?p=1
-- Spilling the Beans: How Much Caffeine is Too Much? [Start Here] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
-- Tired or Wired? Caffeine and Your Brain [Start Here] — National Institutes of Health — https://newsinhealth.nih.gov/2020/10/tired-or-wired

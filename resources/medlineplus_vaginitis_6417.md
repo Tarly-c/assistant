@@ -1,36 +1,8 @@
 # Vaginitis
 
-- Topic ID: 6417
-- Language: English
-- URL: https://medlineplus.gov/vaginitis.html
-- Date created: 11/15/2016
-
-## Groups
-- Women
-- Female Reproductive System
-
-## MeSH
-- Vaginitis
-- Vulvovaginitis
-
-## Related topics
-- Trichomoniasis
-- Vaginal Diseases
-- Yeast Infections
-
-## See also
-- Bacterial Vaginosis
-- Vaginal Yeast Infection
-
-## Meta description
-Vaginitis, and vulvovaginitis, are an inflammation or infection of the vagina. They can cause itching, pain, discharge, and odor.  Learn about causes and treatment.
-
-## Summary
 What is vaginitis?
 
 Vaginitis, also called vulvovaginitis, is an inflammation or infection of the vagina. It can also affect the vulva, which is the external part of a woman's genitals. Vaginitis can cause itching, pain, discharge, and odor.
-
- 
 
 Vaginitis is common, especially in women in their reproductive years. It usually happens when there is a change in the balance of bacteria or yeast that are normally found in your vagina. There are different types of vaginitis, and they have different causes, symptoms, and treatments.
 
@@ -119,13 +91,3 @@ To help prevent vaginitis:
 - Avoid clothes that hold in heat and moisture.
 
 - Wear cotton underwear.
-
-## Selected references
-- About Bacterial Vaginosis (BV) [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/bacterial-vaginosis/about/
-- Bacterial Vaginosis [Teenagers] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/sexually-transmitted/Pages/Bacterial-Vaginosis.aspx
-- Bacterial Vaginosis [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/bv.html
-- Bacterial Vaginosis [Specifics] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/bacterial-vaginosis
-- Bacterial vaginosis - aftercare [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000687.htm
-- Bacterial Vaginosis Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bacterial-vaginosis-test/
-- How Do Health Care Providers Diagnose Bacterial Vaginosis (BV)? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/bacterialvag/conditioninfo/diagnosis
-- How Do Health Care Providers Diagnose Vaginitis? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/vaginitis/conditioninfo/diagnosed

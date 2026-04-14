@@ -1,29 +1,5 @@
 # Period Pain
 
-- Topic ID: 6415
-- Language: English
-- URL: https://medlineplus.gov/periodpain.html
-- Date created: 11/15/2016
-
-## Also called
-- Dysmenorrhea
-- Menstrual cramps
-- Menstrual pain
-
-## Groups
-- Women
-- Female Reproductive System
-
-## MeSH
-- Dysmenorrhea
-
-## See also
-- Dysmenorrhea
-
-## Meta description
-Period pain affects many women, and it can be severe. Learn about the cause of menstrual cramps, what you can do to feel better, and when you need to see a doctor.
-
-## Summary
 What are painful periods?
 
 Menstruation, or period, is normal vaginal bleeding that happens as part of a woman's monthly cycle. Many women have painful periods, also called dysmenorrhea. The pain is most often menstrual cramps, which are a throbbing, cramping pain in your lower abdomen. You may also have other symptoms, such as lower back pain, nausea, diarrhea, and headaches. Period pain is not the same as premenstrual syndrome (PMS). PMS causes many different symptoms, including weight gain, bloating, irritability, and fatigue. PMS often starts one to two weeks before your period starts.
@@ -79,9 +55,3 @@ What are treatments for severe period pain?
 If your period pain is primary dysmenorrhea and you need medical treatment, your health care provider might suggest using hormonal birth control, such as the pill, patch, ring, or IUD. Another treatment option might be prescription pain relievers.
 
 If you have secondary dysmenorrhea, your treatment depends upon the condition that is causing the problem. In some cases, you may need surgery.
-
-## Selected references
-- Dysmenorrhea: Painful Periods [Learn More] — American College of Obstetricians and Gynecologists — https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods
-- Menstrual Cramps (Dysmenorrhea) [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/menstrual-cramps/symptoms-causes/syc-20374938?p=1
-- Menstrual Period: Menstrual Cramps [Learn More] — Boston Children's Hospital — https://youngwomenshealth.org/guides/menstrual-cramps/
-- Painful menstrual periods [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003150.htm

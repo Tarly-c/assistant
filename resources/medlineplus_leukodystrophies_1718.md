@@ -1,32 +1,5 @@
 # Leukodystrophies
 
-- Topic ID: 1718
-- Language: English
-- URL: https://medlineplus.gov/leukodystrophies.html
-- Date created: 08/22/2002
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Brain and Nerves
-- Genetics/Birth Defects
-- Metabolic Problems
-
-## MeSH
-- Leukodystrophy, Metachromatic
-- Canavan Disease
-- Leukodystrophy, Globoid Cell
-
-## Related topics
-- Degenerative Nerve Diseases
-
-## See also
-- Adrenoleukodystrophy
-- Canavan Disease
-
-## Meta description
-Leukodystrophies are rare diseases that affect the cells of the brain and are often genetic. Find more information on these progressive diseases.
-
-## Summary
 What are leukodystrophies?
 Leukodystrophies are a group of rare genetic disorders that affect the central nervous system (CNS). The CNS is made up of your brain and spinal cord. Leukodystrophies damage the white matter of your CNS. The white matter includes:
 
@@ -34,13 +7,10 @@ Leukodystrophies are a group of rare genetic disorders that affect the central n
 
 - Myelin, a layer of proteins and fatty materials that covers and protects the nerve fibers. It also helps speed up signals between the nerve cells.
 
- 
-
 When the white matter is damaged, it can slow down or block the signals between nerve cells. This can cause many different symptoms, including trouble with movement, vision, hearing, and thinking.
 
 There are over 50 types of leukodystrophies. Some types are present at birth, while others may not cause symptoms until a child becomes a toddler. A few types mainly affect adults. Most types get worse over time.
 
- 
 What causes leukodystrophies?
 Leukodystrophies are caused by genetic changes. These changes are usually inherited, meaning that they are passed from parent to child.
 
@@ -104,15 +74,3 @@ There is no cure for leukodystrophies. Treatment focuses on relieving symptoms a
 Stem cell or bone marrow transplantation can be helpful for a few types of leukodystrophy.
 
 One type of leukodystrophy, CTX, is treatable if it is diagnosed early. It is treated with chenodeoxycholic acid (CDCA) replacement therapy.
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- Adrenoleukodystrophy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001182.htm
-- Aicardi-Goutieres Syndrome [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/aicardi-goutieres-syndrome
-- CADASIL [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/cadasil
-- Canavan disease [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001586.htm
-- Krabbe disease [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001198.htm
-- Krabbe Disease (GLD) [Treatments and Therapies] — NMDP — https://www.nmdp.org/patients/understanding-transplant/diseases-treated-by-transplant/krabbe-disease
-- Leukodystrophy [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/leukodystrophy#refsum-disease-adult
-- Leukodystrophy [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/leukodystrophy

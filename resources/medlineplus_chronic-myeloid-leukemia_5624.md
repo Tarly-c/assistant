@@ -1,41 +1,5 @@
 # Chronic Myeloid Leukemia
 
-- Topic ID: 5624
-- Language: English
-- URL: https://medlineplus.gov/chronicmyeloidleukemia.html
-- Date created: 10/12/2010
-- Primary institute: National Cancer Institute
-
-## Also called
-- CML
-- Chronic granulocytic leukemia
-- Chronic myelogenous leukemia
-
-## Groups
-- Cancers
-- Blood, Heart and Circulation
-
-## MeSH
-- Leukemia, Myelogenous, Chronic, BCR-ABL Positive
-- Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative
-
-## Related topics
-- Acute Lymphocytic Leukemia
-- Acute Myeloid Leukemia
-- Childhood Leukemia
-- Chronic Lymphocytic Leukemia
-- Leukemia
-
-## See also
-- CML
-- Chronic Granulocytic Leukemia
-- Chronic Myelogenous Leukemia
-- Leukemia, Myeloid, Chronic
-
-## Meta description
-Chronic myeloid leukemia (CML) is a cancer of the white blood cells. It usually affects older adults. Learn about symptoms, genetics, and treatment.
-
-## Summary
 What is leukemia?
 Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-forming tissues such as the bone marrow. Your bone marrow makes the cells which will develop into white blood cells, red blood cells, and platelets. Each type of cell has a different job:
 
@@ -47,7 +11,7 @@ Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-form
 
 When you have leukemia, your bone marrow makes large numbers of abnormal cells. This problem most often happens with white blood cells. These abnormal cells build up in your bone marrow and blood. They crowd out the healthy blood cells and make it hard for your cells and blood to do their work.
 
-What is chronic myeloid leukemia (CML)? 
+What is chronic myeloid leukemia (CML)?
 Chronic myeloid leukemia (CML) is a type of chronic leukemia. "Chronic" means that the leukemia usually gets worse slowly. In CML, the bone marrow makes abnormal granulocytes (a type of white blood cell). These abnormal cells are also called blasts. When the abnormal cells crowd out the healthy cells, it can lead to infection, anemia, and easy bleeding. The abnormal cells can also spread outside the blood to other parts of the body.
 
 CML usually occurs in adults during or after middle age. It is rare in children.
@@ -119,15 +83,3 @@ There are several different treatments for CML:
 - Surgery to remove the spleen (splenectomy)
 
 Which treatments you get will depend on which phase you are in, your age, your overall health, and other factors. When the signs and symptoms of CML are reduced or have disappeared, it is called remission. The CML may come back after remission, and you may need more treatment.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Atypical Chronic Myelogenous Leukemia [Specifics] — National Cancer Institute — https://www.cancer.gov/types/myeloproliferative/patient/mds-mpd-treatment-pdq#_257
-- BCR ABL Genetic Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bcr-abl-genetic-test/
-- Blood Tests [Diagnosis and Tests] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/blood-tests
-- Blood Transfusion [Treatments and Therapies] — Blood Cancer United — https://bloodcancerunited.org/blood-cancer-care/adults/types-blood-cancer-treatment/blood-transfusion
-- Bone marrow biopsy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003934.htm
-- Bone marrow transplant [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003009.htm
-- Bone marrow transplant - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000010.htm

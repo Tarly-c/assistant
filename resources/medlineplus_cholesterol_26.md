@@ -1,54 +1,9 @@
 # Cholesterol
 
-- Topic ID: 26
-- Language: English
-- URL: https://medlineplus.gov/cholesterol.html
-- Date created: 10/22/1998
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Hypercholesterolemia
-- Hyperlipidemia
-- Hyperlipoproteinemia
-
-## Groups
-- Blood, Heart and Circulation
-- Food and Nutrition
-
-## MeSH
-- Cholesterol
-- Hypercholesterolemia
-
-## Related topics
-- Cholesterol Levels: What You Need to Know
-- Cholesterol Medicines
-- Dietary Fats
-- HDL: The "Good" Cholesterol
-- Heart Diseases
-- How to Lower Cholesterol
-- How to Lower Cholesterol with Diet
-- LDL: The "Bad" Cholesterol
-- Nutrition
-- Triglycerides
-- VLDL Cholesterol
-
-## See also
-- Familial Combined Hyperlipidemia
-- Familial Dysbetalipoproteinemia
-- Familial Hypercholesterolemia
-- Hypercholesterolemia
-- Hyperlipidemia
-
-## Meta description
-Your body needs some cholesterol, but too much can raise your risk of heart disease. Know the types (HDL and LDL), and how to lower high cholesterol.
-
-## Summary
 What is cholesterol?
 Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your body needs some cholesterol to make hormones, vitamin D, and substances that help you digest foods. Your body makes all the cholesterol it needs. Cholesterol is also found in foods from animal sources, such as egg yolks, meat, and cheese.
 
 If you have too much cholesterol in your blood, it can combine with other substances in the blood to form plaque. Plaque sticks to the walls of your arteries. This buildup of plaque is known as atherosclerosis. It can lead to coronary artery disease, a condition in which your coronary arteries become narrow or even blocked.
-
- 
 
 What are HDL, LDL, and VLDL?
 HDL, LDL, and VLDL are lipoproteins. They are a combination of fat (lipid) and protein. The lipids need to be attached to the proteins so they can move through the blood. Different types of lipoproteins have different purposes:
@@ -86,18 +41,16 @@ A variety of things can raise your risk of high cholesterol:
 - Other health conditions. Conditions such as diabetes, chronic kidney disease, HIV, and lupus can raise your risk of high cholesterol.
 
 - Medicines. Certain medicines can raise your level of LDL cholesterol or lower your level of HDL cholesterol, including:
- 
- - Steroids
 
- - Some chemotherapy medicines
+- Steroids
 
- - Medicines taken after an organ transplant
+- Some chemotherapy medicines
 
- - Medicines for certain heart conditions
+- Medicines taken after an organ transplant
 
- - Certain acne medicines
+- Medicines for certain heart conditions
 
- 
+- Certain acne medicines
 
 - Race or ethnicity. People from certain racial or ethnic groups may have an increased risk of high cholesterol. For example, Asian Americans are more likely to have high levels of LDL cholesterol than other groups. And non-Hispanic White people are more likely than other groups to have high levels of total cholesterol.
 
@@ -140,15 +93,3 @@ You can lower your cholesterol through heart-healthy lifestyle changes. They inc
 If the lifestyle changes alone do not lower your cholesterol enough, you may also need to take medicines. There are several types of cholesterol-lowering medicines available, including statins. If you take medicines to lower your cholesterol, you still should continue with the lifestyle changes.
 
 Some people with familial hypercholesterolemia (FH) may receive a treatment called lipoprotein apheresis. This treatment uses a filtering machine to remove LDL cholesterol from the blood. Then the machine returns the rest of the blood back to the person.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Apolipoprotein B100 [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003502.htm
-- Apolipoprotein CII [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003505.htm
-- Bile acid sequestrants for cholesterol [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000787.htm
-- Cholesterol - drug treatment [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000314.htm
-- Cholesterol - what to ask your doctor [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000211.htm
-- Cholesterol and lifestyle [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000099.htm
-- Cholesterol Level: Can It Be Too Low? [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/expert-answers/cholesterol-level/faq-20057952?p=1
-- Cholesterol Levels [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/cholesterol-levels/

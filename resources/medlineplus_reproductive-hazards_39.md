@@ -1,46 +1,10 @@
 # Reproductive Hazards
 
-- Topic ID: 39
-- Language: English
-- URL: https://medlineplus.gov/reproductivehazards.html
-- Date created: 12/13/1999
-- Primary institute: National Institute of Environmental Health Sciences
-
-## Groups
-- Women
-- Pregnancy and Reproduction
-- Men
-- Poisoning, Toxicology, Environmental Health
-- Sexual Health Issues
-- Female Reproductive System
-- Male Reproductive System
-
-## MeSH
-- Maternal Exposure
-- Paternal Exposure
-
-## Related topics
-- Birth Defects
-- Infections and Pregnancy
-- Infertility
-- Pregnancy
-- Pregnancy and Medicines
-- Pregnancy and Substance Use
-- Prenatal Care
-- Sexually Transmitted Infections
-
-## See also
-- Pregnancy Hazards
-
-## Meta description
-Reproductive hazards can affect your reproductive health, fertility, and ability to have healthy children. Learn about the types and prevention.
-
-## Summary
 What are reproductive hazards?
 Reproductive hazards are substances that affect the reproductive health of men or women. They also include substances that affect the ability of couples to have healthy children. These substances may be chemical, physical, or biological. Some common types include:
 
 - Alcohol
- 
+
 - Chemicals such as pesticides
 
 - Smoking
@@ -88,13 +52,3 @@ To try to avoid reproductive hazards:
 - Use good hygiene, including handwashing.
 
 - If there are hazards at your job, make sure to follow safe work practices and procedures.
-
-## Selected references
-- Avoiding Lead Exposure during Pregnancy [Women] — Nemours Foundation — https://kidshealth.org/en/parents/lead.html
-- Endocrine Disruptors [Specifics] — National Institute of Environmental Health Sciences — https://www.niehs.nih.gov/health/topics/agents/endocrine
-- How Smoking Affects Reproductive Health [Specifics] — Food and Drug Administration — https://www.fda.gov/tobacco-products/health-effects-tobacco-use/how-smoking-affects-reproductive-health
-- Mercury and Pregnancy [Women] — March of Dimes Foundation — https://www.marchofdimes.org/find-support/topics/pregnancy/mercury-and-pregnancy
-- Paternal Exposures and Pregnancy [Men] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/
-- The Effects of Workplace Hazards on Female Reproductive Health [Women] — National Institute for Occupational Safety and Health — https://www.cdc.gov/niosh/docs/99-104/default.html
-- The Effects of Workplace Hazards on Male Reproductive Health [Men] — National Institute for Occupational Safety and Health — https://www.cdc.gov/niosh/docs/96-132/default.html
-- Using Household Chemicals during Pregnancy [Women] — Nemours Foundation — https://kidshealth.org/en/parents/chemicals-pregnancy.html

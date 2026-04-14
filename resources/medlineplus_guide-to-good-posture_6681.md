@@ -1,24 +1,5 @@
 # Guide to Good Posture
 
-- Topic ID: 6681
-- Language: English
-- URL: https://medlineplus.gov/guidetogoodposture.html
-- Date created: 10/25/2017
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Groups
-- Bones, Joints and Muscles
-
-## MeSH
-- Posture
-
-## See also
-- Posture
-
-## Meta description
-Good posture is important for your health as well as your appearance. Get tips on improving your posture, whether you are sitting, standing, or moving.
-
-## Summary
 Good posture is about more than standing up straight so you can look your best. It is an important part of your long-term health. Making sure that you hold your body the right way, whether you are moving or still, can prevent pain, injuries, and other health problems.
 
 What is posture?
@@ -84,8 +65,6 @@ Many Americans spend a lot of their time sitting - either at work, at school, or
 
 - Make sure that your thighs and hips are supported. You should have a well-padded seat, and your thighs and hips should be parallel to the floor.
 
- 
-
 How can I improve my posture when standing?
 
 - Stand up straight and tall
@@ -102,16 +81,4 @@ How can I improve my posture when standing?
 
 - Keep your feet about shoulder-width apart
 
- 
-
 With practice, you can improve your posture; you will look and feel better.
-
-## Selected references
-- Axial Extension (Posture Exercise) [Learn More] — National Jewish Health — https://www.nationaljewish.org/education/health-information/exercise-and-weight/exercise-at-home/axial-extension
-- Back Health [Learn More] — National Institutes of Health, Office of Research Services, Division of Occupational Health and Safety. — https://ors.od.nih.gov/sr/dohs/HealthAndWellness/Ergonomics/Pages/spine.aspx
-- Back Safety: Poor Posture Hurts [Learn More] — Department of Veterans Affairs — https://www.veteranshealthlibrary.va.gov/3,84805
-- Computer Workstations: Good Working Positions [Learn More] — Occupational Safety and Health Administration — https://www.osha.gov/etools/computer-workstations/positions
-- Getting It Straight: Improve Your Posture for Better Health [Learn More] — National Institutes of Health — https://newsinhealth.nih.gov/2017/08/getting-it-straight
-- Neck pain [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003025.htm
-- Protecting Your Neck: Posture and Body Mechanics [Learn More] — Department of Veterans Affairs — https://www.veteranshealthlibrary.va.gov/livingwith/backneck/Protecting/3,40037
-- Shoulder Blade Squeeze (Posture Exercise) [Learn More] — National Jewish Health — https://www.nationaljewish.org/education/health-information/exercise-and-weight/exercise-at-home/shoulder-blade-squeeze

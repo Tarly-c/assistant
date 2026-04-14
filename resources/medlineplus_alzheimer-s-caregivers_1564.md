@@ -1,35 +1,6 @@
 # Alzheimer's Caregivers
 
-- Topic ID: 1564
-- Language: English
-- URL: https://medlineplus.gov/alzheimerscaregivers.html
-- Date created: 10/25/2001
-- Primary institute: National Institute on Aging
-
-## Groups
-- Older Adults
-- Brain and Nerves
-- Social/Family Issues
-
-## MeSH
-- Caregivers
-- Alzheimer Disease
-
-## Related topics
-- Alzheimer's Disease
-- Caregiver Health
-- Caregivers
-
-## See also
-- Caregivers for Alzheimer's Disease
-
-## Meta description
-Caring for someone who has Alzheimer's Disease can be stressful and overwhelming. It's important to take care of yourself. Learn how to find support.
-
-## Summary
 A caregiver gives care to someone who needs help taking care of themselves. It can be rewarding. It may help to strengthen connections to a loved one. You may feel fulfillment from helping someone else. But sometimes caregiving can be stressful and even overwhelming. This can be especially true when caring for someone with Alzheimer's disease (AD).
-
- 
 
 AD is an illness that changes the brain. It causes people to lose the ability to remember, think, and use good judgment. They also have trouble taking care of themselves. Over time, as the disease gets worse, they will need more and more help. As a caregiver, it is important for you to learn about AD. You will want to know what happens to the person during the different stages of the disease. This can help you plan for the future, so that you will have all of the resources you will need to be able to take care of your loved one.
 
@@ -40,7 +11,7 @@ As a caregiver for someone with AD, your responsibilities can include:
 - Evaluating their house and making sure it's safe for their needs
 
 - Monitoring their ability to drive. You may want to hire a driving specialist who can test their driving skills. When it is no longer safe for your loved one to drive, you need to make sure that they stop.
- 
+
 - Encouraging your loved one to get some physical activity. Exercising together may make it more fun for them.
 
 - Making sure that your loved one has a healthy diet
@@ -59,8 +30,6 @@ As a caregiver for someone with AD, your responsibilities can include:
 
 As you care for your loved one with AD, don't ignore your own needs. Caregiving can be stressful, and you need to take care of your own physical and mental health.
 
- 
-
 At some point, you will not be able to do everything on your own. Make sure that you get help when you need it. There are many different services available, including:
 
 - Home care services
@@ -78,15 +47,3 @@ At some point, you will not be able to do everything on your own. Make sure that
 - Palliative and hospice care
 
 You might consider hiring a geriatric care manager. They are specially trained professionals who can help you to find the right services for your needs.
-
-NIH: National Institute on Aging
-
-## Selected references
-- Alzheimer's Caregiving: Bathing, Dressing, and Grooming [Patient Handouts, Related Issues] — National Institute on Aging — https://www.nia.nih.gov/health/alzheimers-caregiving/alzheimers-caregiving-bathing-dressing-and-grooming
-- Alzheimer's Caregiving: Caring for Yourself [Start Here] — National Institute on Aging — https://www.nia.nih.gov/health/alzheimers-caregiving/alzheimers-caregiving-caring-yourself
-- Alzheimer's Caregiving: Coping With Hallucinations, Delusions, and Paranoia [Specifics] — National Institute on Aging — https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-coping-hallucinations
-- Alzheimer's Caregiving: Managing Personality and Behavior Changes [Start Here] — National Institute on Aging — https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and
-- Brushing: Information for Caregivers [Specifics] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/sites/default/files/2023-12/oral-health-aging-brushing.pdf
-- Caregiver Health [Specifics] — National Library of Medicine — https://medlineplus.gov/caregiverhealth.html
-- Caring for a Person with Alzheimer's Disease [Start Here] — National Institute on Aging — https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf
-- Changes in Intimacy and Sexuality in Alzheimer's Disease [Patient Handouts, Related Issues] — National Institute on Aging — https://www.nia.nih.gov/health/sexuality/changes-intimacy-and-sexuality-alzheimers-disease

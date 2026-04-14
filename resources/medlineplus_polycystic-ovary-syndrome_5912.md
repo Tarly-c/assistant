@@ -1,35 +1,6 @@
 # Polycystic Ovary Syndrome
 
-- Topic ID: 5912
-- Language: English
-- URL: https://medlineplus.gov/polycysticovarysyndrome.html
-- Date created: 11/02/2011
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- PCOS
-- Stein-Leventhal Syndrome
-
-## Groups
-- Women
-- Endocrine System
-- Female Reproductive System
-
-## MeSH
-- Polycystic Ovary Syndrome
-
-## Related topics
-- Ovarian Cysts
-
-## See also
-- PCOS
-- Stein-Leventhal Syndrome
-
-## Meta description
-Polycystic ovary syndrome (PCOS) happens when a woman's ovaries or adrenal glands produce more male hormones than normal. Learn the symptoms of PCOS and treatments.
-
-## Summary
-What is polycystic ovary syndrome (PCOS)? 
+What is polycystic ovary syndrome (PCOS)?
 Polycystic ovary syndrome (PCOS) is the name for set of symptoms that are related to an imbalance of hormones. PCOS affects the ovaries, as well as many other parts of the body.
 
 People with PCOS usually have at least two of these problems:
@@ -89,14 +60,14 @@ Although there are links between PCOS and these conditions, researchers do not k
 
 - PCOS causes some of these problems
 
-- Some of these problems cause PCOS, or 
+- Some of these problems cause PCOS, or
 
 - There are other conditions that cause both PCOS and these other health problems
 
 Not everyone who has PCOS will have all these problems. However, you and your health care provider may want to monitor your health for signs of them, so they can be treated early.
 
 How is polycystic ovary syndrome (PCOS) diagnosed?
-There is no specific test for PCOS. To find out if you have PCOS, your provider: 
+There is no specific test for PCOS. To find out if you have PCOS, your provider:
 
 - Will do a physical exam, which will include looking for the physical signs of PCOS.
 
@@ -112,37 +83,23 @@ What are the treatments for polycystic ovary syndrome (PCOS)?
 There is no cure for PCOS, but treatments can help you manage your symptoms. The treatments may include:
 
 - Lifestyle changes, which can help reduce many symptoms. They can also lower your risk for or help manage related health problems. These changes include:
- 
- - Maintaining a healthy weight
 
- - Getting regular physical activity
+- Maintaining a healthy weight
 
- - Eating healthy foods
+- Getting regular physical activity
 
- 
+- Eating healthy foods
 
 - Medicines:
- 
- - Hormonal birth control, such as pills, shots, and IUDs, can make your period more regular. They may also help remove acne and extra facial and body hair. But you would only use them if you don't want to get pregnant.
 
- - Anti-androgen medicines, which block the effect of androgens. This can help reduce hair loss on your head, the growth of facial and body hair, and acne. Providers do use them to help with these symptoms, but anti-androgen medicines are not approved by the U.S. Food and Drug Administration (FDA) to treat PCOS. These medicines can cause problems during pregnancy. Your provider may have you take them with birth control (to prevent pregnancy).
+- Hormonal birth control, such as pills, shots, and IUDs, can make your period more regular. They may also help remove acne and extra facial and body hair. But you would only use them if you don't want to get pregnant.
 
- - Insulin-sensitizing medicines, which are medicines that are used to treat type 2 diabetes. They improve insulin resistance and keep your blood glucose levels steady. They may also lower your androgen levels. They are not approved by the FDA to treat PCOS. But they may help with your symptoms.
- 
- - Medicines for acne. These medicines come in pills, creams, or gels.
+- Anti-androgen medicines, which block the effect of androgens. This can help reduce hair loss on your head, the growth of facial and body hair, and acne. Providers do use them to help with these symptoms, but anti-androgen medicines are not approved by the U.S. Food and Drug Administration (FDA) to treat PCOS. These medicines can cause problems during pregnancy. Your provider may have you take them with birth control (to prevent pregnancy).
 
- 
+- Insulin-sensitizing medicines, which are medicines that are used to treat type 2 diabetes. They improve insulin resistance and keep your blood glucose levels steady. They may also lower your androgen levels. They are not approved by the FDA to treat PCOS. But they may help with your symptoms.
+
+- Medicines for acne. These medicines come in pills, creams, or gels.
 
 - Treatments for hair removal, such as facial hair removal creams, laser hair removal, and electrolysis.
 
 - Fertility treatments if you are having trouble getting pregnant. They include medicines and procedures such as in vitro fertilization (IVF).
-
-## Selected references
-- About Polycystic Ovary Syndrome (PCOS) [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/pcos/conditioninfo
-- Anti-Müllerian Hormone Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/anti-mullerian-hormone-test/
-- How Do Health Care Providers Diagnose Polycystic Ovary Syndrome (PCOS)? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/pcos/conditioninfo/diagnose
-- PCOS: The Oral Contraceptive Pill [Teenagers] — Boston Children's Hospital — https://youngwomenshealth.org/guides/pcos-and-the-pill/
-- Polycystic ovary syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000369.htm
-- Polycystic Ovary Syndrome [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/pcos/symptoms-causes/syc-20353439?p=1
-- Polycystic Ovary Syndrome [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/pcos.html
-- Polycystic Ovary Syndrome (PCOS) in Teens: A Guide for Parents and Guardians [Teenagers] — Boston Children's Hospital — https://youngwomenshealth.org/parents/pcos-parent/

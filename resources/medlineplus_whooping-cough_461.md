@@ -1,33 +1,5 @@
 # Whooping Cough
 
-- Topic ID: 461
-- Language: English
-- URL: https://medlineplus.gov/whoopingcough.html
-- Date created: 11/10/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Pertussis
-
-## Groups
-- Children and Teenagers
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Whooping Cough
-
-## Related topics
-- Cough
-- Tetanus, Diphtheria, and Pertussis Vaccines
-
-## See also
-- Pertussis
-
-## Meta description
-Whooping cough (Pertussis) is an infectious bacterial disease that causes uncontrollable coughing. Learn about the vaccine, symptoms, and treatment.
-
-## Summary
 What is whooping cough?
 Whooping cough, or pertussis, is a respiratory infection that can cause coughing fits. In serious cases, the coughing can become violent and rapid. You may cough so hard that you vomit. The name of the disease comes from the whooping noise you might make when you try to breathe in after coughing.
 
@@ -86,8 +58,6 @@ Whooping cough can sometimes be very serious and require treatment in the hospit
 Can whooping cough be prevented?
 Vaccines are the best way to prevent whooping cough. There are two vaccines in the United States that can help prevent whooping cough: DTaP and Tdap. These vaccines also provide protection against tetanus and diphtheria.
 
- 
-
 Babies and other people at high risk serious disease should be kept away from people who have whooping cough.
 
 Sometimes health care providers give antibiotics to family members of people who have had whooping cough or people who have been exposed to it. The antibiotics may prevent them from getting the disease.
@@ -107,13 +77,3 @@ You may also help prevent the spread of whooping cough (and other respiratory di
 - Avoiding close contact with people who are sick
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Whooping Cough (Pertussis) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/pertussis/about/
-- About Whooping Cough (Pertussis) Outbreaks [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/pertussis/outbreaks/
-- Nasal Swab [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/nasal-swab/
-- Pertussis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001561.htm
-- Pertussis (Whooping Cough) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/pertussis/
-- Treatment of Whooping Cough [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/pertussis/treatment/
-- Vaccines for Family and Caregivers [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines-pregnancy/about/vaccines-family-caregivers.html
-- Whooping Cough (Pertussis) [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/whooping-cough.html

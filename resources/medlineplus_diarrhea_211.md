@@ -1,37 +1,5 @@
 # Diarrhea
 
-- Topic ID: 211
-- Language: English
-- URL: https://medlineplus.gov/diarrhea.html
-- Date created: 06/28/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Dysentery
-- The runs
-- The trots
-
-## Groups
-- Digestive System
-- Symptoms
-
-## MeSH
-- Diarrhea
-
-## Related topics
-- C. diff Infections
-- Foodborne Illness
-- Gastroenteritis
-- Rotavirus Infections
-- Traveler's Health
-
-## See also
-- Dysentery
-
-## Meta description
-Diarrhea can range from mild to severe and can be dangerous in children. Find out what you can do to treat symptoms and when to call your doctor.
-
-## Summary
 What is diarrhea?
 Diarrhea is loose, watery stools (bowel movements). You have diarrhea if you have loose stools three or more times in one day. Acute diarrhea is diarrhea that lasts a short time. It is a common problem. It usually lasts about one or two days, but it may last longer. Then it goes away on its own.
 
@@ -125,15 +93,3 @@ You can help prevent traveler's diarrhea by being careful about what you eat and
 - Make sure that the cooked food you eat is fully cooked and served hot
 
 - Avoid unwashed or unpeeled raw fruits and vegetables
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- 5 Things to Know about Probiotics [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/things-to-know-about-probiotics
-- Anti-Diarrheal Medicines: OTC Relief for Diarrhea [Treatments and Therapies] — American Academy of Family Physicians — https://familydoctor.org/anti-diarrheal-medicines-otc-relief-for-diarrhea/
-- Antibiotic-Associated Diarrhea [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/antibiotic-associated-diarrhea/symptoms-causes/syc-20352231?p=1
-- Bacteria Culture Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bacteria-culture-test/
-- C. diff Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/c-diff-testing/
-- Calprotectin Stool Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/calprotectin-stool-test/
-- Chamomile [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/chamomile
-- Chronic Diarrhea in Children [Children] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/digestive-diseases/chronic-diarrhea-children

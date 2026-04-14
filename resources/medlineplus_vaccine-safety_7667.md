@@ -1,29 +1,5 @@
 # Vaccine Safety
 
-- Topic ID: 7667
-- Language: English
-- URL: https://medlineplus.gov/vaccinesafety.html
-- Date created: 10/20/2020
-
-## Groups
-- Infections
-- Immune System
-- Safety Issues
-
-## MeSH
-- Vaccines
-
-## Related topics
-- Childhood Vaccines
-- COVID-19 Vaccines
-- Flu Shot
-- Tetanus, Diphtheria, and Pertussis Vaccines
-- Vaccines
-
-## Meta description
-Vaccines protect you and your family from disease. Learn about vaccine safety in the United States. It includes a thorough process of testing and evaluating vaccines before they can be approved.
-
-## Summary
 What are vaccines?
 Vaccines play an important role in keeping us healthy. They protect us from serious and sometimes deadly diseases. Vaccines are injections (shots), liquids, pills, or nasal sprays that you take to teach your body's immune system to recognize and defend against harmful germs. The germs could be viruses or bacteria.
 
@@ -40,8 +16,6 @@ Serious side effects from vaccines can happen, but they are very rare. These sid
 
 Some people worry that childhood vaccines could cause autism spectrum disorder (ASD). But many scientific studies have looked at this and have found no link between vaccines and ASD.
 
- 
-
 How are vaccines tested for safety?
 Every vaccine that is approved in the United States goes through extensive safety testing. It starts with testing and evaluation of the vaccine before it's approved by the Food and Drug Administration (FDA). This process can often take several years.:
 
@@ -49,20 +23,18 @@ Every vaccine that is approved in the United States goes through extensive safet
 
 - Testing with people is done through clinical trials. In these trials, the vaccines are tested on volunteers. Clinical trials usually start with 20 to 100 volunteers, but eventually include thousands of volunteers.
 
-- The clinical trials have three phases. The trials are looking for the answer to important questions such as 
-	
- - Is the vaccine safe?
+- The clinical trials have three phases. The trials are looking for the answer to important questions such as
 
- - What dose (amount) works best?
+- Is the vaccine safe?
 
- - How does the immune system react to it?
+- What dose (amount) works best?
 
- - How effective is it?
+- How does the immune system react to it?
 
-	
+- How effective is it?
 
 - During the process, the FDA works closely with the company who makes the vaccine to evaluate the vaccine's safety and effectiveness. If the vaccine is found to be safe and effective, it will be approved and licensed by the FDA.
- 
+
 - After a vaccine is licensed, experts may consider adding it to the recommended vaccine, or immunization, schedule. This schedule is from the Centers for Disease Control and Prevention (CDC). It lists which vaccines are recommended for different groups of people. They list which age groups should get which vaccines, how many doses they need, and when they should get them.
 
 Testing and monitoring continue after the vaccine is approved:
@@ -72,13 +44,3 @@ Testing and monitoring continue after the vaccine is approved:
 - The FDA, CDC, and other federal agencies continue to monitor its safety, to watch for possible side effects. They have systems to track any safety issues with the vaccines.
 
 These high safety standards and testing help to make sure that vaccines in the United States are safe. Vaccines help protect against serious, even deadly, diseases. They not only protect you, but also help to keep these diseases from spreading to others.
-
-## Selected references
-- About Common Vaccine Safety Questions and Concerns [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccine-safety/about/
-- Autism and Vaccines [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccine-safety/about/autism.html
-- Fainting and Vaccines [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccine-safety/about/fainting.html
-- Is There a Connection Between Vaccines and Autism? [Children] — Nemours Foundation — https://kidshealth.org/en/parents/autism-studies.html
-- Possible Side Effects from Vaccines [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines/basics/possible-side-effects.html
-- Pregnancy and Vaccination [Women] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines-pregnancy/
-- Reasons to Vaccinate [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines-children/reasons/
-- Sudden Infant Death Syndrome (SIDS) and Vaccines [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccine-safety/about/sids.html

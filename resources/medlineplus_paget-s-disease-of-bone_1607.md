@@ -1,39 +1,13 @@
 # Paget's Disease of Bone
 
-- Topic ID: 1607
-- Language: English
-- URL: https://medlineplus.gov/pagetsdiseaseofbone.html
-- Date created: 03/28/2002
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Osteitis deformans
-
-## Groups
-- Bones, Joints and Muscles
-
-## MeSH
-- Osteitis Deformans
-
-## See also
-- Osteitis Deformans
-
-## Meta description
-Paget's disease of bone causes your bones to grow too large and weak. It can cause pain and damage in the bones. Learn more.
-
-## Summary
-What is Paget's disease of bone? 
+What is Paget's disease of bone?
 Paget's disease of bone is a chronic bone disorder. Normally, there is a process in which your bones break down and then regrow. In Paget's disease, this process is abnormal. There is excessive breakdown and regrowth of bone. Because the bones regrow too quickly, they are bigger and softer than normal. They may be misshapen and easily fractured (broken). Paget's usually affects just one or a few bones.
 
 What causes Paget's disease of bone?
 Researchers do not know for sure what causes Paget's disease. Environmental factors may play a role. In some cases, the disease runs in families, and several genes have been linked to the disease.
 
- 
-
 Who is at risk for Paget's disease of bone?
 The disease is more common in older people and those of northern European heritage. If you have a close relative who has Paget's, you are much more likely to have it.
-
- 
 
 What are the symptoms of Paget's disease of bone?
 Many people do not know that they have Paget's, because it often has no symptoms. When there are symptoms, they are similar to those of arthritis and other disorders. The symptoms include:
@@ -90,27 +64,13 @@ To avoid complications, it is important to find and treat Paget's disease early.
 - Medicines. There are several different medicines to treat Paget's disease. The most common type is bisphosphonates. They help reduce bone pain and stop or slow down the progress of the disease.
 
 - Surgery is sometimes needed for certain complications of the disease. There are surgeries to
-	
- - Allow fractures (broken bones) to heal in a better position
 
- - Replace joints such as the knee and hip when there is severe arthritis
+- Allow fractures (broken bones) to heal in a better position
 
- - Realign a deformed bone to reduce the pain in weight-bearing joints, especially the knees
+- Replace joints such as the knee and hip when there is severe arthritis
 
- - Reduce pressure on a nerve, if enlargement of the skull or spine injuries effects the nervous system
+- Realign a deformed bone to reduce the pain in weight-bearing joints, especially the knees
 
-	
+- Reduce pressure on a nerve, if enlargement of the skull or spine injuries effects the nervous system
 
 Diet and exercise do not treat Paget's, but they can help to keep your skeleton healthy. If you do not have kidney stones, you should make sure to get enough calcium and vitamin D through your diet and supplements. Besides keeping your skeleton healthy, exercise can prevent weight gain and maintain the mobility of your joints. Talk with your health care provider before you start a new exercise program. You need to make sure that the exercise does not put too much stress on the affected bones.
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- Alkaline Phosphatase [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alkaline-phosphatase/
-- ALP - blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003470.htm
-- ALP isoenzyme test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003497.htm
-- Bone scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003833.htm
-- Bone Scan [Diagnosis and Tests] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/tests-procedures/bone-scan/about/pac-20393136?p=1
-- Paget disease of the bone [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000414.htm
-- Paget's Disease of Bone [Start Here] — American Academy of Orthopaedic Surgeons — https://orthoinfo.aaos.org/en/diseases--conditions/pagets-disease-of-bone
-- Paget's Disease of Bone [Start Here] — American College of Rheumatology — https://rheumatology.org/patients/pagets-disease-of-bone

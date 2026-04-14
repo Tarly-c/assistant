@@ -1,40 +1,5 @@
 # Drug Reactions
 
-- Topic ID: 5603
-- Language: English
-- URL: https://medlineplus.gov/drugreactions.html
-- Date created: 08/24/2010
-
-## Also called
-- Side effects
-
-## Groups
-- Drug Therapy
-
-## MeSH
-- Drug-Related Side Effects and Adverse Reactions
-- Drug Hypersensitivity
-- Metabolic Side Effects of Drugs and Substances
-- Chemical and Drug Induced Liver Injury
-- Drug Interactions
-
-## Related topics
-- Allergy
-- Anaphylaxis
-- Drug Safety
-- Hives
-- Medication Errors
-- Medicines
-- Over-the-Counter Medicines
-
-## See also
-- Drug Allergies
-- Drug Interactions
-
-## Meta description
-If you take prescription or over the counter medicines, be aware of possible drug reactions. Learn about drug interactions, side effects, and more.
-
-## Summary
 Most of the time, medicines make our lives better. They reduce aches and pains, fight infections, and control problems such as high blood pressure or diabetes. But medicines can also cause unwanted reactions, such as drug interactions, side effects, and allergies.
 
 What is a drug interaction?
@@ -58,13 +23,3 @@ Drug allergies are another type of reaction. They can range from mild to life-th
 
 How can I stay safe when taking medicines?
 When you start a new prescription or over-the-counter medicine, make sure you understand how to take it correctly. Know which other medicines, foods, and supplements you need to avoid. Always talk to your health care provider or pharmacist if you have questions about your medicines.
-
-## Selected references
-- Allergy Skin Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/allergy-skin-test/
-- Anaphylaxis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000844.htm
-- Anaphylaxis [Diagnosis and Tests] — American Academy of Allergy, Asthma, and Immunology — https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis
-- Anaphylaxis-Like Reactions [Diagnosis and Tests] — National Jewish Health — https://www.nationaljewish.org/conditions/anaphylaxis/reactions?modal=1
-- Anaphylaxis: First Aid [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608?p=1
-- Angioedema [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000846.htm
-- Aspirin Allergy: What Are the Symptoms? [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/drug-allergy/expert-answers/aspirin-allergy/faq-20058225?p=1
-- Drug allergies [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000819.htm

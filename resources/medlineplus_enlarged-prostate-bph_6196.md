@@ -1,38 +1,7 @@
 # Enlarged Prostate (BPH)
 
-- Topic ID: 6196
-- Language: English
-- URL: https://medlineplus.gov/enlargedprostatebph.html
-- Date created: 06/03/2014
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- benign prostatic hyperplasia
-
-## Groups
-- Male Reproductive System
-
-## MeSH
-- Prostatic Hyperplasia
-
-## Related topics
-- Men's Health
-- Older Adult Health
-- Prostate Cancer
-- Prostate Diseases
-
-## See also
-- BPH
-- Benign Prostatic Hypertrophy
-
-## Meta description
-Enlarged prostate, or benign prostatic hyperplasia (BPH), is a common problem in men over 50. Learn about the symptoms and treatments.
-
-## Summary
 What is the prostate?
 The prostate is a gland in the male reproductive system. It lies just below the bladder. It makes fluid that is part of semen.
-
- 
 
 What is an enlarged prostate (BPH)?
 An enlarged prostate is when your prostate gland becomes larger than normal. It's also called benign prostatic hyperplasia or BPH for short. Benign means not cancer. And hyperplasia means too much cell growth. BPH isn't cancer and it doesn't increase your risk of getting prostate cancer.
@@ -52,16 +21,14 @@ You're more likely to develop BPH if you:
 - Have family members who have had BPH.
 
 - Have certain health conditions such as:
-	
- - Obesity.
 
- - Heart disease and problems with blood circulation.
+- Obesity.
 
- - Type 2 diabetes.
+- Heart disease and problems with blood circulation.
 
- - Erectile dysfunction.
+- Type 2 diabetes.
 
-	
+- Erectile dysfunction.
 
 - Don't get enough physical activity.
 
@@ -69,22 +36,20 @@ What are the symptoms of BPH?
 Symptoms of BPH include:
 
 - Having a frequent or urgent need to urinate
- 
+
 - Waking up many times to urinate
 
 - Having problems with urine flow, such as:
-	
- - Trouble starting to urinate
 
- - A stream that's weak, slow, or stops and starts
+- Trouble starting to urinate
 
- - Dribbling after urination
+- A stream that's weak, slow, or stops and starts
 
- - Urinary incontinence
+- Dribbling after urination
 
- - Feeling that you can't completely empty your bladder
+- Urinary incontinence
 
-	
+- Feeling that you can't completely empty your bladder
 
 - Pain after ejaculation or during urination
 
@@ -92,7 +57,6 @@ Symptoms of BPH include:
 
 It's important to see your health care provider if you have any of these symptoms because they could be from a more serious health problem.
 
- 
 You should get medical help right away if you:
 
 - Can't urinate at all
@@ -106,19 +70,15 @@ You should get medical help right away if you:
 What other problems can BPH cause?
 For most people, BPH doesn't cause other problems. But BPH increases your chance of developing serious conditions, including:
 
- 
-
 - Acute urinary retention. With this condition, you suddenly can't urinate at all. This a medical emergency. Acute urinary retention is common in older males and the chance of having it increases with age. It may be triggered by:
-	
- - Taking certain over-the-counter cold or allergy medicines
 
- - Drinking alcohol
+- Taking certain over-the-counter cold or allergy medicines
 
- - Cold temperatures
+- Drinking alcohol
 
- - Not moving enough over a long period of time
+- Cold temperatures
 
-	
+- Not moving enough over a long period of time
 
 - Urinary tract infections (UTIs)
 
@@ -132,81 +92,61 @@ To find out if you have BPH, your provider will:
 - Ask about your medical history. Be sure to tell your provider about all the medicines you take, because certain medicines can make BPH symptoms worse.
 
 - Ask about your family health history.
- 
+
 - Examine you. The exam may include a digital rectal exam (DRE) of your prostate. In a DRE, your provider inserts a gloved finger into your rectum to check if your prostate is large, tender, or irregular in any other way.
- 
+
 - Order medical tests, if needed, such as:
- 
- - Urine tests.
- 
- - A PSA blood test (prostate-specific antigen test).
 
- - Urodynamic testing to see how well you can hold and release urine.
+- Urine tests.
 
- - Cystoscopy to look inside your urethra and bladder.
+- A PSA blood test (prostate-specific antigen test).
 
- - Ultrasound pictures of your prostate and urinary tract.
+- Urodynamic testing to see how well you can hold and release urine.
 
- - A prostate biopsy to diagnose or rule out prostate cancer.
- 
- 
+- Cystoscopy to look inside your urethra and bladder.
+
+- Ultrasound pictures of your prostate and urinary tract.
+
+- A prostate biopsy to diagnose or rule out prostate cancer.
 
 What are the treatments for BPH?
 Not everyone needs treatment for BPH. Treatment options depend on how much your symptoms bother you, your health, age, and the size of your prostate:
 
 - Lifestyle changes may improve mild symptoms. They include:
 
-	
- - Drinking less before bedtime or going out
+- Drinking less before bedtime or going out
 
- - Avoiding or cutting back on beverages with caffeine and alcohol
+- Avoiding or cutting back on beverages with caffeine and alcohol
 
- - Bladder training and exercising the muscles that control urine flow
+- Bladder training and exercising the muscles that control urine flow
 
- - Preventing or treating constipation
-
-	
+- Preventing or treating constipation
 
 - Medicines can help mild to moderate symptoms by:
 
-	
- - Stopping the prostate from growing
+- Stopping the prostate from growing
 
- - Shrinking the prostate
+- Shrinking the prostate
 
- - Relaxing muscles to improve urine flow
+- Relaxing muscles to improve urine flow
 
-	
-
-	Sometimes combining 2 types of medicine helps more than taking just one type of medicine.
-
- 
+Sometimes combining 2 types of medicine helps more than taking just one type of medicine.
 
 - Medical procedures can help improve moderate to severe BPH symptoms when medicines don't help enough. There are several different types of procedures. They all use an instrument inserted into the urethra to either:
 
-	
- - Widen the urethra
+- Widen the urethra
 
- - Destroy part of the prostate with heat
-
-	
+- Destroy part of the prostate with heat
 
 - Surgery may be helpful when symptoms are severe, other treatments haven't helped, or you have another problem, such as bladder damage. Different types of surgery are used to:
 
- 
- - Remove part or all of the prostate
+- Remove part or all of the prostate
 
- - Make cuts in the prostate to take pressure off the urethra
+- Make cuts in the prostate to take pressure off the urethra
 
-	
-
-	Most BPH surgery is done with tools inserted into the urethra.
-
- 
+Most BPH surgery is done with tools inserted into the urethra.
 
 Your provider can explain the possible benefits and side effects of your treatment options so you can decide what's best for you.
-
- 
 
 Can BPH be prevented?
 Researchers haven't found ways to prevent BPH. You can take care of your prostate health by:
@@ -216,15 +156,3 @@ Researchers haven't found ways to prevent BPH. You can take care of your prostat
 - Getting regular checkups
 
 - Paying attention to your symptoms so you can get treatment early if you see signs of BPH
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Benign Prostatic Hyperplasia (BPH) [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/benign-prostatic-hyperplasia/symptoms-causes/syc-20370087?p=1
-- Blood in Urine [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-in-urine/
-- Cystoscopy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003903.htm
-- Digital rectal exam [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007069.htm
-- Enlarged prostate [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000381.htm
-- Enlarged Prostate (Benign Prostatic Hyperplasia) [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems/enlarged-prostate-benign-prostatic-hyperplasia
-- Enlarged prostate - after care [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000398.htm
-- Enlarged prostate - what to ask your doctor [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000304.htm

@@ -1,32 +1,5 @@
 # Nausea and Vomiting
 
-- Topic ID: 489
-- Language: English
-- URL: https://medlineplus.gov/nauseaandvomiting.html
-- Date created: 10/20/1999
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Emesis
-
-## Groups
-- Digestive System
-- Symptoms
-
-## MeSH
-- Vomiting
-- Nausea
-
-## Related topics
-- Digestive Diseases
-
-## See also
-- Vomiting
-
-## Meta description
-You call it barfing, puking, or throwing up; your doctor calls it vomiting. Read more about nausea and vomiting and the conditions that cause them.
-
-## Summary
 What are nausea and vomiting?
 Nausea is when you feel sick to your stomach, as if you are going to throw up. Vomiting is when you throw up.
 
@@ -81,13 +54,3 @@ There are things that you can do to feel better:
 - Avoid strong smells, since they can sometimes trigger nausea and vomiting
 
 - If you are pregnant and have morning sickness, eat crackers before you get out of bed in the morning
-
-## Selected references
-- Antiemetic Medicines: OTC Relief for Nausea and Vomiting [Treatments and Therapies] — American Academy of Family Physicians — https://familydoctor.org/antiemetic-medicines-otc-relief-for-nausea-and-vomiting/
-- Bland diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000068.htm
-- Clear liquid diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000205.htm
-- Cyclic Vomiting Syndrome [Specifics] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/digestive-diseases/cyclic-vomiting-syndrome
-- Dehydration in Kids and Teens [Children] — Nemours Foundation — https://kidshealth.org/en/parents/dehydration.html
-- Drinks to Prevent Dehydration When Your Child is Vomiting [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Drinks-to-Prevent-Dehydration-in-a-Vomiting-Child.aspx
-- Ginger [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/ginger
-- Infant Vomiting [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Infant-Vomiting.aspx

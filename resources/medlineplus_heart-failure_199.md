@@ -1,63 +1,22 @@
 # Heart Failure
 
-- Topic ID: 199
-- Language: English
-- URL: https://medlineplus.gov/heartfailure.html
-- Date created: 06/28/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- CHF
-- Cardiac failure
-- Congestive heart failure
-- Left-sided heart failure
-- Right-sided heart failure
-
-## Groups
-- Older Adults
-- Blood, Heart and Circulation
-
-## MeSH
-- Heart Failure
-
-## Related topics
-- Cardiac Rehabilitation
-- Heart Transplantation
-- Pacemakers and Implantable Defibrillators
-
-## See also
-- CHF
-- Cardiac Failure
-- Congestive Heart Failure
-- Low Cardiac Output
-
-## Meta description
-Heart failure, or congestive heart failure (CHF), means the heart can't pump enough blood. Learn about the signs, symptoms, and causes.
-
-## Summary
 What is heart failure?
 Heart failure means that your heart can't pump enough oxygen-rich blood to meet your body's needs. Heart failure doesn't mean that your heart has stopped or is about to stop beating. But without enough blood flow, your organs may not work well, which can cause serious problems.
-
- 
 
 Heart failure can affect one or both sides of your heart:
 
 - With right-sided heart failure, your heart is too weak to pump enough blood to your lungs to get oxygen.
 
 - With left-sided heart failure, your heart can't pump enough oxygen-rich blood out to your body. This happens when the left side of your heart becomes either:
-	
- - Too weak to pump enough blood.
 
- - Too thick or stiff to relax and fill with enough blood.
+- Too weak to pump enough blood.
 
-	
+- Too thick or stiff to relax and fill with enough blood.
 
 Left-sided heart failure is more common than right-sided heart failure.
 
 What causes heart failure?
 Heart failure can start suddenly after a medical condition or injury damages your heart muscle. But in most cases, heart failure develops slowly from long-term medical conditions.
-
- 
 
 Conditions that can cause heart failure include:
 
@@ -93,48 +52,44 @@ Heart failure can happen at any age. It happens to both men and women, but men o
 - You're 65 years old or older. Aging can weaken and stiffen your heart muscle.
 
 - Your family health history includes relatives who have or have had heart failure.
- 
+
 - You have changes in your genes that affect your heart tissue.
 
 - You have habits that can harm your heart, including:
-	
- - Smoking
 
- - Eating foods high in fat, cholesterol, and sodium (salt)
- 
- - Having an inactive lifestyle
+- Smoking
 
- - Alcohol use disorder (AUD)
+- Eating foods high in fat, cholesterol, and sodium (salt)
 
- - Illegal drug use
+- Having an inactive lifestyle
 
-	
+- Alcohol use disorder (AUD)
 
-- You have other medical conditions that can affect your heart, including: 
-	
- - Any heart or blood vessel conditions, including high blood pressure
+- Illegal drug use
 
- - Serious lung diseases
+- You have other medical conditions that can affect your heart, including:
 
- - Infection, such as HIV or COVID-19
+- Any heart or blood vessel conditions, including high blood pressure
 
- - Obesity
+- Serious lung diseases
 
- - Diabetes
+- Infection, such as HIV or COVID-19
 
- - Sleep apnea
+- Obesity
 
- - Chronic kidney disease
+- Diabetes
 
- - Anemia
+- Sleep apnea
 
- - Thyroid disease
+- Chronic kidney disease
 
- - Iron overload disease
+- Anemia
 
- - Cancer treatments that can harm your heart, such as radiation and chemotherapy
+- Thyroid disease
 
-	
+- Iron overload disease
+
+- Cancer treatments that can harm your heart, such as radiation and chemotherapy
 
 - You are African American. African Americans are more likely to develop heart failure and have more serious cases at younger ages than people of other races. Factors such as stigma, discrimination, income, education, and geographic region can also affect their risk of heart failure.
 
@@ -143,12 +98,10 @@ The symptoms of heart failure depend on which side of your heart is affected and
 
 Fluid buildup happens because the flow of blood through your heart is too slow. As a result, blood backs up in the vessels that return the blood to your heart. Fluid may leak from the blood vessels and collect in the tissues of your body, causing swelling (edema) and other problems.
 
- 
-
 Symptoms of heart failure may include:
 
 - Feeling short of breath (like you can't get enough air) when you do things like climbing stairs. This may be one of the first symptoms you notice.
- 
+
 - Fatigue or weakness even after rest.
 
 - Coughing.
@@ -165,13 +118,11 @@ Symptoms of heart failure may include:
 
 At first you may have no symptoms or mild symptoms. As the disease gets worse, your symptoms will usually bother you more.
 
- 
-
 What other problems does heart failure cause?
 Fluid buildup and reduced blood flow to your organs can lead to serious problems, including:
 
 - Breathing problems from fluid in and around your lungs (also called congestive heart failure)
- 
+
 - Kidney or liver damage, including cirrhosis
 
 - Malnutrition if fluid buildup makes eating uncomfortable or if your stomach doesn't get enough blood flow to digest food properly
@@ -183,8 +134,6 @@ Fluid buildup and reduced blood flow to your organs can lead to serious problems
 How is heart failure diagnosed?
 To find out if you have heart failure, your health care provider will
 
- 
-
 - Ask about your medical history, including your symptoms
 
 - Ask about your family health history, including relatives who have had heart failure
@@ -195,15 +144,10 @@ To find out if you have heart failure, your health care provider will
 
 In some cases, your provider may refer you to a cardiologist (a doctor who specializes in heart diseases) for tests, diagnosis, and care.
 
- 
-
 What are the treatments for heart failure?
 Your treatment will depend on the type of heart failure you have and how serious it is. There's no cure for heart failure. But treatment can help you live longer with fewer symptoms.
 
- 
 Even with treatment, heart failure usually gets worse over time, so you'll likely need treatment for the rest of your life.
-
- 
 
 Most treatment plans include:
 
@@ -217,19 +161,15 @@ Most treatment plans include:
 
 You may need heart surgery if:
 
- 
-
 - You have a congenital heart defect or damage to your heart that can be fixed.
 
 - The left side of your heart is getting weaker and putting a device in your chest could help. Devices include:
-	
- - An implantable cardioverter defibrillator.
 
- - A biventricular pacemaker (cardiac resynchronization therapy).
+- An implantable cardioverter defibrillator.
 
- - A mechanical heart pump (a ventricular assist device (VAD) or a total artificial heart).
+- A biventricular pacemaker (cardiac resynchronization therapy).
 
-	
+- A mechanical heart pump (a ventricular assist device (VAD) or a total artificial heart).
 
 - Your heart doctor recommends a heart transplant because your heart failure is life-threatening and nothing else is helping.
 
@@ -241,15 +181,3 @@ You may be able to prevent or delay heart failure if you:
 - Work with your provider to manage any health conditions that increase your risk of developing heart failure
 
 - Make healthy changes in your eating, exercise, and other daily habits to help prevent heart disease
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Abdominal tap [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003896.htm
-- Advanced Heart Failure [Specifics] — American Heart Association — https://www.heart.org/en/health-topics/heart-failure/living-with-heart-failure-and-managing-advanced-hf/advanced-heart-failure
-- Brain natriutetic peptide test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007509.htm
-- Cardiac Resynchronization Therapy (CRT) [Treatments and Therapies] — American Heart Association — https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/cardiac-resynchronization-therapy-crt
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm
-- Chloride Blood Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/chloride-blood-test/
-- Classes and Stages of Heart Failure [Diagnosis and Tests] — American Heart Association — https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure
-- Congestive Heart Failure (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/congestive-heart-failure.html

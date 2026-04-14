@@ -1,30 +1,5 @@
 # Dislocated Shoulder
 
-- Topic ID: 6927
-- Language: English
-- URL: https://medlineplus.gov/dislocatedshoulder.html
-- Date created: 05/07/2018
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Groups
-- Bones, Joints and Muscles
-- Injuries and Wounds
-
-## MeSH
-- Shoulder Dislocation
-
-## Related topics
-- Dislocations
-- Shoulder Injuries and Disorders
-- Sports Injuries
-
-## See also
-- Shoulder Dislocation
-
-## Meta description
-A dislocated shoulder is an injury that happens when the top of upper arm bone pops out of the socket in your shoulder blade. It is painful and serious, and should be treated right away. Learn more.
-
-## Summary
 What is a dislocated shoulder?
 Your shoulder joint is made up of three bones: your collarbone, your shoulder blade, and your upper arm bone. The top of your upper arm bone is shaped like a ball. This ball fits into a cuplike socket in your shoulder blade. A shoulder dislocation is an injury that happens when the ball pops out of your socket. A dislocation may be partial, where the ball is only partially out of the socket. It can also be a full dislocation, where the ball is completely out of the socket.
 
@@ -75,15 +50,4 @@ The treatment for dislocated shoulder usually involves three steps:
 
 You may need surgery if you injure the tissues or nerves around the shoulder or if you get repeated dislocations.
 
- 
 A dislocation can make your shoulder unstable. When that happens, it takes less force to dislocate it. This means that there is a higher risk of it happening again. Your health care provider may ask you to continue doing some exercises to prevent another dislocation.
-
-## Selected references
-- Chronic Shoulder Instability [Specifics] — American Academy of Orthopaedic Surgeons — https://orthoinfo.aaos.org/en/diseases--conditions/chronic-shoulder-instability
-- Closed reduction of a fractured bone [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000521.htm
-- Closed reduction of a fractured bone - aftercare [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000522.htm
-- Dislocated shoulder - aftercare [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000524.htm
-- Dislocated Shoulder: Diagnosis and Treatment [Diagnosis and Tests] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/dislocated-shoulder/diagnosis-treatment/drc-20371720?p=1
-- Shoulder CT scan [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007346.htm
-- Shoulder Dislocation [Start Here] — American Academy of Orthopaedic Surgeons — https://orthoinfo.aaos.org/en/diseases--conditions/dislocated-shoulder
-- Shoulder joint dislocation [Encyclopedia, Videos and Tutorials] — Medical Encyclopedia — https://medlineplus.gov/ency/anatomyvideos/000111.htm

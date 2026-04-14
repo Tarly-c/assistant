@@ -1,44 +1,9 @@
 # Breast Cancer
 
-- Topic ID: 3
-- Language: English
-- URL: https://medlineplus.gov/breastcancer.html
-- Date created: 10/22/1998
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Women
-- Female Reproductive System
-
-## MeSH
-- Carcinoma, Ductal, Breast
-- Breast Neoplasms
-- Hereditary Breast and Ovarian Cancer Syndrome
-- Inflammatory Breast Neoplasms
-
-## Related topics
-- Breast Diseases
-- Breast Reconstruction
-- Male Breast Cancer
-- Mammography
-- Mastectomy
-
-## See also
-- Paget's Disease of Breast
-
-## Meta description
-Breast cancer is a cancer that starts in the breast tissue, when cells change and grow out of control. These extra cells can form a mass called a tumor.
-
-## Summary
-What is breast cancer? 
+What is breast cancer?
 Breast cancer is a cancer that starts in breast tissue. It happens when cells in the breast change and grow out of control. New cells grow even when you don't need them, and old cells don't die when they should. These extra cells can form a mass called a tumor.
 
- 
-
 Sometimes the cancer does not spread any further. This is called "in situ." If the cancer spreads outside the breast, the cancer is called "invasive." It may just spread to nearby tissues and lymph nodes. Or the cancer may metastasize (spread to other parts of the body) through the lymph system or the blood.
-
- 
 
 Breast cancer is the second most common type of cancer in women in the United States. Rarely, it can also affect men.
 
@@ -56,11 +21,7 @@ There are different types of breast cancer. The types are based on which breast 
 What causes breast cancer?
 Breast cancer happens when there are changes in the genetic material (DNA). Often, the exact cause of these genetic changes is unknown.
 
- 
-
 But sometimes these genetic changes are inherited, meaning that you are born with them. Breast cancer that is caused by inherited genetic changes is called hereditary breast cancer.
-
- 
 
 There are also certain genetic changes that can raise your risk of breast cancer, including changes in the BRCA1 and BRCA2 genes. These two changes also raise your risk of ovarian and other cancers.
 
@@ -69,7 +30,6 @@ Besides genetics, your lifestyle and the environment can affect your risk of bre
 Who is at risk for breast cancer?
 The factors that raise your risk of breast cancer include:
 
- 
 - Older age
 
 - History of breast cancer or benign (noncancer) breast disease
@@ -79,14 +39,12 @@ The factors that raise your risk of breast cancer include:
 - Dense breast tissue
 
 - A reproductive history that leads to more exposure to the estrogen hormone, including:
-	
- - Menstruating at an early age
 
- - Being at an older age when you first gave birth or never having given birth
+- Menstruating at an early age
 
- - Starting menopause at a later age
+- Being at an older age when you first gave birth or never having given birth
 
-	
+- Starting menopause at a later age
 
 - Taking hormone therapy for symptoms of menopause
 
@@ -125,7 +83,6 @@ Your health care provider may use many tools to diagnose breast cancer and figur
 - Breast biopsy.
 
 - Blood chemistry tests, which measure different substances in the blood, including electrolytes, fats, proteins, glucose (sugar), and enzymes. Some of the specific blood chemistry tests include a basic metabolic panel (BMP), a comprehensive metabolic panel (CMP), and an electrolyte panel.
- 
 
 If these tests show that you have breast cancer, you will have tests that study the cancer cells. These tests help your provider decide which treatment would be best for you. The tests may include:
 
@@ -140,13 +97,11 @@ Another step is staging the cancer. Staging involves doing tests to find out whe
 What are the treatments for breast cancer?
 Treatments for breast cancer include:
 
-- Surgery such as 
-	
- - A mastectomy, which removes the whole breast
+- Surgery such as
 
- - A lumpectomy to remove the cancer and some normal tissue around it, but not the breast itself
+- A mastectomy, which removes the whole breast
 
-	
+- A lumpectomy to remove the cancer and some normal tissue around it, but not the breast itself
 
 - Radiation therapy
 
@@ -167,26 +122,12 @@ You may be able to help prevent breast cancer by making healthy lifestyle change
 
 - Getting enough exercise
 
-- Limiting your exposure to estrogen by 
- 
- - Breastfeeding your babies if you can
+- Limiting your exposure to estrogen by
 
- - Limiting hormone therapy
+- Breastfeeding your babies if you can
 
-	
+- Limiting hormone therapy
 
 If you are at high risk, your provider may suggest that you take certain medicines to lower the risk. Some women at very high risk may decide to get a mastectomy (of their healthy breasts) to prevent breast cancer.
 
 It's also important to get regular mammograms. They may be able to identify breast cancer in the early stages, when it is easier to treat.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- BRCA Genetic Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/brca-test/
-- BRCA1 and BRCA2 gene testing [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000690.htm
-- Breast Biopsy [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/breast-biopsy/
-- Breast biopsy  - ultrasound [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007432.htm
-- Breast biopsy -- stereotactic [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007433.htm
-- Breast Cancer [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470?p=1
-- Breast cancer [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000913.htm

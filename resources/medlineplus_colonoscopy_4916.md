@@ -1,34 +1,8 @@
 # Colonoscopy
 
-- Topic ID: 4916
-- Language: English
-- URL: https://medlineplus.gov/colonoscopy.html
-- Date created: 01/21/2009
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Groups
-- Digestive System
-- Diagnostic Tests
-
-## MeSH
-- Colonoscopy
-
-## Related topics
-- Colonic Diseases
-- Colonic Polyps
-- Colorectal Cancer
-
-## See also
-- Sigmoidoscopy
-
-## Meta description
-A colonoscopy is an exam of the colon and rectum using a tiny camera to search for polyps, cancer or other diseases. Follow these tips to prepare.
-
-## Summary
 What are colonoscopy and flexible sigmoidoscopy?
 Colonoscopy and flexible sigmoidoscopy are procedures that let your doctor look inside your rectum and colon (large intestine). They use instruments called scopes. Scopes have a light and a tiny camera attached to a long, thin tube. These procedures let your doctor see problems such as inflamed tissue, ulcers, polyps, and cancer.
 
- 
 Colonoscopy checks your entire colon and rectum. Flexible sigmoidoscopy checks the rectum and the lower colon (sigmoid colon) only.
 
 What is a virtual colonoscopy?
@@ -55,12 +29,10 @@ To prepare for a colonoscopy, virtual colonoscopy, or flexible sigmoidoscopy, yo
 - Talk with your doctor about any health problems you have and all of the medicines and supplements that you take. You may need to stop taking some of your medicines and/or supplements before the procedure.
 
 - Follow the bowel prep instructions from your doctor. The bowel prep clears the stool out of your colon, so your doctor will be able to see the colon during the procedure:
-	
- - You may need to follow a clear liquid diet, usually for about one day before the procedure. Avoid red or purple drinks or gelatin; the dye can look like blood in the colon. You probably need to stop eating and drinking the night before the exam.
 
- - You will need to take some laxatives. They may be pills, a powder that you dissolve in liquid, an enema, or a combination of these. The laxative will cause diarrhea, so you need to stay close to the bathroom.
+- You may need to follow a clear liquid diet, usually for about one day before the procedure. Avoid red or purple drinks or gelatin; the dye can look like blood in the colon. You probably need to stop eating and drinking the night before the exam.
 
-	
+- You will need to take some laxatives. They may be pills, a powder that you dissolve in liquid, an enema, or a combination of these. The laxative will cause diarrhea, so you need to stay close to the bathroom.
 
 For a virtual colonoscopy, you will also need to drink a contrast medium the night before. The contrast medium is a dye or other substance that is visible on x-rays. It can help your doctor tell the difference between stool and polyps.
 
@@ -71,9 +43,9 @@ For a colonoscopy:
 - You will have the procedure at a hospital or outpatient center. It usually takes 30 to 60 minutes.
 
 - You will get IV (intravenous) sedatives or anesthesia, usually along with pain medicine, so you won't be awake or feel pain during the procedure.
- 
+
 - You'll lie on a table while the doctor inserts a colonoscope through your anus and into your rectum and colon. The scope inflates your large intestine with air for a better view. The camera sends a video image to a monitor so your doctor can see your colon.
- 
+
 - Once the scope reaches the opening to your small intestine, the doctor will slowly remove the scope. While doing so, your doctor will examine your colon again.
 
 - If you have polyps, your doctor may remove them and send them to a lab for testing. Most polyps aren't cancer, but removing them can prevent them from becoming cancer later on.
@@ -89,7 +61,7 @@ For a virtual colonoscopy:
 - You do not need anesthesia.
 
 - You'll lie on a table while a specially trained x-ray technician inserts a thin tube through your anus and into your rectum. The tube inflates your large intestine with air for a better view.
- 
+
 - The table slides into a tunnel-shaped device where the technician takes the x-ray images. You will turn over on your side or stomach to get more images taken.
 
 For a flexible sigmoidoscopy:
@@ -99,7 +71,7 @@ For a flexible sigmoidoscopy:
 - You do not need anesthesia.
 
 - You'll lie on a table while the doctor inserts a thin tube through your anus and into your rectum. The tube inflates your large intestine with air for a better view. The camera sends a video image to a monitor so your doctor can see your lower colon.
- 
+
 - Once the scope has reached the top of the lower colon, the doctor will slowly remove the scope. While doing so, your doctor will examine your lower colon again.
 
 - If you have polyps, your doctor may remove them and send them to a lab for testing. Most polyps aren't cancer, but removing them can prevent them from becoming cancer later on.
@@ -109,20 +81,6 @@ For a flexible sigmoidoscopy:
 What should I expect after a colonoscopy, virtual colonoscopy, or flexible sigmoidoscopy?
 You may feel cramping in your abdomen or bloating during the first hour after the any of these procedures. If the doctor removed polyps or performed a biopsy, you may have light bleeding from your anus. This bleeding is normal.
 
- 
 For a virtual colonoscopy or a flexible sigmoidoscopy, you go back to your regular activities and diet right after the test. For a colonoscopy, you can expect a full recovery and return to your normal diet by the next day.
 
- 
 Your doctor will give you the results of your procedure. If you had a biopsy, it can take a few days to get those results.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Colonoscopy [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy
-- Colonoscopy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003886.htm
-- Colonoscopy discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000897.htm
-- Colorectal Cancer Screening Tests [Specifics] — National Library of Medicine — https://medlineplus.gov/lab-tests/colorectal-cancer-screening-tests/
-- CT Colonography or Virtual Colonoscopy [Specifics] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/ct_colo
-- Flexible Sigmoidoscopy [Specifics] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diagnostic-tests/flexible-sigmoidoscopy
-- Sigmoidoscopy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003885.htm
-- Virtual colonoscopy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007253.htm

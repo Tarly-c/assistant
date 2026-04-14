@@ -1,23 +1,5 @@
 # Acute Flaccid Myelitis
 
-- Topic ID: 7207
-- Language: English
-- URL: https://medlineplus.gov/acuteflaccidmyelitis.html
-- Date created: 11/01/2018
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- AFM
-
-## Groups
-- Children and Teenagers
-- Infections
-- Brain and Nerves
-
-## Meta description
-Acute flaccid myelitis (AFM) is a rare but serious neurologic disease. It mostly affects children. Learn about its possible causes and symptoms.
-
-## Summary
 What is acute flaccid myelitis (AFM)?
 Acute flaccid myelitis (AFM) is a neurologic disease. It is rare, but serious. It affects an area of the spinal cord called gray matter. This can cause the muscles and reflexes in the body to become weak.
 
@@ -35,7 +17,7 @@ What are the symptoms of acute flaccid myelitis (AFM)?
 Most people with AFM will suddenly have:
 
 - Arm or leg weakness
- 
+
 - A loss of muscle tone and reflexes
 
 Some people also have other symptoms, including:
@@ -57,7 +39,7 @@ Sometimes AFM can weaken the muscles that you need for breathing. This can lead 
 If you or your child develops any of these symptoms, get medical care right away.
 
 How is acute flaccid myelitis (AFM) diagnosed?
-AFM causes many of the same symptoms as other neurologic diseases, such as transverse myelitis and Guillain-Barre syndrome. This can make it difficult to diagnose. To find out if you have AFM, your doctor may use: 
+AFM causes many of the same symptoms as other neurologic diseases, such as transverse myelitis and Guillain-Barre syndrome. This can make it difficult to diagnose. To find out if you have AFM, your doctor may use:
 
 - A neurologic exam, including looking at where there is weakness, poor muscle tone, and decreased reflexes
 
@@ -65,11 +47,11 @@ AFM causes many of the same symptoms as other neurologic diseases, such as trans
 
 - Lab tests on the cerebrospinal fluid (the fluid around the brain and spinal cord)
 
-- Nerve conduction and electromyography (EMG) studies. These tests check nerve speed and the response of muscles to the messages from the nerves. 
+- Nerve conduction and electromyography (EMG) studies. These tests check nerve speed and the response of muscles to the messages from the nerves.
 
 It is important that the tests are done as soon as possible after the symptoms start.
 
-What are the treatments for acute flaccid myelitis (AFM)? 
+What are the treatments for acute flaccid myelitis (AFM)?
 There is no specific treatment for AFM. A doctor who specializes in treating brain and spinal cord illnesses (neurologist) may recommend treatments for specific symptoms. For example, physical and/or occupational therapy may help with arm or leg weakness. Researchers do not know the long-term outcomes of people who get AFM.
 
 Can acute flaccid myelitis (AFM) be prevented?
@@ -88,10 +70,3 @@ There is no specific way to prevent AFM. But you can take steps to prevent getti
 - Staying home when sick
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Acute Flaccid Myelitis (AFM) [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/acute-flaccid-myelitis/about/
-- Acute flaccid myelitis [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007743.htm
-- Acute Flaccid Myelitis (AFM) [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/acute-flaccid-myelitis/
-- Acute Flaccid Myelitis (AFM) (For Parents) [Learn More] — Nemours Foundation — https://kidshealth.org/en/parents/acute-flaccid-myelitis.html
-- CDC Vital Signs: Acute Flaccid Myelitis (AFM) [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/vitalsigns/afm2020/

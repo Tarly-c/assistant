@@ -1,27 +1,5 @@
 # Telehealth
 
-- Topic ID: 7467
-- Language: English
-- URL: https://medlineplus.gov/telehealth.html
-- Date created: 05/04/2020
-- Primary institute: NIH Office of the Director
-
-## Also called
-- Telemedicine
-
-## Groups
-- Health System
-
-## MeSH
-- Telemedicine
-
-## Related topics
-- Talking With Your Doctor
-
-## Meta description
-Telehealth is the use of communications technologies to provide health care from a distance. Learn about the benefits, problems, and the types of care available using telehealth.
-
-## Summary
 What is telehealth?
 Telehealth is the use of communications technologies to provide health care from a distance. These technologies may include computers, cameras, videoconferencing, the Internet, and satellite and wireless communications. Some examples of telehealth include:
 
@@ -41,8 +19,6 @@ Telehealth is the use of communications technologies to provide health care from
 
 What is the difference between telemedicine and telehealth?
 Sometimes people use the term telemedicine to mean the same thing as telehealth. Telehealth is a broader term. It includes telemedicine. But it also includes things like training for health care providers, health care administrative meetings, and services provided by pharmacists and social workers.
-
- 
 
 What are the benefits of telehealth?
 Some of the benefits of telehealth include:
@@ -92,13 +68,3 @@ The types of care that you can get using telehealth may include:
 - Urgent care conditions, such as sinusitis, urinary tract infections, common rashes, etc.
 
 For telehealth visits, just like with an in-person visit, it is important to be prepared and have good communication with the provider.
-
-## Selected references
-- 10 Telehealth Tips for an Ob-Gyn Visit [Women] — American College of Obstetricians and Gynecologists — https://www.acog.org/womens-health/infographics/10-telehealth-tips-for-an-ob-gyn-visit
-- Can Telehealth "Video Visits" Be a Good Option for My Child? How Do They Work? [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/Can-video-visits-be-good-for-my-child.aspx
-- Getting the Most Out of Your Telemedicine Visit [Patient Handouts] — National Kidney Foundation — https://www.kidney.org/sites/default/files/telemedicineworksheet.pdf
-- How Do I Schedule a Telehealth Appointment? [Specifics] — Department of Health and Human Services — https://telehealth.hhs.gov/patients/how-do-i-schedule-telehealth-appointment
-- Telehealth [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000919.htm
-- Telehealth and Your Child [Children] — Nemours Foundation — https://kidshealth.org/en/parents/telemedicine.html
-- Telehealth: Technology Meets Health Care [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/telehealth/art-20044878?p=1
-- VA Telehealth Services [Specifics] — Department of Veterans Affairs — https://telehealth.va.gov/

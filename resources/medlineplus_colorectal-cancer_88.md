@@ -1,41 +1,10 @@
 # Colorectal Cancer
 
-- Topic ID: 88
-- Language: English
-- URL: https://medlineplus.gov/colorectalcancer.html
-- Date created: 02/26/1999
-- Primary institute: National Cancer Institute
-
-## Also called
-- Colon cancer
-- Rectal cancer
-
-## Groups
-- Cancers
-- Digestive System
-
-## MeSH
-- Colorectal Neoplasms
-
-## Related topics
-- Colonic Diseases
-- Colonic Polyps
-- Colonoscopy
-- Rectal Disorders
-
-## See also
-- Colon Cancer
-- Rectal Cancer
-
-## Meta description
-Colorectal cancer starts in the colon or rectum. It may not cause symptoms at first. Screening tests can help find it early, when treatment is most effective.
-
-## Summary
 What is colorectal cancer?
 Colorectal cancer is cancer that develops in the tissues of the colon or rectum. Your colon and rectum are part of your digestive system:
 
 - Your colon is the first and longest part of your large intestine. It absorbs water and some nutrients from foods. It also changes the leftover waste products into stool (poop).
- 
+
 - Your rectum is the lower part of your large intestine. It's where your body stores stool.
 
 Cancer that begins in the colon is called colon cancer, and cancer that begins in the rectum is called rectal cancer. Cancer that affects either of these parts may also be called colorectal cancer.
@@ -43,10 +12,9 @@ Cancer that begins in the colon is called colon cancer, and cancer that begins i
 What causes colorectal cancer?
 Colorectal cancer happens when there are changes in your genetic material (DNA). These changes are also called mutations or variants. Often, the genetic changes that lead to colorectal cancer happen during your lifetime and the exact cause is unknown. But certain genetic changes that raise your risk for colorectal cancer are inherited, meaning that you are born with them.
 
- 
 Besides genetics, other factors, including your lifestyle and the environment, can affect your risk of colorectal cancer.
 
-Who is more likely to develop colorectal cancer? 
+Who is more likely to develop colorectal cancer?
 Anyone can get colorectal cancer, but certain factors make you more likely to develop it:
 
 - Being older; your risk of getting colorectal cancer increases as you age.
@@ -71,16 +39,14 @@ What are the symptoms of colorectal cancer?
 Colorectal cancer may not always cause symptoms, especially at first. If you do have symptoms, they could include:
 
 - A change in bowel habits that lasts more than a few days, such as:
-	
- - Diarrhea
 
- - Constipation
+- Diarrhea
 
- - Feeling that the bowel does not empty completely
+- Constipation
 
- - Your stool is narrower or has a different shape than usual
+- Feeling that the bowel does not empty completely
 
-	
+- Your stool is narrower or has a different shape than usual
 
 - Blood (either bright red or very dark) in the stool
 
@@ -93,11 +59,9 @@ Colorectal cancer may not always cause symptoms, especially at first. If you do 
 What is screening for colorectal cancer and who needs it?
 Because colorectal cancer may not cause symptoms at first, it's important to have screening tests for colorectal cancer. Screening tests look for signs of a disease before you have any symptoms. They can help find cancer early, when it may be easier to treat.
 
- 
 Most experts recommend that start screenings at 45 and continue until at least age 75. People over 75 and those who are at high risk should talk to their providers about how often you need screening and what type of test they should get.
 
- 
- The types of tests include different stool tests and procedures such as colonoscopies and flexible sigmoidoscopy. Talk with your provider about how often you need screening and what type of test you should get.
+The types of tests include different stool tests and procedures such as colonoscopies and flexible sigmoidoscopy. Talk with your provider about how often you need screening and what type of test you should get.
 
 How is colorectal cancer diagnosed?
 If you have symptoms that could be caused by colorectal cancer or if your screening test results are abnormal, you may need to have more tests to find out if you have cancer. Possible tests include:
@@ -120,7 +84,7 @@ For colon cancer, your treatment may include one or more of these options:
 - Radiofrequency ablation, a procedure that uses radio waves to heat and destroy abnormal cells. The radio waves travel through electrodes (small devices that carry electricity).
 
 - Cryosurgery, a procedure in which an extremely cold liquid or an instrument called a cryoprobe is used to freeze and destroy abnormal tissue.
- 
+
 - Chemotherapy.
 
 - Radiation therapy.
@@ -159,13 +123,3 @@ There are also other steps you can take to try to prevent colorectal cancer. The
 - Having polyps removed before they can become cancerous
 
 - Getting regular exercise
-
-## Selected references
-- Abdominal CT scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003789.htm
-- Abdominal exploration [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002928.htm
-- Abdominal exploration - series [Diagnosis and Tests, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100049_1.htm
-- Abdominal radiation - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000054.htm
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Anoscopy [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/anoscopy/
-- At-Home Medical Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/at-home-medical-tests/
-- Barium enema [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003817.htm

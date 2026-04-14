@@ -1,40 +1,11 @@
 # Head and Neck Cancer
 
-- Topic ID: 330
-- Language: English
-- URL: https://medlineplus.gov/headandneckcancer.html
-- Date created: 12/29/1999
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Lungs and Breathing
-- Ear, Nose and Throat
-- Mouth and Teeth
-
-## MeSH
-- Head and Neck Neoplasms
-
-## Related topics
-- Esophageal Cancer
-- Eye Cancer
-- Nasal Cancer
-- Oral Cancer
-- Parathyroid Disorders
-- Salivary Gland Cancer
-- Throat Cancer
-- Thyroid Cancer
-
-## Meta description
-Head and neck cancer includes cancers of the mouth, nose, sinuses, salivary glands, throat, and lymph nodes. Read the different symptoms of each type.
-
-## Summary
-What is head and neck cancer? 
+What is head and neck cancer?
 Head and neck cancer is the name for cancers that develop in the mouth, nose and sinuses, salivary glands, and throat and voice box (larynx). Most head and neck cancers are squamous cell cancers. They begin in the moist tissues that line the head and neck. The cancer cells may spread into deeper tissue as the cancer grows.
 
 There are other cancers that develop in the head and neck, such as brain cancer, eye cancer, and esophageal cancer. But they are usually not considered to be head and neck cancers, because those types of cancer and their treatments are different.
 
-Who is more likely to develop head and neck cancer? 
+Who is more likely to develop head and neck cancer?
 Anyone can get head and neck cancer, but you are more likely to develop it if you:
 
 - Use tobacco or drink lots of alcohol. Your risk of developing head and neck cancer is even higher if you do both.
@@ -108,15 +79,3 @@ There are steps you can take to help prevent head and neck cancer:
 - Getting regular dental exams
 
 - Talking to your provider about HPV vaccination
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Brain MRI (Head MRI) [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/mri-brain
-- Childhood Esthesioneuroblastoma Treatment [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/esthesioneuroblastoma-treatment-pdq
-- Childhood Laryngeal Tumors [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/laryngeal-treatment-pdq
-- Childhood Midline Tract Carcinoma with NUT Gene Changes Treatment [Children] — National Cancer Institute — https://www.cancer.gov/types/midline/patient-child-midline-tract-carcinoma-treatment-pdq
-- Childhood Nasopharyngeal Cancer [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/nasopharyngeal-treatment-pdq
-- Childhood Oral Cavity Cancer [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/oral-cavity-treatment-pdq
-- Childhood Thyroid Cancer Treatment [Children] — National Cancer Institute — https://www.cancer.gov/types/thyroid/patient/child-thyroid-treatment-pdq

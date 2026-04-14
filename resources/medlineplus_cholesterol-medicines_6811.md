@@ -1,36 +1,5 @@
 # Cholesterol Medicines
 
-- Topic ID: 6811
-- Language: English
-- URL: https://medlineplus.gov/cholesterolmedicines.html
-- Date created: 01/16/2018
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Blood, Heart and Circulation
-- Food and Nutrition
-- Drug Therapy
-
-## MeSH
-- Nicotinic Acids
-- Hydroxymethylglutaryl-CoA Reductase Inhibitors
-- Fibric Acids
-- Hypolipidemic Agents
-- Hypercholesterolemia
-- Ezetimibe
-
-## Related topics
-- Cholesterol
-- Cholesterol Levels: What You Need to Know
-- Heart Diseases
-- How to Lower Cholesterol
-- Statins
-- Triglycerides
-
-## Meta description
-If diet and exercise don't reduce your cholesterol levels enough, you may need to take medicine. Learn about the different types of cholesterol medicines.
-
-## Summary
 What is cholesterol?
 Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your body needs some cholesterol to work properly. But if you have too much of it in your blood, it can stick to the walls of your arteries and narrow or even block them. This puts you at risk for coronary artery disease and other heart diseases.
 
@@ -38,8 +7,6 @@ Cholesterol is made by your liver. It travels through the blood on proteins call
 
 What are the treatments for high cholesterol?
 If you have high cholesterol, lifestyle changes can help you lower your cholesterol levels. But sometimes the lifestyle changes are not enough, and you need to take cholesterol medicines. But you should still continue with the lifestyle changes even though you are taking medicines.
-
- 
 
 Who needs cholesterol medicines?
 Your health care provider may prescribe cholesterol medicines for you if:
@@ -71,8 +38,6 @@ There are several types of cholesterol-lowering drugs available, including:
 
 There are also a few other cholesterol medicines (lomitapide and mipomersen) that are only for people who have FH.
 
- 
-
 How does my health care provider decide which cholesterol medicine I should take?
 When deciding which medicine you should take and which dose you need, your provider will consider:
 
@@ -87,13 +52,3 @@ When deciding which medicine you should take and which dose you need, your provi
 - Possible side effects of the medicines. Higher doses are more likely to cause side effects, especially over time.
 
 Medicines can help control your cholesterol, but they don't cure it. You need to keep taking your medicines and get regular cholesterol checks to make sure that your cholesterol levels are in a healthy range.
-
-## Selected references
-- Bile acid sequestrants for cholesterol [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000787.htm
-- Cholesterol - drug treatment [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000314.htm
-- Cholesterol Medications [Learn More] — American Heart Association — https://www.heart.org/en/health-topics/cholesterol/prevention-and-treatment-of-high-cholesterol-hyperlipidemia/cholesterol-medications
-- Cholesterol Medications: Consider the Options [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/cholesterol-medications/art-20050958?p=1
-- Cholesterol-Lowering Medicines [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholesterol/treatment/cholesterol-lowering-medicines.html
-- Fibrates [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000789.htm
-- How to take statins [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000748.htm
-- Niacin for cholesterol [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000788.htm

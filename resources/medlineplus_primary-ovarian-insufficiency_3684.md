@@ -1,38 +1,5 @@
 # Primary Ovarian Insufficiency
 
-- Topic ID: 3684
-- Language: English
-- URL: https://medlineplus.gov/primaryovarianinsufficiency.html
-- Date created: 12/11/2003
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- Ovarian insufficiency
-- POF
-- POI
-- Premature ovarian failure
-
-## Groups
-- Women
-- Pregnancy and Reproduction
-- Endocrine System
-- Female Reproductive System
-
-## MeSH
-- Primary Ovarian Insufficiency
-
-## Related topics
-- Menopause
-- Menstruation
-
-## See also
-- Ovarian Insufficiency
-- Premature Ovarian Failure
-
-## Meta description
-Primary ovarian insufficiency(POI) happens when a woman's ovaries stop working before she is 40. POI is different from premature menopause. Learn about the causes, and how to treat the symptoms and complications.
-
-## Summary
 What is primary ovarian insufficiency (POI)?
 Primary ovarian insufficiency (POI), also known as premature ovarian failure, happens when a woman's ovaries stop working normally before she is 40.
 
@@ -50,7 +17,7 @@ Research shows that POI is related to problems with the follicles. Follicles are
 - A low number of follicles
 
 - Autoimmune diseases, including thyroiditis and Addison disease
- 
+
 - Chemotherapy or radiation therapy
 
 - Metabolic disorders
@@ -120,7 +87,6 @@ To diagnose POI, your health care provider may do:
 How is primary ovarian insufficiency (POI) treated?
 Currently, there is no proven treatment to restore normal function to a woman's ovaries. But there are treatments for some of the symptoms of POI. There are also ways to lower your health risks and treat the conditions that POI can cause:
 
- 
 - Hormone replacement therapy (HRT). HRT is the most common treatment. It gives your body the estrogen and other hormones that your ovaries are not making. HRT improves sexual health and decreases the risks for heart disease and osteoporosis. You usually take it until about age 50; that's about the age when menopause usually begins.
 
 - Calcium and vitamin D supplements. Because women with POI are at higher risk for osteoporosis, you should take calcium and vitamin D every day.
@@ -130,15 +96,3 @@ Currently, there is no proven treatment to restore normal function to a woman's 
 - Regular physical activity and a healthy body weight. Getting regular exercise and controlling your weight can lower your risk for osteoporosis and heart disease.
 
 - Treatments for associated conditions. If you have a condition that is related to POI, it is important to treat that as well. Treatments may involve medicines and hormones.
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- Estrogen Levels Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/estrogen-levels-test/
-- Follicle-stimulating hormone (FSH) blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003710.htm
-- Follicle-Stimulating Hormone (FSH) Levels Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/follicle-stimulating-hormone-fsh-levels-test/
-- How Do Healthcare Providers Diagnose POI? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/poi/conditioninfo/diagnosed
-- Luteinizing hormone (LH) blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003708.htm
-- Luteinizing Hormone (LH) Levels Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/luteinizing-hormone-lh-levels-test/
-- Premature ovarian failure [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001163.htm
-- Primary Ovarian Insufficiency [Start Here] — Endocrine Society — https://www.endocrine.org/patient-engagement/endocrine-library/primary-ovarian-insuffiency

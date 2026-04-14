@@ -1,33 +1,5 @@
 # Healthy Living
 
-- Topic ID: 1597
-- Language: English
-- URL: https://medlineplus.gov/healthyliving.html
-- Date created: 03/25/2002
-
-## Groups
-- Wellness and Lifestyle
-
-## MeSH
-- Healthy Lifestyle
-
-## Related topics
-- Exercise and Physical Fitness
-- Health Risks of an Inactive Lifestyle
-- How to Improve Mental Health
-- How to Prevent Diabetes
-- How to Prevent Heart Disease
-- How to Prevent High Blood Pressure
-- Nutrition
-
-## See also
-- Prevention
-- Staying Healthy
-
-## Meta description
-Healthy living means taking care of your body and mind by making choices that support your overall wellbeing. Over time, small steps can add up to big health benefits.
-
-## Summary
 What is healthy living?
 Healthy living means taking care of your body and mind by making choices that support your overall wellbeing. Many things affect your health. Some you can't control, like your genetic makeup or your age. But there are many daily habits you can change to help you feel your best.
 
@@ -70,12 +42,3 @@ You don't have to change everything at once. Start with a few steps to build a f
 - Stay connected with friends, family, or community groups, and do activities you enjoy
 
 Healthy living is a lifelong journey. Over time, small steps can add up to big health benefits.
-
-## Selected references
-- Creating Healthy Habits: Make Better Choices Easier [Start Here] — National Institutes of Health — https://newsinhealth.nih.gov/2018/03/creating-healthy-habits
-- Health Screening: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/healthscreening.html
-- Healthy living [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002393.htm
-- Healthy Living [Children] — National Institute of Environmental Health Sciences — https://www.niehs.nih.gov/health/kids/topics/healthy-living
-- How Can I Live a Healthier Lifestyle? [Start Here] — American Heart Association — https://www.heart.org/-/media/Files/Health-Topics/Answers-by-Heart/How-can-I-make-Lifestyle-Healthier.pdf
-- Teenagers: How to Stay Healthy [Teenagers] — American Academy of Family Physicians — https://familydoctor.org/teenagers-how-to-stay-healthy/
-- What You Can Do to Maintain Your Health [Start Here] — American Academy of Family Physicians — https://familydoctor.org/what-you-can-do-to-maintain-your-health/

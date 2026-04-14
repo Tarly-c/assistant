@@ -1,31 +1,7 @@
 # Vaginal Cancer
 
-- Topic ID: 494
-- Language: English
-- URL: https://medlineplus.gov/vaginalcancer.html
-- Date created: 11/17/1999
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Women
-- Female Reproductive System
-
-## MeSH
-- Vaginal Neoplasms
-
-## Related topics
-- Vaginal Diseases
-- Vulvar Cancer
-
-## Meta description
-Vaginal cancer is not very common and can be found early with a pap smear. Learn about risk factors such as HPV and the treatment options available.
-
-## Summary
 What is vaginal cancer?
 Vaginal cancer is a rare type of cancer that starts in the vagina. The vagina is the canal leading from your cervix (the opening of your uterus) to the outside of your body.
-
- 
 
 Who is more likely to develop vaginal cancer?
 You are more likely to develop vaginal cancer if:
@@ -48,7 +24,7 @@ Vaginal cancer often doesn't have early symptoms. However, see your health care 
 - Pelvic pain
 
 - Pain during sex
- 
+
 - Pain while urinating (peeing)
 
 - Constipation or blood in your stool (poop) or urine (pee)
@@ -67,15 +43,3 @@ Vaginal cancer can often be cured if it is found early. Treatments for vaginal c
 
 Can vaginal cancer be prevented?
 Vaccines that protect against HPV infection may reduce your risk of vaginal cancer. The vaccines provide the most protection if you get them before you are exposed to HPV. So it's best to get vaccinated before you become sexually active.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Childhood Cervical and Vaginal Cancers [Children] — National Cancer Institute — https://www.cancer.gov/types/cervical/childhood-cervical-vaginal-cancer
-- Colposcopy [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/colposcopy/
-- Drugs Approved for Vaginal Cancer [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/drugs/vaginal
-- Pelvic CT scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007362.htm
-- Pelvic radiation - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000059.htm
-- Tests for Vaginal Cancer [Diagnosis and Tests] — American Cancer Society — https://www.cancer.org/cancer/types/vaginal-cancer/detection-diagnosis-staging/how-diagnosed.html
-- Vaginal and Vulvar Cancer [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/cancer/vagvulv/pdf/vagvulv_facts.pdf

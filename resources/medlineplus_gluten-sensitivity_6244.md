@@ -1,31 +1,8 @@
 # Gluten Sensitivity
 
-- Topic ID: 6244
-- Language: English
-- URL: https://medlineplus.gov/glutensensitivity.html
-- Date created: 07/06/2015
-
-## Also called
-- Gluten Intolerance
-
-## Groups
-- Digestive System
-
-## Related topics
-- Celiac Disease
-
-## See also
-- Gluten Intolerance
-
-## Meta description
-Gluten sensitivity or intolerance is different from celiac disease, though some symptoms may be similar. Find information here on gluten-free diets.
-
-## Summary
 Gluten is a protein found in wheat, rye, and barley. It is found mainly in foods. But it may also be in other products like medicines, vitamins, and supplements. People with gluten sensitivity have problems with gluten. Gluten sensitivity may sometimes be called non-celiac gluten sensitivity or gluten intolerance.
 
 Gluten sensitivity is different from celiac disease. Both involve problems with gluten. They can also cause some of the same symptoms, such as abdominal (belly) pain and fatigue. But celiac disease causes damage to the small intestine. Gluten sensitivity does not.
-
- 
 
 Wheat allergy, a type of food allergy, is also different from gluten sensitivity and celiac disease. A wheat allergy can cause some different symptoms, such as itchy eyes or trouble breathing. A wheat allergy does not damage the small intestine.
 
@@ -36,11 +13,3 @@ Researchers are still learning more about gluten sensitivity. If your health car
 The symptoms of gluten sensitivity usually get better with a gluten-free diet. But it's important to make sure that you are still getting enough vitamins, minerals, and fiber. Your provider or a dietician can help you plan your diet.
 
 Dept. of Health and Human Services Office on Women's Health
-
-## Selected references
-- Food Allergy Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/food-allergy-testing/
-- Gluten Sensitivity [Start Here] — Gluten Intolerance Group — https://gluten.org/2019/10/15/gluten-sensitivity/
-- Learn about gluten-free diets [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000813.htm
-- Non-Celiac Gluten/Wheat Sensitivity [Start Here] — Celiac Disease Foundation — https://celiac.org/about-celiac-disease/related-conditions/non-celiac-wheat-gluten-sensitivity/
-- Parenting a Child with Celiac Disease or Gluten Sensitivity [Children] — Gluten Intolerance Group — https://gluten.org/parent-toolkit/
-- What You Need to Know About Gluten Sensitivity [Start Here] — Gluten Intolerance Group — https://gluten.org/2021/12/27/what-you-need-to-know-about-gluten-sensitivity/

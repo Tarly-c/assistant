@@ -1,34 +1,5 @@
 # Lupus
 
-- Topic ID: 82
-- Language: English
-- URL: https://medlineplus.gov/lupus.html
-- Date created: 05/13/1999
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Discoid lupus
-- SLE
-- Subacute cutaneous lupus
-- Systemic lupus erythematosus
-
-## Groups
-- Immune System
-
-## MeSH
-- Lupus Erythematosus, Systemic
-- Lupus Erythematosus, Discoid
-
-## See also
-- Cutaneous Lupus
-- SLE
-- Subacute Cutaneous Lupus
-- Systemic Lupus Erythematosus
-
-## Meta description
-Lupus is an autoimmune disease that causes your immune system to attack your healthy tissues and cells. This can cause damage to many parts of your body.
-
-## Summary
 What is lupus?
 Lupus is a chronic (long-lasting) type of autoimmune disease.Autoimmune diseases happen when your immune system attacks healthy cells and tissues by mistake. This attack causes inflammation. It can also damage many parts of the body, including the joints, skin, kidneys, heart, lungs, and brain.
 
@@ -71,7 +42,7 @@ Lupus can have many symptoms, and they differ from person to person. Some of the
 
 - Hair loss
 
-- Pale or purple fingers or toes, from cold and stress (Raynaud phenomenon) 
+- Pale or purple fingers or toes, from cold and stress (Raynaud phenomenon)
 
 - Sensitivity to the sun
 
@@ -103,7 +74,7 @@ Lupus causes inflammation throughout your body. This can cause problems in your 
 Some people with lupus may be more likely to develop other conditions, such as coronary artery disease (CAD) and atherosclerosis.
 
 How is lupus diagnosed?
-There is no specific test for lupus, and it's often mistaken for other diseases that cause similar symptoms. So it may take a while to get a diagnosis. To find out if you have lupus, your health care provider: 
+There is no specific test for lupus, and it's often mistaken for other diseases that cause similar symptoms. So it may take a while to get a diagnosis. To find out if you have lupus, your health care provider:
 
 - Will ask about your symptoms, medical history, and family health history
 
@@ -114,12 +85,10 @@ There is no specific test for lupus, and it's often mistaken for other diseases 
 - May order other tests, such as urine tests
 
 - May do biopsies:
- 
- - Skin biopsy (looking at skin samples under a microscope)
 
- - Kidney biopsy (looking at tissue from your kidney under a microscope)
+- Skin biopsy (looking at skin samples under a microscope)
 
- 
+- Kidney biopsy (looking at tissue from your kidney under a microscope)
 
 What are the treatments for lupus?
 There is no cure for lupus, but medicines and lifestyle changes can help control it.
@@ -158,15 +127,3 @@ How can I cope with lupus?
 It is important to take an active role in your treatment. It helps to learn more about lupus - being able to spot the warning signs of a flare can help you prevent the flare or make the symptoms less severe.
 
 It is also important to find ways to cope with the stress of having lupus. Exercising and finding ways to relax may make it easier for you to cope. A good support system can also help.
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- ANA (Antinuclear Antibody) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/ana-antinuclear-antibody-test/
-- Antimitochondrial antibody [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003529.htm
-- Antinuclear antibody panel [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003535.htm
-- Antiphospholipid syndrome - APS [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000547.htm
-- Antithyroglobulin antibody test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003557.htm
-- Autoantibody Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/autoantibody-testing/
-- C-reactive protein [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003356.htm
-- Caring for Children and Teens with Lupus [Children] — Lupus Foundation of America — https://www.lupus.org/resources/caring-for-children-and-teens-with-lupus

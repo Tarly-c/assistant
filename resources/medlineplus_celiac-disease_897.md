@@ -1,35 +1,5 @@
 # Celiac Disease
 
-- Topic ID: 897
-- Language: English
-- URL: https://medlineplus.gov/celiacdisease.html
-- Date created: 11/10/1999
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Celiac sprue
-- Gluten-sensitive enteropathy
-- Nontropical sprue
-
-## Groups
-- Digestive System
-- Metabolic Problems
-
-## MeSH
-- Celiac Disease
-
-## Related topics
-- Gluten Sensitivity
-
-## See also
-- Gluten Intolerance
-- Gluten-Sensitive Enteropathy
-- Nontropical Sprue
-
-## Meta description
-Coping with celiac disease can be challenging. Learn about gluten-free diets, signs and symptoms, tests, and more.
-
-## Summary
 What is celiac disease?
 Celiac disease is a chronic (long-term) digestive and immune disorder that damages your small intestine. The damage may prevent your body from absorbing vitamins, minerals, and other nutrients from the food you eat. This can lead to malnutrition and other serious health problems
 
@@ -37,7 +7,7 @@ Celiac disease is triggered by eating foods that contain gluten. Gluten is a pro
 
 Celiac disease is different from gluten sensitivity. Both involve problems with gluten and can cause some of the same symptoms, such as abdominal (belly) pain and fatigue. But gluten sensitivity does not damage the small intestine like celiac disease does.
 
- Wheat allergy, a type of food allergy, is also different. With both celiac disease and wheat allergy, your immune system is reacting to wheat. But with wheat allergy, you can have some different symptoms, such as itchy eyes or trouble breathing. And a wheat allergy will not cause long-term damage to the small intestine.
+Wheat allergy, a type of food allergy, is also different. With both celiac disease and wheat allergy, your immune system is reacting to wheat. But with wheat allergy, you can have some different symptoms, such as itchy eyes or trouble breathing. And a wheat allergy will not cause long-term damage to the small intestine.
 
 What causes celiac disease?
 The exact cause of celiac disease is not known. Research suggests that celiac disease only happens in people who have certain genes and eat food that contains gluten. Researchers are studying other factors that may play a role in causing the disease.
@@ -107,20 +77,6 @@ If you have symptoms of celiac disease, your health care provider will look for 
 If your provider thinks that you could have celiac disease, you will have some tests. Providers most often use blood tests and biopsies of the small intestine to diagnose celiac disease. The biopsy would be done during an upper gastrointestinal (GI) endoscopy. For this procedure, your provider uses an endoscope (a flexible tube with a camera) to see the lining of your esophagus, stomach, and small intestine. It also allows your provider to take a sample of tissue for a biopsy.
 
 What are the treatments for celiac disease?
-The treatment for celiac disease is following a gluten-free diet for the rest of your life. Sticking with a gluten-free diet will treat or prevent many of the symptoms and other health problems caused by celiac disease. In most cases, it can also heal damage in the small intestine and prevent more damage. 
-
- 
+The treatment for celiac disease is following a gluten-free diet for the rest of your life. Sticking with a gluten-free diet will treat or prevent many of the symptoms and other health problems caused by celiac disease. In most cases, it can also heal damage in the small intestine and prevent more damage.
 
 Your provider may refer you to a registered dietician (a nutrition expert) who can help you learn how to eat a healthy diet without gluten. You will also need to avoid all hidden sources of gluten, such as certain supplements, cosmetics, toothpaste, etc. Reading product labels can sometimes help you avoid gluten. If a label doesn't tell you what is in a product, check with the company that makes the product for an ingredients list. Don't just assume that a product is gluten-free if it doesn't mention it.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Albumin blood (serum) test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003480.htm
-- Celiac Disease [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease
-- Celiac Disease (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/celiac-disease.html
-- Celiac disease - nutritional considerations [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002443.htm
-- Celiac disease - sprue [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000233.htm
-- Celiac Disease Screening [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/celiac-disease-screening/
-- D-xylose absorption [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003606.htm
-- Dermatitis herpetiformis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001480.htm

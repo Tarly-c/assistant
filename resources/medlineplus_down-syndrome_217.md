@@ -1,28 +1,6 @@
 # Down Syndrome
 
-- Topic ID: 217
-- Language: English
-- URL: https://medlineplus.gov/downsyndrome.html
-- Date created: 07/26/1999
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- Trisomy 21
-
-## Groups
-- Genetics/Birth Defects
-
-## MeSH
-- Down Syndrome
-
-## See also
-- Trisomy 21
-
-## Meta description
-About 1 in 700 babies are born with the birth defect known as Down Syndrome. Learn about the different Down Syndrome types and related health issues.
-
-## Summary
-What is Down syndrome? 
+What is Down syndrome?
 Down syndrome is a condition in which a person has an extra chromosome or an extra piece of a chromosome. This extra copy changes how a baby's body and brain develop. It can cause both mental and physical challenges during their lifetime. Even though people with Down syndrome might act and look similar, each person has different abilities.
 
 What causes Down syndrome?
@@ -35,11 +13,7 @@ One factor that increases the risk of having a baby with Down syndrome is the ag
 What are the symptoms of Down syndrome?
 The symptoms of Down syndrome are different in each person. And people with Down syndrome may have different problems at different times of their lives. They usually have mild to moderate intellectual disabilities. Their development is often delayed. For example, they may start talking later than other children.
 
- 
-
 Some of the common physical signs of Down syndrome include:
-
- 
 
 - A flat face
 
@@ -83,8 +57,6 @@ There are two basic types of tests that help find Down syndrome during pregnancy
 
 After a baby is born, the provider may make an initial diagnosis of Down syndrome based on the physical signs of the syndrome. The provider can use a karyotype genetic test to confirm the diagnosis. The test can check for extra chromosomes in a sample of the baby's blood.
 
- 
-
 What are the treatments for Down syndrome?
 There is no single, standard treatment for Down syndrome. Treatments are based on each person's physical and intellectual needs, strengths, and limitations.
 
@@ -93,13 +65,3 @@ Services early in life focus on helping children with Down syndrome develop to t
 Since people with Down syndrome can have birth defects and other health problems, they will need regular medical care. They may need to have certain extra health screenings to check for problems that happen more often in people with Down syndrome.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Down Syndrome [Start Here] — National Down Syndrome Society — https://ndss.org/about
-- About Down Syndrome [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/down/conditioninfo
-- Alpha-Fetoprotein (AFP) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-test/
-- Down syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000997.htm
-- Down Syndrome (For Kids) [Children] — Nemours Foundation — https://kidshealth.org/en/kids/down-syndrome.html
-- Down Syndrome (For Parents) [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/down-syndrome.html
-- Down Syndrome Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/down-syndrome-tests/
-- Duodenal atresia [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001131.htm

@@ -1,31 +1,6 @@
 # Food Labeling
 
-- Topic ID: 3756
-- Language: English
-- URL: https://medlineplus.gov/foodlabeling.html
-- Date created: 02/12/2004
-
-## Also called
-- Nutrition labeling
-
-## Groups
-- Food and Nutrition
-
-## MeSH
-- Food Labeling
-
-## Related topics
-- Food Safety
-- Nutrition
-
-## See also
-- Nutrition Labeling
-
-## Meta description
-Most packaged foods in the U.S. have food labels. The label can help you eat a healthy, balanced, diet. Learn more.
-
-## Summary
-All packaged foods and beverages in the United States have food labels. These "Nutrition Facts" labels can help you make smarter food choices and eat a healthy diet. 
+All packaged foods and beverages in the United States have food labels. These "Nutrition Facts" labels can help you make smarter food choices and eat a healthy diet.
 
 Before you read the food label, you should know a few things:
 
@@ -52,13 +27,3 @@ The information on a food label can help you see how a certain food or drink fit
 - Vitamins and minerals
 
 Food and Drug Administration
-
-## Selected references
-- Figuring Out Food Labels [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/food-labels.html
-- Figuring Out Food Labels (For Kids) [Children] — Nemours Foundation — https://kidshealth.org/en/kids/labels.html
-- Food labeling [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002459.htm
-- Food Product Dating [Specifics] — Department of Agriculture, Food Safety and Inspection Service — https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-product-dating
-- Fresh Take on What "Healthy" Means on Food Packages [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/fresh-take-what-healthy-means-food-packages
-- From the Label to the Table! [Children] — National Institute of Environmental Health Sciences — https://www.niehs.nih.gov/health/kids/topics/healthy-living/food/food-labels
-- Gluten-Free Labeling of Foods [Specifics] — Food and Drug Administration — https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/gluten-free-labeling-foods
-- Have Food Allergies? Read the Label [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label

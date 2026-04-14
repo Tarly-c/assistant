@@ -1,38 +1,5 @@
 # HIV: PrEP and PEP
 
-- Topic ID: 7347
-- Language: English
-- URL: https://medlineplus.gov/hivprepandpep.html
-- Date created: 12/04/2019
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Post-Exposure Prophylaxis
-- Pre-Exposure Prophylaxis
-
-## Groups
-- Infections
-- Immune System
-- Drug Therapy
-
-## MeSH
-- Post-Exposure Prophylaxis
-- Pre-Exposure Prophylaxis
-
-## Related topics
-- HIV
-- HIV Medicines
-
-## See also
-- PEP
-- Post-Exposure Prophylaxis
-- PrEP
-- Pre-Exposure Prophylaxis
-
-## Meta description
-PrEP (pre-exposure prophylaxis) and PEP (post-exposure prophylaxis) are medicines to prevent HIV. They are prescribed before or after there is exposure to HIV.
-
-## Summary
 What are PrEP and PEP?
 PrEP and PEP are medicines to prevent HIV. Each type is used in a different situation:
 
@@ -46,30 +13,24 @@ Who should consider taking PrEP?
 PrEP can help protect you if you don't have HIV and any of these applies to you:
 
 - You have had anal or vaginal sex in the past 6 months and:
- 
- - Have a sexual partner with HIV,
- 
- - Have not consistently used a condom, OR
 
- - Have been diagnosed with a sexually transmitted infection (STI) in the past 6 months
+- Have a sexual partner with HIV,
 
- 
+- Have not consistently used a condom, OR
+
+- Have been diagnosed with a sexually transmitted infection (STI) in the past 6 months
 
 - You inject drugs and:
- 
- - Share needles or other equipment to inject drugs OR
 
- - Have an injection partner with HIV
+- Share needles or other equipment to inject drugs OR
 
- 
+- Have an injection partner with HIV
 
 - You have been prescribed PEP and:
- 
- - Continue engaging in high-risk behaviors OR
 
- - Have used multiple courses of PEP
+- Continue engaging in high-risk behaviors OR
 
- 
+- Have used multiple courses of PEP
 
 If you have a partner who is HIV-positive and are considering getting pregnant, talk to your health care provider about PrEP. Taking it may help protect you and your fetus or baby from getting an HIV infection while you try to get pregnant, during pregnancy, or while breastfeeding.
 
@@ -105,8 +66,6 @@ PEP must be started within 72 hours (3 days) after a possible exposure to HIV. T
 
 You need to take the PEP medicines every day for 28 days. You will have to see your provider at certain times during and after taking the PEP, so you can have an HIV screening test and other testing.
 
- 
-
 Does PEP cause side effects?
 Some people taking PEP may have side effects, like nausea. The side effects are usually not serious and often get better over time. If you are taking PEP, tell your provider if you have a side effect that bothers you or that does not go away.
 
@@ -114,11 +73,3 @@ PEP medicines may also interact with other medicines that a person is taking (ca
 
 Can I take PEP every time I have unprotected sex?
 PEP is only for emergency situations. It is not the right choice for people who may be exposed to HIV frequently - for example, if you often have sex without a condom with a partner who is HIV-positive. In that case, you should talk to your health care provider about whether PrEP (pre-exposure prophylaxis) would be right for you.
-
-## Selected references
-- Post-Exposure Prophylaxis (PEP) [Start Here] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/fact-sheets/post-exposure-prophylaxis-pep
-- Pre-Exposure Prophylaxis (PrEP) [Start Here] — HIV.gov, National Institutes of Health, Office of AIDS Research — https://www.hiv.gov/hiv-basics/hiv-prevention/using-hiv-medication-to-reduce-risk/pre-exposure-prophylaxis
-- PrEP - Greater Than HIV [Specifics] — Greater Than AIDS — https://www.greaterthan.org/prep/
-- PrEP for Women [Women] — The Well Project — https://www.thewellproject.org/hiv-information/prep-women
-- PrEP vs. PEP [Specifics] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/infographics/prep-vs-pep
-- What Is PEP? [Start Here] — National Library of Medicine — https://www.nnlm.gov/sites/default/files/2021-10/NLM_HIV_PEP_508c.pdf

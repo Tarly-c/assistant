@@ -1,27 +1,5 @@
 # Thyroid Cancer
 
-- Topic ID: 438
-- Language: English
-- URL: https://medlineplus.gov/thyroidcancer.html
-- Date created: 09/23/1999
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Ear, Nose and Throat
-- Endocrine System
-
-## MeSH
-- Thyroid Neoplasms
-
-## Related topics
-- Thyroid Diseases
-- Thyroid Tests
-
-## Meta description
-Your thyroid is a butterfly-shaped gland in your neck. There are several thyroid cancer types with different treatments. Discover options available.
-
-## Summary
 What is thyroid cancer?
 Thyroid cancer is a cancer that starts in the tissues of the thyroid. Your thyroid is a small, butterfly-shaped gland in the front of your neck. It makes hormones that control the way the body uses energy. These hormones affect nearly every organ in your body and control many of your body's most important functions. For example, they affect your breathing, heart rate, weight, digestion, and moods.
 
@@ -91,15 +69,3 @@ Treatment for thyroid cancer depends on the type of cancer you have and whether 
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells.
 
 - Watchful waiting, which means that you don't get treatment right away. Your regularly checks to see if your signs or symptoms appear or change.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Anaplastic thyroid cancer [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000352.htm
-- Calcitonin blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003699.htm
-- Calcitonin Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/calcitonin-test/
-- Can Thyroid Cancer Be Found Early? [Diagnosis and Tests] — American Cancer Society — https://www.cancer.org/cancer/types/thyroid-cancer/detection-diagnosis-staging/detection.html
-- CEA Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/cea-test/
-- Chemotherapy for Thyroid Cancer [Treatments and Therapies] — American Cancer Society — https://www.cancer.org/cancer/types/thyroid-cancer/treating/chemotherapy.html
-- Childhood Thyroid Cancer Treatment [Children] — National Cancer Institute — https://www.cancer.gov/types/thyroid/patient/child-thyroid-treatment-pdq

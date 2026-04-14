@@ -1,29 +1,6 @@
 # Hidradenitis Suppurativa
 
-- Topic ID: 4363
-- Language: English
-- URL: https://medlineplus.gov/hidradenitissuppurativa.html
-- Date created: 04/18/2006
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Acne inversa
-- Suppurative hidradenitis
-
-## Groups
-- Skin, Hair and Nails
-
-## MeSH
-- Hidradenitis Suppurativa
-
-## Related topics
-- Sweat
-
-## Meta description
-Hidradenitis suppurativa (HS), or acne inversa, is a chronic skin disease. It causes painful bumps in your armpits and groin. Learn about treatment.
-
-## Summary
-What is hidradenitis suppurativa (HS)? 
+What is hidradenitis suppurativa (HS)?
 Hidradenitis suppurativa (HS) is a chronic skin disease. Another name for it is acne inversa. It causes painful, boil-like lumps that form under the skin. It often affects areas where the skin rubs together, such as your armpits and groin. The lumps become inflamed and painful. They often break open, causing abscesses that drain fluid and pus. As the abscesses heal, they can cause scarring of the skin.
 
 What causes hidradenitis suppurativa (HS)?
@@ -58,7 +35,7 @@ HS can be mild, moderate, or severe:
 - In mild HS, there are only one or a few lumps in one area of the skin. A mild case will often get worse, becoming a moderate disease.
 
 - Moderate HS includes recurrences of the lumps that get bigger and break open. The lumps form in more than one area of the body.
- 
+
 - With severe HS, there are widespread lumps, scarring, and chronic pain that may make it hard to move.
 
 Because of the difficulty of dealing with the disease, people with HS are at risk for depression and anxiety.
@@ -74,7 +51,7 @@ There is no specific test for HS. It can be hard to diagnose in the early stages
 
 Your provider may refer you to a dermatologist (skin doctor) to get a diagnosis or treatment.
 
-What are the treatments for hidradenitis suppurativa? 
+What are the treatments for hidradenitis suppurativa?
 There is no cure for HS. Treatments focus on the symptoms, but they are not always effective for everyone. The treatments depend on how severe the disease is and may include:
 
 - Medicines, including steroids, antibiotics, pain relievers, and medicines that flight inflammation. In mild cases, the medicines may be topical (applied to your skin). Otherwise, the medicines may be injected or taken orally (by mouth).
@@ -92,8 +69,3 @@ It may also help if you can avoid things that can irritate your skin, by:
 - Avoiding heat and humidity
 
 - Being careful not to injure your skin
-
-## Selected references
-- Hidradenitis Suppurativa [Teenagers] — VisualDX — https://skinsight.com/skin-conditions/hidradenitis-suppurativa/teen/?Imiw9cApl=1
-- Hidradenitis Suppurativa (HS) [Start Here] — National Institute of Arthritis and Musculoskeletal and Skin Diseases — https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs
-- Hidradenitis Suppurativa: Overview [Start Here] — American Academy of Dermatology — https://www.aad.org/public/diseases/a-z/hidradenitis-suppurativa-overview?NoAds

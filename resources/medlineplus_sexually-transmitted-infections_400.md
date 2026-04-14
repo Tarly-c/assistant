@@ -1,62 +1,14 @@
 # Sexually Transmitted Infections
 
-- Topic ID: 400
-- Language: English
-- URL: https://medlineplus.gov/sexuallytransmittedinfections.html
-- Date created: 01/07/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- STDs
-- STIs
-- Sexually transmitted diseases
-- Venereal disease
-
-## Groups
-- Women
-- Infections
-- Men
-- Sexual Health Issues
-- Female Reproductive System
-- Male Reproductive System
-
-## MeSH
-- Sexually Transmitted Diseases
-
-## Related topics
-- Chlamydia Infections
-- Genital Herpes
-- Genital Warts
-- Gonorrhea
-- HIV
-- HPV
-- Pelvic Inflammatory Disease
-- Pubic Lice
-- Syphilis
-- Trichomoniasis
-
-## See also
-- Crab Lice
-- STDs
-- STIs
-- Sexually Transmitted Diseases
-- Venereal Disease
-
-## Meta description
-Sexually transmitted infections (STIs) are passed from person to person during sexual contact. Testing, vaccines, and prevention behaviors can lower your risk.
-
-## Summary
-What are sexually transmitted infections (STIs)? 
+What are sexually transmitted infections (STIs)?
 Sexually transmitted infections (STIs) are infections that are passed from one person to another through sexual contact. If not treated, a STI can develop into a sexually transmitted disease (STD).
 
- 
 STIs are usually spread during vaginal, oral, or anal sex. But sometimes they can spread through other sexual contact involving the penis, vagina, mouth, or anus. This is because some STIs, like herpes and HPV, are spread by skin-to-skin contact.
 
 Some STIs can be passed to the fetus during pregnancy or childbirth. Other ways that some STIs may spread include while breastfeeding, through blood transfusions, or by sharing needles.
 
 There are more than 20 types of STIs, including:
 
- 
 - Chlamydia
 
 - Genital herpes
@@ -78,8 +30,6 @@ There are more than 20 types of STIs, including:
 What causes sexually transmitted infections (STIs)?
 STIs can be caused by bacteria, viruses, and parasites.
 
- 
-
 Who is affected by sexually transmitted infections (STIs)?
 Most STIs affect both men and women, but in many cases the health problems they cause can be more severe for women. If an STI is passed to a fetus during pregnancy or childbirth, it can cause serious health problems.
 
@@ -88,7 +38,6 @@ STIs don't always cause symptoms or may only cause mild symptoms. So, it is poss
 
 If you do have symptoms, they could include:
 
- 
 - Unusual discharge from the penis or vagina
 
 - Sores or warts on the genital area
@@ -110,10 +59,7 @@ If you do have symptoms, they could include:
 How are sexually transmitted infections (STIs) diagnosed?
 If you are sexually active, you should talk to your health care provider about your risk for STIs and whether you need to be tested. This is especially important since many STIs do not usually cause symptoms.
 
- 
 Some STIs may be diagnosed during a physical exam or through STI testing. Some tests involve a microscopic examination of a sore or fluid swabbed from the vagina, penis, or anus. Blood tests can diagnose other types of STIs.
-
- 
 
 What are the treatments for sexually transmitted infections (STIs)?
 Antibiotics can treat STIs that are caused by bacteria or parasites. There is no cure for STIs caused by viruses, but antiviral medicines can often help with the symptoms and lower your risk of spreading the infection.
@@ -123,7 +69,6 @@ It's important to get treatment if you have an STI. Some types of STIs can cause
 Can sexually transmitted infections (STIs) be prevented?
 The surest way to protect yourself against STIs is to not have sex.
 
- 
 If you do decide to have sex, you can lower your risk of getting an STI by:
 
 - Having you and your partner tested for STIs before having sex.
@@ -133,13 +78,3 @@ If you do decide to have sex, you can lower your risk of getting an STI by:
 - Reducing your number of sex partners. You might even consider "mutual monogamy" with just one partner. This means that you agree to be sexually active only with them, and they agree to be sexually active only with you. But first you should both get tested to make sure that you don't already have an STI.
 
 - Getting vaccinated against HPV and hepatitis B.
-
-## Selected references
-- About STIs and Pregnancy [Women] — Centers for Disease Control and Prevention — https://www.cdc.gov/sti/about/about-stis-and-pregnancy.html
-- Can I Get Checked for STDs Without My Parents Knowing? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/stds-check.html
-- Can You Use Two Condoms for Extra Protection? [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/2-condoms.html
-- Cervicitis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001495.htm
-- Chancroid [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000635.htm
-- Condom Use: An Overview [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/condom-use/
-- Do You Have to See a Doctor to Find Out if You Have an STD? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/std-diagnosis.html
-- Donovanosis (granuloma inguinale) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000636.htm

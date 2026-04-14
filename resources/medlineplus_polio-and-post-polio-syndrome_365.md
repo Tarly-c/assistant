@@ -1,40 +1,6 @@
 # Polio and Post-Polio Syndrome
 
-- Topic ID: 365
-- Language: English
-- URL: https://medlineplus.gov/polioandpostpoliosyndrome.html
-- Date created: 06/10/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Infantile paralysis
-- PPS
-- Poliomyelitis
-
-## Groups
-- Bones, Joints and Muscles
-- Infections
-- Brain and Nerves
-
-## MeSH
-- Poliomyelitis
-- Postpoliomyelitis Syndrome
-
-## Related topics
-- Paralysis
-
-## See also
-- Infantile Paralysis
-- PPS
-- Paralysis, Infantile
-- Poliomyelitis
-- Post-polio Syndrome
-
-## Meta description
-Poliovirus is very contagious. Get the facts on polio and post-polio syndrome. Take precautions when travelling and learn about the polio vaccine.
-
-## Summary
-What is polio? 
+What is polio?
 Polio, or poliomyelitis, is a disease that spreads from person to person. It is caused by the poliovirus. The virus attacks the nervous system. In serious cases, it can cause paralysis (where you can't move parts of the body). The paralysis may be lifelong and can sometimes be life-threatening.
 
 Because of vaccines, polio is rare in the United States. But polio does occur in some parts of the world, and travelers can spread the virus.
@@ -113,15 +79,14 @@ To find out if you or your child has polio, the provider:
 - Will collect samples of body fluids, such as stool, saliva, blood, urine, and spinal fluid. Poliovirus is most likely to be detected in stool specimens.
 
 - May do an MRI to look at pictures of the spinal cord.
- 
 
 What are the treatments for polio and post-polio syndrome (PPS)?
 There is no cure or specific treatment for polio. For a mild case, getting rest and drinking plenty of liquids may help with some of the symptoms.
 
 If the polio is more serious, you or your child may need:
 
-- Physical or occupational therapy to help with arm or leg weakness. The earlier therapy is started, the better. 
- 
+- Physical or occupational therapy to help with arm or leg weakness. The earlier therapy is started, the better.
+
 - Pain relievers to help with pain and treat fever. If your child is sick, do not give them aspirin unless their provider tells you to.
 
 - A ventilator to help with breathing if the breathing muscles are weak or paralyzed.
@@ -129,13 +94,12 @@ If the polio is more serious, you or your child may need:
 There is no cure for PPS. Treatments may help you manage your symptoms. They include:
 
 - Non-fatiguing exercises (exercises that do not cause pain or fatigue that lasts more than 10 minutes). These exercises may improve muscle strength and reduce tiredness. Your provider can help you figure out which exercises are best for you.
- 
+
 - Mobility aids.
- 
+
 - Ventilation equipment.
 
 - Lifestyle changes, such as eating a healthy diet, getting enough sleep, and not smoking.
- 
 
 Can polio be prevented?
 There are two types of vaccine that can prevent polio:
@@ -145,8 +109,6 @@ There are two types of vaccine that can prevent polio:
 - Oral poliovirus vaccine (OPV) is given as drops in the mouth. It is still used throughout much of the world.
 
 Children in the United States get four doses of PV as part of their routine childhood immunizations. Most adults in the United States were vaccinated against polio as children.
-
- 
 
 There is a one-time IPV booster. It may be given to adults who have completed their polio vaccinations but are at higher risk of contact with poliovirus. You may be at higher risk if you are:
 
@@ -159,9 +121,3 @@ There is a one-time IPV booster. It may be given to adults who have completed th
 Another way to help prevent the spread of polio is to wash your hands often with soap and water. Alcohol-based hand sanitizers will not kill poliovirus.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Polio in the United States [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/polio/about/
-- Polio [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001402.htm
-- Polio (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/polio.html
-- Polio Vaccination [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/polio/vaccines/

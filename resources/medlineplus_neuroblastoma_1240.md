@@ -1,25 +1,5 @@
 # Neuroblastoma
 
-- Topic ID: 1240
-- Language: English
-- URL: https://medlineplus.gov/neuroblastoma.html
-- Date created: 07/18/2000
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Brain and Nerves
-
-## MeSH
-- Neuroblastoma
-
-## Related topics
-- Cancer in Children
-
-## Meta description
-Neuroblastoma is a cancer in nerve tissue in the adrenal gland, neck, chest, or spinal cord. It often affects young children. Read about treatments.
-
-## Summary
 What is neuroblastoma?
 Neuroblastoma is a type of cancer that forms in nerve cells called neuroblasts. Neuroblasts are immature nerve tissue. They normally turn into working nerve cells. But in neuroblastoma, they form a tumor.
 
@@ -76,15 +56,3 @@ The treatments for neuroblastoma include:
 - Iodine 131-MIBG therapy, a treatment with radioactive iodine. The radioactive iodine collects in neuroblastoma cells and kills them with the radiation that is given off.
 
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Catecholamine blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003561.htm
-- Catecholamine Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/catecholamine-tests/
-- Catecholamines - urine [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003613.htm
-- Childhood Esthesioneuroblastoma Treatment [Children] — National Cancer Institute — https://www.cancer.gov/types/head-and-neck/patient/child/esthesioneuroblastoma-treatment-pdq
-- Drugs Approved for Neuroblastoma [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/drugs/neuroblastoma
-- Ganglioneuroblastoma [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001436.htm
-- MIBG scintiscan [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003830.htm

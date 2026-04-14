@@ -1,37 +1,5 @@
 # Gastroenteritis
 
-- Topic ID: 3056
-- Language: English
-- URL: https://medlineplus.gov/gastroenteritis.html
-- Date created: 01/07/2003
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Stomach flu
-
-## Groups
-- Digestive System
-- Infections
-
-## MeSH
-- Gastroenteritis
-
-## Related topics
-- Diarrhea
-- Foodborne Illness
-- Nausea and Vomiting
-- Norovirus Infections
-- Rotavirus Infections
-- Small Intestine Disorders
-- Traveler's Health
-
-## See also
-- Stomach Flu
-
-## Meta description
-Stomach flu (gastroenteritis) is an inflammation of the intestines that causes diarrhea, pain, vomiting or fever. Learn what you can do to prevent it.
-
-## Summary
 What is gastroenteritis?
 Gastroenteritis is an inflammation of the lining of the stomach and intestines. The main symptoms include vomiting and diarrhea. It is usually not serious in healthy people, but it can sometimes lead to dehydration or cause severe symptoms.
 
@@ -83,46 +51,42 @@ If you or a family member are at higher risk and have symptoms of gastroenteriti
 Even if you are not at high risk, it is possible to become dehydrated or have more serious symptoms. There are some warning signs to watch for. It's important to contact a provider right away if you or your child have any of them:
 
 - For adults, they include:
- 
- - Change in mental state, such as irritability or lack of energy
 
- - Diarrhea lasting more than 2 days
+- Change in mental state, such as irritability or lack of energy
 
- - High fever
+- Diarrhea lasting more than 2 days
 
- - Vomiting often
+- High fever
 
- - Six or more loose stools in a day
+- Vomiting often
 
- - Severe pain in the abdomen (belly) or rectum
+- Six or more loose stools in a day
 
- - Stools that are black and tarry or contain blood or pus
+- Severe pain in the abdomen (belly) or rectum
 
- - Symptoms of dehydration, such as thirst, dry mouth, headache, dark-colored urine, and urinating less than normal
+- Stools that are black and tarry or contain blood or pus
 
- 
+- Symptoms of dehydration, such as thirst, dry mouth, headache, dark-colored urine, and urinating less than normal
 
 - For infants and children, they include:
- 
- - Change in the child's mental state, such as irritability or lack of energy
 
- - Diarrhea lasting more than a day
+- Change in the child's mental state, such as irritability or lack of energy
 
- - Any fever in infants
+- Diarrhea lasting more than a day
 
- - High fever in older children
+- Any fever in infants
 
- - Frequent loose stools
+- High fever in older children
 
- - Vomiting often
+- Frequent loose stools
 
- - Severe pain in the abdomen (belly) or rectum
+- Vomiting often
 
- - Signs or symptoms of dehydration, such as thirst, dry mouth, urinating less than usual or no wet diapers for 3 hours or more, and no tears when crying
+- Severe pain in the abdomen (belly) or rectum
 
- - Stools that are black and tarry or contain blood or pus
+- Signs or symptoms of dehydration, such as thirst, dry mouth, urinating less than usual or no wet diapers for 3 hours or more, and no tears when crying
 
- 
+- Stools that are black and tarry or contain blood or pus
 
 How is gastroenteritis diagnosed?
 To find out if you have gastroenteritis, your provider:
@@ -136,23 +100,7 @@ To find out if you have gastroenteritis, your provider:
 What are the treatments for gastroenteritis?
 Usually, people with gastroenteritis get better on their own, with rest and plenty of fluids and electrolytes. Your provider may suggest that you take a probiotic. Studies suggest that some probiotics may help shorten a case of diarrhea.
 
- 
-
 People with more severe symptoms may need medicines to control nausea or vomiting. Providers may also give other medicines for certain types of gastroenteritis, such as antibiotics for some bacterial types and antiparasitic medicines for some parasitic types.
 
 Can gastroenteritis be prevented?
 Gastroenteritis cannot always be prevented. But proper hand washing, cleaning surfaces that may be infected with germs, and safe food preparation may help prevent some of the infections that can cause gastroenteritis. There are vaccines for infants to protect against rotavirus infections.
-
- 
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- About Adenovirus [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/adenovirus/about/
-- About Food Safety [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/food-safety/about/
-- Adenovirus [Children] — Nemours Foundation — https://kidshealth.org/en/parents/adenovirus.html
-- Bacteria Culture Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bacteria-culture-test/
-- Bacterial gastroenteritis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000254.htm
-- Bland diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000068.htm
-- CMV - gastroenteritis/colitis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000667.htm
-- Collecting a Stool Sample for Testing (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/stool-tests-done.html

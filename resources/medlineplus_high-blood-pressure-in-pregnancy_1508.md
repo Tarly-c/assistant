@@ -1,33 +1,5 @@
 # High Blood Pressure in Pregnancy
 
-- Topic ID: 1508
-- Language: English
-- URL: https://medlineplus.gov/highbloodpressureinpregnancy.html
-- Date created: 07/26/2001
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Pregnancy and Reproduction
-- Female Reproductive System
-
-## MeSH
-- Hypertension, Pregnancy-Induced
-
-## Related topics
-- Health Problems in Pregnancy
-- How to Prevent High Blood Pressure
-
-## See also
-- Eclampsia
-- Gestational Hypertension
-- HELLP Syndrome
-- Preeclampsia
-- Toxemia of Pregnancy
-
-## Meta description
-High blood pressure in pregnancy can include gestational hypertension, chronic hypertension, and preeclampsia. It can cause problems for both mother and baby.
-
-## Summary
 What is high blood pressure in pregnancy?
 Blood pressure is the force of your blood pushing against the walls of your arteries. Your arteries are blood vessels that carry blood from your heart to other parts of your body. High blood pressure, or hypertension, is blood pressure that is higher than normal. Having high blood pressure can put you at risk for other health problems, such as heart disease, heart attack, and stroke.
 
@@ -41,14 +13,12 @@ There are different types of high blood pressure in pregnancy:
 - Chronic hypertension is high blood pressure that starts before the 20th week of pregnancy or before you became pregnant. Some people may have had it long before becoming pregnant but didn't know it until they got their blood pressure checked at their prenatal visit. Sometimes chronic hypertension can also lead to preeclampsia.
 
 - Preeclampsia is a sudden increase in blood pressure after the 20th week of pregnancy. It usually happens in the last trimester. Preeclampsia also often includes signs of damage to some of your organs, such as your liver or kidneys. The signs may include protein in the urine (pee) and very high blood pressure. Preeclampsia can be serious or even life-threatening for both you and your baby.
- 
- - If preeclampsia becomes severe enough to affect your brain function and causes seizures or a coma, it is called eclampsia.
 
- - In rare cases, preeclampsia symptoms may not start until after delivery. This is called postpartum preeclampsia. If this type of preeclampsia becomes more severe and causes a seizure, it is known as postpartum eclampsia. 
+- If preeclampsia becomes severe enough to affect your brain function and causes seizures or a coma, it is called eclampsia.
 
- - When a person with preeclampsia or eclampsia has damage to the liver and blood cells, it's called HELLP syndrome. It is rare, but very serious.
+- In rare cases, preeclampsia symptoms may not start until after delivery. This is called postpartum preeclampsia. If this type of preeclampsia becomes more severe and causes a seizure, it is known as postpartum eclampsia.
 
- 
+- When a person with preeclampsia or eclampsia has damage to the liver and blood cells, it's called HELLP syndrome. It is rare, but very serious.
 
 Who is more likely to develop high blood pressure in pregnancy?
 You are more likely to develop high blood pressure in pregnancy if you:
@@ -69,8 +39,6 @@ You are more likely to develop high blood pressure in pregnancy if you:
 
 - Have certain health conditions, such as diabetes or lupus
 
-	
-
 What are the symptoms of high blood pressure in pregnancy?
 High blood pressure usually has no symptoms. People usually find out they have high blood pressure when their health care provider measures their blood pressure.
 
@@ -90,7 +58,6 @@ Preeclampsia can cause other symptoms, including:
 
 Eclampsia can also cause seizures, nausea and/or vomiting, and low urine output.
 
- 
 If you go on to develop HELLP syndrome, you may also have bleeding or bruising easily, extreme fatigue, and liver failure.
 
 What problems can high blood pressure in pregnancy cause?
@@ -120,7 +87,7 @@ If you have high blood pressure, you and your baby will be closely monitored to 
 
 - Adjust your physical activity. Talk to your provider about what level of physical activity is right for you.
 
-- Take medicine to control your blood pressure. Talk to your provider about which medicines are safe for your baby. 
+- Take medicine to control your blood pressure. Talk to your provider about which medicines are safe for your baby.
 
 - Take aspirin in the second trimester, if you are at risk of preeclampsia and your provider recommends aspirin.
 
@@ -134,16 +101,6 @@ If you have eclampsia, HELLP syndrome, or a severe case of preeclampsia, you wil
 
 - How far along the pregnancy is
 
-The goal is to lower the risks to you while giving your baby as much time as possible to mature before delivery. 
+The goal is to lower the risks to you while giving your baby as much time as possible to mature before delivery.
 
 The symptoms of preeclampsia can last after delivery, but they usually go away within 6 weeks.
-
-## Selected references
-- About Preeclampsia and Eclampsia [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/preeclampsia/conditioninfo
-- Eclampsia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000899.htm
-- HELLP syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000890.htm
-- High Blood Pressure during Pregnancy [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/high-blood-pressure-during-pregnancy/
-- High Blood Pressure during Pregnancy [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/high-blood-pressure/about/high-blood-pressure-during-pregnancy.html
-- How Do Health Care Providers Diagnose Preeclampsia, Eclampsia, and HELLP Syndrome? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/preeclampsia/conditioninfo/diagnosed
-- Magnesium Blood Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/magnesium-blood-test/
-- Measuring Blood Pressure [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/measuring-blood-pressure/

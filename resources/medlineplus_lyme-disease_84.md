@@ -1,32 +1,6 @@
 # Lyme Disease
 
-- Topic ID: 84
-- Language: English
-- URL: https://medlineplus.gov/lymedisease.html
-- Date created: 10/22/1998
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Borreliosis
-
-## Groups
-- Infections
-
-## MeSH
-- Lyme Disease
-
-## Related topics
-- Tick Bites
-
-## See also
-- Erythema Migrans
-- Post-Treatment Lyme Disease Syndrome
-
-## Meta description
-Lyme disease is an infection you get from tick bites. The first symptom is usually a rash. Learn about Lyme disease symptoms and treatment.
-
-## Summary
-What is Lyme disease? 
+What is Lyme disease?
 Lyme disease is a bacterial infection you get from the bite of an infected tick. At first, Lyme disease usually causes symptoms such as a rash, fever, headache, and fatigue. But if it is not treated early, the infection can spread to your joints, heart, and nervous system. Prompt treatment can help you recover quickly.
 
 What causes Lyme disease?
@@ -104,7 +78,6 @@ Most Lyme disease tests check for antibodies made by the body in response to inf
 What are the treatments for Lyme disease?
 Lyme disease is treated with antibiotics. The earlier you are treated, the better; it gives you the best chance of fully recovering quickly.
 
- 
 After treatment, some patients may still have pain, fatigue, or difficulty thinking that lasts more than 6 months. This is called post-treatment Lyme disease syndrome (PTLDS). Researchers don't know why some people have PTLDS. There is no proven treatment for PTLDS; long-term antibiotics have not been shown to help. However, there are ways to help with the symptoms of PTLDS. If you have been treated for Lyme disease and still feel unwell, contact your health care provider about how to manage your symptoms. Most people do get better with time. But it can take several months before you feel better.
 
 Can Lyme disease be prevented?
@@ -124,15 +97,4 @@ To prevent Lyme disease, you should lower your risk of getting a tick bite:
 
 - Take a shower and wash and dry your clothes at high temperatures after being outdoors
 
- 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Lyme Disease [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/lyme/about/
-- Chronic Lyme Disease [Specifics] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/chronic-lyme-disease
-- Chronic Symptoms and Lyme Disease [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/lyme/signs-symptoms/chronic-symptoms-and-lyme-disease.html
-- Lyme Disease [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/lyme-disease.html
-- Lyme Disease [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/lyme-disease/
-- Lyme Disease [Teenagers] — VisualDX — https://skinsight.com/skin-conditions/lyme-disease/teen/?Imiw9cApl=1
-- Lyme Disease [Start Here] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/lyme-disease
-- Lyme disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001319.htm

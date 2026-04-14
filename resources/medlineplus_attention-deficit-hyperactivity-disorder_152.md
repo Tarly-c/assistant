@@ -1,36 +1,6 @@
 # Attention Deficit Hyperactivity Disorder
 
-- Topic ID: 152
-- Language: English
-- URL: https://medlineplus.gov/attentiondeficithyperactivitydisorder.html
-- Date created: 01/07/1999
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- ADHD
-
-## Groups
-- Children and Teenagers
-- Mental Health and Behavior
-- Brain and Nerves
-
-## MeSH
-- Attention Deficit Disorder with Hyperactivity
-
-## Related topics
-- Child Behavior Disorders
-- Learning Disabilities
-
-## See also
-- ADD
-- ADHD
-- Hyperactivity
-
-## Meta description
-Does your child have trouble paying attention? This may be a symptom of attention deficit hyperactive disorder (often called ADHD or ADD). Read more.
-
-## Summary
-What is attention deficit hyperactivity disorder (ADHD)? 
+What is attention deficit hyperactivity disorder (ADHD)?
 
 ADHD is a neurodevelopmental disorder. It is usually first diagnosed in childhood and often lasts into adulthood. But some people don't get diagnosed with ADHD until they are adults. ADHD involves:
 
@@ -40,18 +10,16 @@ ADHD is a neurodevelopmental disorder. It is usually first diagnosed in childhoo
 
 - Being overly active (hyperactivity)
 
-What are the types of attention deficit hyperactivity disorder (ADHD)? 
+What are the types of attention deficit hyperactivity disorder (ADHD)?
 There are three types of ADHD:
 
 - Mostly Inattentive ADHD. People with this type of ADHD have trouble paying attention and are easily distracted. It's hard for them to organize or finish tasks. They may have trouble following instructions or conversations.
 
 - Mostly Hyperactive-Impulsive ADHD. People with this type of ADHD have symptoms of both hyperactivity and impulsivity:
- 
- - With hyperactivity, people feel a need to always be moving. They have trouble sitting still and may fidget and/or talk too much.
 
- - With impulsivity, people have trouble controlling their actions and words. They tend to act on sudden ideas or feelings without thinking about the possible results. They may interrupt others a lot or have trouble waiting their turn.
+- With hyperactivity, people feel a need to always be moving. They have trouble sitting still and may fidget and/or talk too much.
 
- 
+- With impulsivity, people have trouble controlling their actions and words. They tend to act on sudden ideas or feelings without thinking about the possible results. They may interrupt others a lot or have trouble waiting their turn.
 
 - Combined ADHD. People with this type of ADHD have a mix of inattentive and hyperactive-impulsive symptoms. Combined ADHD is the most common type.
 
@@ -83,7 +51,7 @@ People with symptoms of attention problems may often:
 
 People with symptoms of hyperactivity-impulsivity may often:
 
-- Fidget and squirm while seated 
+- Fidget and squirm while seated
 
 - Get up when staying seated is expected, such as at school or work
 
@@ -103,7 +71,6 @@ People with symptoms of hyperactivity-impulsivity may often:
 
 People with combined ADHD show a mix of inattention and hyperactivity-impulsivity symptoms
 
- 
 How is attention deficit hyperactivity disorder (ADHD) diagnosed?
 There is no single test to diagnose ADHD. One step of the process for diagnosing ADHD involves having a physical exam, including vision tests, hearing tests (for children and adults), and other tests to rule out other problems with symptoms like ADHD. Other problems with similar symptoms include anxiety, depression, sleep problems, and certain types of learning disabilities.
 
@@ -115,18 +82,15 @@ To make a diagnosis of ADHD, the provider needs to have found all of these thing
 
 - Several symptoms of inattention and/or hyperactivity-impulsivity that have lasted for at least 6 months and cause serious problems:
 
- 
- - For children up to age 16, there must be at least 6 ongoing symptoms.
+- For children up to age 16, there must be at least 6 ongoing symptoms.
 
- - For people 17 and older, there must be at least 5 ongoing symptoms.
+- For people 17 and older, there must be at least 5 ongoing symptoms.
 
- - Symptoms that happen in 2 or more settings, for example, at home and at work or school.
+- Symptoms that happen in 2 or more settings, for example, at home and at work or school.
 
- - Symptoms that clearly get in the way of functioning well at school, work, and/or in social situations.
+- Symptoms that clearly get in the way of functioning well at school, work, and/or in social situations.
 
- - Symptoms aren't caused by another mental health disorder.
-
- 
+- Symptoms aren't caused by another mental health disorder.
 
 What are the treatments for attention deficit hyperactivity disorder (ADHD)?
 Although there is no cure for ADHD, treatments may help reduce symptoms and improve functioning. ADHD is commonly treated with:
@@ -144,15 +108,3 @@ Good treatment plans will include close monitoring, follow-ups, and making chang
 Having a healthy lifestyle, such as healthy eating and regular exercise, may also help manage symptoms.
 
 For school-aged children, school support is important. This could include classroom-based behavioral interventions such as behavior management plans or teaching your child organizational and study skills. It may also include accommodations such as specific seating in the classroom, reduced classwork, or extended time on tests and exams.
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- ADHD in Kids and Teens [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/adhd.html
-- ADHD Medicines [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/ritalin.html
-- ADHD Screening [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/adhd-screening/
-- ADHD: Attention Deficit/Hyperactivity Fact Sheet [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/adhd/media/pdfs/adhdfactsheetenglish.pdf
-- Adult ADHD (Attention-Deficit/Hyperactivity Disorder) [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/adult-adhd/
-- Attention deficit hyperactivity disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001551.htm
-- Attention-Deficit/Hyperactivity Disorder [Start Here] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd
-- Attention-Deficit/Hyperactivity Disorder: What You Need to Know [Children] — National Institute of Mental Health — https://www.nimh.nih.gov/health/publications/attention-deficit-hyperactivity-disorder-what-you-need-to-know

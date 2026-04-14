@@ -1,31 +1,5 @@
 # Hypoglycemia
 
-- Topic ID: 1264
-- Language: English
-- URL: https://medlineplus.gov/hypoglycemia.html
-- Date created: 04/18/2000
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Low blood sugar
-
-## Groups
-- Metabolic Problems
-
-## MeSH
-- Hypoglycemia
-
-## Related topics
-- Blood Glucose
-- Diabetes
-
-## See also
-- Low Blood Sugar
-
-## Meta description
-Read about the causes and symptoms related to hypoglycemia, a condition that generally affects people with low blood sugar levels.
-
-## Summary
 What is blood glucose?
 Blood glucose, or blood sugar, is the main sugar found in your blood. It is your body's primary source of energy. It comes from the food you eat. Your body breaks down most of that food into glucose and releases it into your bloodstream. When your blood glucose goes up, it signals your pancreas to release insulin. Insulin is a hormone that helps the glucose get into your cells to be used for energy.
 
@@ -42,7 +16,7 @@ What causes hypoglycemia?
 Hypoglycemia is common in people who have diabetes type 1 or who have diabetes type 2 and take insulin or other diabetes medicines. It can happen:
 
 - As a side effect of insulin or some other medicines that help your pancreas release insulin into your blood. These medicines can lower your blood glucose level.
- 
+
 - If you don't eat or drink enough carbohydrates (carbs). Carbs are the main source of glucose for your body.
 
 - If you get a lot more physical activity than usual.
@@ -67,12 +41,9 @@ The symptoms of low blood glucose tend to come on quickly. The symptoms can be d
 - Dizziness
 
 - Hunger
- 
 
 How is hypoglycemia diagnosed?
 If you have diabetes, you'll most likely need to check your blood glucose every day and make sure that it's not too low. You can do this with a blood glucose meter or continuous glucose monitoring (CGM) system.
-
- 
 
 There are also blood tests that providers can use to check if your blood glucose is too low.
 
@@ -93,13 +64,3 @@ If you have diabetes and you take insulin or other medicines that lower blood gl
 - Be safe during physical activity. Check your blood glucose before and afterwards. You may need to eat a snack before your physical activity.
 
 - If you take diabetes medicines, make sure to take them correctly.
-
-## Selected references
-- Blood Glucose Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-glucose-test/
-- C-Peptide Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/c-peptide-test/
-- Diabetes and Low Blood Sugar [Children] — Nemours Foundation — https://kidshealth.org/en/kids/low-blood-sugar.html
-- Diabetic Hypoglycemia [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/diabetic-hypoglycemia/symptoms-causes/syc-20371525?p=1
-- Drug-induced low blood sugar [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000310.htm
-- Glucagon Blood Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/glucagon-blood-test/
-- Hyperinsulinemia: Is It Diabetes? [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/expert-answers/hyperinsulinemia/faq-20058488?p=1
-- Hypoglycemia [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/hypoglycemia/symptoms-causes/syc-20373685?p=1

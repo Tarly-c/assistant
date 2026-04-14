@@ -1,37 +1,6 @@
 # Hyperthyroidism
 
-- Topic ID: 6177
-- Language: English
-- URL: https://medlineplus.gov/hyperthyroidism.html
-- Date created: 12/23/2013
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Overactive thyroid
-
-## Groups
-- Endocrine System
-
-## MeSH
-- Hyperthyroidism
-
-## Related topics
-- Hypothyroidism
-- Thyroid Cancer
-- Thyroid Diseases
-- Thyroid Tests
-
-## See also
-- Basedow's Disease
-- Graves' Disease
-- Overactive Thyroid
-- Thyrotoxicosis
-
-## Meta description
-Thyroid hormones control the rate of many activities in your body. Hyperthyroidism means the thyroid makes more thyroid hormones than the body needs.
-
-## Summary
-What is hyperthyroidism? 
+What is hyperthyroidism?
 Hyperthyroidism, or overactive thyroid, happens when your thyroid gland makes more thyroid hormones than your body needs.
 
 Your thyroid is a small, butterfly-shaped gland in the front of your neck. It makes hormones that control the way the body uses energy. These hormones affect nearly every organ in your body and control many of your body's most important functions. For example, they affect your breathing, heart rate, weight, digestion, and moods. If not treated, hyperthyroidism can cause serious problems with your heart, bones, muscles, menstrual cycle, and fertility. But there are treatments that can help.
@@ -52,7 +21,6 @@ Hyperthyroidism has several causes. They include:
 Who is at risk for hyperthyroidism?
 You are at higher risk for hyperthyroidism if you:
 
- 
 - Are a woman
 
 - Are older than age 60
@@ -117,38 +85,22 @@ Your health care provider may use many tools to make a diagnosis:
 - A physical exam
 
 - Thyroid tests, such as
- 
- - TSH, T3, T4, and thyroid antibody blood tests
 
- - Imaging tests, such as a thyroid scan, ultrasound, or radioactive iodine uptake test. A radioactive iodine uptake test measures how much radioactive iodine your thyroid takes up from your blood after you swallow a small amount of it.
+- TSH, T3, T4, and thyroid antibody blood tests
 
- 
+- Imaging tests, such as a thyroid scan, ultrasound, or radioactive iodine uptake test. A radioactive iodine uptake test measures how much radioactive iodine your thyroid takes up from your blood after you swallow a small amount of it.
 
 What are the treatments for hyperthyroidism?
 The treatments for hyperthyroidism include medicines, radioiodine therapy, and thyroid surgery:
 
 - Medicines for hyperthyroidism include
- 
- - Antithyroid medicines, which cause your thyroid to make less thyroid hormone. You probably need to take the medicines for 1 to 2 years. In some cases, you might need to take the medicines for several years. This is the simplest treatment, but it is often not a permanent cure.
 
- - Beta blocker medicines, which can reduce symptoms such as tremors, rapid heartbeat, and nervousness. They work quickly and can help you feel better until other treatments take effect.
+- Antithyroid medicines, which cause your thyroid to make less thyroid hormone. You probably need to take the medicines for 1 to 2 years. In some cases, you might need to take the medicines for several years. This is the simplest treatment, but it is often not a permanent cure.
 
- 
+- Beta blocker medicines, which can reduce symptoms such as tremors, rapid heartbeat, and nervousness. They work quickly and can help you feel better until other treatments take effect.
 
 - Radioiodine therapy is a common and effective treatment for hyperthyroidism. It involves taking radioactive iodine by mouth as a capsule or liquid. This slowly destroys the cells of the thyroid gland that produce thyroid hormone. It does not affect other body tissues. Almost everyone who has radioactive iodine treatment later develops hypothyroidism. This is because the thyroid hormone-producing cells have been destroyed. But hypothyroidism is easier to treat and causes fewer long-term health problems than hyperthyroidism.
 
 - Surgery to remove part or most of the thyroid gland is done in rare cases. It might be an option for people with large goiters or pregnant women who cannot take antithyroid medicines. If you have all of your thyroid removed, you will need to take thyroid medicines for the rest of your life. Some people who have part of their thyroid removed also need to take medicines.
 
 If you have hyperthyroidism, it's important not to get too much iodine. Talk to your health care provider about which foods, supplements, and medicines you need to avoid.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Autoantibody Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/autoantibody-testing/
-- Eyes - bulging [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003033.htm
-- Factitious hyperthyroidism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000309.htm
-- Free T4 test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003517.htm
-- Graves disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000358.htm
-- Graves' Disease [Specifics] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/endocrine-diseases/graves-disease
-- Graves' Disease [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/graves-disease/symptoms-causes/syc-20356240?p=1
-- Graves' Disease [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/graves-disease

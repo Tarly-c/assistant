@@ -1,24 +1,5 @@
 # Inhalation Injuries
 
-- Topic ID: 6081
-- Language: English
-- URL: https://medlineplus.gov/inhalationinjuries.html
-- Date created: 01/07/2013
-
-## Groups
-- Lungs and Breathing
-- Injuries and Wounds
-
-## MeSH
-- Burns, Inhalation
-
-## See also
-- Smoke Inhalation
-
-## Meta description
-There are a variety of substances you can inhale that can cause internal injuries, such as smoke and toxic fumes. Discover the symptoms and treatment.
-
-## Summary
 Inhalation injuries are acute injuries to your respiratory system and lungs. They can happen if you breathe in toxic substances, such as smoke (from fires), chemicals, particle pollution, and gases. Inhalation injuries can also be caused by extreme heat; these are a type of thermal injuries. Over half of deaths from fires are due to inhalation injuries.
 
 Symptoms of inhalation injuries can depend on what you breathed in. But they often include:
@@ -52,13 +33,3 @@ You can take steps to try to prevent inhalation injuries:
 - If there is smoke from a wildfire nearby or lots of particulate pollution in the air, try to limit your time outdoors. Keep your indoor air as clean as possible, by keeping windows closed and using an air filter. If you have asthma, another lung disease, or heart disease, follow your health care provider's advice about your medicines and respiratory management plan.
 
 - If you are working with chemicals or gases, handle them safely and use protective equipment
-
-## Selected references
-- Air Pollutants [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/air-quality/pollutants/
-- Chemical pneumonitis [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000143.htm
-- How Wildfire Smoke Affects Your Body [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/wildfires/risk-factors/
-- Lung problems and volcanic smog [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007468.htm
-- Particulate Matter (PM) Pollution [Learn More] — Environmental Protection Agency — https://www.epa.gov/pm-pollution
-- Respirator Types and Use [Learn More] — National Institute for Occupational Safety and Health — https://www.cdc.gov/niosh/ppe/respirators/index.html
-- Smoke Inhalation [Learn More] — Merck & Co., Inc. — https://www.merckmanuals.com/home/injuries-and-poisoning/burns/smoke-inhalation
-- Wildfires: What Parents Need to Know [Learn More] — American Academy of Pediatrics — https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Wildfires-Information-for-Parents.aspx

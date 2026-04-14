@@ -1,34 +1,5 @@
 # Childhood Leukemia
 
-- Topic ID: 1438
-- Language: English
-- URL: https://medlineplus.gov/childhoodleukemia.html
-- Date created: 03/15/2001
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Children and Teenagers
-- Blood, Heart and Circulation
-- Immune System
-
-## MeSH
-- Leukemia
-
-## Related topics
-- Acute Lymphocytic Leukemia
-- Acute Myeloid Leukemia
-- Chronic Lymphocytic Leukemia
-- Chronic Myeloid Leukemia
-- Leukemia
-
-## See also
-- Leukemia, Childhood
-
-## Meta description
-Leukemia is cancer of the white blood cells, it is the most common type of childhood cancer. Learn about the symptoms, and treatment options.
-
-## Summary
 What is leukemia?
 Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-forming tissues such as the bone marrow. Your bone marrow makes the cells which will develop into white blood cells, red blood cells, and platelets. Each type of cell has a different job:
 
@@ -44,7 +15,7 @@ What are the types of leukemia in children?
 There are different types of leukemia. Some types are acute (fast growing). They usually get worse quickly if they are not treated. Most childhood leukemias are acute:
 
 - Acute lymphocytic leukemia (ALL), which is the most common type of leukemia in children and the most common cancer in children. In ALL, the bone marrow makes too many lymphocytes, a type of white blood cell.
- 
+
 - Acute myeloid leukemia (AML), which happens when bone marrow makes abnormal myeloblasts (a type of white blood cell), red blood cells, or platelets.
 
 Other types of leukemia are chronic (slow growing). They usually get worse over a longer period of time. They are rare in children:
@@ -54,8 +25,6 @@ Other types of leukemia are chronic (slow growing). They usually get worse over 
 - Chronic myeloid leukemia (CML), in which the bone marrow makes abnormal granulocytes (a type of white blood cell). It is very rare in children.
 
 There are some other rare types of leukemia in children, including juvenile myelomonocytic leukemia (JMML).
-
- 
 
 What causes leukemia in children?
 Leukemia happens when there are changes in the genetic material (DNA) in bone marrow cells. The cause of these genetic changes is unknown. However, there are certain factors that raise the risk of childhood leukemia.
@@ -69,23 +38,19 @@ The factors that raise the risk of childhood leukemia include:
 
 - Exposure to radiation, including radiation therapy
 
-- Having certain genetic conditions, such as 
-	
-	- Ataxia telangiectasia
+- Having certain genetic conditions, such as
 
-	- Down syndrome
+- Ataxia telangiectasia
 
-	- Fanconi anemia
+- Down syndrome
 
-	- Li-Fraumeni syndrome
+- Fanconi anemia
 
-	- Neurofibromatosis type 1
+- Li-Fraumeni syndrome
 
-	
+- Neurofibromatosis type 1
 
 There are other factors that may raise the risk of getting one or more of the specific types of childhood leukemia.
-
- 
 
 What are the symptoms of leukemia in children?
 Some of the symptoms of leukemia may include:
@@ -129,15 +94,3 @@ The treatments for leukemia depend on which type it is, how severe the leukemia 
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells
 
 Treatment for childhood leukemia is often successful. But the treatments can cause complications right away or later in life. Children who survived leukemia will need follow-up care the rest of their lives to watch for and treat any complications they may have.
-
-NIH: National Cancer Institute
-
-## Selected references
-- Acute Lymphoblastic Leukemia (ALL) [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/all.html
-- Acute lymphocytic leukemia (ALL) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000541.htm
-- Acute myelogenous leukemia (AML) -- children [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007656.htm
-- After chemotherapy - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- B and T cell screen [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003329.htm
-- BCR ABL Genetic Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bcr-abl-genetic-test/
-- Blood Count Tests: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/bloodcounttests.html
-- Blood Tests [Diagnosis and Tests] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/blood-tests

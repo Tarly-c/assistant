@@ -1,38 +1,9 @@
 # Hepatitis
 
-- Topic ID: 109
-- Language: English
-- URL: https://medlineplus.gov/hepatitis.html
-- Date created: 11/20/1998
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Groups
-- Digestive System
-- Infections
-
-## MeSH
-- Hepatitis
-
-## Related topics
-- Hepatitis A
-- Hepatitis B
-- Hepatitis C
-- Liver Diseases
-- Liver Transplantation
-
-## See also
-- Viral Hepatitis
-
-## Meta description
-The word "hepatitis" means inflammation of the liver. There are five main hepatitis viruses (A, B, C, D or E). Learn about the different types here.
-
-## Summary
 What is hepatitis?
 Hepatitis is inflammation of the liver. Inflammation is swelling that happens when tissues of the body are injured or infected. It can damage your liver. This swelling and damage can affect how well your liver functions.
 
 Hepatitis can be an acute (short-term) infection or a chronic (long-term) infection. Some types of hepatitis cause only acute infections. Other types can cause both acute and chronic infections.
-
- 
 
 What causes hepatitis?
 There are different types of hepatitis, with different causes:
@@ -99,15 +70,3 @@ There are different medicines to treat the different chronic types of hepatitis.
 
 Can hepatitis be prevented?
 There are different ways to prevent or lower your risk for hepatitis, depending on the type of hepatitis. For example, not drinking too much alcohol can prevent alcoholic hepatitis. There are vaccines to prevent hepatitis A and B. Autoimmune hepatitis cannot be prevented.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- 5'-nucleotidase [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003575.htm
-- Alcoholic Hepatitis (Alcohol-Associated Hepatitis) [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/alcoholic-hepatitis/symptoms-causes/syc-20351388?p=1
-- Alpha fetoprotein [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003573.htm
-- ALT Blood Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alt-blood-test/
-- Anti-smooth muscle antibody [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003531.htm
-- Antibody Serology Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/antibody-serology-tests/
-- AST Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/ast-test/
-- At-Home Medical Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/at-home-medical-tests/

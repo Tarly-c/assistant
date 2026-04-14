@@ -1,37 +1,7 @@
 # Dengue
 
-- Topic ID: 3104
-- Language: English
-- URL: https://medlineplus.gov/dengue.html
-- Date created: 01/21/2003
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Break-bone fever
-- Dengue fever
-
-## Groups
-- Infections
-
-## MeSH
-- Dengue
-
-## Related topics
-- Hemorrhagic Fevers
-- Mosquito Bites
-- Viral Infections
-
-## See also
-- Break-bone Fever
-
-## Meta description
-Dengue is an infection caused by a virus. You can get it if an infected mosquito bites you. Learn more about risk and prevention.
-
-## Summary
 What is dengue?
 Dengue is a viral infection. It can be caused by four related viruses. You can get it if an infected mosquito bites you. It is common in warm, wet areas of the world. Although rare, it can be found in some parts of the United States. Outbreaks are more common during rainy seasons.
-
- 
 
 How does dengue spread?
 Dengue spreads to people through the bite of an infected mosquito. It does not spread directly from person to person. However, the infection can be passed to the baby during pregnancy. In rare cases, it can spread through a blood transfusion, organ transplant, or needle stick injury (an accidental injury from a used needle)..
@@ -79,10 +49,8 @@ There is no specific medicine to treat dengue. Most people will get better after
 
 Severe dengue often requires care at a hospital.
 
- 
-
-Can dengue be prevented? 
-In the United States, a dengue vaccine is approved for children who are ages 9 - 16. They must also have previously had dengue and live in areas where dengue is common. 
+Can dengue be prevented?
+In the United States, a dengue vaccine is approved for children who are ages 9 - 16. They must also have previously had dengue and live in areas where dengue is common.
 
 You can also help prevent dengue by avoiding mosquito bites:
 
@@ -93,12 +61,3 @@ You can also help prevent dengue by avoiding mosquito bites:
 - Close unscreened doors and windows.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Dengue [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/dengue/
-- Dengue and Severe Dengue [Start Here] — World Health Organization — https://www.who.int/en/news-room/fact-sheets/detail/dengue-and-severe-dengue
-- Dengue Fever [Start Here] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/dengue-fever
-- Dengue Fever [Children] — Nemours Foundation — https://kidshealth.org/en/parents/dengue.html
-- Dengue fever [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001374.htm
-- Dengue Fever Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/dengue-fever-test/
-- Manage Dengue in Infants [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/dengue/treatment/dengue-infants.html

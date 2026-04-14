@@ -1,24 +1,5 @@
 # Blisters
 
-- Topic ID: 6419
-- Language: English
-- URL: https://medlineplus.gov/blisters.html
-- Date created: 11/15/2016
-
-## Also called
-- Bulla
-- Vesicle
-
-## Groups
-- Skin, Hair and Nails
-
-## MeSH
-- Blister
-
-## Meta description
-Blisters are fluid-filled sacs on the outer layer of your skin. They form because of rubbing, heat, or skin diseases. Learn about how to prevent them.
-
-## Summary
 What are blisters?
 
 Blisters are fluid-filled sacs on the outer layer of your skin. They form because of rubbing, heat, or diseases of the skin. They are most common on your hands and feet.
@@ -74,10 +55,3 @@ There are some things you can do to prevent friction blisters:
 - Always wear socks with your shoes, and make sure that the socks fit well. You may want to wear socks that are acrylic or nylon, so they keep moisture away from your feet.
 
 - Wear gloves or protective gear on your hands when you use any tools or sports equipment that cause friction.
-
-## Selected references
-- Blisters (For Kids) [Learn More] — Nemours Foundation — https://kidshealth.org/en/kids/blisters.html
-- Blisters, First Aid [Learn More] — VisualDX — https://skinsight.com/skin-conditions/first-aid-blisters/?Imiw9cApl=1
-- Blisters: First Aid [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/first-aid/first-aid-blisters/basics/art-20056691?p=1
-- How To Prevent and Treat Blisters [Learn More] — American Academy of Dermatology — https://www.aad.org/public/everyday-care/injured-skin/burns/prevent-treat-blisters?NoAds
-- Vesicles [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003939.htm

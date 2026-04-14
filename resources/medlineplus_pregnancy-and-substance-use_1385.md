@@ -1,36 +1,5 @@
 # Pregnancy and Substance Use
 
-- Topic ID: 1385
-- Language: English
-- URL: https://medlineplus.gov/pregnancyandsubstanceuse.html
-- Date created: 11/16/2000
-- Primary institute: National Institute on Drug Abuse
-
-## Groups
-- Substance Use and Disorders
-- Pregnancy and Reproduction
-- Female Reproductive System
-
-## MeSH
-- Substance-Related Disorders
-- Pregnancy
-
-## Related topics
-- Fetal Alcohol Spectrum Disorders
-- Health Problems in Pregnancy
-- Pregnancy and Opioids
-
-## See also
-- Alcohol Abuse in Pregnancy
-- Drug Abuse in Pregnancy
-- Pregnancy and Substance Abuse
-- Smoking in Pregnancy
-- Substance Abuse in Pregnancy
-
-## Meta description
-During pregnancy, substance use can harm your baby. Learn about why to stay away from smoking, drinking, and illegal drugs, and how to get help.
-
-## Summary
 During pregnancy, there are many things you can do to keep yourself and your baby healthy. They include getting regular prenatal care, eating healthy, and staying active. But it's also very important to avoid substances that could be harmful to you and your baby, such as tobacco, alcohol, and drugs.
 
 Tobacco
@@ -59,8 +28,6 @@ Opioids
 
 One type of drug that is a concern during pregnancy is opioids. Opioids include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol. The illegal drug heroin is also an opioid. Taking opioids during pregnancy can cause problems for you and your baby. The risks include birth defects, preterm birth, the loss of the baby, and neonatal abstinence syndrome (NAS). NAS causes withdrawal symptoms in newborn babies.
 
- 
-
 If you have pain and your health care provider suggests that you take prescription opioids during pregnancy, first discuss the risks and benefits with the provider. Then if you both decide that you need to take the opioids, you can work together to try to minimize the risks.
 
 Cannabis (marijuana)
@@ -72,13 +39,3 @@ Getting help
 If you are pregnant and using any of these substances, contact your provider. Together you and your provider can find the right treatment to help you quit.
 
 If you are taking opioids or are addicted to drugs, don't stop taking them suddenly. That can be dangerous to you and the baby. Instead, contact your provider for help with getting off the drugs safely.
-
-## Selected references
-- About Alcohol Use during Pregnancy [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/alcohol-pregnancy/about/
-- Alcohol and pregnancy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007454.htm
-- Alcohol during Pregnancy [Specifics] — March of Dimes Foundation — https://www.marchofdimes.org/find-support/topics/pregnancy/alcohol-during-pregnancy
-- Cocaine and Pregnancy [Specifics] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/cocaine-pregnancy/
-- Dextroamphetamine and Pregnancy [Specifics] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/dextroamphetamine-pregnancy/pdf/
-- E-Cigarettes and Pregnancy [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/maternal-infant-health/pregnancy-substance-abuse/e-cigarettes.html
-- Health Effects of Cigarettes: Reproductive Health [Specifics] — https://www.cdc.gov/tobacco/about/cigarettes-and-reproductive-health.html
-- Heroin and Pregnancy [Specifics] — March of Dimes Foundation — https://www.marchofdimes.org/find-support/topics/pregnancy/heroin-and-pregnancy

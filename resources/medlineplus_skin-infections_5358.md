@@ -1,32 +1,5 @@
 # Skin Infections
 
-- Topic ID: 5358
-- Language: English
-- URL: https://medlineplus.gov/skininfections.html
-- Date created: 01/11/2010
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Groups
-- Infections
-- Skin, Hair and Nails
-
-## MeSH
-- Skin Diseases, Infectious
-
-## Related topics
-- Bacterial Infections
-- Fungal Infections
-- Gangrene
-- Skin Conditions
-- Viral Infections
-
-## See also
-- Molluscum Contagiosum
-
-## Meta description
-Skin infections can be caused by bacteria, virus, fungus, or parasites. Impetigo is a type among kids. Shingles is a reactivation of chickenpox virus.
-
-## Summary
 What are skin infections?
 Your skin is your body's largest organ. It has many different functions, including covering and protecting your body. It helps keep germs out. But sometimes the germs can cause a skin infection. It often happens when the germs enter your body through a break, cut, or wound on your skin. Other skin infections can happen in places where the skin rubs together, especially if the area is moist. Infections can also happen when you have a poor blood supply to an area of your body or if your immune system is weakened because of another disease or a medical treatment.
 
@@ -46,7 +19,6 @@ Skin infections are caused by different kinds of germs. For example,:
 Who is more likely to get a skin infection?
 You are more likely to get a skin infection if you:
 
- 
 - Have poor circulation
 
 - Have diabetes
@@ -63,7 +35,7 @@ You are more likely to get a skin infection if you:
 
 - Have excessive skinfolds, which can happen if you have obesity
 
-What are the symptoms of skin infections?	
+What are the symptoms of skin infections?
 The symptoms depend on the type of infection. Some symptoms that are common to many skin infections include rashes, swelling, redness, pain, pus, and itching.
 
 How are skin infections diagnosed?
@@ -71,13 +43,3 @@ To diagnose a skin infection, your health care provider will do a physical exam 
 
 How are skin infections treated?
 The treatment depends on the type of infection and how serious it is. Some infections will go away on their own. When you do need treatment, it may include a cream or lotion to put on the skin. Other possible treatments include medicines and a procedure to drain pus.
-
-## Selected references
-- About Necrotizing Fasciitis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/group-a-strep/about/necrotizing-fasciitis.html
-- About Onchocerciasis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/filarial-worms/about/onchocerciasis.html
-- Actinomycosis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000599.htm
-- Blastomycosis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000102.htm
-- Blastomycosis Basics [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/blastomycosis/about/
-- Boils [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001474.htm
-- Boils [Specifics] — American Osteopathic College of Dermatology — https://www.aocd.org/page/Boils?
-- Boils and Carbuncles [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/boils-and-carbuncles/symptoms-causes/syc-20353770?p=1

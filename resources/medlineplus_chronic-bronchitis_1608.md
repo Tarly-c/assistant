@@ -1,34 +1,6 @@
 # Chronic Bronchitis
 
-- Topic ID: 1608
-- Language: English
-- URL: https://medlineplus.gov/chronicbronchitis.html
-- Date created: 04/17/2002
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Bronchitis, Chronic
-
-## Related topics
-- Acute Bronchitis
-- Asthma
-- COPD
-- Emphysema
-- Oxygen Therapy
-- Pulmonary Rehabilitation
-
-## See also
-- Bronchitis
-
-## Meta description
-Bronchitis is an inflammation of the airways that carry air to your lungs. Chronic bronchitis is a long-term condition. Discover symptoms and treatment.
-
-## Summary
-What is chronic bronchitis? 
+What is chronic bronchitis?
 Chronic bronchitis is a type of COPD (chronic obstructive pulmonary disease). COPD is a group of lung diseases that make it hard to breathe and get worse over time. The other main type of COPD is emphysema. Most people with COPD have both emphysema and chronic bronchitis, but how severe each type is can be different from person to person.
 
 Chronic bronchitis is inflammation (swelling) and irritation of the bronchial tubes. These tubes are the airways that carry air to and from the air sacs in your lungs. The irritation of the tubes causes mucus to build up. This mucus and the swelling of the tubes make it harder for your lungs to move oxygen in and carbon dioxide out of your body.
@@ -36,7 +8,6 @@ Chronic bronchitis is inflammation (swelling) and irritation of the bronchial tu
 What causes chronic bronchitis?
 The cause of chronic bronchitis is usually long-term exposure to irritants that damage your lungs and airways. In the United States, cigarette smoke is the main cause. Pipe, cigar, and other types of tobacco smoke can also cause chronic bronchitis, especially if you inhale them.
 
- 
 Exposure to other inhaled irritants can contribute to chronic bronchitis. These include secondhand smoke, air pollution, and chemical fumes or dusts from the environment or workplace.
 
 Rarely, a genetic condition called alpha-1 antitrypsin deficiency can play a role in causing chronic bronchitis.
@@ -45,11 +16,11 @@ Who is at risk for chronic bronchitis?
 The risk factors for chronic bronchitis include:
 
 - Smoking. This the main risk factor. Up to 75% of people who have chronic bronchitis smoke or used to smoke.
- 
+
 - Long-term exposure to other lung irritants, such as secondhand smoke, air pollution, and chemical fumes and dusts from the environment or workplace.
 
 - Age. Most people who have chronic bronchitis are at least 40 years old when their symptoms begin.
- 
+
 - Genetics. This includes alpha-1 antitrypsin deficiency, which is a genetic condition. Also, smokers who get chronic bronchitis are more likely to get it if they have a family history of COPD.
 
 What are the symptoms of chronic bronchitis?
@@ -80,56 +51,36 @@ What are the treatments for chronic bronchitis?
 There is no cure for chronic bronchitis. However, treatments can help with symptoms, slow the progress of the disease, and improve your ability to stay active. There are also treatments to prevent or treat complications of the disease. Treatments include:
 
 - Lifestyle changes, such as
-	
- - Quitting smoking if you are a smoker. This is the most important step you can take to treat chronic bronchitis.
 
- - Avoiding secondhand smoke and places where you might breathe in other lung irritants
+- Quitting smoking if you are a smoker. This is the most important step you can take to treat chronic bronchitis.
 
- - Ask your health care provider for an eating plan that will meet your nutritional needs. Also ask about how much physical activity you can do. Physical activity can strengthen the muscles that help you breathe and improve your overall wellness.
+- Avoiding secondhand smoke and places where you might breathe in other lung irritants
 
-	
+- Ask your health care provider for an eating plan that will meet your nutritional needs. Also ask about how much physical activity you can do. Physical activity can strengthen the muscles that help you breathe and improve your overall wellness.
 
 - Medicines, such as
-	
- - Bronchodilators, which relax the muscles around your airways. This helps open your airways and makes breathing easier. Most bronchodilators are taken through an inhaler. In more severe cases, the inhaler may also contain steroids to reduce inflammation.
 
- - Vaccines for the flu and pneumococcal pneumonia, since people with chronic bronchitis are at higher risk for serious problems from these diseases.
+- Bronchodilators, which relax the muscles around your airways. This helps open your airways and makes breathing easier. Most bronchodilators are taken through an inhaler. In more severe cases, the inhaler may also contain steroids to reduce inflammation.
 
- - Antibiotics if you get a bacterial or viral lung infection
+- Vaccines for the flu and pneumococcal pneumonia, since people with chronic bronchitis are at higher risk for serious problems from these diseases.
 
-	
+- Antibiotics if you get a bacterial or viral lung infection
 
 - Oxygen therapy, if you have severe chronic bronchitis and low levels of oxygen in your blood. Oxygen therapy can help you breathe better. You may need extra oxygen all the time or only at certain times.
 
 - Pulmonary rehabilitation, which is a program that helps improve the well-being of people who have chronic breathing problems. It may include
- 
-	
- - An exercise program
 
- - Disease management training
+- An exercise program
 
- - Nutritional counseling
+- Disease management training
 
- - Psychological counseling
+- Nutritional counseling
 
-	
+- Psychological counseling
 
 - A lung transplant, as a last resort for people who have severe symptoms that have not gotten better with medicines
-	
 
 If you have chronic bronchitis, it's important to know when and where to get help for your symptoms. You should get emergency care if you have severe symptoms, such as trouble catching your breath or talking. Call your health care provider if your symptoms are getting worse or if you have signs of an infection, such as a fever.
 
 Can chronic bronchitis be prevented?
 Since smoking causes most cases of chronic bronchitis, the best way to prevent it is to not smoke. It's also important to try to avoid lung irritants such as secondhand smoke, air pollution, chemical fumes, and dusts.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Arterial Blood Gas (ABG) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-oxygen-level/
-- Blood gases [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003855.htm
-- Bronchitis [Start Here] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/bronchitis
-- Bronchitis (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/bronchitis.html
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm
-- Cough [Diagnosis and Tests] — American Academy of Family Physicians — https://familydoctor.org/symptom/cough/
-- How to breathe when you are short of breath [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000053.htm
-- Lung Function Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/lung-function-tests/

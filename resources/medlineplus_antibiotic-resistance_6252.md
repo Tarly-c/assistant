@@ -1,38 +1,10 @@
 # Antibiotic Resistance
 
-- Topic ID: 6252
-- Language: English
-- URL: https://medlineplus.gov/antibioticresistance.html
-- Date created: 05/19/2015
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Drug Therapy
-
-## MeSH
-- Drug Resistance, Bacterial
-- Drug Resistance, Microbial
-
-## Related topics
-- Antibiotics
-- Bacterial Infections
-
-## See also
-- Antimicrobial Resistance
-- VRE
-- Vancomycin-Resistant Enterococci
-- Vancomycin-Resistant Staphylococcus aureus
-
-## Meta description
-Antibiotics can save lives. But when they are not used properly they can become less effective. Use them only when necessary to combat antibiotic resistance.
-
-## Summary
 What are antibiotics?
 Antibiotics are medicines that treat bacterial infections in humans and animals. They work by killing the bacteria or making it hard for the bacteria to grow and multiply. When used properly, antibiotics can save lives. But there is a growing problem of antibiotic resistance.
 
 What is antibiotic resistance?
-Antibiotic resistance happens when bacteria change and can resist the effects of an antibiotic. The bacteria are not killed, and they continue to grow. The infections these bacteria cause are called resistant infections. Resistant infections can be difficult, and sometimes impossible, to treat. In some cases, they can even be deadly. 
+Antibiotic resistance happens when bacteria change and can resist the effects of an antibiotic. The bacteria are not killed, and they continue to grow. The infections these bacteria cause are called resistant infections. Resistant infections can be difficult, and sometimes impossible, to treat. In some cases, they can even be deadly.
 
 Antibiotic resistance does not mean that your body is resistant to antibiotics.
 
@@ -82,13 +54,3 @@ There will always be some antibiotic resistance, since it happens naturally. But
 - Help prevent the spread of bacterial infections with good hygiene habits. These include washing your hands often and covering your mouth and nose when coughing or sneezing.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Antimicrobial Resistance [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/antimicrobial-resistance/about/
-- About Carbapenem-resistant Enterobacterales [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/cre/about/
-- Antibiotic Sensitivity Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/antibiotic-sensitivity-test/
-- Antibiotic Use and Antimicrobial Resistance Facts [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/antibiotic-use/data-research/facts-stats/
-- Antimicrobial Resistance [Specifics] — World Health Organization — https://www.who.int/en/news-room/fact-sheets/detail/antimicrobial-resistance
-- Antimicrobial Resistance Threats [Specifics] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/research/antimicrobial-resistance-threats
-- Antimicrobial Resistance, Food, and Food Animals [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/food-safety/foods/antimicrobial-resistance.html
-- Danger of Antibiotic Overuse (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/antibiotic-overuse.html

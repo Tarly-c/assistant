@@ -1,39 +1,5 @@
 # Heroin
 
-- Topic ID: 285
-- Language: English
-- URL: https://medlineplus.gov/heroin.html
-- Date created: 09/23/1999
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Big H
-- Black tar
-- Chiva
-- H
-- Hell Dust
-- Horse
-- Junk
-- Smack
-- Thunder
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Heroin Dependence
-
-## Related topics
-- Drug Use and Addiction
-- Opioids and Opioid Use Disorder (OUD)
-
-## See also
-- Opiates
-
-## Meta description
-Heroin is a highly addictive drug made from morphine. It can be injected, snorted, or smoked. Learn about withdrawal symptoms and addiction treatment.
-
-## Summary
 What is heroin?
 Heroin is an illegal, very addictive opioid drug. It's made from morphine, which comes from the seedpod of opium poppy plants. These plants grow in Southeast and Southwest Asia, Mexico, and Colombia. Heroin can be a white or brown powder, or a black sticky substance known as black tar heroin.
 
@@ -50,8 +16,6 @@ People who inject the drug also risk getting infectious diseases such as HIV, he
 
 Repeated use of heroin can lead to tolerance. This means users need more and more of the drug to have the same effect. At higher doses over time, the body becomes dependent on heroin. If someone who is dependent on heroin stops using it, they have withdrawal symptoms. These symptoms can include restlessness, muscle and bone pain, diarrhea, vomiting, and cold flashes with goose bumps.
 
- 
-
 Repeated use of heroin often leads to heroin use disorder, sometimes called addiction. This is more than physical dependence. It's a chronic (long-lasting) brain disorder. When someone has it, they continue to use heroin even though it causes problems in their life. Some examples include health problems and not being able to meet responsibilities at work, school, or home. Getting and using heroin becomes their main purpose in life.
 
 Can a person overdose on heroin?
@@ -62,21 +26,7 @@ When people overdose on heroin, their heart rate and breathing slow down. Their 
 How can a heroin overdose be treated?
 A medicine called naloxone can treat a heroin (or other opioid) overdose if it is given in time. It works by blocking the effects of the opioid on the body. Sometimes more than one dose of the medicine is needed.
 
- 
-
 There are two forms of naloxone that anyone can use without medical training: nasal spray and injectable. People at risk of an overdose are encouraged to carry naloxone with them. They can buy naloxone at a pharmacy.
 
 What are the treatments for heroin use disorder?
 Treatments for heroin use disorder include medicines to treat withdrawal symptoms, medicine to block the effects of opioids, and behavioral treatments. Often, a combination of medicine and behavioral treatment works best. People getting treatment for heroin use disorder should work with their health care providers to come up with a treatment plan that fits their needs.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- Drug Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-testing/
-- Drug Use Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-use-screening-tests/
-- Heroin [Start Here] — Drug Enforcement Administration — https://www.getsmartaboutdrugs.gov/sites/default/files/2024-12/Heroin-Drug-Fact-Sheet.pdf
-- Heroin [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/drugs-a-to-z#H
-- Heroin overdose [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002861.htm
-- Heroin Research Report [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/publications/research-reports/heroin/overview
-- Heroin: What Parents Need to Know [Children] — Partnership to End Addiction — https://drugfree.org/drugs/heroin/
-- How Does Heroin Use Affect Pregnant Women? [Women] — National Institute on Drug Abuse — https://nida.nih.gov/publications/research-reports/heroin/how-does-heroin-abuse-affect-pregnant-women

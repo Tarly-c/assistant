@@ -1,36 +1,6 @@
 # Diabetes and Pregnancy
 
-- Topic ID: 1408
-- Language: English
-- URL: https://medlineplus.gov/diabetesandpregnancy.html
-- Date created: 01/03/2001
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- Gestational diabetes
-
-## Groups
-- Pregnancy and Reproduction
-- Endocrine System
-- Female Reproductive System
-- Diabetes Mellitus
-
-## MeSH
-- Pregnancy in Diabetics
-
-## Related topics
-- Diabetes
-- Health Problems in Pregnancy
-
-## See also
-- Gestational Diabetes
-- Pregnancy and Diabetes
-
-## Meta description
-Some women already have diabetes before they get pregnant. When the disease develops during pregnancy, it is called gestational diabetes. It can be managed.
-
-## Summary
-What is diabetes? 
+What is diabetes?
 If you have diabetes, your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. A hormone called insulin helps the glucose get into your cells to give them energy. With type 1 diabetes, your body does not make insulin. With type 2 diabetes, your body does not make or use insulin well. Without enough insulin, the glucose stays in your blood.
 
 What is gestational diabetes?
@@ -99,15 +69,3 @@ After pregnancy, there are steps you need to take to stay healthy:
 - If you had gestational diabetes, you are at risk of developing type 2 diabetes. You will be tested for it within 4 to 12 weeks after giving birth. Even if your blood glucose levels have returned to normal, you will need to get them tested every 1 to 3 years.
 
 - If you already had diabetes before pregnancy, you and your provider will monitor changes to your blood glucose levels. They will tell you if you need to adjust your diabetes management plan.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- About Gestational Diabetes [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/diabetes/about/gestational-diabetes.html
-- Blood Glucose Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-glucose-test/
-- Diabetes during Pregnancy [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/maternal-infant-health/pregnancy-diabetes/
-- Diabetes Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/diabetes-tests/
-- Gestational Diabetes [Start Here] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational
-- Gestational diabetes [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000896.htm
-- Gestational diabetes - self-care [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000598.htm
-- Gestational diabetes diet [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007430.htm

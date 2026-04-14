@@ -1,32 +1,5 @@
 # Assisted Living
 
-- Topic ID: 1646
-- Language: English
-- URL: https://medlineplus.gov/assistedliving.html
-- Date created: 05/28/2002
-
-## Also called
-- Residential care
-
-## Groups
-- Older Adults
-- Health System
-
-## MeSH
-- Assisted Living Facilities
-
-## Related topics
-- Home Care Services
-- Nursing Homes
-
-## See also
-- Long-Term Care
-- Residential Care
-
-## Meta description
-Many people need help as they age. Assisted living facilities can provide care that you or you loved ones may need. Learn more.
-
-## Summary
 Assisted living is housing and services for people who need some help with daily care. They may need help with things like dressing, bathing, taking their medicines, and cleaning. But they do not need the medical care that a nursing home provides. Assisted living allows the residents to live more independently.
 
 Assisted living facilities sometimes have other names, such as adult care facilities or residential care facilities. They vary in size, with as few as 25 residents up to 120 residents or more. The residents usually live in their own apartments or rooms and share common areas.
@@ -50,9 +23,3 @@ The facilities usually offer a few different levels of care. Residents pay more 
 - Transportation
 
 The residents are usually older adults, including those with Alzheimer's or other types of dementia. But in some cases, residents may be younger and have mental illnesses, developmental disabilities, or certain medical conditions.
-
-NIH: National Institute on Aging
-
-## Selected references
-- Assisted Living [Start Here] — AGS Health in Aging Foundation — https://www.healthinaging.org/age-friendly-healthcare-you/care-settings/assisted-living
-- Long-Term Care Facilities: Assisted Living, Nursing Homes, and Other Residential Care [Start Here] — National Institute on Aging — https://www.nia.nih.gov/health/assisted-living-and-nursing-homes/long-term-care-facilities-assisted-living-nursing-homes

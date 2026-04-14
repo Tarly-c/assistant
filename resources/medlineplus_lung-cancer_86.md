@@ -1,41 +1,9 @@
 # Lung Cancer
 
-- Topic ID: 86
-- Language: English
-- URL: https://medlineplus.gov/lungcancer.html
-- Date created: 03/19/1999
-- Primary institute: National Cancer Institute
-
-## Also called
-- Bronchogenic carcinoma
-
-## Groups
-- Cancers
-- Lungs and Breathing
-
-## MeSH
-- Lung Neoplasms
-
-## Related topics
-- Lung Diseases
-- Radon
-- Smoking
-
-## See also
-- Bronchogenic Carcinoma
-- Non-Small Cell Lung Cancer
-- Small Cell Lung Cancer
-
-## Meta description
-Lung cancer forms in tissues of the lung, usually in the cells that line the air passages. It is the leading cause of cancer death in both men and women.
-
-## Summary
-What is lung cancer? 
+What is lung cancer?
 Lung cancer is cancer that forms in tissues of the lung, usually in the cells that line the air passages. It is the leading cause of cancer death in both men and women.
 
 There are two main types: small cell lung cancer and non-small cell lung cancer. These two types grow differently and are treated differently. Non-small cell lung cancer is the more common type.
-
- 
 
 Who is more likely to develop lung cancer?
 Anyone can develop lung cancer, but certain factors raise your risk of getting it:
@@ -49,14 +17,12 @@ Anyone can develop lung cancer, but certain factors raise your risk of getting i
 - Being exposed to asbestos, arsenic, chromium, beryllium, nickel, soot, or tar in the workplace.
 
 - Being exposed to radiation, for example from:
-	
- - Radiation therapy to the breast or chest
 
- - Radon in the home or workplace
+- Radiation therapy to the breast or chest
 
- - Certain imaging tests such as CT scans
+- Radon in the home or workplace
 
-	
+- Certain imaging tests such as CT scans
 
 - HIV infection. Your risk is higher if you have HIV. However, smoking rates are higher in people who have HIV, so it's not clear whether the increased risk is from the HIV infection or from smoking.
 
@@ -65,7 +31,6 @@ Anyone can develop lung cancer, but certain factors raise your risk of getting i
 What are the symptoms of lung cancer?
 Lung cancer may not cause any signs or symptoms until the cancer is advanced. Sometimes the cancer is found during a chest x-ray done for another condition.
 
- 
 The symptoms of lung cancer may include:
 
 - Chest pain or discomfort
@@ -156,15 +121,3 @@ Avoiding the risk factors may help prevent lung cancer. For example, you can:
 - Lower your exposure to hazardous substances at work.
 
 - Lower your exposure to radon. Radon tests can show whether your home has high levels of radon. You can buy a test kit yourself or hire a professional to do the test.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Bronchoscopy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003857.htm
-- Bronchoscopy and Bronchoalveolar Lavage (BAL) [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bronchoscopy-and-bronchoalveolar-lavage-bal/
-- CEA Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/cea-test/
-- Chest CT [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003788.htm
-- Chest MRI [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003794.htm
-- Chest radiation - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000057.htm
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm

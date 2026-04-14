@@ -1,32 +1,5 @@
 # Hepatitis C
 
-- Topic ID: 1286
-- Language: English
-- URL: https://medlineplus.gov/hepatitisc.html
-- Date created: 04/20/2000
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- HCV
-
-## Groups
-- Digestive System
-- Infections
-
-## MeSH
-- Hepatitis C
-
-## Related topics
-- Hepatitis
-- Hepatitis A
-- Hepatitis B
-- Liver Diseases
-- Liver Transplantation
-
-## Meta description
-Hepatitis C (HCV) is virus that causes liver inflammation. It usually spreads through contact with blood from someone who has HCV. It can be acute or chronic.
-
-## Summary
 What is hepatitis C?
 Hepatitis is inflammation of the liver. Inflammation is swelling that happens when tissues of the body are injured or infected. Inflammation can damage organs.
 
@@ -115,13 +88,11 @@ Without treatment, hepatitis C may lead to cirrhosis, liver failure, and liver c
 How is hepatitis C diagnosed?
 Providers diagnose hepatitis C based on your medical history, a physical exam, and blood tests.
 
- 
 If you do have hepatitis C, you may need additional tests to check for liver damage. These tests may include other blood tests, an ultrasound of the liver, and a liver biopsy.
 
 What are the treatments for hepatitis C?
 Treatment for hepatitis C is with antiviral medicines. They can cure the disease in most cases.
 
- 
 If you have acute hepatitis C, your provider may wait to see if your infection becomes chronic before starting treatment.
 
 If your hepatitis C causes cirrhosis, you should see a doctor who specializes in liver diseases. Treatments for health problems related to cirrhosis include medicines, surgery, and other medical procedures. If your hepatitis C leads to liver failure or liver cancer, you may need a liver transplant.
@@ -138,15 +109,3 @@ There is no vaccine for hepatitis C. But you can help protect yourself from hepa
 - Not sharing personal items such toothbrushes, razors, or nail clippers.
 
 - Using a latex condom during sex. If your or your partner is allergic to latex, you can use polyurethane condoms.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- 5 Things You Should Know about Dietary Supplements for Hepatitis C [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/things-you-should-know-about-dietary-supplements-for-hepatitis-c
-- Complementary and Integrated Medicine for Hepatitis C [Treatments and Therapies] — Department of Veterans Affairs — https://www.hepatitis.va.gov/hcv/patient/alternative-therapies/index.asp
-- Cryoglobulins [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003555.htm
-- Hepatitis [Children] — Nemours Foundation — https://kidshealth.org/en/kids/hepatitis.html
-- Hepatitis [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/hepatitis.html
-- Hepatitis C [Start Here, Patient Handouts] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-c
-- Hepatitis C [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000284.htm
-- Hepatitis C - children [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007672.htm

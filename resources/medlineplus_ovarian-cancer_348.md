@@ -1,47 +1,16 @@
 # Ovarian Cancer
 
-- Topic ID: 348
-- Language: English
-- URL: https://medlineplus.gov/ovariancancer.html
-- Date created: 03/15/1999
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Women
-- Endocrine System
-- Female Reproductive System
-
-## MeSH
-- Peritoneal Neoplasms
-- Fallopian Tube Neoplasms
-- Ovarian Neoplasms
-
-## Related topics
-- Ovarian Disorders
-
-## See also
-- Fallopian Tube Cancer
-- Primary Peritoneal Cancer
-
-## Meta description
-Ovarian cancer is a cancerous tumor that forms in the tissues of an ovary. The ovaries are a pair of female reproductive glands that make eggs and female hormones.
-
-## Summary
-What is ovarian cancer? 
+What is ovarian cancer?
 Cancer is a disease in which abnormal cells in the body grow out of control and form a tumor. Ovarian cancer is a cancerous tumor that forms in the tissues of an ovary. The ovaries are a pair of female reproductive glands that make eggs and female hormones.
 
 What are the types of ovarian cancer?
 There are a few different types of ovarian cancer. The most common type is epithelial cancer. It begins in the cells that cover the ovary.
-
- 
 
 There are also two related types of epithelial cancer that can spread to the ovaries:
 
 - Fallopian tube cancer forms in the tissue lining a fallopian tube. The fallopian tubes are a pair of long, slender tubes on each side of the uterus. The uterus is the female reproductive organ where a fetus grows during pregnancy.
 
 - Primary peritoneal cancer forms in the tissue lining the peritoneum. Your peritoneum is a tissue lining that covers the organs in the abdomen (belly).
- 
 
 These two cancers are like ovarian cancer, and they have the same treatments. So some medical experts also consider those two types as ovarian cancer.
 
@@ -80,8 +49,6 @@ Certain people are more likely to develop ovarian cancer. They include those who
 What are the symptoms of ovarian cancer?
 Ovarian cancer may not cause early signs or symptoms. By the time you do have signs or symptoms, the cancer is often advanced.
 
- 
-
 The signs and symptoms may include:
 
 - Pain, swelling, or a feeling of pressure in the abdomen (belly) or pelvis
@@ -106,7 +73,6 @@ To find out if you have ovarian cancer, your health care provider:
 - Will likely do imaging tests
 
 - May do blood tests such as a CA-125 blood test
- 
 
 Often the only way to know for sure that you have ovarian cancer is by having a biopsy of the tissue. A biopsy is done during surgery to remove the tumor.
 
@@ -120,15 +86,3 @@ Treatments for ovarian cancer may include:
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells
 
 Your provider may suggest that you have genetic testing to look for the gene changes that raise the risk for ovarian cancer. Knowing whether you have the gene change may help your provider decide on your treatment plan.
-
-NIH: National Cancer Institute
-
-## Selected references
-- Abdominal exploration [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002928.htm
-- Abdominal exploration - series [Diagnosis and Tests, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100049_1.htm
-- Abdominal radiation - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000054.htm
-- Abdominal tap [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003896.htm
-- After chemotherapy - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- Alpha fetoprotein [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003573.htm
-- Alpha Fetoprotein (AFP) Tumor Marker Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-tumor-marker-test/
-- BRCA Genetic Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/brca-test/

@@ -1,38 +1,14 @@
 # Bullying and Cyberbullying
 
-- Topic ID: 4026
-- Language: English
-- URL: https://medlineplus.gov/bullyingandcyberbullying.html
-- Date created: 12/06/2004
-
-## Groups
-- Children and Teenagers
-- Social/Family Issues
-
-## MeSH
-- Bullying
-- Cyberbullying
-
-## Related topics
-- Child Mental Health
-- School Health
-- Teen Mental Health
-- Teen Violence
-
-## Meta description
-Bullying is when a person or group repeatedly harms someone on purpose. Cyberbullying is bullying that happens through text messages or online. Both can cause lasting harm. Learn the signs of bullying, and how to help a child who is being bullied.
-
-## Summary
 What is bullying?
 
 Bullying is when a person or group repeatedly harms someone on purpose. It can be physical, social, and/or verbal. It is harmful to both the victims and the bullies, and it always involves:
 
 - Aggressive behavior.
- 
+
 - A difference in power, meaning that the victim is weaker or is seen as weaker. For example, bullies may try to use physical strength, embarrassing information, or popularity to harm others.
- 
+
 - Repetition, meaning it happens more than once or that it probably will happen again
- 
 
 What are the types of bullying?
 
@@ -119,7 +95,7 @@ Kids who are bullied can have problems at school and with their mental and physi
 - Health complaints, including headaches and stomachaches
 
 - Lower grades and test scores
- 
+
 - Missing and dropping out of school
 
 Kids who bully others have a higher risk for substance use, problems in school, and violence later in life.
@@ -153,7 +129,7 @@ How do you help someone who is being bullied?
 To help a child who is being bullied, support the child and address the bullying behavior:
 
 - Listen and focus on the child. Learn what's been going on and show you want to help.
- 
+
 - Assure the child that bullying is not his/her fault
 
 - Know that kids who are bullied may struggle with talking about it. Consider referring them to a school counselor, psychologist, or other mental health service.
@@ -163,19 +139,9 @@ To help a child who is being bullied, support the child and address the bullying
 - Work together to resolve the situation and protect the bullied child. The child, parents, and school or organization should be part of the solution.
 
 - Follow up. Bullying may not end overnight. Make sure that the child knows that you are committed to making it stop.
- 
+
 - Make sure that the bully knows that his or her behavior is wrong and harms others
 
 - Show kids that bullying is taken seriously. Make it clear to everyone that the bullying will not be tolerated.
 
 Department of Health and Human Services
-
-## Selected references
-- Addressing Childhood Bullying: When Peer Aggression Goes Too Far [Children] — National Institutes of Health — https://newsinhealth.nih.gov/2023/09/addressing-childhood-bullying
-- Bullying [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/youth-violence/about/about-bullying.html
-- Bullying and Youth with Disabilities and Special Health Needs [Specifics] — Department of Health and Human Services — https://www.stopbullying.gov/bullying/special-needs
-- Bullying Laws, Policies, and Regulations [Specifics] — Department of Health and Human Services — https://www.stopbullying.gov/resources/laws
-- Cyberbullying (for Parents) [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/cyberbullying.html
-- Cyberbullying (for Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/cyberbullying.html
-- Dealing with Bullies (For Kids) [Start Here, Living With] — Nemours Foundation — https://kidshealth.org/en/kids/bullies.html
-- Report Cyberbullying [Specifics] — Department of Health and Human Services — https://www.stopbullying.gov/cyberbullying/how-to-report

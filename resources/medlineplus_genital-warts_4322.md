@@ -1,60 +1,22 @@
 # Genital Warts
 
-- Topic ID: 4322
-- Language: English
-- URL: https://medlineplus.gov/genitalwarts.html
-- Date created: 02/13/2006
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Condylomata acuminata
-- Venereal warts
-
-## Groups
-- Infections
-- Sexual Health Issues
-- Female Reproductive System
-- Male Reproductive System
-
-## MeSH
-- Condylomata Acuminata
-
-## Related topics
-- HPV
-- Sexually Transmitted Infections
-
-## See also
-- Condylomata Acuminata
-- Venereal Warts
-
-## Meta description
-Genital warts are a sexually transmitted disease caused by the human papillomavirus (HPV). Learn about what they look like, prevention, and treatment.
-
-## Summary
 What are genital warts?
 Genital warts are a sexually transmitted infection (STI) caused by the human papillomavirus (HPV). There are many types of HPV. Some types of HPV can cause genital warts. Other types of HPV can cause cancer.
-
- 
 
 There is no treatment for HPV, but your health care provider can treat genital warts. HPV vaccines may help prevent some of the HPV infections that cause genital warts.
 
 Who is at risk for genital warts?
 If you are sexually active, you can get genital warts during oral, vaginal, or anal sex with an infected partner. You can still get genital warts even if they are so small that you can't see them.
 
- 
 It doesn't happen often, but genital warts can also be spread from a woman to her baby during childbirth.
 
 What are the symptoms of genital warts?
 Genital warts are often painless and may not cause any symptoms. You might not even know that you have them. Sometimes, they can also cause itching, burning, bleeding, or discomfort.
 
- 
-
 The warts usually appear as a small bump or group of bumps in the genital area. They are flesh-colored and can be flat or look bumpy like cauliflower.
 
 How are genital warts diagnosed?
 Your provider can usually find out if you have genital warts by seeing them during a physical exam or pelvic exam. In women, the warts usually occur in or around the vagina, on the cervix, or around the anus. Men may have warts on the tip of the penis, around the anus, or on the scrotum, thigh, or groin.
-
- 
 
 What are the treatments for genital warts?
 The warts might disappear on their own, stay the same, or grow bigger or increase in number. A few ways that your provider can treat them include:
@@ -62,7 +24,6 @@ The warts might disappear on their own, stay the same, or grow bigger or increas
 - Use medicines, cream, or ointment
 
 - Remove them by burning, freezing, or cutting out the warts
- 
 
 HPV stays in your body even after treatment. This means that warts can come back, and you can still spread HPV to others after genital warts are removed.
 
@@ -71,14 +32,4 @@ Getting an HPV vaccine may help prevent genital warts. HPV vaccines provide the 
 
 Correct usage of latex condoms greatly reduces, but does not eliminate, the risk of catching or spreading HPV. If you or your partner is allergic to latex, you can use polyurethane condoms. The best way to avoid infection is not to have anal, vaginal, or oral sex.
 
- 
-
 Dept. of Health and Human Services Office on Women's Health
-
-## Selected references
-- Condom Use: An Overview [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/condom-use/
-- Genital warts [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000886.htm
-- Genital Warts [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/genital-warts/symptoms-causes/syc-20355234?p=1
-- Genital Warts [Start Here] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/genital-warts
-- Genital Warts (HPV) (For Parents) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/genital-warts.html
-- Genital Warts (HPV) (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/std-warts.html

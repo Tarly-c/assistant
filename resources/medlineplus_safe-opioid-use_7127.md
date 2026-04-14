@@ -1,22 +1,5 @@
 # Safe Opioid Use
 
-- Topic ID: 7127
-- Language: English
-- URL: https://medlineplus.gov/safeopioiduse.html
-- Date created: 08/27/2018
-- Primary institute: National Institute on Drug Abuse
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Prescription Drug Misuse
-- Drug Overdose
-
-## Meta description
-Opioids are strong pain relievers. People who take them are at risk for opioid use disorder (OUD) and overdose. These risks increase when opioids are misused.
-
-## Summary
 What are opioids?
 Opioids, sometimes called narcotics, are a type of drug. They include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol. The illegal drug heroin is also an opioid.
 
@@ -52,22 +35,19 @@ If you and your provider decide that you need to take opioids, make sure that yo
 
 - What the warning signs of addiction are, so you can watch for them. They include:
 
- 
- - Regularly taking more medicine than you are supposed to
+- Regularly taking more medicine than you are supposed to
 
- - Taking someone else's opioids
+- Taking someone else's opioids
 
- - Taking the medicine to get high
+- Taking the medicine to get high
 
- - Mood swings, depression, and/or anxiety
+- Mood swings, depression, and/or anxiety
 
- - Needing too much or too little sleep
+- Needing too much or too little sleep
 
- - Trouble making decisions
+- Trouble making decisions
 
- - Feeling high or sedated
-
- 
+- Feeling high or sedated
 
 If you have a high risk for an overdose, you will want to get naloxone from a pharmacy and carry it with with you wherever you go. Naloxone is a medicine that can reverse the effects of an opioid overdose.
 
@@ -95,23 +75,12 @@ It is important to store and dispose of opioid medicines properly:
 
 - Dispose of your unused medicine properly. If you have unused opioid medicines at the end of your treatment, you can get rid of them by:
 
- 
- - Finding a local drug take-back program
+- Finding a local drug take-back program
 
- - Finding a pharmacy mail-back program
+- Finding a pharmacy mail-back program
 
- - In some cases, flushing them down the toilet - check the Food and Drug Administration (FDA) web site to find out which ones you can flush away
-
- 
+- In some cases, flushing them down the toilet - check the Food and Drug Administration (FDA) web site to find out which ones you can flush away
 
 - Never sell or share your medicines. Your prescription is for you. Your health care provider considers many factors when prescribing opioids. What's safe for you might lead to an overdose for someone else.
 
 - If someone steals your opioid medicines or prescription, report the theft to the police.
-
-## Selected references
-- How Naloxone Saves Lives in Opioid Overdose [Learn More] — National Library of Medicine — https://medlineplus.gov/medlineplus-videos/how-naloxone-saves-lives-in-opioid-overdose/
-- Opioid Testing [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/opioid-testing/
-- Preventing Opioid Misuse [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/overdose-prevention/prevention/preventing-opioid-misuse.html
-- Taking Prescription Opioid Pain Medicines Safely (For Teens) [Learn More] — Nemours Foundation — https://kidshealth.org/en/teens/opioid-prescription-safety.html
-- What Are Opioids and Why Are They Dangerous? [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/expert-answers/what-are-opioids/faq-20381270?p=1
-- What to Ask Your Doctor before Taking Opioids [Learn More] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/what-ask-your-doctor-taking-opioids

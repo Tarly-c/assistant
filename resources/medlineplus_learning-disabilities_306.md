@@ -1,37 +1,5 @@
 # Learning Disabilities
 
-- Topic ID: 306
-- Language: English
-- URL: https://medlineplus.gov/learningdisabilities.html
-- Date created: 02/10/1999
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- Learning differences
-- Learning disorders
-
-## Groups
-- Children and Teenagers
-- Mental Health and Behavior
-
-## MeSH
-- Learning Disabilities
-
-## Related topics
-- Attention Deficit Hyperactivity Disorder
-- Developmental Disabilities
-- Speech and Language Problems in Children
-
-## See also
-- Dyscalculia
-- Dyslexia
-- Reading Problems
-- Specific Learning Disorder
-
-## Meta description
-Learning disabilities affect how people understand, remember and respond to information. Learn more on how to identify and cope with  learning disabilities.
-
-## Summary
 What is a learning disability?
 Learning disabilities are conditions that affect the ability to learn. They can cause problems with:
 
@@ -70,20 +38,6 @@ The earlier you can find and treat a learning disability, the better. Unfortunat
 What are the treatments for learning disabilities?
 The most common treatment for learning disabilities is special education. A teacher or other learning specialist can help your child learn skills by building on their strengths and finding ways to make up for their weaknesses. They may suggest ways you can help your child when they do homework. Instructors may try special teaching methods, make changes to the classroom, or use technologies that can assist your child's learning needs. Some children also get help from tutors or speech or language therapists.
 
- 
-
 A child with a learning disability may struggle with low self-esteem, frustration, and other problems. Mental health professionals can help your child understand these feelings, develop coping tools, and build healthy relationships.
 
 If your child has another condition, such as ADHD, they will need treatment for that condition as well.
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- Aarskog syndrome [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001654.htm
-- About Learning Disabilities [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/learning/conditioninfo
-- Decoding Dyslexia: Helping Kids Who Struggle with Reading [Children] — National Institutes of Health — https://newsinhealth.nih.gov/2024/02/decoding-dyslexia
-- Developmental reading disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001406.htm
-- Dysgraphia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001543.htm
-- Dyslexia, Dysgraphia and Dyscalculia: Helping Kids with Learning Disorders Thrive [Start Here] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/learning-disabilities/Pages/Types-of-Learning-Problems.aspx
-- How Are Learning Disabilities Diagnosed? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/learning/conditioninfo/diagnosed
-- Learning Disabilities [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/learningdisabilities

@@ -1,28 +1,5 @@
 # Eosinophilic Esophagitis
 
-- Topic ID: 6967
-- Language: English
-- URL: https://medlineplus.gov/eosinophilicesophagitis.html
-- Date created: 05/07/2018
-
-## Also called
-- EoE
-
-## Groups
-- Digestive System
-- Blood, Heart and Circulation
-- Immune System
-
-## MeSH
-- Eosinophilic Esophagitis
-
-## See also
-- EoE
-
-## Meta description
-Eosinophilic esophagitis (EoE) is a disease in which eosinophils (a type of white blood cell) build up in your esophagus. It causes damage and inflammation. Learn about symptoms, diagnosis, treatment.
-
-## Summary
 What is eosinophilic esophagitis (EoE)?
 Eosinophilic esophagitis (EoE) is a chronic disease of the esophagus. Your esophagus is the muscular tube that carries food and liquids from your mouth to the stomach. If you have EoE, white blood cells called eosinophils build up in your esophagus. This causes damage and inflammation, which can cause pain, trouble swallowing, and food getting stuck in your throat.
 
@@ -83,11 +60,10 @@ To find out if you have EoE, your doctor will likely:
 - Ask about your symptoms and medical history. Since other conditions can have the same symptoms of EoE, it is important for your doctor to take a thorough history.
 
 - Do an upper gastrointestinal (GI) endoscopy. An endoscope is a long, flexible tube with a light and camera at the end of it. Your doctor will run the endoscope down your esophagus and look at it. Some signs that you might have EoE include white spots, rings, narrowing, and inflammation in the esophagus. However, not everyone with EoE has those signs, and sometimes they can be signs of a different esophagus disorder.
- 
+
 - Do a biopsy. During the endoscopy, the doctor will take small tissue samples from your esophagus. The samples will be checked for a high number of eosinophils. This is the only way to make a diagnosis of EoE.
 
 - Do other tests as needed. You may have blood tests to check for other conditions. If you do have EoE, you may have blood or other types of tests to check for specific allergies.
- 
 
 What are the treatments for eosinophilic esophagitis (EoE)?
 There is no cure for EoE. Treatments can manage your symptoms and prevent further damage. The two main types of treatments are medicines and diet.
@@ -104,25 +80,12 @@ Dietary changes for EoE include:
 
 - Elimination diet. If you are on an elimination diet, you stop eating and drinking certain foods and beverages for several weeks. If you are feeling better, you add the foods back to your diet one at a time. You have repeat endoscopies to see whether or not you are tolerating those foods. There are different types of elimination diets:
 
- 
- - With one type, you first have an allergy test. Then you stop eating and drinking the foods you are allergic to.
- 
- - For another type, you eliminate foods and drinks that commonly cause allergies, such as dairy products, egg, wheat, soy, peanuts, tree nuts and fish/shellfish.
+- With one type, you first have an allergy test. Then you stop eating and drinking the foods you are allergic to.
 
- 
+- For another type, you eliminate foods and drinks that commonly cause allergies, such as dairy products, egg, wheat, soy, peanuts, tree nuts and fish/shellfish.
 
 - Elemental diet. With this diet, you stop eating and drinking all proteins. Instead, you drink an amino acid formula. Some people who do not like the taste of the formula use a feeding tube instead. If your symptoms and inflammation go away completely, you may be able to try adding foods back one at a time, to see whether you can tolerate them.
 
 Which treatment your doctor suggests depends on different factors, including your age. Some people may use more than one kind of treatment. Researchers are still trying to understand EoE and how best to treat it.
 
 If your treatment is not working well enough and you have narrowing of the esophagus, you may need dilation. This is a procedure to stretch the esophagus. This makes it easier for you to swallow.
-
-## Selected references
-- Endoscopy (Upper) (For Children) [Learn More] — North American Society for Pediatric Gastroenterology, Hepatology and Nutrition — https://gikids.org/tests-procedures/endoscopy-upper/
-- Eosinophilic esophagitis [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007717.htm
-- Eosinophilic Esophagitis (EoE) [Learn More] — American Partnership for Eosinophilic Disorders — https://apfed.org/about-ead/egids/eoe/?q=what_is_eoe
-- Eosinophilic Esophagitis (EoE) [Learn More] — American Academy of Allergy, Asthma, and Immunology — https://www.aaaai.org/conditions-treatments/related-conditions/eosinophilic-esophagitis
-- Eosinophilic Esophagitis (EoE) (For Parents) [Learn More] — Nemours Foundation — https://kidshealth.org/en/parents/eosinophilic-esophagitis.html
-- Eosinophilic Esophagitis (EoE) in Pediatric and Adolescent Patients [Learn More] — American College of Gastroenterology — https://gi.org/topics/eosinophilic-esophagitis-in-pediatric-and-adolescent-patients/
-- Eosinophilic Esophagitis: Diagnosis and Treatment [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/eosinophilic-esophagitis/diagnosis-treatment/drc-20372203?p=1
-- Eosinophilic Esophagitis: Symptoms and Causes [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/eosinophilic-esophagitis/symptoms-causes/syc-20372197?p=1

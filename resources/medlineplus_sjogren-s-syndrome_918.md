@@ -1,31 +1,6 @@
 # Sjogren's Syndrome
 
-- Topic ID: 918
-- Language: English
-- URL: https://medlineplus.gov/sjogrenssyndrome.html
-- Date created: 11/10/1999
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Groups
-- Bones, Joints and Muscles
-- Immune System
-
-## MeSH
-- Sjogren's Syndrome
-
-## Related topics
-- Arthritis
-- Dry Mouth
-- Tears
-
-## See also
-- Sjogren's Disease
-
-## Meta description
-Sjogren's Syndrome is an autoimmune disease that causes dryness of the mouth, eyes and other parts of the body. Learn how to relieve the symptoms.
-
-## Summary
-What is Sjogren's syndrome? 
+What is Sjogren's syndrome?
 Sjogren's syndrome, also called Sjogren's disease, is a chronic (long-lasting) autoimmune disease. When you have an autoimmune disease, your immune system attacks healthy tissues and organs by mistake. In Sjogren's syndrome, your immune system attacks the glands that make moisture in the eyes, mouth, and other parts of the body. This causes a dry mouth and dry eyes. You may have dryness in other places that need moisture, such as your nose, throat, and skin. Sjogren's can also affect other parts of the body, including your joints, lungs, kidneys, blood vessels, digestive organs, and nerves.
 
 What causes Sjogren's syndrome?
@@ -38,8 +13,6 @@ Sjogren's syndrome is more common in people who have other autoimmune diseases s
 
 What are the symptoms of Sjogren's syndrome?
 Sjogren's syndrome may have different effects on the body. Not everyone will have the same symptoms. Some people have cycles of mild and then severe symptoms.
-
- 
 
 The two main symptoms are:
 
@@ -71,14 +44,12 @@ There is no single test for Sjogren's syndrome. To find out if you have it, your
 - Will do a physical exam, which includes checking for signs of dry mouth and signs of related autoimmune diseases.
 
 - May order tests, including:
- 
- - Eye tests to see if you produce a normal amount of tears and to find out if your eyes have been damaged by dryness.
 
- - Salivary gland tests to measure how much saliva your mouth produces. They could include imaging tests and a biopsy.
+- Eye tests to see if you produce a normal amount of tears and to find out if your eyes have been damaged by dryness.
 
- - Blood tests.
+- Salivary gland tests to measure how much saliva your mouth produces. They could include imaging tests and a biopsy.
 
- 
+- Blood tests.
 
 What are the treatments for Sjogren's syndrome?
 There is no cure for Sjogren's syndrome. Treatment focuses on relieving your symptoms. The treatments can be different for each person, depending on which parts of the body are affected. They may include:
@@ -96,13 +67,3 @@ There is no cure for Sjogren's syndrome. Treatment focuses on relieving your sym
 - Medicines that suppress (weaken) your immune system (for severe cases).
 
 You can also try to relieve some of your symptoms by sucking on sugar-free candy, drinking water often, increasing the humidity in your room, and not smoking. Because having a dry mouth can raise your risk of cavities, it's important to take good care of your teeth and see your dentist regularly.
-
-## Selected references
-- ANA (Antinuclear Antibody) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/ana-antinuclear-antibody-test/
-- Dry Eye [Specifics] — National Eye Institute — https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye
-- Dry Mouth [Specifics] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/health-info/dry-mouth
-- Dry Mouth: MedlinePlus Health Topic [Specifics] — National Library of Medicine — https://medlineplus.gov/drymouth.html
-- Dry Skin [Specifics] — Sjogren's Syndrome Foundation — https://sjogrens.org/sites/default/files/inline-files/Dry%20Skin%20Patient%20Education%20Sheet_0.pdf
-- Rheumatoid factor (RF) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003548.htm
-- Rheumatoid Factor (RF) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/rheumatoid-factor-rf-test/
-- Salivary gland biopsy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003847.htm

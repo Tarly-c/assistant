@@ -1,41 +1,9 @@
 # Chest Injuries and Disorders
 
-- Topic ID: 5858
-- Language: English
-- URL: https://medlineplus.gov/chestinjuriesanddisorders.html
-- Date created: 08/24/2011
-
-## Groups
-- Bones, Joints and Muscles
-- Injuries and Wounds
-
-## MeSH
-- Rib Fractures
-- Thoracic Injuries
-- Thoracic Diseases
-
-## Related topics
-- Chest Pain
-- Collapsed Lung
-- Pleural Disorders
-
-## See also
-- Mediastinal Disorders
-- Rib Injuries
-- Thoracic Injuries
-
-## Meta description
-Your chest is packed with vital organs, like the esophagus, lungs, and heart. Learn about the different types of chest injuries and chest disorders.
-
-## Summary
 What is the chest?
 The chest is the part of your body between your neck and your abdomen (belly). The medical term for your chest is thorax.
 
- 
-
 Your chest holds many important structures for breathing, digestion, blood circulation, and other important body functions. These structures include your:
-
- 
 
 - Ribs and breastbone
 
@@ -57,8 +25,6 @@ Your chest holds many important structures for breathing, digestion, blood circu
 
 What are chest injuries and disorders?
 Chest injuries and disorders are problems that affect any of the organs or structures located in your chest.
-
- 
 
 There are many types of chest injuries and disorders, for example:
 
@@ -86,14 +52,10 @@ There are many types of chest injuries and disorders, for example:
 
 Chest injuries may happen from the force of car accidents, falls, or sports injuries. Or the chest may be pierced by a bullet or sharp object. Because your chest holds so many important structures, certain chest injuries may be life-threatening.
 
- 
-
 How are chest injuries and disorders diagnosed?
 Diagnosis of chest injuries or disorders depends on the type of symptoms you're having and whether you've had a chest injury. Injuries are usually obvious, but in most cases, you'll need tests to know how serious an injury is.
 
 There are many types of tests for diagnosing different types of chest injuries and disorders, for example:
-
- 
 
 - Diagnostic imaging tests
 
@@ -110,13 +72,3 @@ There are many types of tests for diagnosing different types of chest injuries a
 - Biopsy
 
 Treatments will depend on the type of chest injury or disorder you have.
-
-## Selected references
-- Bronchoscopy and Bronchoalveolar Lavage (BAL) [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bronchoscopy-and-bronchoalveolar-lavage-bal/
-- Chest CT [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003788.htm
-- Chest CT Scan [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/chestct
-- Chest MRI [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003794.htm
-- Chest tube insertion [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002947.htm
-- Chest tube insertion - series [Treatments and Therapies, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100008_1.htm
-- Chest Tube Thoracostomy [Treatments and Therapies] — American Thoracic Society — https://www.thoracic.org/patients/patient-resources/resources/chest-tube-thoracostomy.pdf
-- Chest Wall Disorder: Pectus Carinatum [Children] — Nemours Foundation — https://kidshealth.org/en/parents/pectus-carinatum.html

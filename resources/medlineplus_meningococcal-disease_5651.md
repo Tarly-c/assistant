@@ -1,35 +1,7 @@
 # Meningococcal Disease
 
-- Topic ID: 5651
-- Language: English
-- URL: https://medlineplus.gov/meningococcaldisease.html
-- Date created: 10/06/2010
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Meningococcal Infections
-
-## Groups
-- Infections
-
-## MeSH
-- Meningococcal Infections
-
-## Related topics
-- Meningitis
-
-## See also
-- Meningococcal Infections
-- Meningococcemia
-
-## Meta description
-Meningococcal disease is the name for illness caused by meningococcal bacteria. The illnesses are often severe, but vaccines can help prevent them. Learn more.
-
-## Summary
-What is meningococcal disease? 
+What is meningococcal disease?
 Meningococcal disease is the name for any illness that is caused by Neisseria meningitidis bacteria (also called meningococcal bacteria). These illnesses are often severe and can sometimes be deadly. They include infections of the lining of the brain and spinal cord (meningitis) and in the bloodstream (sepsis). Vaccines can help prevent the disease.
-
-	
 
 What causes meningococcal disease?
 Some people have Neisseria meningitidis, the bacteria that cause the disease, in the back of their nose and throat. They usually have the bacteria but don't get sick. This is called being a "carrier." But sometimes the bacteria can spread to other parts of the body and cause meningococcal disease.
@@ -38,7 +10,7 @@ The bacteria can spread from person to person through saliva (spit). It usually 
 
 You cannot catch the bacteria through casual contact with someone who has the disease. For example, you cannot get it by breathing air where that person has been.
 
-Who is more likely to get meningococcal disease? 
+Who is more likely to get meningococcal disease?
 Anyone can get meningococcal disease, but you are more likely to get it if someone you live with has it. You are also more likely to get it if you have direct contact with the saliva of someone who has it (like through kissing).
 
 Also, certain groups of people are more likely to get the disease. They include:
@@ -62,7 +34,6 @@ Also, certain groups of people are more likely to get the disease. They include:
 What are the symptoms of meningococcal disease?
 There are different types of meningococcal disease. The most common types are meningitis and septicemia. Both types are very serious and can be deadly in a matter of hours.
 
- 
 Meningococcal meningitis is a meningococcal infection of the lining of the brain and spinal cord. The most common symptoms include:
 
 - Fever
@@ -111,8 +82,6 @@ Meningococcal septicemia is a meningococcal infection of the bloodstream. It's a
 
 Because it is so serious, you need to seek immediate medical attention if you or your child develops the symptoms of meningococcal disease.
 
- 
-
 How is meningococcal disease diagnosed?
 The signs and symptoms of meningococcal disease are often similar to those of other illnesses. This can make it hard to diagnose.
 
@@ -157,13 +126,3 @@ If you are a close contact of a person with meningococcal disease, you will like
 Although it's rare, you can get meningococcal disease more than once.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Meningococcal Disease [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/meningococcal/about/index.html
-- Bacteria Culture Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bacteria-culture-test/
-- Meningococcal Disease in Preteens, Teens & Young Adults [Teenagers] — American Academy of Pediatrics — https://www.healthychildren.org/English/ages-stages/teen/Pages/Meningococcal-Disease-Information-for-Teens-and-College-Students-.aspx
-- Meningococcal Disease Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/meningococcal-disease-tests/
-- Meningococcal Disease: Diagnosis, Treatment, and Complications [Diagnosis and Tests] — Centers for Disease Control and Prevention — https://www.cdc.gov/meningococcal/about/diagnosis-treatment.html
-- Meningococcal meningitis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000608.htm
-- Meningococcal Vaccines and Pregnancy [Women] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/meningococcal-disease-bacterial-meningitis-vaccine-pregnancy/
-- Meningococcemia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001349.htm

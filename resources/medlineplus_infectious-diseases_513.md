@@ -1,39 +1,5 @@
 # Infectious Diseases
 
-- Topic ID: 513
-- Language: English
-- URL: https://medlineplus.gov/infectiousdiseases.html
-- Date created: 12/02/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Communicable diseases
-
-## Groups
-- Infections
-- Immune System
-
-## MeSH
-- Communicable Diseases
-
-## Related topics
-- Antibiotic Resistance
-- Antibiotics
-- Bacterial Infections
-- Fungal Infections
-- Infection Control
-- Parasitic Diseases
-- Traveler's Health
-- Vaccines
-- Viral Infections
-
-## See also
-- Communicable Diseases
-
-## Meta description
-Infectious diseases are caused by four main kinds of germs. Vaccines, proper hand washing and medicines can help prevent infections. Discover more.
-
-## Summary
 What are infectious diseases?
 Germs, or microbes, are found everywhere - in the air, soil, and water. There are also germs on your skin and in your body. Many of them are harmless, and some can even be helpful. But some of them can make you sick. Infectious diseases are diseases that are caused by germs.
 
@@ -51,7 +17,7 @@ There are four main types of germs:
 How can you get infectious diseases?
 There are many different ways that you can get an infectious disease, depending on the type of germ. They can include:
 
-- Through direct contact with a person who is sick. This includes kissing, touching, sneezing, coughing, and sexual contact. If you are pregnant, you can pass some germs to your fetus. 
+- Through direct contact with a person who is sick. This includes kissing, touching, sneezing, coughing, and sexual contact. If you are pregnant, you can pass some germs to your fetus.
 
 - Through indirect contact, when you touch something that has germs on it. For example, you could get germs if someone who is sick touched a door handle, and then you touch it.
 
@@ -62,12 +28,9 @@ There are many different ways that you can get an infectious disease, depending 
 What are the symptoms of infectious diseases?
 Infectious diseases can cause many different symptoms. Some are so mild that you may not even notice any symptoms, while others can be life-threatening.
 
- 
-
 What are the treatments for infectious diseases?
-There are treatments for some infectious diseases, such as antibiotic, antiviral, antifungal and anti-parasitic medicines. But for other infections, such as some caused by viruses, you can only treat your symptoms while you wait for your immune system to fight off the germ. 
+There are treatments for some infectious diseases, such as antibiotic, antiviral, antifungal and anti-parasitic medicines. But for other infections, such as some caused by viruses, you can only treat your symptoms while you wait for your immune system to fight off the germ.
 
- 
 Can infectious diseases be prevented?
 You can take steps to help prevent many infectious diseases:
 
@@ -79,16 +42,6 @@ You can take steps to help prevent many infectious diseases:
 
 - Avoid contact with wild animals.
 
-- Use a latex condom every time you have sex. If your or your partner is allergic to latex, you can use polyurethane condoms. 
+- Use a latex condom every time you have sex. If your or your partner is allergic to latex, you can use polyurethane condoms.
 
 - Don't share items such as toothbrushes, combs, and straws.
-
-## Selected references
-- Childhood Contagious Diseases [Children] — VisualDX — https://skinsight.com/disease-groups/childhood-contagious-diseases/?Imiw9cApl
-- CSF cell count [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003625.htm
-- Germs: Understand and Protect against Bacteria, Viruses, and Infections [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/infectious-diseases/in-depth/germs/art-20045289?p=1
-- Infectious Diseases [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/infectious-diseases/symptoms-causes/syc-20351173?p=1
-- Latex agglutination test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003334.htm
-- Overview of Infectious Diseases [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/infections/Pages/Overview-of-Infectious-Diseases.aspx
-- PCR Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/pcr-tests
-- Rapid Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/rapid-tests/

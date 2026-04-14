@@ -1,25 +1,5 @@
 # Klinefelter Syndrome
 
-- Topic ID: 1524
-- Language: English
-- URL: https://medlineplus.gov/klinefeltersyndrome.html
-- Date created: 08/16/2001
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Also called
-- XXY male
-
-## Groups
-- Genetics/Birth Defects
-- Men
-
-## MeSH
-- Klinefelter Syndrome
-
-## Meta description
-Klinefelter syndrome (KS) is a condition that occurs in men who have an extra X chromosome. Read about the common symptoms and treatments.
-
-## Summary
 What is Klinefelter syndrome (KS)?
 Klinefelter syndrome (KS) is a genetic condition that happens when a male is born with an extra copy of the X chromosome. KS can affect different stages of physical, language, and social development. It also usually causes infertility.
 
@@ -72,15 +52,3 @@ Treatments for KS may include:
 - Physical, speech, behavioral, and occupational therapy
 
 In some cases, fertility treatments may help men with KS father children.
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- About Klinefelter Syndrome [Learn More] — National Human Genome Research Institute — https://www.genome.gov/Genetic-Disorders/Klinefelter-Syndrome
-- About Klinefelter Syndrome [Learn More] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/klinefelter/conditioninfo
-- How Do Health Care Providers Diagnose Klinefelter Syndrome (KS)? [Learn More] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/klinefelter/conditioninfo/diagnosed
-- Karyotyping [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003935.htm
-- Klinefelter Syndrome [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/klinefelter-syndrome/symptoms-causes/syc-20353949?p=1
-- Klinefelter syndrome [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000382.htm
-- Klinefelter Syndrome (For Teens) [Learn More] — Nemours Foundation — https://kidshealth.org/en/teens/klinefelter.html
-- Other Klinefelter Syndrome (KS) FAQs [Learn More] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/klinefelter/more_information/other-faqs

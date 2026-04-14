@@ -1,37 +1,5 @@
 # Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
 
-- Topic ID: 89
-- Language: English
-- URL: https://medlineplus.gov/myalgicencephalomyelitischronicfatiguesyndrome.html
-- Date created: 02/19/1999
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- CFS
-- Chronic fatigue syndrome
-- ME/CFS
-- Myalgic encephalomyelitis
-- SEID
-- Systemic exertion intolerance disease
-
-## Groups
-- Bones, Joints and Muscles
-- Infections
-
-## MeSH
-- Fatigue Syndrome, Chronic
-
-## Related topics
-- Fatigue
-
-## See also
-- CFS
-- Chronic Fatigue Syndrome
-
-## Meta description
-Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a long-term illness. It causes severe fatigue and many other symptoms. Learn about managing them.
-
-## Summary
 What is myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)?
 Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a serious, long-term illness that affects many body systems. Another name for it is chronic fatigue syndrome (CFS). ME/CFS can often make you unable to do your usual activities. Sometimes you may not even be able to get out of bed.
 
@@ -121,13 +89,3 @@ There are also various resources and strategies that might be helpful to you, su
 Make sure to talk to your provider before you try any new treatments. Some treatments that are promoted as cures for ME/CFS are unproven, often costly, and could be dangerous.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Chronic Fatigue Syndrome [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/cfs.html
-- Chronic Fatigue Syndrome [Start Here] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/chronic-fatigue-syndrome
-- Diagnosing ME/CFS [Diagnosis and Tests] — Centers for Disease Control and Prevention — https://www.cdc.gov/me-cfs/diagnosis/
-- Manage Myalgic Encephalomyelitis/Chronic Fatigue Syndrome [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/me-cfs/management/
-- ME/CFS in Children: Information for Families [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/me-cfs/children/information-for-families.html
-- Myalgic encephalomyelitis / chronic fatigue syndrome (ME/CFS) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001244.htm
-- Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) in Children [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/me-cfs/children/
-- Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ME/CFS Basics [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/me-cfs/about/

@@ -1,51 +1,26 @@
 # Anesthesia
 
-- Topic ID: 140
-- Language: English
-- URL: https://medlineplus.gov/anesthesia.html
-- Date created: 12/20/1999
-
-## Groups
-- Surgery and Rehabilitation
-
-## MeSH
-- Anesthesia
-
-## Related topics
-- Pain
-- Surgery
-
-## Meta description
-Local, regional, general - all are types of anesthesia. Learn about how anesthesia reduces or blocks pain before a surgery.
-
-## Summary
 What is anesthesia?
 Anesthesia is the use of medicines, called anesthetics, to prevent pain during surgery and other medical procedures. Medicine may be given by injection, inhalation, topical lotion, spray, eye drops, or a skin patch.
 
- 
-
 Anesthesia can cause a loss of feeling, awareness, or both. Sedation may be used with anesthesia. Unlike full anesthesia, sedation doesn't make you completely unconscious, and recovery is faster. It helps reduce pain, keep you calm, and make you less aware during procedures such as minor surgeries, endoscopies, imaging, or dental work.
-
- 
 
 Levels of sedation include:
 
 - Minimal sedation. You are awake but more relaxed.
- 
+
 - Moderate sedation (conscious sedation). You may feel sleepy and not remember much, but you can still respond when spoken to or touched.
 
 - Deep sedation. You are very drowsy and may respond only to repeated or stronger stimulation.
- 
 
 What is anesthesia used for?
 Anesthesia may be used for:
 
 - Minor procedures, such as filling a tooth.
- 
+
 - Childbirth or procedures such as colonoscopies.
- 
+
 - Minor and major surgeries.
- 
 
 In some cases, a dentist, nurse, or doctor may give you an anesthetic. In other cases, you may need an anesthesiologist. This is a doctor who specializes in giving anesthesia.
 
@@ -59,7 +34,6 @@ There are several different types of anesthesia:
 - General anesthesia affects your whole body. It feels like a deep sleep, but you do not feel anything. It is used during major surgeries, such as heart surgery, brain surgery, back surgery, and organ transplants.
 
 - Monitored sedation makes you relaxed or sleepy. You may be able to talk, depending on the level of sedation, and you probably won't remember the procedure. It may be used for a colonoscopy or dental work.
- 
 
 Your overall health, medical history, the procedure you're having, and other factors will help determine the type of anesthesia you receive.
 
@@ -77,13 +51,3 @@ Anesthesia is generally safe. But there can be risks, especially with general an
 - Awareness when someone is under general anesthesia. This usually means that the person hears sounds. But sometimes they can feel pain. This is rare.
 
 Talk to your health care provider about the benefits and risks of anesthesia.
-
-## Selected references
-- Anesthesia [Start Here] — National Institute of General Medical Sciences — https://www.nigms.nih.gov/education/fact-sheets/Pages/anesthesia
-- Anesthesia (for parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/anesthesia-basics.html
-- Anesthesia - what to ask your doctor - adult [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000183.htm
-- Anesthesia - what to ask your doctor - child [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000184.htm
-- Conscious sedation for surgical procedures [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007409.htm
-- CSF leak [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001068.htm
-- Epidural block - pregnancy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000484.htm
-- Epidural Injections [Specifics] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/epidural

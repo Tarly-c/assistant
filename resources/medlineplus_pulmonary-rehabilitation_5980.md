@@ -1,29 +1,5 @@
 # Pulmonary Rehabilitation
 
-- Topic ID: 5980
-- Language: English
-- URL: https://medlineplus.gov/pulmonaryrehabilitation.html
-- Date created: 02/14/2012
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Lungs and Breathing
-- Surgery and Rehabilitation
-
-## MeSH
-- Lung Diseases
-
-## Related topics
-- Lung Diseases
-
-## See also
-- Chest Physical Therapy
-- Lung Rehabilitation
-
-## Meta description
-Pulmonary Rehabilitation is a medically supervised program to help people with chronic breathing problems, like COPD or cystic fibrosis. Learn more.
-
-## Summary
 What is pulmonary rehabilitation?
 Pulmonary rehabilitation, also known as pulmonary rehab or PR, is a program for people who have chronic (ongoing) breathing problems. It can help improve your ability to function and quality of life. PR does not replace your medical treatment. Instead, you use them together.
 
@@ -58,13 +34,3 @@ When you first start pulmonary rehabilitation (PR), your team of health care pro
 - Breathing strategies. You will learn techniques to improve your breathing. These techniques may increase your oxygen levels, decrease how often you take breaths, and keep your airways open longer.
 
 - Psychological counseling and/or group support. It can feel scary to have trouble breathing. If you have a chronic lung disease, you are more likely to have depression, anxiety, or other emotional problems. Many PR programs include counseling and/or support groups. If not, your PR team may be able to refer you to an organization that offers them.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Chest Physical Therapy [Specifics] — Cystic Fibrosis Foundation — https://www.cff.org/managing-cf/chest-physical-therapy
-- Nutrition and COPD [Specifics] — American Lung Association — https://www.lung.org/lung-health-diseases/lung-disease-lookup/copd/living-with-copd/nutrition
-- Postural drainage [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000051.htm
-- Pulmonary Rehabilitation [Start Here] — American Thoracic Society — https://www.thoracic.org/patients/patient-resources/resources/pulmonary-rehab.pdf
-- Pulmonary Rehabilitation [Start Here] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/pulmonary-rehabilitation
-- Pulmonary Rehabilitation: A Path to Breathing Better [Patient Handouts] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/resources/pulmonary-rehabilitation-path-breathing-better-infographic

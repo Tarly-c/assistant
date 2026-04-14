@@ -1,35 +1,8 @@
 # Cold and Cough Medicines
 
-- Topic ID: 4961
-- Language: English
-- URL: https://medlineplus.gov/coldandcoughmedicines.html
-- Date created: 04/13/2009
-
-## Groups
-- Drug Therapy
-
-## MeSH
-- Expectorants
-- Multi-Ingredient Cold, Flu, and Allergy Medications
-- Nasal Decongestants
-- Antitussive Agents
-- Histamine Antagonists
-
-## Related topics
-- Common Cold
-- Cough
-
-## See also
-- Cough Medicines
-
-## Meta description
-There are lots of different cold and cough medicines, and they do different things. Learn about different remedies and when you should take them.
-
-## Summary
 What are cold and cough medicines?
 Cold and cough medicines can help relieve symptoms of a common cold. The symptoms of a cold can include a sore throat, stuffy or runny nose, sneezing, and coughing.
 
- 
 You don't usually need to treat a cold or the cough that it causes. You can't cure a cold, and antibiotics won't help you get better. But sometimes the symptoms can keep you awake or cause a lot of discomfort. In that case, cold and cough medicines can sometimes be helpful.
 
 What are the different types of cold and cough medicines?
@@ -48,7 +21,6 @@ There are lots of different cold and cough medicines, and they do different thin
 What do I need to know about taking cold and cough medicines?
 Before taking these medicines, read the labels and follow the instructions carefully. Many cold and cough medicines contain the same active ingredients. For example, some of them include pain relievers. If you are taking these medicines and are also taking a separate pain reliever, you could be getting a dangerous amount of the pain reliever.
 
- 
 Do not give cold or cough medicines to children under two, and don't give aspirin to children.
 
 What else can I do to feel better for a cold or cough?
@@ -65,13 +37,3 @@ If you decide that you don't want to take cold and cough medicines, there are ot
 - Use nasal suctioning with a bulb syringe, which can be very helpful in children under a year old
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- 5 Tips: Natural Products for the Flu and Colds: What Does the Science Say? [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/tips-natural-products-for-the-flu-and-colds-what-does-the-science-say
-- Brompheniramine overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002601.htm
-- Cold medicines and children [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000942.htm
-- Cold Remedies: What Works, What Doesn't, What Can't Hurt [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/common-cold/in-depth/cold-remedies/art-20046403?p=1
-- Contac overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002616.htm
-- Cough and Cold Medicine Abuse (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/cough-cold-medicine-abuse.html
-- Cough Medicine: Understanding Your OTC Options [Start Here] — American Academy of Family Physicians — https://familydoctor.org/cough-medicine-understanding-your-otc-options/
-- Coughs and Colds: Medicines or Home Remedies? [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Coughs-and-Colds-Medicines-or-Home-Remedies.aspx

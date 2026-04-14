@@ -1,28 +1,5 @@
 # Understanding Medical Research
 
-- Topic ID: 3894
-- Language: English
-- URL: https://medlineplus.gov/understandingmedicalresearch.html
-- Date created: 08/16/2004
-
-## Groups
-- Social/Family Issues
-- Personal Health Issues
-
-## MeSH
-- Biomedical Research
-- Health Knowledge, Attitudes, Practice
-
-## Related topics
-- Evaluating Health Information
-
-## See also
-- Medical Research
-
-## Meta description
-It seems to happen almost every day - you hear about the results of a new medical research study. Learn how to evaluate medical findings.
-
-## Summary
 Almost every day, new findings from medical research are published in scientific journals. These journal articles often become sources for news stories. They can be important tools in helping you manage your health. But it's not always easy to understand them and know what they mean for your life. For example:
 
 - What you hear about a study may not explain how it fits into the bigger picture.
@@ -30,8 +7,6 @@ Almost every day, new findings from medical research are published in scientific
 - Sometimes the results of one study seem to disagree with the results of another study. That could be because the studies could have different designs and asked different questions. The news stories don't always explain this.
 
 - Sometimes the studies are very small, and researchers need to do more studies to confirm the results. But the news stories about these small studies may not highlight this.
-
- 
 
 So it's important to think carefully when reading or listening to reports of new medical findings. Here are some questions that can help you evaluate that information:
 
@@ -56,9 +31,3 @@ So it's important to think carefully when reading or listening to reports of new
 - Who is reporting the results? Do they have a certain bias?
 
 It can be helpful to stay informed about new medical findings. But it's good to have some skepticism. Keep these questions in mind the next time you hear about a big new medical breakthrough.
-
-## Selected references
-- Clinical Research [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/clinical-research
-- Clinical Research FAQ [Start Here] — National Human Genome Research Institute — https://www.genome.gov/FAQ/Clinical-Research
-- Discoveries in Basic Science: A Perfectly Imperfect Process [Start Here] — National Institutes of Health — https://newsinhealth.nih.gov/2020/10/discoveries-basic-science
-- Know the Science: How To Make Sense of a Scientific Journal Article [Start Here] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/know-science/how-to-make-sense-of-a-scientific-journal-article/overview

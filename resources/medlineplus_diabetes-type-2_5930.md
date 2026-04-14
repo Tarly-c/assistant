@@ -1,43 +1,6 @@
 # Diabetes Type 2
 
-- Topic ID: 5930
-- Language: English
-- URL: https://medlineplus.gov/diabetestype2.html
-- Date created: 12/05/2011
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Type 2 Diabetes
-
-## Groups
-- Endocrine System
-- Diabetes Mellitus
-
-## MeSH
-- Diabetes Mellitus, Type 2
-
-## Related topics
-- A1C
-- Blood Glucose
-- Diabetes
-- Diabetes Complications
-- Diabetes in Children and Teens
-- Diabetes Medicines
-- Diabetes Type 1
-- Diabetic Diet
-- How to Prevent Diabetes
-- Prediabetes
-
-## See also
-- Non-Insulin Dependent Diabetes Mellitus
-- Sugar Diabetes
-- Type II Diabetes
-
-## Meta description
-Type 2 Diabetes, previously referred to as Adult Onset Diabetes, is the more common type. Risk factors include obesity and family history.
-
-## Summary
-What is type 2 diabetes? 
+What is type 2 diabetes?
 Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose is your main source of energy. It comes from the foods you eat. A hormone called insulin helps the glucose get into your cells to give them energy. If you have diabetes, your body doesn't make enough insulin or doesn't use insulin well. The glucose then stays in your blood and not enough goes into your cells.
 
 Over time, having too much glucose in your blood can cause health problems. But you can take steps to manage your diabetes and try to prevent these health problems.
@@ -56,7 +19,6 @@ Type 2 diabetes usually starts with insulin resistance. This is a condition in w
 Who is at risk for type 2 diabetes?
 You are at higher risk of developing type 2 diabetes if you:
 
- 
 - Are over age 45. Children, teenagers, and younger adults can get type 2 diabetes, but it is more common in middle-aged and older people.
 
 - Have prediabetes, which means that your blood glucose is high for you but not high enough to be called diabetes
@@ -102,7 +64,6 @@ Your provider will use blood tests to diagnose type 2 diabetes. The blood tests 
 - Fasting plasma glucose (FPG) test, which measures your current blood glucose level. You need to fast (not eat or drink anything except water) for at least 8 hours before the test.
 
 - Random plasma glucose (RPG) test, which measures your current blood glucose level. This test is used when you have diabetes symptoms and the provider does not want to wait for you to fast before having the test.
- 
 
 What are the treatments for type 2 diabetes?
 Treatment for type 2 diabetes involves managing your blood glucose levels. Many people are able to do this by living a healthy lifestyle. Some people may also need to take medicine:
@@ -117,15 +78,3 @@ Treatment for type 2 diabetes involves managing your blood glucose levels. Many 
 
 Can type 2 diabetes be prevented?
 You can take steps to help prevent or delay type 2 diabetes by losing weight if you are overweight, eating fewer calories, and being more physically active. If you have a condition which raises your risk for type 2 diabetes, managing that condition may lower your risk of getting type 2 diabetes.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- A1C test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003640.htm
-- A1C: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/a1c.html
-- All about Insulin Resistance [Specifics] — American Diabetes Association — https://professional.diabetes.org/sites/default/files/media/All_about_Insulin_Resistance.pdf
-- Diabetes [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/diabetes
-- Diabetes and Dietary Supplements: What You Need to Know [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/diabetes-and-dietary-supplements-what-you-need-to-know
-- Diabetes Medicines: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/diabetesmedicines.html
-- Diabetes Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/diabetes-tests/
-- Diabetes Tests and Diagnosis [Diagnosis and Tests] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis

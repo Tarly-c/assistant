@@ -1,47 +1,16 @@
 # Sickle Cell Disease
 
-- Topic ID: 402
-- Language: English
-- URL: https://medlineplus.gov/sicklecelldisease.html
-- Date created: 09/23/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Hemoglobin SS disease
-- Sickle cell anemia
-
-## Groups
-- Blood, Heart and Circulation
-- Genetics/Birth Defects
-
-## MeSH
-- Anemia, Sickle Cell
-
-## See also
-- Hemoglobin SS Disease
-- Sickle Cell Anemia
-
-## Meta description
-Sickle cell disease is a group of inherited disorders that affect your red blood cells. It can cause pain, anemia, and other problems. Learn about treatments.
-
-## Summary
 What is sickle cell disease (SCD)?
 Sickle cell disease (SCD) is a group of inherited red blood cell disorders. If you have SCD, there is a problem with your hemoglobin. Hemoglobin is a protein in red blood cells that carries oxygen throughout the body. With SCD, the hemoglobin forms into stiff rods within the red blood cells. This changes the shape of the red blood cells. The cells are supposed to be disc-shaped, but instead they are crescent, or sickle, shaped.
-
- 
 
 The sickle-shaped cells are not flexible and cannot change shape easily. Many of them burst apart as they move through your blood vessels. The sickle cells usually only last 10 to 20 days, instead of the normal 90 to 120 days. Your body may have trouble making enough new cells to replace the ones that you lost. Because of this, you may not have enough red blood cells. This is a condition called anemia, and it can make you feel tired.
 
 The sickle-shaped cells can also stick to vessel walls, causing a blockage that slows or stops the flow of blood. When this happens, oxygen can't reach nearby tissues. The lack of oxygen can cause attacks of sudden, severe pain, called pain crises. These attacks can occur without warning. If you get one, you might need to go to the hospital for treatment.
 
 What causes sickle cell disease (SCD)?
-SCD is caused by a variant (change) in a gene that has instructions for your body to make one part of the hemoglobin. This changed gene is sometimes called a sickle cell gene. People with SCD are born with two sickle cell genes, one from each parent. 
-
- 
+SCD is caused by a variant (change) in a gene that has instructions for your body to make one part of the hemoglobin. This changed gene is sometimes called a sickle cell gene. People with SCD are born with two sickle cell genes, one from each parent.
 
 If you are born with one sickle cell gene, it's called sickle cell trait. People with sickle cell trait are generally healthy, but they can pass the defective gene on to their children.
-
- 
 
 Who is more likely to have sickle cell disease (SCD)?
 In the United States, most of the people with SCD are African Americans:
@@ -64,7 +33,7 @@ People with SCD start to have signs of the disease during the first year of life
 The effects of SCD vary from person to person and can change over time. Most of the signs and symptoms of SCD are related to complications of the disease. They may include severe pain, anemia, organ damage, and infections.
 
 How is sickle cell disease (SCD) diagnosed?
-A blood test can show if you have SCD or sickle cell trait. Genetic tests can tell if you have one or two copies of the sickle cell gene. Genetic tests can help confirm an SCD diagnosis if the results from blood tests are not clear. 
+A blood test can show if you have SCD or sickle cell trait. Genetic tests can tell if you have one or two copies of the sickle cell gene. Genetic tests can help confirm an SCD diagnosis if the results from blood tests are not clear.
 
 All states now test newborns for SCD (as well as many other treatable conditions) as part of their screening programs. These programs help find the conditions early, so treatment can be started right away.
 
@@ -76,26 +45,22 @@ What are the treatments for sickle cell disease (SCD)?
 There are many ways to manage sickle cell disease. Your medical team will probably include a hematologist, a doctor who specializes in blood diseases. You will work with your medical team to set up a treatment plan. Possible treatment options may include:
 
 - Treatments that can help relieve symptoms and lessen complications, including:
- 
- - Hydroxyurea, a medicine to reduce sickling of red blood cells. This can help prevent serious symptoms of sickle cell disease. This medicine can be used in adults and in children as young as 9 months old. But this medicine is not safe during pregnancy.
- 
- - Voxelotor, another medicine to prevent the sickling of red blood cells. It can be used in adults and children ages 4 years and older.
 
- - Pain relievers for acute or chronic pain.
+- Hydroxyurea, a medicine to reduce sickling of red blood cells. This can help prevent serious symptoms of sickle cell disease. This medicine can be used in adults and in children as young as 9 months old. But this medicine is not safe during pregnancy.
 
- - Antibiotics to try to prevent infections in younger children.
+- Voxelotor, another medicine to prevent the sickling of red blood cells. It can be used in adults and children ages 4 years and older.
 
- - Blood transfusions for severe anemia. If you have had some serious complications, such as a stroke, you may have transfusions to prevent more complications.
+- Pain relievers for acute or chronic pain.
 
- - Other treatments for specific complications, such as medicines to lower blood pressure and vitamins to treat a vitamin deficiency.
+- Antibiotics to try to prevent infections in younger children.
 
- 
+- Blood transfusions for severe anemia. If you have had some serious complications, such as a stroke, you may have transfusions to prevent more complications.
+
+- Other treatments for specific complications, such as medicines to lower blood pressure and vitamins to treat a vitamin deficiency.
 
 - Bone marrow or stem cell transplantation, which can cure SCD. Because these transplants are risky and can have serious side effects, they are usually only used in children with severe SCD. For the transplant to work, the bone marrow must be a close match. Usually, the best donor is a brother or sister.
- 
-- Gene therapies to treat SCD in people who are 12 years and older and have had repeated sickle cell crises. These new therapies involve taking some of your blood stem cells and either adding new DNA to them or changing their existing DNA. Then these cells are given back to you, and they can make a type of hemoglobin that is healthy. This can reduce the complications of SCD, including the SCD crises.
 
- 
+- Gene therapies to treat SCD in people who are 12 years and older and have had repeated sickle cell crises. These new therapies involve taking some of your blood stem cells and either adding new DNA to them or changing their existing DNA. Then these cells are given back to you, and they can make a type of hemoglobin that is healthy. This can reduce the complications of SCD, including the SCD crises.
 
 Complementary and alternative medicine (CAM) seems to help some people deal with pain caused by SCD. These types of CAM may lower your pain, especially if it is not well managed with medicines::
 
@@ -120,15 +85,3 @@ It's also important to take steps to keep yourself as healthy as possible:
 - Live a healthy lifestyle
 
 - Avoid situations that may set off a pain crisis
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- About Sickle Cell Disease [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/sickle-cell/about/
-- Blood Smear [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-smear/
-- Bone Marrow Transplantation: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/bonemarrowtransplantation.html
-- Complete Blood Count (CBC) [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/complete-blood-count-cbc/
-- Complications of Sickle Cell Disease [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/sickle-cell/complications/
-- Crizanlizumab for People With Sickle Cell Disease [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/crizanlizumab.html
-- Dr. Allison King on Sickle Cell Disease and Learning [Children] — National Institutes of Health — https://newsinhealth.nih.gov/2020/09/dr-allison-king-sickle-cell-disease-learning
-- FDA Approval of Gene Therapies for Sickle Cell Disease: Q&A with NHLBI Director Dr. Gary Gibbons and NHLBI's Division of Blood Diseases and Resources Director Dr. Julie Panepinto [Treatments and Therapies] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/news/2023/fda-approval-gene-therapies-sickle-cell-disease-dr-gibbons-dr-panepinto

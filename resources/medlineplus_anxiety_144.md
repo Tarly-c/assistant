@@ -1,30 +1,5 @@
 # Anxiety
 
-- Topic ID: 144
-- Language: English
-- URL: https://medlineplus.gov/anxiety.html
-- Date created: 11/20/1998
-- Primary institute: National Institute of Mental Health
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Anxiety Disorders
-- Anxiety
-
-## Related topics
-- Panic Disorder
-- Phobias
-- Stress
-
-## See also
-- Generalized Anxiety Disorder
-
-## Meta description
-It's normal to be anxious at times. It may be time to get help if anxiety attack is severe or when anxiety doesn't stop. Learn about anxiety disorders.
-
-## Summary
 What is anxiety?
 Anxiety is a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat. It can be a normal reaction to stress. For example, you might feel anxious when faced with a difficult problem at work, before taking a test, or before making an important decision. It can help you to cope. The anxiety may give you a boost of energy or help you focus. But for people with anxiety disorders, the fear is not temporary and can be overwhelming.
 
@@ -32,7 +7,7 @@ What are anxiety disorders?
 Anxiety disorders are conditions in which you have anxiety that does not go away and can get worse over time. The symptoms can interfere with daily activities such as job performance, schoolwork, and relationships.
 
 What are the types of anxiety disorders?
-There are several types of anxiety disorders, including: 
+There are several types of anxiety disorders, including:
 
 - Generalized anxiety disorder (GAD). People with GAD worry about ordinary issues such as health, money, work, and family. But their worries are excessive, and they have them almost every day for at least 6 months.
 
@@ -65,40 +40,20 @@ The different types of anxiety disorders can have different symptoms. But they a
 
 Using caffeine, other substances, and certain medicines can make your symptoms worse.
 
- 
-
 How are anxiety disorders diagnosed?
 To diagnose anxiety disorders, your health care provider will ask about your symptoms and medical history. You may also have a physical exam and lab tests to make sure that a different health problem is not the cause of your symptoms.
 
- 
 If you don't have another health problem, you will get a psychological evaluation. Your provider may do it, or you may be referred to a mental health professional to get one.
-
- 
 
 What are the treatments for anxiety disorders?
 The main treatments for anxiety disorders are psychotherapy (talk therapy), medicines, or both:
 
 - Psychotherapy can help you recognize and change troubling emotions, thoughts, and behaviors. To be effective, it should focus on your specific anxieties and needs. There are many types; some of the types used for anxiety disorders include:
- 
- - Cognitive behavioral therapy (CBT), which teaches you different ways of thinking and behaving. It can help you change how you react to the things that cause you to feel fear and anxiety. It may include exposure therapy. This therapy focuses on having you confront your fears so that you will be able to do the things that you had been avoiding.
 
- - Acceptance and commitment therapy may help with some anxiety disorders. It uses strategies such as mindfulness and goal setting to reduce discomfort and anxiety.
+- Cognitive behavioral therapy (CBT), which teaches you different ways of thinking and behaving. It can help you change how you react to the things that cause you to feel fear and anxiety. It may include exposure therapy. This therapy focuses on having you confront your fears so that you will be able to do the things that you had been avoiding.
 
- 
- 
+- Acceptance and commitment therapy may help with some anxiety disorders. It uses strategies such as mindfulness and goal setting to reduce discomfort and anxiety.
 
 - Medicines to treat anxiety disorders include anti-anxiety medicines and certain antidepressants. Some types of medicines may work better for specific types of anxiety disorders. You should work closely with your provider to identify which medicine is best for you. You may need to try more than one medicine before you can find the right one.
 
 Support groups and stress management techniques may also be helpful.
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- 5 Ways to Cope with Anxiety [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/anxiety-tips.html
-- Agitation [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003212.htm
-- Anxiety [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/anxiety.html
-- Anxiety and Complementary Health Approaches [Treatments and Therapies] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/anxiety-and-complementary-health-approaches
-- Anxiety Disorders [Children] — Nemours Foundation — https://kidshealth.org/en/parents/anxiety-disorders.html
-- Anxiety Disorders [Start Here] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/mental-health/mental-health-conditions/anxiety-disorders
-- Anxiety Disorders [Start Here] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/anxiety-disorders
-- Beyond Worry: How Psychologists Help with Anxiety Disorders [Treatments and Therapies] — American Psychological Association — https://www.apa.org/topics/anxiety/disorders?partner=nlm

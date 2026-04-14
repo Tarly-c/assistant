@@ -1,31 +1,5 @@
 # Radiation Exposure
 
-- Topic ID: 379
-- Language: English
-- URL: https://medlineplus.gov/radiationexposure.html
-- Date created: 10/20/1999
-- Primary institute: National Institute of Environmental Health Sciences
-
-## Groups
-- Injuries and Wounds
-- Poisoning, Toxicology, Environmental Health
-
-## MeSH
-- Environmental Exposure
-- Radiation
-- Radiation Exposure
-
-## Related topics
-- Electromagnetic Fields
-- Radiation Emergencies
-- Radiation Therapy
-- Radon
-- Sun Exposure
-
-## Meta description
-Radiation exposure to even small amounts over a long time, raises your risk of cancer. A lot over a short time, causes burns or radiation sickness.
-
-## Summary
 What is radiation?
 Radiation is energy. It travels in the form of energy waves or high-speed particles. Radiation can occur naturally or be man-made. There are two types:
 
@@ -72,13 +46,3 @@ There are steps you can take to prevent or reduce radiation exposure:
 - During a radiation emergency, get inside a building to take shelter. Stay inside, with all of the windows and doors shut. Stay tuned to and follow the advice of emergency responders and officials.
 
 Environmental Protection Agency
-
-## Selected references
-- Accidents at Nuclear Power Plants and Cancer Risk [Specifics] — National Cancer Institute — https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/nuclear-accidents-fact-sheet
-- Acute Radiation Syndrome [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/radiation-emergencies/signs-symptoms/acute-radiation-syndrome.html
-- Cell Phones and Cancer Risk [Specifics] — National Cancer Institute — https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet
-- Does the Product Emit Radiation? [Start Here] — Food and Drug Administration — https://www.fda.gov/medical-devices/classify-your-medical-device/does-product-emit-radiation
-- Facts About Cell Phones and Your Health [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/radiation-health/data-research/facts-stats/cell-phones.html
-- Frequently Asked Questions on Potassium Iodide (KI) [Treatments and Therapies] — Food and Drug Administration — https://www.fda.gov/drugs/bioterrorism-and-drug-preparedness/frequently-asked-questions-potassium-iodide-ki
-- Hyperbaric oxygen therapy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002375.htm
-- Non-Ionizing Radiation Used in Microwave Ovens [Specifics] — Environmental Protection Agency — https://www.epa.gov/radtown/non-ionizing-radiation-used-microwave-ovens

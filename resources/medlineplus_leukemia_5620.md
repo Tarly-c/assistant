@@ -1,32 +1,5 @@
 # Leukemia
 
-- Topic ID: 5620
-- Language: English
-- URL: https://medlineplus.gov/leukemia.html
-- Date created: 10/12/2010
-- Primary institute: National Cancer Institute
-
-## Groups
-- Cancers
-- Blood, Heart and Circulation
-
-## MeSH
-- Leukemia
-
-## Related topics
-- Acute Lymphocytic Leukemia
-- Acute Myeloid Leukemia
-- Childhood Leukemia
-- Chronic Lymphocytic Leukemia
-- Chronic Myeloid Leukemia
-
-## See also
-- Hairy Cell Leukemia
-
-## Meta description
-Leukemia is cancer of the white blood cells. There are two types of Leukemias, acute and chronic. Learn about the differences and treatments available.
-
-## Summary
 What is leukemia?
 Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-forming tissues such as the bone marrow. Your bone marrow makes the cells which will develop into white blood cells, red blood cells, and platelets. Each type of cell has a different job:
 
@@ -109,15 +82,3 @@ The treatments for leukemia depend on which type you have, how severe the leukem
 - Chemotherapy with stem cell transplant
 
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells
-
-NIH: National Cancer Institute
-
-## Selected references
-- Adult T-Cell Leukemia/Lymphoma [Specifics] — Lymphoma Research Foundation — https://lymphoma.org/understanding-lymphoma/aboutlymphoma/nhl/atll/
-- After chemotherapy - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- B and T cell screen [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003329.htm
-- B-cell leukemia/lymphoma panel [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003518.htm
-- Beta 2 Microglobulin (B2M) Tumor Marker Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/beta-2-microglobulin-b2m-tumor-marker-test/
-- Blood Count Tests: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/bloodcounttests.html
-- Blood Tests [Diagnosis and Tests] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/blood-tests
-- Blood Transfusion [Treatments and Therapies] — Blood Cancer United — https://bloodcancerunited.org/blood-cancer-care/adults/types-blood-cancer-treatment/blood-transfusion

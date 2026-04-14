@@ -1,36 +1,11 @@
 # Respiratory Failure
 
-- Topic ID: 6016
-- Language: English
-- URL: https://medlineplus.gov/respiratoryfailure.html
-- Date created: 06/04/2012
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Lungs and Breathing
-
-## MeSH
-- Respiratory Insufficiency
-
-## Related topics
-- Lung Diseases
-
-## See also
-- ARDS
-- Acute Respiratory Distress Syndrome
-
-## Meta description
-Respiratory failure happens when not enough oxygen passes from your lungs to your blood. Lung diseases can cause respiratory failure. Read more.
-
-## Summary
 What is respiratory failure?
 Respiratory failure is a condition in which your blood doesn't have enough oxygen or has too much carbon dioxide. Sometimes you can have both problems.
 
 When you breathe, your lungs take in oxygen. The oxygen passes into your blood, which carries it to your organs. Your organs, such as your heart and brain, need this oxygen-rich blood to work well.
 
 Another part of breathing is removing the carbon dioxide from the blood and breathing it out. Having too much carbon dioxide in your blood can harm your organs.
-
- 
 
 What causes respiratory failure?
 Conditions that affect your breathing can cause respiratory failure. These conditions may affect the muscles, nerves, bones, or tissues that support breathing. Or they may affect the lungs directly. These conditions include:
@@ -61,23 +36,17 @@ Your health care provider will diagnose respiratory failure based on:
 
 - A physical exam, which often includes
 
- 
- - Listening to your lungs to check for abnormal sounds
+- Listening to your lungs to check for abnormal sounds
 
- - Listening to your heart to check for arrhythmia
+- Listening to your heart to check for arrhythmia
 
- - Looking for a bluish color on your skin, lips, and fingernails
-
- 
+- Looking for a bluish color on your skin, lips, and fingernails
 
 - Diagnostic tests, such as
 
- 
- - Pulse oximetry, a small sensor that uses a light to measure how much oxygen is in your blood. The sensor goes on the end of your finger or on your ear.
+- Pulse oximetry, a small sensor that uses a light to measure how much oxygen is in your blood. The sensor goes on the end of your finger or on your ear.
 
- - Arterial blood gas test, a test that measures the oxygen and carbon dioxide levels in your blood. The blood sample is taken from an artery, usually in your wrist.
-
- 
+- Arterial blood gas test, a test that measures the oxygen and carbon dioxide levels in your blood. The blood sample is taken from an artery, usually in your wrist.
 
 Once you are diagnosed with respiratory failure, your provider will look for what is causing it. Tests for this often include a chest x-ray. If your provider thinks you may have arrhythmia because of the respiratory failure, you may have an EKG (electrocardiogram). This is simple, painless test that detects and records your heart's electrical activity.
 
@@ -103,7 +72,7 @@ One of the main goals of treatment is to get oxygen to your lungs and other orga
 - Other breathing treatments, such as noninvasive positive pressure ventilation (NPPV), which uses mild air pressure to keep your airways open while you sleep. Another treatment is a special bed that rocks back and forth, to help you breathe in and out.
 
 - Fluids, often through an intravenous (IV), to improve blood flow throughout your body. They also provide nutrition.
- 
+
 - Medicines for discomfort
 
 - Treatments for the cause of the respiratory failure. These treatments may include medicines and procedures.
@@ -113,15 +82,3 @@ If you have respiratory failure, see your health care provider for ongoing medic
 If your respiratory failure is chronic, make sure that you know when and where to get help for your symptoms. You need emergency care if you have severe symptoms, such as trouble catching your breath or talking. You should call your provider if you notice that your symptoms are worsening or if you have new signs and symptoms.
 
 Living with respiratory failure may cause fear, anxiety, depression, and stress. Talk therapy, medicines, and support groups can help you feel better.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Acute respiratory distress syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000103.htm
-- Acute Respiratory Distress Syndrome (ARDS) [Specifics] — American Lung Association — https://www.lung.org/lung-health-diseases/lung-disease-lookup/ards
-- Arterial Blood Gas (ABG) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-oxygen-level/
-- Lung Function Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/lung-function-tests/
-- Mechanical Ventilation [Treatments and Therapies] — American Thoracic Society — https://www.thoracic.org/patients/patient-resources/resources/mechanical-ventilation.pdf
-- Oxygen Therapy: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/oxygentherapy.html
-- Respiratory acidosis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000092.htm
-- What Is a Ventilator? [Treatments and Therapies] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/ventilator

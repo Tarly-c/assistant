@@ -1,32 +1,5 @@
 # Gout
 
-- Topic ID: 264
-- Language: English
-- URL: https://medlineplus.gov/gout.html
-- Date created: 06/10/1999
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Gouty arthritis
-
-## Groups
-- Bones, Joints and Muscles
-
-## MeSH
-- Gout
-
-## Related topics
-- Arthritis
-
-## See also
-- Chondrocalcinosis
-- Hyperuricemia
-- Pseudogout
-
-## Meta description
-Gout or gouty arthritis causes swollen, red, stiff joints. Gout is common but can be hard to diagnose. Get the facts on gout symptoms and treatment.
-
-## Summary
 What is gout?
 Gout is a common type of inflammatory arthritis. It causes pain, swelling, and redness in one or more joints. It usually happens as a flare, which can last for a week or two and then gets better. The flares often begin in your big toe or a lower limb.
 
@@ -39,7 +12,7 @@ However, sometimes your body can make too much uric acid or does not remove enou
 
 Calcium pyrophosphate arthritis, sometimes called pseudogout, is a related disease. It causes similar symptoms and is sometimes confused with gout. But it is caused by a buildup of calcium phosphate, not uric acid.
 
-Who is more likely to develop gout? 
+Who is more likely to develop gout?
 Many people develop gout. You are more likely to get it if you:
 
 - Are male.
@@ -49,20 +22,18 @@ Many people develop gout. You are more likely to get it if you:
 - Have obesity.
 
 - Have certain health conditions, such as:
- 
- - Heart failure
 
- - High blood pressure
+- Heart failure
 
- - Metabolic syndrome
+- High blood pressure
 
- - Chronic kidney disease
+- Metabolic syndrome
 
- - Conditions that cause your cells to break down more quickly, such as psoriasis or some cancers
+- Chronic kidney disease
 
- - Rare genetic conditions that lead to increased uric acid
+- Conditions that cause your cells to break down more quickly, such as psoriasis or some cancers
 
- 
+- Rare genetic conditions that lead to increased uric acid
 
 - Have a family history of gout.
 
@@ -89,7 +60,7 @@ Gout flares often start suddenly at night, and the symptoms in the affected join
 
 - Warmth
 
-The flares typically get better within a week or two. In between flares, you usually don't have symptoms. Some people may have flares often, while others may not have another flare for years. But over time, if left untreated, your flares may happen more often and last longer. 
+The flares typically get better within a week or two. In between flares, you usually don't have symptoms. Some people may have flares often, while others may not have another flare for years. But over time, if left untreated, your flares may happen more often and last longer.
 
 And if gout is untreated over long periods of time, you can develop tophi. Tophi are hard, uric acid deposits under the skin. They start out as painless, but over time, they can become painful. They can also cause bone and soft tissue damage and misshapen joints.
 
@@ -101,48 +72,30 @@ To find out if you have gout, your health care provider:
 - Will do a physical exam, including examining the affected joint(s).
 
 - May order various tests, such as:
- 
- - A test of a sample of fluid from one of your painful joints. The fluid is examined under a microscope and is checked for uric acid crystals.
 
- - A uric acid blood or urine test.
+- A test of a sample of fluid from one of your painful joints. The fluid is examined under a microscope and is checked for uric acid crystals.
 
- - An ultrasound or special CT scan to look for uric acid crystal buildup in the affected joint and check for other conditions that may be causing the symptoms.
+- A uric acid blood or urine test.
 
- 
+- An ultrasound or special CT scan to look for uric acid crystal buildup in the affected joint and check for other conditions that may be causing the symptoms.
 
 What are the treatments for gout?
 There are effective treatments for gout. Which treatment you get will depend on your symptoms and the cause of your gout. The goals of your treatment will be to:
 
 - Reduce the pain from gout flares, by using medicines such as:
- 
- - Nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen.
 
- - Acetaminophen and the anti-inflammatory drug colchicine.
+- Nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen.
 
- - Oral or injected corticosteroids.
+- Acetaminophen and the anti-inflammatory drug colchicine.
 
- 
+- Oral or injected corticosteroids.
 
 - Prevent future flares, for example by:
- 
- - Making lifestyle changes such as losing weight, limiting alcohol, and avoiding foods high in purines. If you are taking medicines that can cause high uric acid in the blood, your provider may suggest stopping or changing those medicines.
 
- - If needed, taking medicines to lower uric acid in the blood.
+- Making lifestyle changes such as losing weight, limiting alcohol, and avoiding foods high in purines. If you are taking medicines that can cause high uric acid in the blood, your provider may suggest stopping or changing those medicines.
 
- 
+- If needed, taking medicines to lower uric acid in the blood.
 
 - Prevent tophi and kidney stones, for example with medicines that lower uric acid in the blood.
 
 With early diagnosis, treatment, and lifestyle changes, gout is one of the most controllable forms of arthritis. Treatment and lifestyle changes may help people avoid gout flares, lessen their symptoms, and sometimes even become gout free.
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- Calcium pyrophosphate arthritis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000421.htm
-- Gout [Start Here] — National Institute of Arthritis and Musculoskeletal and Skin Diseases — https://www.niams.nih.gov/health-topics/gout
-- Gout [Start Here] — American College of Rheumatology — https://rheumatology.org/patients/gout
-- Gout [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000422.htm
-- Joint Injections (Joint Aspirations) [Treatments and Therapies] — American College of Rheumatology — https://rheumatology.org/patients/joint-injections-joint-aspirations
-- NSAIDs (Nonsteroidal Anti-Inflammatory Drugs) [Treatments and Therapies] — American College of Rheumatology — https://rheumatology.org/patients/nsaids-nonsteroidal-anti-inflammatory-drugs
-- Synovial biopsy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003922.htm
-- Synovial fluid analysis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003629.htm

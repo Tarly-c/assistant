@@ -1,31 +1,5 @@
 # Flu Shot
 
-- Topic ID: 6236
-- Language: English
-- URL: https://medlineplus.gov/flushot.html
-- Date created: 07/06/2015
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Flu vaccine
-
-## Groups
-- Immune System
-
-## MeSH
-- Influenza Vaccines
-
-## Related topics
-- Flu
-- Vaccines
-
-## See also
-- Influenza Vaccine
-
-## Meta description
-The flu shot causes your body to develop antibodies against influenza viruses. Know more about getting vaccinated against getting the flu.
-
-## Summary
 What is the flu?
 The flu (influenza) is a respiratory infection. It is caused by influenza viruses that infect your nose, throat, and lungs. These viruses can spread from person to person.
 
@@ -53,8 +27,6 @@ The flu vaccine causes your immune system to make antibodies about two weeks aft
 
 Who needs a flu shot?
 The U.S Centers for Disease Control and Prevention (CDC) recommends annual flu shots for everyone 6 months and older, with a few rare exceptions.
-
- 
 
 Flu shots are especially important for people who are at high risk of developing serious complications from the flu.
 
@@ -105,13 +77,3 @@ Flu vaccines have been shown to be safe. But like any medical product, they can 
 The flu shot, like other injections, can occasionally cause fainting. In rare cases, some people have a serious allergic reaction.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Benefits of the Flu Vaccine [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu-vaccines-work/benefits/
-- Can Kids Get a COVID-19 Vaccine, Flu Vaccine, and RSV Shot at the Same Time? [Children] — Nemours Foundation — https://kidshealth.org/en/parents/covid-flu-vaccines.html
-- Flu Vaccine [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/flu-shot.html
-- Flu Vaccine and People with Egg Allergies [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/vaccines/egg-allergies.html
-- Flu Vaccine Guidance for Patients with Immune Deficiency [Specifics] — American Academy of Allergy, Asthma, and Immunology — https://www.aaaai.org/tools-for-the-public/conditions-library/immuno-deficiency/flu-vaccine-guidance
-- Flu Vaccine Safety [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/vaccine-safety/
-- Flu Vaccine Safety and Pregnancy [Women] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/vaccine-safety/vaccine-pregnant.html
-- Fluzone High-Dose Seasonal Influenza Vaccine [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/flu/vaccine-types/flu-zone.html

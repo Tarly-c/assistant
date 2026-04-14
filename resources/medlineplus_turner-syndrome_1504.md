@@ -1,22 +1,5 @@
 # Turner Syndrome
 
-- Topic ID: 1504
-- Language: English
-- URL: https://medlineplus.gov/turnersyndrome.html
-- Date created: 06/28/2001
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Groups
-- Genetics/Birth Defects
-- Endocrine System
-
-## MeSH
-- Turner Syndrome
-
-## Meta description
-Turner syndrome is a genetic disorder that affects a girl's development. The cause is a missing or incomplete X chromosome. Learn more.
-
-## Summary
 What is Turner syndrome?
 Turner syndrome is a genetic disorder that affects a girl's development and appearance. It can also cause health problems such as infertility and heart problems.
 
@@ -51,15 +34,3 @@ There is no cure for Turner syndrome, but there are treatments for some of the s
 - Assisted reproduction technologies can help some women with Turner syndrome get pregnant
 
 People who have Turner syndrome need regular health checks. It's also important for them to have a care team that includes specialists who can treat the health problems caused by Turner syndrome.
-
-NIH: National Institute of Child Health and Human Development
-
-## Selected references
-- About Turner Syndrome [Start Here] — Turner Syndrome Society of the United States — https://www.turnersyndrome.org/turner-syndrome-overview
-- About Turner Syndrome [Start Here] — National Human Genome Research Institute — https://www.genome.gov/Genetic-Disorders/Turner-Syndrome
-- How Do Health Care Providers Diagnose Turner Syndrome? [Diagnosis and Tests] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/turner/conditioninfo/diagnosed
-- Other Turner Syndrome: FAQs [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/turner/more_information/other-faqs
-- Turner Syndrome [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/turner/conditioninfo
-- Turner syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000379.htm
-- Turner Syndrome [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/turner-syndrome/symptoms-causes/syc-20360782?p=1
-- Turner Syndrome (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/turner.html

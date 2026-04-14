@@ -1,34 +1,5 @@
 # How to Lower Cholesterol
 
-- Topic ID: 6809
-- Language: English
-- URL: https://medlineplus.gov/howtolowercholesterol.html
-- Date created: 01/16/2018
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Blood, Heart and Circulation
-- Food and Nutrition
-
-## MeSH
-- Hypercholesterolemia
-
-## Related topics
-- Benefits of Exercise
-- Cholesterol
-- Cholesterol Levels: What You Need to Know
-- Cholesterol Medicines
-- Heart Diseases
-- High Cholesterol in Children and Teens
-- How to Lower Cholesterol with Diet
-- Quitting Smoking
-- Statins
-- Weight Control
-
-## Meta description
-High cholesterol raises your risk of heart diseases. Treatments to lower cholesterol include lifestyle changes like diet and exercise, and medicines if needed.
-
-## Summary
 What is cholesterol?
 Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your body needs some cholesterol to work properly. But if you have too much of it in your blood, it can stick to the walls of your arteries and narrow or even block them. This puts you at risk for coronary artery disease and other heart diseases.
 
@@ -42,7 +13,7 @@ The main treatments for high cholesterol are lifestyle changes and medicines.
 Lifestyle changes to lower cholesterol
 Heart-healthy lifestyle changes that can help you lower or control your cholesterol include:
 
-- Heart-healthy eating. A heart-healthy eating plan limits the amount of saturated and trans fats that you eat. It recommends that you eat and drink only enough calories to stay at a healthy weight and avoid weight gain. It also encourages you to choose a variety of nutritious foods, including fruits, vegetables, whole grains, and lean meats. Examples of eating plans that can lower your cholesterol include the Therapeutic Lifestyle Changes diet and the DASH eating plan. 
+- Heart-healthy eating. A heart-healthy eating plan limits the amount of saturated and trans fats that you eat. It recommends that you eat and drink only enough calories to stay at a healthy weight and avoid weight gain. It also encourages you to choose a variety of nutritious foods, including fruits, vegetables, whole grains, and lean meats. Examples of eating plans that can lower your cholesterol include the Therapeutic Lifestyle Changes diet and the DASH eating plan.
 
 - Aiming for a healthy weight. If you are overweight or have obesity, losing weight can help lower your LDL cholesterol and raise your HDL cholesterol. This is especially important for people with metabolic syndrome. Metabolic syndrome is a group of conditions that together raise your risk of heart diseases and other health problems.
 
@@ -57,11 +28,7 @@ Heart-healthy lifestyle changes that can help you lower or control your choleste
 Medicines to lower cholesterol
 For some people, making lifestyle changes alone does not their lower cholesterol enough. They may also need to take cholesterol medicines. There are several types. They work in different ways and can have different side effects. If your provider recommends that you take cholesterol medicines, ask them which medicine would be right for you.
 
- 
-
 Even if you take medicines to lower your cholesterol, you still need to continue with lifestyle changes.
-
- 
 
 What are some other possible treatments for high cholesterol?
 Some other possible treatments for high cholesterol may include:
@@ -81,13 +48,3 @@ Many companies sell supplements that they say can lower cholesterol. For many of
 - Garlic supplements may lower cholesterol levels, but the effect is small when compared to the effects of cholesterol medicines.
 
 Supplements may cause side effects and interactions with medicines. Always check with your provider before you take any supplements.
-
-## Selected references
-- 8 Tips: High Cholesterol and Dietary Supplements [Learn More] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/tips/high-cholesterol-and-dietary-supplements
-- Being active when you have heart disease [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000094.htm
-- Cholesterol - what to ask your doctor [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000211.htm
-- Cholesterol and lifestyle [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000099.htm
-- Cholesterol Levels [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/cholesterol-levels/
-- Cholesterol Levels: What You Need to Know: MedlinePlus Health Topic [Learn More] — National Library of Medicine — https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html
-- Cholesterol Medicines: MedlinePlus Health Topic [Learn More] — National Library of Medicine — https://medlineplus.gov/cholesterolmedicines.html
-- Give your heart a workout [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000763.htm

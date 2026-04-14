@@ -1,45 +1,16 @@
 # Mpox
 
-- Topic ID: 3229
-- Language: English
-- URL: https://medlineplus.gov/mpox.html
-- Date created: 05/20/2022
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Monkeypox
-
-## Groups
-- Infections
-
-## MeSH
-- Mpox, Monkeypox
-
-## Related topics
-- Cleaning, Disinfecting, and Sanitizing
-- Germs and Hygiene
-- Smallpox
-- Traveler's Health
-- Viral Infections
-
-## See also
-- Monkeypox
-
-## Meta description
-Mpox (monkeypox) is a rare disease caused by infection with the mpox virus. Learn about the symptoms and how it spreads, and vaccinations.
-
-## Summary
-What is mpox? 
+What is mpox?
 Mpox, which used to be called monkeypox, is a disease caused by the monkeypox virus. This virus is in the same family of viruses as the smallpox virus.
 
-Mpox can be spread between animals and people, but it's mainly spread through close contact with someone who has it. It is found regularly in parts of Central, Eastern and West Africa. The virus that causes it has been found in small rodents, monkeys, and other mammals that live in these areas. 
+Mpox can be spread between animals and people, but it's mainly spread through close contact with someone who has it. It is found regularly in parts of Central, Eastern and West Africa. The virus that causes it has been found in small rodents, monkeys, and other mammals that live in these areas.
 
 Some outbreaks of mpox have affected people in many countries around the world, including the United States.
 
 What are the types of monkeypox viruses?
 There are two types of monkeypox viruses:
 
-- Clade I is regularly found in Central and Eastern Africa. It causes more severe illness and deaths than clade II. 
+- Clade I is regularly found in Central and Eastern Africa. It causes more severe illness and deaths than clade II.
 
 - Clade II is regularly found in West Africa. Infections from clade II are less severe. Most people who get this type will survive. This type is the cause of the global mpox outbreak that peaked in 2022 but has continued to decrease.
 
@@ -47,26 +18,22 @@ How does mpox spread?
 Mpox spreads in different ways:
 
 - Through close, personal contact with someone who has the virus:
- 
- - Through direct contact with their rash, scabs, or body fluids
 
- - By breathing in the virus during prolonged, face-to-face contact
- 
- - During intimate physical contact such as kissing, cuddling, hugging, massage or sex
+- Through direct contact with their rash, scabs, or body fluids
 
- 
+- By breathing in the virus during prolonged, face-to-face contact
+
+- During intimate physical contact such as kissing, cuddling, hugging, massage or sex
 
 - During pregnancy, from the mother to the fetus.
 
 - From touching items (such as clothes, bedding, or towels) that were used by someone who has the virus
 
 - From infected animals:
- 
- - By being scratched or bitten by the animal
 
- - By preparing or eating meat or using products from the animal
+- By being scratched or bitten by the animal
 
- 
+- By preparing or eating meat or using products from the animal
 
 Someone who has mpox can spread it from the time their symptoms start until their rash has fully healed, all scabs have fallen off, and a fresh layer of skin has formed. This usually takes 2-4 weeks.
 
@@ -94,11 +61,10 @@ The symptoms of mpox usually start within 3 weeks from the time you were exposed
 You may have all or only a few symptoms:
 
 - You may get a rash first, followed by other symptoms
- 
+
 - You may have flu-like symptoms and then develop a rash 1-4 days later
 
 - You may only get a rash
- 
 
 How is mpox diagnosed?
 To find out if you have mpox, your health care provider:
@@ -111,11 +77,8 @@ To find out if you have mpox, your health care provider:
 
 - May do blood tests to check for monkeypox virus or for antibodies to the virus. Antibodies are proteins that your immune system makes to fight foreign substances such as viruses and bacteria.
 
- 
 What are the treatments for mpox?
 There are no treatments specifically for mpox, but many people get better on their own.
-
- 
 
 Since mpox and smallpox are similar, antiviral medicines that treat smallpox may also help treat mpox. Antiviral medicines may be recommended for people have severe mpox or are at risk of severe mpox, for example because they:
 
@@ -137,16 +100,14 @@ The vaccine is recommended for people who are at risk of mpox, for example becau
 - Had or think they could've had exposure to someone with mpox
 
 - Are a man who has sex with men, who in the last 6 months had:
- 
- - One or more sexually transmitted infections (STIs)
 
- - More than one sexual partner
+- One or more sexually transmitted infections (STIs)
 
- - Sex at a commercial sex venue (like a sex club or bathhouse)
+- More than one sexual partner
 
- - Sex at a large public event where people had spread mpox
+- Sex at a commercial sex venue (like a sex club or bathhouse)
 
- 
+- Sex at a large public event where people had spread mpox
 
 - Had a sex partner who is at risk of mpox
 
@@ -155,47 +116,31 @@ The vaccine is recommended for people who are at risk of mpox, for example becau
 - Are at risk of exposure at work, for example at a lab or healthcare facility
 
 - Will be traveling to an area where there is an outbreak and, while there, will likely have sex:
- 
- - With a new partner
 
- - At a commercial sex venue or large public event
+- With a new partner
 
- - In exchange for money or drugs
+- At a commercial sex venue or large public event
 
- 
+- In exchange for money or drugs
 
 Check with your provider to see if the vaccine is recommended for you.
 
 There are also other steps you can take to help prevent mpox:
 
 - Avoid close, skin-to-skin contact with the mpox rash. So, while a person is sick with mpox:
- 
- - Do not touch their rash or scabs
 
- - Do not kiss, hug, cuddle, or have sex with them
+- Do not touch their rash or scabs
 
- 
+- Do not kiss, hug, cuddle, or have sex with them
 
-- Avoid contact with items that were used by someone who has mpox: 
- 
- - Do not touch the bedding, towels, or clothing of a person who has mpox
+- Avoid contact with items that were used by someone who has mpox:
 
- - Do not share eating utensils or cups with them
+- Do not touch the bedding, towels, or clothing of a person who has mpox
 
- - If you or someone you live with has mpox, clean and disinfect your home
+- Do not share eating utensils or cups with them
 
- 
+- If you or someone you live with has mpox, clean and disinfect your home
 
 - Wash your hands often with soap and water or use an alcohol-based hand sanitizer, especially after contact with sick people.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Monkeypox [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/monkeypox/about/
-- Getting Tested for Monkeypox [Diagnosis and Tests] — Centers for Disease Control and Prevention — https://www.cdc.gov/monkeypox/testing/
-- Medications That May be Used to Treat Monkeypox [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/monkeypox/caring/patients-guide-to-mpox-treatment-with-tpoxx-tecovirimat.html
-- Mpox [Start Here] — World Health Organization — https://www.who.int/news-room/fact-sheets/detail/mpox
-- Mpox [Start Here] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/diseases-conditions/mpox
-- Mpox [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007783.htm
-- Mpox (Monkeypox) (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/monkeypox.html
-- Mpox (Questions and Answers) [Start Here] — World Health Organization — https://www.who.int/news-room/questions-and-answers/item/mpox

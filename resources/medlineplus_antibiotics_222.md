@@ -1,27 +1,5 @@
 # Antibiotics
 
-- Topic ID: 222
-- Language: English
-- URL: https://medlineplus.gov/antibiotics.html
-- Date created: 12/29/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Drug Therapy
-
-## MeSH
-- Anti-Bacterial Agents
-
-## Related topics
-- Antibiotic Resistance
-- Bacterial Infections
-- Medicines
-
-## Meta description
-Used properly, antibiotics can save lives by fighting bacterial infections. Read about how to use antibiotics and about when not to use antibiotics.
-
-## Summary
 What are antibiotics?
 Antibiotics are medicines that fight bacterial infections in people and animals. They work by killing the bacteria or by making it hard for the bacteria to grow and multiply.
 
@@ -65,14 +43,14 @@ More serious side effects can include:
 - C. diff infections, which cause diarrhea that can lead to severe colon damage and sometimes even death
 
 - Severe and life-threatening allergic reactions
-- Antibiotic resistance infections 
+- Antibiotic resistance infections
 
 Call your health care provider if you develop any side effects while taking your antibiotic.
 
 Why is it important to take antibiotics only when they're needed?
 You should only take antibiotics when they are needed because they can cause side effects and can contribute to Antibiotic resistance infections. Antibiotic resistance happens when the bacteria change and become able to resist the effects of an antibiotic. This means that the bacteria continue to grow.
 
-How do I use antibiotics correctly? 
+How do I use antibiotics correctly?
 When you take antibiotics, it is important that you take them responsibly:
 
 - Always follow the directions carefully. Finish your medicine even if you feel better. If you stop taking them too soon, some bacteria may survive and re-infect you.
@@ -84,13 +62,3 @@ When you take antibiotics, it is important that you take them responsibly:
 - Don't take antibiotics prescribed for someone else. This may delay the best treatment for you, make you even sicker, or cause side effects.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Antibiotic Use and Antimicrobial Resistance Facts [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/antibiotic-use/data-research/facts-stats/
-- Antibiotics (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/antibiotics.html
-- Antibiotics Aren't Always the Answer [Patient Handouts] — Centers for Disease Control and Prevention — https://www.cdc.gov/antibiotic-use/media/pdfs/Arent-Always-The-Answer-FS-508.pdf
-- Bacitracin overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002563.htm
-- Bacitracin zinc overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002569.htm
-- Danger of Antibiotic Overuse (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/antibiotic-overuse.html
-- Healthy Habits: Antibiotic Do's and Don'ts [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/antibiotic-use/about/index.html
-- Know When and How to Use Antibiotics, and When to Skip Them [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/know-when-and-how-use-antibiotics-and-when-skip-them

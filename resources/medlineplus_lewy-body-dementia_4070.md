@@ -1,36 +1,6 @@
 # Lewy Body Dementia
 
-- Topic ID: 4070
-- Language: English
-- URL: https://medlineplus.gov/lewybodydementia.html
-- Date created: 02/01/2005
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Also called
-- Dementia with Lewy bodies
-- LBD
-- Lewy body disease
-- Parkinson's disease dementia
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Lewy Body Disease
-
-## Related topics
-- Alzheimer's Disease
-- Dementia
-- Parkinson's Disease
-
-## See also
-- Dementia with Lewy Bodies
-
-## Meta description
-Lewy body dementia (LBD) is one common cause of dementia. In LBD, protein deposits build up in the brain. Read about the symptoms and what can help.
-
-## Summary
-What is Lewy body dementia (LBD)? 
+What is Lewy body dementia (LBD)?
 Lewy body dementia (LBD) is one of the most common types of dementia in older adults. Dementia is a loss of mental functions that is severe enough to affect your daily life and activities. These functions include:
 
 - Memory
@@ -53,8 +23,6 @@ Both types cause the same changes in the brain. And, over time, they can cause s
 Dementia with Lewy bodies causes problems with thinking ability that seem similar to Alzheimer's disease. Later, it also causes other symptoms, such as movement symptoms, visual hallucinations, and certain sleep disorders. It also causes more trouble with mental activities than with memory.
 
 Parkinson's disease dementia starts as a movement disorder. It first causes the symptoms of Parkinson's disease: slowed movement, muscle stiffness, tremor, and a shuffling walk. Later on, it causes dementia.
-
- 
 
 What causes Lewy body dementia (LBD)?
 LBD happens when Lewy bodies build up in parts of the brain that control memory, thinking, and movement. Lewy bodies are abnormal deposits of a protein called alpha-synuclein. Researchers don't know exactly why these deposits form. But they do know that other diseases, such as Parkinson's disease, also involve a build-up of that protein.
@@ -92,8 +60,6 @@ There isn't one test that can diagnose LBD. It is important to see an experience
 
 LBD can be hard to diagnose, because Parkinson's disease and Alzheimer's disease cause similar symptoms. Scientists think that Lewy body disease might be related to these diseases, or that they sometimes happen together.
 
- 
-
 It's also important to know which type of LBD a person has, so the doctor can treat that type's particular symptoms. It also helps the doctor understand how the disease will affect the person over time. The doctor makes a diagnosis based on when certain symptoms start:
 
 - If cognitive symptoms start within a year of movement problems, the diagnosis is dementia with Lewy bodies
@@ -116,16 +82,3 @@ There is no cure for LBD, but treatments can help with the symptoms:
 - Music or art therapy may reduce anxiety and improve well-being
 
 Support groups can also be helpful for people with LBD and their caregivers. Support groups can give emotional and social support. They are also a place where people can share tips about how to deal with day-to-day challenges.
-
- 
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- 10 Things You Should Know about LBD [Start Here] — Lewy Body Dementia Association — https://lbda.org/10-things-you-should-know-about-lbd
-- Diagnosis and Prognosis of Lewy Body Dementia [Diagnosis and Tests] — Lewy Body Dementia Association — https://lbda.org/diagnosis-and-prognosis
-- Is It Lewy Body Dementia or Something Else? [Diagnosis and Tests] — Lewy Body Dementia Association — https://lbda.org/is-it-lbd-or-something-else
-- Lewy Body Dementia [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/lewy-body-dementia
-- Lewy Body Dementia: Causes, Symptoms, and Diagnosis [Start Here] — National Institute on Aging — https://www.nia.nih.gov/health/lewy-body-dementia/lewy-body-dementia-causes-symptoms-and-diagnosis
-- Treatment Options for Lewy Body Dementia [Treatments and Therapies] — Lewy Body Dementia Association — https://lbda.org/treatment-options
-- What Is Lewy Body Dementia? [Start Here] — Department of Health and Human Services — https://www.alzheimers.gov/alzheimers-dementias/lewy-body-dementia

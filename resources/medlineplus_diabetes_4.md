@@ -1,53 +1,5 @@
 # Diabetes
 
-- Topic ID: 4
-- Language: English
-- URL: https://medlineplus.gov/diabetes.html
-- Date created: 10/22/1998
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- DM
-- Diabetes mellitus
-
-## Groups
-- Older Adults
-- Endocrine System
-- Metabolic Problems
-- Diabetes Mellitus
-
-## MeSH
-- Diabetes Mellitus
-
-## Related topics
-- A1C
-- Blood Glucose
-- Diabetes and Pregnancy
-- Diabetes Complications
-- Diabetes in Children and Teens
-- Diabetes Medicines
-- Diabetes Type 1
-- Diabetes Type 2
-- Diabetic Diet
-- Diabetic Eye Problems
-- Diabetic Foot
-- Diabetic Heart Disease
-- Diabetic Kidney Problems
-- Diabetic Nerve Problems
-- Hyperglycemia
-- Hypoglycemia
-- Islet Cell Transplantation
-- Pancreas Transplantation
-- Prediabetes
-
-## See also
-- Diabetes Mellitus
-- Sugar Diabetes
-
-## Meta description
-Diabetes is a chronic health condition in which your blood glucose levels are too high.  There is no cure, but diet, exercise, medications, and weight control can help.
-
-## Summary
 What is diabetes?
 Diabetes, also known as diabetes mellitus, is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose is your body's main source of energy. Your body can make glucose, but it also comes from the food you eat. Insulin is a hormone made by your pancreas. Insulin helps move glucose from your bloodstream into your cells, where it can be used for energy.
 
@@ -56,7 +8,7 @@ If you have diabetes, your body can't make insulin, can't use insulin as well as
 What are the types of diabetes?
 There are different types of diabetes:
 
-- Type 1 diabetes. If you have type 1 diabetes, your body makes little or no insulin. It happens when your immune system attacks and destroys the cells that produce insulin. 
+- Type 1 diabetes. If you have type 1 diabetes, your body makes little or no insulin. It happens when your immune system attacks and destroys the cells that produce insulin.
 
 - Type 2 diabetes. This is the most common form of diabetes. If you have type 2 diabetes, your body may still be able to make insulin, but your cells don't respond well to insulin. They can't easily take up enough glucose from your blood.
 
@@ -78,43 +30,37 @@ The different types of diabetes have different risk factors:
 
 - You are at higher risk of developing type 2 diabetes if you:
 
- 
- - Are overweight or have obesity.
+- Are overweight or have obesity.
 
- - Are over age 35. Children, teenagers, and younger adults can get diabetes, but it is more common in middle-aged and older adults.
+- Are over age 35. Children, teenagers, and younger adults can get diabetes, but it is more common in middle-aged and older adults.
 
- - Have a family history of diabetes.
+- Have a family history of diabetes.
 
- - Have prediabetes. This means that your blood glucose is higher than normal, but it's not high enough to be called diabetes.
+- Have prediabetes. This means that your blood glucose is higher than normal, but it's not high enough to be called diabetes.
 
- - Had gestational diabetes.
+- Had gestational diabetes.
 
- - Have given birth to a baby weighing 9 pounds or more.
+- Have given birth to a baby weighing 9 pounds or more.
 
- - Are African American, American Indian, Asian American, Hispanic/Latino, or Pacific Islander.
+- Are African American, American Indian, Asian American, Hispanic/Latino, or Pacific Islander.
 
- - Are not physically active.
+- Are not physically active.
 
- - Have certain other health conditions, such as high blood pressure or polycystic ovary syndrome (PCOS).
-
- 
+- Have certain other health conditions, such as high blood pressure or polycystic ovary syndrome (PCOS).
 
 - You are at higher risk of developing gestational diabetes if you:
 
- 
- - Are overweight or have obesity.
+- Are overweight or have obesity.
 
- - Have a family history of diabetes.
+- Have a family history of diabetes.
 
- - Had gestational diabetes in a previous pregnancy.
+- Had gestational diabetes in a previous pregnancy.
 
- - Have given birth to a baby weighing 9 pounds or more.
+- Have given birth to a baby weighing 9 pounds or more.
 
- - Have polycystic ovary syndrome (PCOS).
+- Have polycystic ovary syndrome (PCOS).
 
- - Are African American, Hispanic/Latino, American Indian, Alaska Native, Native Hawaiian, or Pacific Islander.
-
- 
+- Are African American, Hispanic/Latino, American Indian, Alaska Native, Native Hawaiian, or Pacific Islander.
 
 What are the symptoms of diabetes?
 The symptoms of diabetes may include:
@@ -141,7 +87,7 @@ But it's important to know that your symptoms may vary, depending on which type 
 
 - With type 2 diabetes, the symptoms often develop slowly, over several years. The symptoms can be so mild that you might not even notice them.
 
-- Gestational diabetes often has no symptoms. If you do have symptoms, they may be mild. If you are pregnant, you will usually be screened for this condition between 24 and 28 weeks of pregnancy. 
+- Gestational diabetes often has no symptoms. If you do have symptoms, they may be mild. If you are pregnant, you will usually be screened for this condition between 24 and 28 weeks of pregnancy.
 
 How is diabetes diagnosed?
 To find out if you have diabetes, your health care provider will use one or more glucose blood tests. There are several types, including the A1C test.
@@ -161,15 +107,3 @@ Can diabetes be prevented?
 Type 1 diabetes can't be prevented.
 
 You may be able to delay or prevent type 2 diabetes through the same lifestyle changes that are used to manage diabetes (eating a healthy diet, staying at a healthy weight, and getting regular physical activity). These lifestyle changes may also help prevent gestational diabetes.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- A1C test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003640.htm
-- A1C: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/a1c.html
-- ACE blood test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003567.htm
-- Anti-insulin antibody test [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003375.htm
-- At-Home Medical Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/at-home-medical-tests/
-- Blood Glucose Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-glucose-test/
-- Blood sugar test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003482.htm
-- Diabetes [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001214.htm

@@ -1,34 +1,5 @@
 # Tooth Disorders
 
-- Topic ID: 3069
-- Language: English
-- URL: https://medlineplus.gov/toothdisorders.html
-- Date created: 02/03/2003
-- Primary institute: National Institute of Dental and Craniofacial Research
-
-## Groups
-- Mouth and Teeth
-
-## MeSH
-- Tooth Diseases
-
-## Related topics
-- Child Dental Health
-- Dental Health
-- Gum Disease
-- Orthodontia
-- Tooth Decay
-
-## See also
-- Bruxism
-- Impacted Tooth
-- Root Canal
-- Teeth
-
-## Meta description
-There are a variety of problems associated with tooth disorders such as cavities and infections. Uncover the related symptoms, such as a toothache.
-
-## Summary
 What are teeth?
 Your teeth are made of a hard, bonelike material. There are four parts:
 
@@ -91,13 +62,3 @@ The main thing that you can do to prevent tooth disorders is to take good care o
 - Don't smoke or chew tobacco
 
 - See your dentist or oral health professional regularly
-
-## Selected references
-- Amelogenesis imperfecta [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001578.htm
-- Broken or knocked out tooth [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000058.htm
-- Bruxism [Specifics] — National Institute of Dental and Craniofacial Research — https://www.nidcr.nih.gov/health-info/bruxism
-- Bruxism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001413.htm
-- Bruxism (Teeth Grinding or Clenching) (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/bruxism.html
-- Dental crowns [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007631.htm
-- Dental Implant Surgery [Treatments and Therapies] — American Association of Oral and Maxillofacial Surgeons — https://myoms.org/what-we-do/dental-implant-surgery/
-- Dental plaque identification at home [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003426.htm

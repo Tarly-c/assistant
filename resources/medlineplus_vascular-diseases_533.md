@@ -1,44 +1,5 @@
 # Vascular Diseases
 
-- Topic ID: 533
-- Language: English
-- URL: https://medlineplus.gov/vasculardiseases.html
-- Date created: 11/03/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Blood, Heart and Circulation
-
-## MeSH
-- Vascular Diseases
-
-## Related topics
-- Aneurysms
-- Arteriovenous Malformations
-- Atherosclerosis
-- Blood Clots
-- Carotid Artery Disease
-- Coronary Artery Disease
-- Deep Vein Thrombosis
-- Heart Attack
-- Heart Health Tests
-- Peripheral Arterial Disease
-- Pulmonary Embolism
-- Raynaud Phenomenon
-- Stroke
-- Varicose Veins
-- Vasculitis
-
-## See also
-- Cardiovascular Diseases
-- Circulatory Disorders
-- Hemangioma
-- Veins
-
-## Meta description
-Your vascular system is made up of blood vessels that carry blood to and from the heart. Learn about vascular diseases and their treatments.
-
-## Summary
 What are vascular diseases?
 Your vascular system is your body's network of blood vessels. It includes your:
 
@@ -53,7 +14,7 @@ Vascular diseases are conditions which affect your vascular system. They are com
 - Aneurysm - a bulge or "ballooning" in the wall of an artery
 
 - Atherosclerosis - a disease in which plaque builds up inside your arteries. Plaque is made up of fat, cholesterol, calcium, and other substances found in the blood.
- 
+
 - Blood clots, including deep vein thrombosis and pulmonary embolism
 
 - Coronary artery disease and carotid artery disease, diseases that involve the narrowing or blockage of an artery. The cause is usually a buildup of plaque.
@@ -105,8 +66,6 @@ The risk factors for vascular diseases can vary, depending on the specific disea
 What are the symptoms of vascular diseases?
 The symptoms for each disease are different.
 
- 
-
 How are vascular diseases diagnosed?
 To make a diagnosis, your health care provider will do a physical exam and ask about your symptoms and medical history. You may have imaging tests and/or blood tests.
 
@@ -133,13 +92,3 @@ There are steps you can take to help prevent vascular diseases:
 - If you have diabetes, control your blood sugar
 
 - Try not to sit or stand for up long periods of time. If you do need to sit all day, get up and move around every hour or so. If you are traveling on a long trip, you can also wear compression stockings and regularly stretch your legs.
-
-## Selected references
-- Aging changes in the heart and blood vessels [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/004006.htm
-- Angioplasty and Vascular Stenting [Treatments and Therapies] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/angioplasty
-- Aortic arch syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001123.htm
-- Arterial embolism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001102.htm
-- Arterial insufficiency [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000725.htm
-- Arteriogram [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003327.htm
-- Blood flow [Encyclopedia, Videos and Tutorials] — Medical Encyclopedia — https://medlineplus.gov/ency/anatomyvideos/000012.htm
-- C1 esterase inhibitor [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003353.htm

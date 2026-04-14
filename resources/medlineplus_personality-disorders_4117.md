@@ -1,30 +1,5 @@
 # Personality Disorders
 
-- Topic ID: 4117
-- Language: English
-- URL: https://medlineplus.gov/personalitydisorders.html
-- Date created: 03/02/2005
-- Primary institute: National Institute of Mental Health
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Personality Disorders
-
-## Related topics
-- Mental Disorders
-- Obsessive-Compulsive Disorder
-
-## See also
-- Antisocial Personality Disorder
-- Borderline Personality Disorder
-- Narcissism
-
-## Meta description
-People with personality disorders have trouble dealing with everyday stresses and problems. There are many types of personality disorders. Read more.
-
-## Summary
 What is personality?
 Your personality is your own way of thinking, feeling, behaving, and relating to others. Once you become an adult, your personality usually doesn't change much.
 
@@ -45,7 +20,7 @@ Cluster A personality disorders involve unusual and odd thoughts and behaviors. 
 Cluster B personality disorders involve dramatic and emotional thoughts and behaviors that can keep changing. It includes:
 
 - Antisocial personality disorder, in which a person has a long-term pattern of manipulating, exploiting, or violating the rights of others.
- 
+
 - Borderline personality disorder, in which a person has lots of trouble managing their emotions. This makes them impulsive and uncertain about how they see themselves. It can cause a lot of trouble in their relationships.
 
 - Histrionic personality disorder, in which a person is dramatic, has strong emotions, and always wants attention from others.
@@ -71,16 +46,5 @@ People with personality disorders may have trouble realizing that they have a pr
 How are personality disorders diagnosed?
 A mental health care provider can diagnose personality disorders. A mental health provider is a health care professional who specializes in diagnosing and treating mental health problems. To make a diagnosis, the provider will consider the person's symptoms, experiences, and family medical history. A thorough medical exam may also be done to help rule out other possible causes of the symptoms.
 
- 
 How are personality disorders treated?
 Talk therapy, also known as psychotherapy, is the main treatment for personality disorders. Medicines may help relieve certain symptoms, such as anxiety or mood swings.
-
-## Selected references
-- Antisocial personality disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000921.htm
-- Antisocial Personality Disorder [Specifics] — Substance Abuse and Mental Health Services Administration — https://www.samhsa.gov/mental-health/what-is-mental-health/conditions/antisocial-personality-disorder
-- Avoidant personality disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000940.htm
-- Borderline Personality Disorder [Specifics] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/borderline-personality-disorder
-- Borderline personality disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000935.htm
-- Borderline Personality Disorder [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/borderline-personality-disorder/symptoms-causes/syc-20370237?p=1
-- Dependent personality disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000941.htm
-- Histrionic personality disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001531.htm

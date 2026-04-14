@@ -1,22 +1,5 @@
 # Insomnia
 
-- Topic ID: 6055
-- Language: English
-- URL: https://medlineplus.gov/insomnia.html
-- Date created: 10/01/2012
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Sleep Initiation and Maintenance Disorders
-
-## Related topics
-- Healthy Sleep
-- Sleep Disorders
-
-## Summary
 What is insomnia?
 Insomnia is a common sleep disorder. If you have it, you may have trouble falling asleep, staying asleep, or both. As a result, you may get too little sleep or have poor-quality sleep. You may not feel refreshed when you wake up.
 
@@ -63,7 +46,6 @@ Insomnia can cause daytime sleepiness and a lack of energy. It also can make you
 How is insomnia diagnosed?
 To diagnose insomnia, your health care provider:
 
- 
 - Takes your medical history
 
 - Asks for your sleep history. Your provider will ask you for details about your sleep habits.
@@ -72,27 +54,13 @@ To diagnose insomnia, your health care provider:
 
 - May recommend a sleep study. A sleep study measures how well you sleep and how your body responds to sleep problems.
 
- 
 What are the treatments for insomnia?
 Treatments include lifestyle changes, counseling, and medicines:
 
- 
 - Lifestyle changes, including good sleep habits, often help relieve acute (short-term) insomnia. These changes might make it easier for you to fall asleep and stay asleep.
- 
+
 - A type of counseling called cognitive-behavioral therapy (CBT) can help relieve the anxiety linked to chronic (ongoing) insomnia
 
 - Several medicines also can help relieve your insomnia and allow you to re-establish a regular sleep schedule
 
 If your insomnia is the symptom or side effect of another problem, it's important to treat that problem (if possible).
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Can't sleep? Try these tips [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000853.htm
-- Changing your sleep habits [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000757.htm
-- Insomnia [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/insomnia
-- Insomnia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000805.htm
-- Insomnia in Teens: What Parents Should Know [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/insomnia-teens.html
-- Insomnia Treatment: Cognitive Behavioral Therapy Instead of Sleeping Pills [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/insomnia-treatment/art-20046677?p=1
-- Medicines for sleep [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000758.htm
-- Prescription Sleeping Pills: What's Right for You? [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/sleeping-pills/art-20043959?p=1

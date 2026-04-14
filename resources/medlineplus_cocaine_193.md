@@ -1,37 +1,5 @@
 # Cocaine
 
-- Topic ID: 193
-- Language: English
-- URL: https://medlineplus.gov/cocaine.html
-- Date created: 09/23/1999
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Blow
-- Coca
-- Coke
-- Crack
-- Flake
-- Snow
-- Soda Cot
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Cocaine-Related Disorders
-- Cocaine Smoking
-
-## Related topics
-- Drug Use and Addiction
-
-## See also
-- Crack
-
-## Meta description
-Cocaine, also called crack cocaine, is a highly addictive stimulant. It can be snorted, injected, or smoked. Learn about health effects and treatment.
-
-## Summary
 What is cocaine?
 Cocaine is a very addictive drug that is made from leaves of the coca plant found in South America. It is mostly available as an illegal drug that some people use to get high. In rare cases, it is also used as a prescription drug for for anesthesia during certain surgeries.
 
@@ -91,15 +59,3 @@ There is no specific medicine to treat an overdose. Health care providers will f
 
 What are the treatments for cocaine use disorder?
 The treatments for cocaine use disorder are different types of behavioral therapies. There are no medicines which can treat it.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- Cocaine and Pregnancy [Women] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/cocaine-pregnancy/
-- Cocaine intoxication [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000946.htm
-- Cocaine withdrawal [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000947.htm
-- Drug Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-testing/
-- Drug Use Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-use-screening-tests/
-- Mind Matters: The Body's Response to Cocaine [Teenagers] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/parents-educators/mind-matter-series/cocaine
-- Substance use -- cocaine [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000793.htm
-- What Are Cocaine and Crack? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/drugs-cocaine.html

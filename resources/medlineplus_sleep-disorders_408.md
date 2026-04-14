@@ -1,48 +1,15 @@
 # Sleep Disorders
 
-- Topic ID: 408
-- Language: English
-- URL: https://medlineplus.gov/sleepdisorders.html
-- Date created: 07/26/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Sleep Wake Disorders
-
-## Related topics
-- Healthy Sleep
-- Insomnia
-- Restless Legs
-- Sleep Apnea
-- Snoring
-
-## See also
-- Narcolepsy
-- Night Terrors
-- Sleeping Pills
-
-## Meta description
-Getting a good sleep is vital to your health, but many Americans don't get enough. Learn about sleep disorders, treatments, and good sleep habits.
-
-## Summary
-What is sleep? 
+What is sleep?
 While you are sleeping your brain and body functions are still active. Sleep is a natural process that helps your body restore energy, supports learning and memory, and keeps you healthy.
 
- 
-
 It's not just the number of hours of sleep you get that matters. The quality of your sleep is also important. During the night, your brain cycles through different stages of non-rapid eye movement (non-REM) sleep and rapid eye movement (REM) sleep. If your sleep is often interrupted, you may not get enough time in certain stages of sleep. Poor-quality sleep does more than make you feel tired. It can affect your physical and mental health, thinking, and daily functioning.
-
- 
 
 What are sleep disorders?
 Sleep disorders are conditions that disturb your normal sleep patterns. There are many types of sleep disorders. Some general types include:
 
- 
 - Insomnia, which is trouble falling asleep or staying asleep.
- 
+
 - Sleep-related breathing disorders such as sleep apnea, a condition in which you stop breathing for 10 seconds or more during sleep.
 
 - Sleep-related movement disorders such as restless leg syndrome (RLS), which involves tingling or prickling sensations in your legs, and a strong urge to move them.
@@ -71,7 +38,7 @@ Sometimes the cause is unknown.
 Other factors that may contribute to sleep problems include:
 
 - Using caffeine or alcohol
- 
+
 - Having an irregular schedule, such as working the night shift
 
 - Aging, since older adults may sleep less, spend less time in deep sleep, and wake easily
@@ -94,7 +61,7 @@ The symptoms of sleep disorders depend on the specific disorder. Some signs that
 - You have vivid, dreamlike experiences while falling asleep or dozing.
 
 - You have episodes of sudden muscle weakness triggered by strong emotions.
- 
+
 - You feel as though you cannot move or speak for a brief time when you first wake up.
 
 How are sleep disorders diagnosed?
@@ -112,8 +79,6 @@ To diagnose a sleep disorder, your health care provider will review your medical
 
 Other types of sleep studies may check how quickly you fall asleep during daytime naps or how well you can stay awake during the day.
 
-	
-
 What are the treatments for sleep disorders?
 Treatments for sleep disorders depend on which disorder you have. They may include:
 
@@ -128,13 +93,3 @@ Treatments for sleep disorders depend on which disorder you have. They may inclu
 - Taking sleep aid medicines, or natural products such as melatonin
 
 Always check with your provider before taking any medicine or supplement. Most sleep aid medicines are generally for short-term use.
-
-## Selected references
-- About Sleep [Start Here] — Eunice Kennedy Shriver National Institute of Child Health and Human Development — https://www.nichd.nih.gov/health/topics/sleep/conditioninfo
-- Bedwetting (Nocturnal Enuresis) (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/enuresis.html
-- Brain Basics: Understanding Sleep [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep
-- Bruxism (Teeth Grinding or Clenching) (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/bruxism.html
-- Changing your sleep habits [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000757.htm
-- Circadian Rhythm Disorders [Specifics] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders
-- Common Sleep Problems (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/sleep.html
-- Delayed Sleep-Wake Phase Disorder in Teens (For Parents) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/parents/delayed-sleep-teens.html

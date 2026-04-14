@@ -1,36 +1,15 @@
 # Aphasia
 
-- Topic ID: 1212
-- Language: English
-- URL: https://medlineplus.gov/aphasia.html
-- Date created: 02/22/2000
-- Primary institute: National Institute on Deafness and Other Communication Disorders
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Aphasia
-
-## Related topics
-- Speech and Communication Disorders
-- Stroke
-
-## Meta description
-Aphasia is a disorder caused by damage to the parts of the brain that control language. It can make it hard for you to read, write, and speak.
-
-## Summary
 What is aphasia?
 Aphasia is a language disorder that makes it hard for you to read, write, and say what you mean to say. Sometimes it makes it hard to understand what other people are saying, too. Aphasia is not a disease. It's a symptom of damage to the parts of the brain that control language.
 
- 
 The signs of aphasia depend on which part of the brain is damaged. There are four main types of aphasia:
 
 - Expressive aphasia is when you know what you want to say, but you have trouble saying or writing your thoughts.
 
 - Receptive aphasia affects your ability to read and understand speech. You can hear what people say or see words on a page, but you have trouble making sense of what they mean.
- 
-- Global aphasia is the loss of almost all language ability. You can't speak, understand speech, read, or write. 
+
+- Global aphasia is the loss of almost all language ability. You can't speak, understand speech, read, or write.
 
 - Anomic or amnesia aphasia is when you have trouble using the right words for certain things, people, places or events.
 
@@ -56,14 +35,12 @@ How is aphasia diagnosed?
 If a health care provider sees signs of aphasia, the provider will usually:
 
 - Test the person's ability to understand language and speech. This includes asking questions and checking to see if the person can follow simple commands.
- 
-- Order an imaging scan to see if there's a brain injury and what part of the brain is damaged. Possible tests include:
- 
- - MRI
 
- - CT scan
- 
- 
+- Order an imaging scan to see if there's a brain injury and what part of the brain is damaged. Possible tests include:
+
+- MRI
+
+- CT scan
 
 If imaging shows signs of aphasia, more tests may be needed. These tests measure how much the brain damage has affected the ability to talk, read, write, and understand. In most cases, the tests are done by a speech-language pathologist or speech therapist (a specialist who treats speech and communication disorders).
 
@@ -74,8 +51,6 @@ Treatment may be one-on-one with a speech therapist or in a group. Therapy using
 
 The specific therapy depends on the type of language loss that a person has. It may include exercises in reading, writing, following directions, and repeating what the therapist says. Therapy may also include learning how to communicate with gestures, pictures, smartphones, or other electronic devices.
 
- 
-
 Family participation may be an important part of speech therapy. Family members can learn to help with recovery in many ways, such as:
 
 - Using simpler language
@@ -85,8 +60,6 @@ Family participation may be an important part of speech therapy. Family members 
 - Repeating or writing down key words to help communicate more clearly
 
 Language abilities may continue to improve over many years. In general, people recover their ability to understand language more fully than their ability to speak.
-
- 
 
 How much a person recovers depends on many things, including:
 
@@ -102,33 +75,17 @@ Can aphasia be prevented?
 You can help prevent aphasia by:
 
 - Making heart-healthy lifestyle changes to lower your chance of having:
- 
- - A stroke
 
- - Heart disease
+- A stroke
 
- - Vascular disease (problems with your blood vessels)
+- Heart disease
 
- 
+- Vascular disease (problems with your blood vessels)
 
 - Protecting your brain from injury:
- 
- - Wearing the right helmet for sports safety, such as when riding a bike
 
- - Taking action to prevent falls
+- Wearing the right helmet for sports safety, such as when riding a bike
 
- - Always wearing your seatbelt and driving safely
+- Taking action to prevent falls
 
- 
-
-NIH: National Institute on Deafness and Other Communication Disorders
-
-## Selected references
-- Aphasia [Start Here] — National Institute on Deafness and Other Communication Disorders — https://www.nidcd.nih.gov/health/aphasia
-- Aphasia vs. Apraxia [Specifics] — American Stroke Association — https://www.stroke.org/en/about-stroke/effects-of-stroke/communication-and-aphasia/stroke-and-aphasia/aphasia-vs-apraxia
-- Communicating with someone with aphasia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000024.htm
-- Communication Breakdown: How Aphasia Affects Language [Start Here] — National Institutes of Health — https://newsinhealth.nih.gov/2020/06/communication-breakdown
-- Landau-Kleffner Syndrome [Children] — Genetic and Rare Diseases Information Center — https://rarediseases.info.nih.gov/diseases/6855/landau-kleffner-syndrome
-- Let's Talk about Stroke and Aphasia [Specifics] — American Stroke Association — https://www.stroke.org/-/media/stroke-files/lets-talk-about-stroke/life-after-stroke/ltas-stroke-and-aphasia.pdf
-- Primary Progressive Aphasia [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/primary-progressive-aphasia/symptoms-causes/syc-20350499?p=1
-- Speech impairment in adults [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003204.htm
+- Always wearing your seatbelt and driving safely

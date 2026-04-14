@@ -1,50 +1,13 @@
 # Tick Bites
 
-- Topic ID: 1645
-- Language: English
-- URL: https://medlineplus.gov/tickbites.html
-- Date created: 05/13/2002
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Groups
-- Infections
-- Skin, Hair and Nails
-- Injuries and Wounds
-
-## MeSH
-- Tick Bites
-- Tick-Borne Diseases
-
-## Related topics
-- Insect Bites and Stings
-- Lyme Disease
-
-## See also
-- Anaplasmosis
-- Babesiosis
-- Colorado Tick Fever
-- Ehrlichiosis
-- Rocky Mountain Spotted Fever
-- Tickborne Diseases
-- Tularemia
-
-## Meta description
-Tick bites can spread many diseases, including Lyme disease and Rocky Mountain spotted fever. Learn how to prevent tick bites and what to do if you get bitten.
-
-## Summary
 What are ticks?
 Ticks are small parasites. They may look like insects, but they have eight legs and are related to spiders. Ticks feed on the blood of people and warm-blooded animals. There are many types of ticks in the United States, and they live in different parts of the country.
 
- 
-
 Ticks can be different colors and sizes. They can be light-colored, reddish brown, or dark brown. Some ticks are so small that they can be difficult to see. Ticks may get on you if you walk though areas where they live, such as tall grass, leaf litter or shrubs.
-
- 
 
 Why do I need to be worried about tick bites?
 If you spend time outdoors or have pets that go outdoors, you need to beware of ticks. When they bite, certain types of ticks can pass on germs that cause different diseases. Sometimes the symptoms can be mild. In other cases, you can have serious, long-lasting health problems. Some of the diseases you can get from a tick bite (called tickborne diseases) include:
 
- 
 - Lyme disease
 
 - Alpha-gal syndrome (tick bite red meat allergy)
@@ -98,13 +61,3 @@ There are steps you can take to prevent tick bites:
 - Remove your clothing after being outdoors. Check your clothing for ticks and remove any ticks that you find. Wash and dry your clothes at high temperatures.
 
 - Check yourself, your children, and your pets daily for ticks and carefully remove any ticks you find.
-
-## Selected references
-- About Alpha-gal Syndrome [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/alpha-gal-syndrome/about/
-- About Anaplasmosis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/anaplasmosis/about/
-- About Babesiosis [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/babesiosis/about/
-- About Heartland Virus [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/heartland-virus/about/
-- About Powassan [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/powassan/about/
-- About Q Fever [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/q-fever/about/
-- About Rocky Mountain Spotted Fever [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/rocky-mountain-spotted-fever/about/
-- About Southern Tick-Associated Rash Illness (STARI) [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/stari/about/

@@ -1,30 +1,5 @@
 # CT Scans
 
-- Topic ID: 3951
-- Language: English
-- URL: https://medlineplus.gov/ctscans.html
-- Date created: 11/04/2004
-
-## Also called
-- CAT scan
-
-## Groups
-- Diagnostic Tests
-
-## MeSH
-- Tomography, X-Ray Computed
-
-## Related topics
-- Diagnostic Imaging
-- X-Rays
-
-## See also
-- CAT Scans
-
-## Meta description
-Doctors use CT scans (or CAT scans) to look for broken bones, cancers, blood clots, and more. Learn about the CT scan and what to expect during one.
-
-## Summary
 What is a CT scan?
 Computed tomography (CT) is a type of medical imaging test that uses special x-ray equipment to make detailed pictures of the inside of your body.
 
@@ -67,8 +42,6 @@ CT scans use ionizing radiation at levels higher than a standard x-ray, but the 
 How is a CT scan done?
 You may be asked to change clothes and remove jewelry or other items that could interfere with the scan.
 
- 
-
 During the scan, you lie still on a table. The table slowly passes through the center of a large donut-shaped machine. The x-ray tube rotates around your body to create images.
 
 You may hear whirring sounds during the scan. You may be asked to hold your breath for short periods. The test is painless.
@@ -79,15 +52,3 @@ What should you expect after a CT scan?
 Most people can return to normal activities right away. If you were given a contrast material, drinking fluids can help your body clear it.
 
 A specialist called a radiologist reviews the images and shares the results with your provider.
-
-NIH: National Cancer Institute
-
-## Selected references
-- Abdominal and Pelvic CT [Specifics] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/abdominct
-- Abdominal CT scan [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003789.htm
-- Arm CT scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007347.htm
-- Body CT [Specifics] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/bodyct
-- Brain CT Scan [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/tests-procedures/brain-ct-scan/about/pac-20587837?p=1
-- Cervical spine CT scan [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007351.htm
-- Chest CT [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003788.htm
-- Computed Tomography (CT) [Start Here] — National Institute of Biomedical Imaging and Bioengineering — https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct

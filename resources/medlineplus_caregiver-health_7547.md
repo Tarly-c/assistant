@@ -1,32 +1,8 @@
 # Caregiver Health
 
-- Topic ID: 7547
-- Language: English
-- URL: https://medlineplus.gov/caregiverhealth.html
-- Date created: 05/26/2020
-- Primary institute: National Institute on Aging
-
-## Also called
-- Caring for the caregiver
-
-## Groups
-- Social/Family Issues
-
-## MeSH
-- Caregivers
-
-## Related topics
-- Alzheimer's Caregivers
-- Caregivers
-
-## Meta description
-Caregiving can be rewarding, but it may also be stressful and sometimes even overwhelming. Learn how to prevent or relieve caregiver stress.
-
-## Summary
 What is a caregiver?
 A caregiver gives care to someone who needs help taking care of themselves. The person who needs help may be a child, an adult, or an older adult. They may need help because of an injury, chronic illness, or disability.
 
- 
 Some caregivers are informal caregivers. They are usually family members or friends. Other caregivers are paid professionals. Caregivers may give care at home or in a hospital or other health care setting. Sometimes they are caregiving from a distance. The types of tasks that caregivers do may include:
 
 - Helping with daily tasks like bathing, eating, or taking medicine
@@ -37,8 +13,6 @@ Some caregivers are informal caregivers. They are usually family members or frie
 
 How does caregiving affect the caregiver?
 Caregiving can be rewarding. It may help to strengthen connections to a loved one. You may feel fulfillment from helping someone else. But caregiving may also be stressful and sometimes even overwhelming. Caregiving may involve meeting complex demands without any training or help. You may also be working and have children or others to care for. To meet all of the demands, you might be putting your own needs and feelings aside. But that's not good for your long-term health. But you need to make sure that you are also taking care of yourself.
-
- 
 
 What is caregiver stress?
 Many caregivers are affected by caregiver stress. This is the stress that comes from the emotional and physical strain of caregiving. The signs include:
@@ -80,7 +54,7 @@ What can I do to prevent or relieve caregiver stress?
 Taking steps to prevent or relieve caregiver stress may help prevent health problems. Remember that if you feel better, you can take better care of your loved one. It will also be easier to focus on the rewards of caregiving. Some ways to help yourself include:
 
 - Learning better ways to help your loved one. For examples, hospitals offer classes that can teach you how to care for someone with an injury or illness.
- 
+
 - Finding caregiving resources in your community to help you. Many communities have adult daycare services or respite services. Using one of these can give you a break from your caregiving duties.
 
 - Asking for and accepting help. Make a list of ways others can help you. Let helpers choose what they would like to do. For instance, someone might sit with the person you care for while you do an errand. Someone else might pick up groceries for you.
@@ -96,13 +70,3 @@ Taking steps to prevent or relieve caregiver stress may help prevent health prob
 - Considering taking a break from your job, if you also work and are feeling overwhelmed. Under the federal Family and Medical Leave Act, eligible employees can take up to 12 weeks of unpaid leave per year to care for relatives. Check with your human resources office about your options.
 
 Dept. of Health and Human Services Office on Women's Health
-
-## Selected references
-- 7 Ways Caregivers Can Ease Stress [Treatments and Therapies] — Nemours Foundation — https://kidshealth.org/en/parents/caregiver-stress.html
-- Caregiver Health [Start Here] — AGS Health in Aging Foundation — https://www.healthinaging.org/a-z-topic/caregiver-health
-- Caregiver Stress [Specifics] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/caregiver-stress
-- Caregiver Stress [Specifics] — Alzheimer's Association — https://www.alz.org/help-support/caregiving/caregiver-health/caregiver-stress
-- Caring for the Caregiver [Start Here] — National Cancer Institute — https://www.cancer.gov/publications/patient-education/caring-for-the-caregiver
-- Get Support If You're a Caregiver [Start Here] — Office of Disease Prevention and Health Promotion — https://odphp.health.gov/myhealthfinder/healthy-living/mental-health-and-relationships/get-support-if-youre-caregiver
-- Preventing Caregiver Burnout [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/caregiver-burnout.html
-- Support for Caregivers of Cancer Patients [Specifics] — National Cancer Institute — https://www.cancer.gov/about-cancer/coping/caregiver-support

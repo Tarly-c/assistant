@@ -1,21 +1,5 @@
 # Radon
 
-- Topic ID: 1443
-- Language: English
-- URL: https://medlineplus.gov/radon.html
-- Date created: 03/21/2001
-- Primary institute: National Institute of Environmental Health Sciences
-
-## Groups
-- Poisoning, Toxicology, Environmental Health
-
-## MeSH
-- Radon
-
-## Meta description
-Radon comes from the natural breakdown of uranium in soil, rock, and water.  It is the second leading cause of lung cancer. Test your home for radon levels.
-
-## Summary
 What is radon?
 Radon is a naturally occurring radioactive gas. It is invisible and has no odor or taste. It comes from the normal decay of uranium and thorium. These are two chemical elements that can be found in soil, rock, and groundwater. Radon breaks down quickly, giving off radioactive particles. Over time, breathing in high levels of these particles can cause lung cancer.
 
@@ -45,7 +29,7 @@ Testing is fairly inexpensive and easy to do. You can buy a test kit at most har
 There are both long- and short-term test kits:
 
 - Short-term kits measure radon for 2-90 days for quick results
- 
+
 - Long-term kits measure radon in your home for over 90 days
 
 Radon levels can vary from day to day and month to month. So a long-term test will give a better estimate of your average radon level.
@@ -56,17 +40,7 @@ If the testing shows that you have an unsafe level of radon in your home, you ca
 You can also take some other steps to reduce radon levels in your home:
 
 - Increase air flow in your house by opening windows and using fans and vents to circulate air. But this will only temporarily reduce the radon levels.
- 
-- Seal cracks in floors and walls with plaster, caulk, or other materials designed for this purpose.
- 
-- After any fixes, monitor the radon levels to make sure that they are lower.
 
-## Selected references
-- Find a Radon Test Kit or Measurement and Mitigation Professional [Learn More] — Environmental Protection Agency — https://www.epa.gov/radon/find-radon-test-kit-or-measurement-and-mitigation-professional
-- Hidden Hazards: Clearing Out Toxins in the Home [Learn More] — National Institutes of Health — https://newsinhealth.nih.gov/2022/05/hidden-hazards
-- Learning about Radon: A Part of Nature [Learn More] — Environmental Protection Agency — https://nepis.epa.gov/Exe/ZyPDF.cgi/0000036N.PDF?Dockey=0000036N.PDF
-- Radon [Learn More] — Environmental Protection Agency — https://www.epa.gov/radon
-- Radon [Learn More] — National Institute of Environmental Health Sciences — https://www.niehs.nih.gov/health/topics/agents/radon
-- Radon and Cancer [Learn More] — National Cancer Institute — https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/radon/radon-fact-sheet
-- Radon and Your Health [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/radon/features/reduce-radon.html
-- Radon in Schools [Learn More] — Environmental Protection Agency — https://www.epa.gov/radon/radon-schools
+- Seal cracks in floors and walls with plaster, caulk, or other materials designed for this purpose.
+
+- After any fixes, monitor the radon levels to make sure that they are lower.

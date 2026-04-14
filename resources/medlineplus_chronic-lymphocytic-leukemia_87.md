@@ -1,37 +1,5 @@
 # Chronic Lymphocytic Leukemia
 
-- Topic ID: 87
-- Language: English
-- URL: https://medlineplus.gov/chroniclymphocyticleukemia.html
-- Date created: 12/18/1998
-- Primary institute: National Cancer Institute
-
-## Also called
-- CLL
-
-## Groups
-- Cancers
-- Blood, Heart and Circulation
-- Immune System
-
-## MeSH
-- Leukemia, Lymphoid
-
-## Related topics
-- Acute Lymphocytic Leukemia
-- Acute Myeloid Leukemia
-- Childhood Leukemia
-- Chronic Myeloid Leukemia
-- Leukemia
-
-## See also
-- CLL
-- Leukemia, Chronic Lymphocytic
-
-## Meta description
-Chronic Lymphocytic Leukemia or CLL is cancer of the white blood cells, where abnormal cells are made.  This makes it hard for the blood to do its work.
-
-## Summary
 What is leukemia?
 Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-forming tissues such as the bone marrow. Your bone marrow makes the cells which will develop into white blood cells, red blood cells, and platelets. Each type of cell has a different job:
 
@@ -43,7 +11,7 @@ Leukemia is a term for cancers of the blood cells. Leukemia starts in blood-form
 
 When you have leukemia, your bone marrow makes large numbers of abnormal cells. This problem most often happens with white blood cells. These abnormal cells build up in your bone marrow and blood. They crowd out the healthy blood cells and make it hard for your cells and blood to do their work.
 
-What is chronic lymphocytic leukemia (CLL)? 
+What is chronic lymphocytic leukemia (CLL)?
 Chronic lymphocytic leukemia (CLL) is a type of chronic leukemia. "Chronic" means that the leukemia usually gets worse slowly. In CLL, the bone marrow makes abnormal lymphocytes (a type of white blood cell). When the abnormal cells crowd out the healthy cells, it can lead to infection, anemia, and easy bleeding. The abnormal cells can also spread outside the blood to other parts of the body.
 CLL is one of the most common types of leukemia in adults. It often occurs during or after middle age. It is rare in children.
 
@@ -80,7 +48,6 @@ In the beginning, CLL does not cause any symptoms. Later, you can have symptoms 
 
 - Drenching night sweats
 
- 
 How is chronic lymphocytic leukemia (CLL) diagnosed?
 Your health care provider may use many tools to diagnose CLL:
 
@@ -91,7 +58,7 @@ Your health care provider may use many tools to diagnose CLL:
 - Blood tests, such as a complete blood count (CBC) with differential and blood chemistry tests. Blood chemistry tests measure different substances in the blood, including electrolytes, fats, proteins, glucose (sugar), and enzymes. Specific blood chemistry tests include a basic metabolic panel (BMP), a comprehensive metabolic panel (CMP), kidney function tests, liver function tests, and an electrolyte panel.
 
 - Flow cytometry tests, which check for leukemia cells and identify which type of leukemia it is. The tests can be done on blood, bone marrow, or other tissue.
- 
+
 - Genetic tests to look for gene and chromosome changes
 
 If you are diagnosed with CLL, you may have additional tests to see whether the cancer has spread. These include imaging tests and bone marrow tests.
@@ -99,7 +66,6 @@ If you are diagnosed with CLL, you may have additional tests to see whether the 
 What are the treatments for chronic lymphocytic leukemia (CLL)?
 Treatments for CLL include:
 
- 
 - Watchful waiting, which means that you don't get treatment right away. Your health care provider regularly checks to see if your signs or symptoms appear or change.
 
 - Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells.
@@ -113,15 +79,3 @@ Treatments for CLL include:
 - Chemotherapy with bone marrow or stem cell transplant
 
 The goals of treatment are to slow the growth of the leukemia cells and to give you long periods of remission. Remission means that the signs and symptoms of cancer are reduced or have disappeared. The CLL may come back after remission, and you may need more treatment.
-
-NIH: National Cancer Institute
-
-## Selected references
-- After chemotherapy - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000012.htm
-- B and T cell screen [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003329.htm
-- B-cell leukemia/lymphoma panel [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003518.htm
-- Blood Count Tests: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/bloodcounttests.html
-- Blood Tests [Diagnosis and Tests] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/blood-tests
-- Blood Transfusion [Treatments and Therapies] — Blood Cancer United — https://bloodcancerunited.org/blood-cancer-care/adults/types-blood-cancer-treatment/blood-transfusion
-- Bone marrow biopsy [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003934.htm
-- Bone Marrow Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/bone-marrow-tests/

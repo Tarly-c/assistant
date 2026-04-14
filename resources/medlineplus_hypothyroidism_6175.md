@@ -1,36 +1,6 @@
 # Hypothyroidism
 
-- Topic ID: 6175
-- Language: English
-- URL: https://medlineplus.gov/hypothyroidism.html
-- Date created: 12/23/2013
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Underactive thyroid
-
-## Groups
-- Endocrine System
-
-## MeSH
-- Hypothyroidism
-
-## Related topics
-- Hyperthyroidism
-- Thyroid Cancer
-- Thyroid Diseases
-- Thyroid Tests
-
-## See also
-- Autoimmune Thyroiditis
-- Hashimoto's Disease
-- Underactive Thyroid
-
-## Meta description
-Hypothyroidism happens when your thyroid gland does not make enough thyroid hormone to meet your body's needs. Hypothyroidism is more common in women.
-
-## Summary
-What is hypothyroidism? 
+What is hypothyroidism?
 Hypothyroidism, or underactive thyroid, happens when your thyroid gland doesn't make enough thyroid hormones to meet your body's needs.
 
 Your thyroid is a small, butterfly-shaped gland in the front of your neck. It makes hormones that control the way the body uses energy. These hormones affect nearly every organ in your body and control many of your body's most important functions. For example, they affect your breathing, heart rate, weight, digestion, and moods. Without enough thyroid hormones, many of your body's functions slow down. But there are treatments that can help.
@@ -38,7 +8,6 @@ Your thyroid is a small, butterfly-shaped gland in the front of your neck. It ma
 What causes hypothyroidism?
 Hypothyroidism has several causes. They include:
 
- 
 - Hashimoto's disease, an autoimmune disorder where your immune system attacks your thyroid. This is the most common cause.
 
 - Thyroiditis, inflammation of the thyroid
@@ -53,12 +22,9 @@ Hypothyroidism has several causes. They include:
 
 - In rare cases, a pituitary disease or too much or too little iodine in your diet
 
- 
-
 Who is at risk for hypothyroidism?
 You are at higher risk for hypothyroidism if you:
 
- 
 - Are a woman
 
 - Are older than age 60
@@ -85,12 +51,9 @@ You are at higher risk for hypothyroidism if you:
 
 - Have lupus, a chronic autoimmune disease
 
- 
-
 What are the symptoms of hypothyroidism?
 The symptoms of hypothyroidism can vary from person to person and may include:
 
- 
 - Fatigue
 
 - Weight gain
@@ -119,7 +82,6 @@ The symptoms of hypothyroidism can vary from person to person and may include:
 
 - Goiter, an enlarged thyroid that may cause your neck to look swollen. Sometimes it can cause trouble with breathing or swallowing.
 
- 
 Because hypothyroidism develops slowly, many people don't notice symptoms of the disease for months or even years.
 
 What other problems can hypothyroidism cause?
@@ -130,23 +92,16 @@ During pregnancy, hypothyroidism can cause complications, such as premature birt
 How is hypothyroidism diagnosed?
 Your health care provider may use many tools to make a diagnosis:
 
- 
 - A medical history, including asking about your symptoms
 
 - A physical exam
 
 - Thyroid tests, such as
- 
- - TSH, T3, T4, and thyroid antibody blood tests
 
- - Imaging tests, such as a thyroid scan, ultrasound, or radioactive iodine uptake test. A radioactive iodine uptake test measures how much radioactive iodine your thyroid takes up from your blood after you swallow a small amount of it.
+- TSH, T3, T4, and thyroid antibody blood tests
 
- 
+- Imaging tests, such as a thyroid scan, ultrasound, or radioactive iodine uptake test. A radioactive iodine uptake test measures how much radioactive iodine your thyroid takes up from your blood after you swallow a small amount of it.
 
- 
-
- 
- 
 What are the treatments for hypothyroidism?
 The treatment for hypothyroidism is medicine to replace the hormone that your own thyroid can no longer make. About 6 to 8 weeks after you start taking the medicine, you will get a blood test to check your thyroid hormone level. Your health care provider will adjust your dose if needed. Each time your dose is adjusted, you'll have another blood test. Once you find the right dose, you will probably get a blood test in 6 months. After that, you will need the test once a year.
 
@@ -155,15 +110,3 @@ If you take your medicine according to the instructions, you usually should be a
 If you have Hashimoto's disease or other types of autoimmune thyroid disorders, you may be sensitive to harmful side effects from iodine. Talk to your health care provider about which foods, supplements, and medicines you need to avoid.
 
 Women need more iodine when they are pregnant because the baby gets iodine from the mother's diet. If you are pregnant, talk with your health care provider about how much iodine you need.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Autoantibody Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/autoantibody-testing/
-- Chronic thyroiditis (Hashimoto disease) [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000371.htm
-- Congenital Hypothyroidism (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/congenital-hypothyroidism.html?WT.ac=pairedLink
-- Factitious hyperthyroidism [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000309.htm
-- Free T4 test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003517.htm
-- Hashimoto's Disease [Specifics] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/endocrine-diseases/hashimotos-disease
-- Hashimoto's Disease [Women] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/hashimotos-disease
-- Hypothyroidism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000353.htm

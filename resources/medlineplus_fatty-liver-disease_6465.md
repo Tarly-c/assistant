@@ -1,41 +1,5 @@
 # Fatty Liver Disease
 
-- Topic ID: 6465
-- Language: English
-- URL: https://medlineplus.gov/fattyliverdisease.html
-- Date created: 04/26/2017
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- ALD
-- Alcohol-associated liver disease
-- Alcoholic fatty liver disease
-- MASLD
-- Metabolic dysfunction-associated steatotic liver disease
-- NAFLD
-- Nonalcoholic fatty liver disease
-- SLD
-- Steatotic liver disease
-
-## Groups
-- Digestive System
-
-## MeSH
-- Fatty Liver
-- Non-alcoholic Fatty Liver Disease
-- Fatty Liver, Alcoholic
-
-## See also
-- Alcohol-Associated Liver Disease
-- Alcoholic Fatty Liver Disease
-- Metabolic Dysfunction-Associated Steatotic Liver Disease
-- Nonalcoholic Fatty Liver Disease
-- Steatotic Liver Disease
-
-## Meta description
-With fatty liver disease, fat builds up in your liver. Learn about the two types: one is caused by heavy drinking and the other has an unknown cause.
-
-## Summary
 What is fatty liver disease?
 Your liver is the largest organ inside your body. It helps your body digest food, store energy, and remove poisons. Fatty liver disease is a condition in which fat builds up in your liver. There are two main types:
 
@@ -80,7 +44,6 @@ The cause of nonalcoholic fatty liver disease (NAFLD) is unknown. Researchers do
 
 NAFLD affects about 25% of people in the world. As the rates of obesity, type 2 diabetes, and high cholesterol are rising in the United States, so is the rate of NAFLD. NAFLD is the most common chronic liver disorder in the United States.
 
- 
 Alcoholic fatty liver disease only happens in people who are heavy drinkers, especially those who have been drinking for a long period of time. The risk is higher for heavy drinkers who are women, have obesity, or have certain genetic mutations.
 
 What are the symptoms of fatty liver disease?
@@ -124,13 +87,3 @@ If you have any of the types of fatty liver disease, there are some lifestyle ch
 - Get regular exercise, which can help you lose weight and reduce fat in the liver
 
 - Talk with your doctor before using dietary supplements, such as vitamins, or any complementary or alternative medicines or medical practices. Some herbal remedies can damage your liver.
-
-## Selected references
-- Alcohol-Related Liver Disease [Learn More] — Merck & Co., Inc. — https://www.merckmanuals.com/home/liver-and-gallbladder-disorders/alcohol-related-liver-disease/alcohol-related-liver-disease
-- Alcoholic liver disease [Patient Handouts] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000281.htm
-- Definition and Facts of NAFLD and NASH [Learn More] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/definition-facts
-- Diagnosis of NAFLD and NASH [Learn More] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis
-- Eating, Diet, and Nutrition for NAFLD and NASH [Learn More] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition
-- Elastography [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/elastography/
-- Fatty Liver Disease (MASLD): Survival Rates [Learn More] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/fatty-liver-disease-masld/survival-rates/gnc-20590323
-- Fighting Fatty Liver: Steps Against a Silent Disease [Learn More] — National Institutes of Health — https://newsinhealth.nih.gov/2021/10/fighting-fatty-liver

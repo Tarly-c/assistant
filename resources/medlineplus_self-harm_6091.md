@@ -1,34 +1,5 @@
 # Self-Harm
 
-- Topic ID: 6091
-- Language: English
-- URL: https://medlineplus.gov/selfharm.html
-- Date created: 01/07/2013
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- Self-injury
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Self-Injurious Behavior
-
-## Related topics
-- Child Behavior Disorders
-- Mental Disorders
-- Suicide
-- Teen Mental Health
-
-## See also
-- Cutting
-- Hair Pulling
-
-## Meta description
-Self-harm refers to a person harming themselves on purpose. About 1 in 100 people experience this. Learn ways to find relief and cope with emotions.
-
-## Summary
 What is self-harm?
 
 Self-harm, or self-injury, is when a person hurts his or her own body on purpose. The injuries may be minor, but sometimes they can be severe. They may leave permanent scars or cause serious health problems. Some examples are:
@@ -71,17 +42,15 @@ There are people of all ages who harm themselves, but it usually starts in the t
 
 - Were abused or went through a trauma as children
 
-- Have mental disorders, such as 
-	
-	- Depression
+- Have mental disorders, such as
 
-	- Eating disorders
+- Depression
 
-	- Post-traumatic stress disorder
+- Eating disorders
 
-	- Certain personality disorders
+- Post-traumatic stress disorder
 
-	
+- Certain personality disorders
 
 - Misuse drugs or alcohol
 
@@ -105,13 +74,9 @@ How can I help someone who self-harms?
 
 If someone you know is self-harming, it is important not to be judgmental. Let that person know that you want to help. If the person is a child or teenager, ask him or her to talk to a trusted adult. If he or she won't do that, talk to a trusted adult yourself. If the person who is self-harming is an adult, suggest mental health counseling.
 
- 
-
 What the treatments are for self-harm?
 
 There are no medicines to treat self-harming behaviors. But there are medicines to treat any mental disorders that the person may have, such as anxiety and depression. Treating the mental disorder may weaken the urge to self-harm.
-
- 
 
 Mental health counseling or therapy can also help by teaching the person:
 
@@ -124,13 +89,3 @@ Mental health counseling or therapy can also help by teaching the person:
 - Ways to strengthen self-esteem
 
 If the problem is severe, the person may need more intensive treatment in a psychiatric hospital or a mental health day program.
-
-## Selected references
-- Cutting & Self-Injury [Specifics] — Nemours Foundation — https://kidshealth.org/en/teens/cutting.html
-- How Can I Help a Friend Who Cuts? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/friend-cuts.html
-- How Can I Stop Cutting? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/resisting-cutting.html
-- Mental Health Medications [Treatments and Therapies] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/mental-health-medications
-- Psychotherapies [Treatments and Therapies] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/psychotherapies
-- Self Harm -- Cutting [Specifics] — American Academy of Family Physicians — https://familydoctor.org/self-harm-cutting/
-- Self-Harm [Start Here] — NAMI — https://www.nami.org/co-occurring-conditions/self-harm/
-- Self-Harm and Trauma [Start Here] — National Center for PTSD — https://www.ptsd.va.gov/understand/related/self_harm.asp

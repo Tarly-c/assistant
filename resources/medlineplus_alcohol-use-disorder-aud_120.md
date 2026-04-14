@@ -1,52 +1,9 @@
 # Alcohol Use Disorder (AUD)
 
-- Topic ID: 120
-- Language: English
-- URL: https://medlineplus.gov/alcoholusedisorderaud.html
-- Date created: 11/10/1998
-- Primary institute: National Institute on Alcohol Abuse and Alcoholism
-
-## Also called
-- Alcohol abuse
-- Alcohol dependence
-- Alcoholism
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Alcoholism
-
-## Related topics
-- Alcohol
-- Alcohol Use Disorder (AUD) Treatment
-- Cirrhosis
-- Fatty Liver Disease
-- Fetal Alcohol Spectrum Disorders
-- Impaired Driving
-- Underage Drinking
-
-## See also
-- Alcohol Abuse
-- Alcohol Dependence
-- Alcohol Withdrawal
-- Alcoholism
-- Binge Drinking
-- Drinking
-- Substance Use
-
-## Meta description
-An alcohol use disorder (AUD) is drinking that causes distress and harm. AUD can range from mild to severe (alcoholism). Learn the signs that you may have a problem with drinking.
-
-## Summary
 What is alcohol use disorder (AUD)?
 For most adults, moderate alcohol use is probably not harmful. Your risk of developing an alcohol use disorder (AUD) depends on how much, how often, and how quickly you drink alcohol. Alcohol misuse means that drinking causes distress and harm. Over time alcohol misuse can increase your risk of AUD.
 
- 
-
 AUD can range from mild to severe, depending on the symptoms. Severe AUD is sometimes called alcoholism or alcohol dependence.
-
- 
 
 AUD is a disease that causes:
 
@@ -67,7 +24,6 @@ You may have an AUD if you can answer yes to two or more of these questions:
 
 In the past year, have you:
 
- 
 - Ended up drinking more or for a longer time than you had planned to?
 
 - Wanted to cut down or stop drinking, or tried to, but couldn't?
@@ -92,19 +48,5 @@ In the past year, have you:
 
 If you have any of these symptoms, your drinking may already be a cause for concern. The more symptoms you have, the more serious the problem is.
 
- 
-
 What should I do if I think that I might have an alcohol use disorder (AUD)?
 If you think you might have an AUD, see your health care provider for an evaluation. Your provider can help make a treatment plan, prescribe medicines, and if needed, give you treatment referrals.
-
-NIH: National Institute on Alcohol Abuse and Alcoholism
-
-## Selected references
-- Alcohol use disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000944.htm
-- Alcohol Use Disorder (AUD) Treatment: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/alcoholusedisorderaudtreatment.html
-- Alcohol Use Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alcohol-use-screening-tests/
-- Alcohol withdrawal [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000764.htm
-- Alcoholic ketoacidosis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000323.htm
-- Alcoholic liver disease [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000281.htm
-- Alcoholic neuropathy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000714.htm
-- Beriberi [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000339.htm

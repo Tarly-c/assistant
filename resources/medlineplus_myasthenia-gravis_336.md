@@ -1,25 +1,5 @@
 # Myasthenia Gravis
 
-- Topic ID: 336
-- Language: English
-- URL: https://medlineplus.gov/myastheniagravis.html
-- Date created: 06/01/1999
-- Primary institute: National Institute of Neurological Disorders and Stroke
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Myasthenia Gravis
-
-## Related topics
-- Muscle Disorders
-- Neuromuscular Disorders
-
-## Meta description
-Myasthenia gravis (MG) is an autoimmune disease that weakens the muscles under your control.  Find out about MG causes, symptoms, and treatment.
-
-## Summary
 What is myasthenia gravis?
 Myasthenia gravis, sometimes called MG, is a chronic (long-lasting) disease that causes weakness in your voluntary muscles. The voluntary muscles are the ones that you can control. They include the muscles you use for:
 
@@ -37,7 +17,6 @@ Myasthenia gravis, sometimes called MG, is a chronic (long-lasting) disease that
 
 - Moving your arms and legs
 
- 
 You can also have weakness in other muscles. This weakness gets worse with activity, and better with rest.
 
 Myasthenia gravis is a type of autoimmune disease. In autoimmune diseases, your immune system attacks the healthy cells of your organs and tissues by mistake.
@@ -72,7 +51,7 @@ The symptoms of myasthenia gravis will depend on which muscles are affected. The
 - Drooping of one or both eyelids
 
 - Blurred or double vision
- 
+
 - Changes in facial expressions
 
 - Trouble swallowing
@@ -95,14 +74,12 @@ There are many other conditions that can cause muscle weakness, so myasthenia gr
 - Will do a physical exam, including a neurological exam
 
 - Will likely order tests for myasthenia gravis, including:
- 
- - Blood tests
 
- - Imaging tests
+- Blood tests
 
- - Electromyography (EMG) and nerve conduction studies
- 
- 
+- Imaging tests
+
+- Electromyography (EMG) and nerve conduction studies
 
 What are the treatments for myasthenia gravis?
 There is no cure for myasthenia gravis, but treatments that can improve muscle weakness and help with symptoms. They include:
@@ -120,15 +97,3 @@ There is no cure for myasthenia gravis, but treatments that can improve muscle w
 Lifestyle changes may be helpful for some people. The changes could include regular gentle exercise, getting enough rest, and eating healthy foods.
 
 Some people with myasthenia gravis go into remission. This means that they do not have symptoms. The remission is usually temporary, but sometimes it can be permanent.
-
-NIH: National Institute of Neurological Disorders and Stroke
-
-## Selected references
-- Acetylcholine receptor antibody [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003576.htm
-- Congenital Myasthenic Syndrome [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/congenital-myasthenic-syndrome
-- Electromyography (EMG) and Nerve Conduction Studies [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/electromyography-emg-and-nerve-conduction-studies/
-- Myasthenia Gravis [Start Here] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/disorders/myasthenia-gravis
-- Myasthenia gravis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000712.htm
-- Myasthenia Gravis [Start Here] — Department of Health and Human Services, Office on Women's Health — https://womenshealth.gov/a-z-topics/myasthenia-gravis
-- Myasthenia Gravis [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/myasthenia-gravis/symptoms-causes/syc-20352036?p=1
-- Myasthenia Gravis (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/myasthenia.html

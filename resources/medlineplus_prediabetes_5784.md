@@ -1,37 +1,8 @@
 # Prediabetes
 
-- Topic ID: 5784
-- Language: English
-- URL: https://medlineplus.gov/prediabetes.html
-- Date created: 03/22/2011
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Groups
-- Endocrine System
-- Diabetes Mellitus
-
-## MeSH
-- Prediabetic State
-
-## Related topics
-- A1C
-- Diabetes
-- Diabetes in Children and Teens
-- Diabetes Type 2
-- How to Prevent Diabetes
-- Metabolic Syndrome
-
-## See also
-- Insulin Resistance
-
-## Meta description
-Prediabetes happens when your blood sugar levels are higher than normal but not high enough to be called diabetes.
-
-## Summary
-What is prediabetes? 
+What is prediabetes?
 Prediabetes means that your blood glucose, or blood sugar, levels are higher than normal but not high enough to be called diabetes. Glucose comes from the foods you eat. Too much glucose in your blood can damage your body over time.
 
- 
 If you have prediabetes, you are more likely to develop type 2 diabetes, heart disease, and stroke. But if you make some lifestyle changes now, you may be able to delay or prevent type 2 diabetes.
 
 What causes prediabetes?
@@ -69,33 +40,28 @@ About 1 out of every 3 adults has prediabetes. It is more common in people who:
 What are the symptoms of prediabetes?
 Most people don't know they have prediabetes because usually there are no symptoms.
 
- 
 Some people with prediabetes may have darkened skin in the armpit or on the back and sides of the neck. They may also have many small skin growths in those same areas.
 
 How is prediabetes diagnosed?
 There are a few different blood tests that can diagnose prediabetes. The most common ones are:
 
 - Fasting plasma glucose (FPG) test, which measures your blood sugar at a single point in time. You need to fast (not eat or drink) for at least 8 hours before the test. The results of the test are given in mg/dL (milligrams per deciliter):
- 
- - A normal level is 99 or below
 
- - Prediabetes is 100 to 125
+- A normal level is 99 or below
 
- - Type 2 diabetes is 126 and above
+- Prediabetes is 100 to 125
 
- 
+- Type 2 diabetes is 126 and above
 
-- A1C test, which measures your average blood sugar over the past 3 months. The results of an A1C test are given as a percentage. The higher the percentage, the higher your blood sugar levels have been. 
- 
- - A normal level is below 5.7%
+- A1C test, which measures your average blood sugar over the past 3 months. The results of an A1C test are given as a percentage. The higher the percentage, the higher your blood sugar levels have been.
 
- - Prediabetes is between 5.7 to 6.4%
+- A normal level is below 5.7%
 
- - Type 2 diabetes is above 6.5%
+- Prediabetes is between 5.7 to 6.4%
 
- 
+- Type 2 diabetes is above 6.5%
 
-If I have prediabetes, will I get diabetes? 
+If I have prediabetes, will I get diabetes?
 If you have prediabetes, you may be able to delay or prevent type 2 diabetes through lifestyle changes:
 
 - Losing weight, if you are overweight
@@ -108,15 +74,3 @@ In some cases, your health care provider may also recommend taking diabetes medi
 
 Can prediabetes be prevented?
 If you are at risk for prediabetes, those same lifestyle changes (losing weight, regular physical activity, and a healthy eating plan) may prevent you from getting it.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- A1C: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/a1c.html
-- About Prediabetes [Start Here] — American Heart Association — https://www.heart.org/en/health-topics/diabetes/about-diabetes/about-prediabetes
-- Blood Glucose Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-glucose-test/
-- Blood sugar test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003482.htm
-- Diabetes Diagnosis and Tests [Diagnosis and Tests] — American Diabetes Association — https://diabetes.org/about-diabetes/diagnosis
-- Diabetes Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/diabetes-tests/
-- Diabetes Tests and Diagnosis [Diagnosis and Tests] — National Institute of Diabetes and Digestive and Kidney Diseases — https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis
-- Glucose tolerance test - non-pregnant [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003466.htm

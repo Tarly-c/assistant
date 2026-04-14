@@ -1,34 +1,7 @@
 # Dehydration
 
-- Topic ID: 6051
-- Language: English
-- URL: https://medlineplus.gov/dehydration.html
-- Date created: 10/01/2012
-
-## Groups
-- Symptoms
-- Metabolic Problems
-
-## MeSH
-- Dehydration
-
-## Related topics
-- Diarrhea
-- Fluid and Electrolyte Balance
-- Heat Illness
-- Nausea and Vomiting
-
-## See also
-- Thirst
-
-## Meta description
-Dehydration means your body doesn't have enough fluid. Learn about the signs and symptoms of dehydration, and what to do about it.
-
-## Summary
-What is dehydration? 
+What is dehydration?
 Dehydration is a condition caused by the loss of too much fluid from the body. It happens when you are losing more fluids than you are taking in, and your body does not have enough fluids to work properly.
-
- 
 
 What causes dehydration?
 You can become dehydrated because of:
@@ -53,7 +26,7 @@ Certain people are more likely to develop dehydration:
 - Infants and young children, who are more likely to have diarrhea or vomiting
 
 - People with chronic illnesses that cause them to urinate or sweat more often, such as diabetes, cystic fibrosis, or kidney problems
-	
+
 - People who take medicines that cause them to urinate or sweat more
 
 - People who exercise or work outdoors during hot weather
@@ -131,19 +104,9 @@ Can dehydration be prevented?
 The key to preventing dehydration is making sure that you get enough fluids:
 
 - Drink enough water every day. Each person's needs can be different, so ask your health care provider how much you should be drinking each day.
- 
+
 - Avoid drinks that have sugar and caffeine.
 
 - Drink extra fluids when the weather is hot, especially if you are exercising or working outside. If you are losing a lot of minerals in sweat, sports drinks can help you. But some sports drinks have lots of sugar, so be careful not to drink too much of them.
 
 - Get extra fluids when you are sick. If you are having trouble keeping liquids down, you can try taking small sips of water or sucking on ice chips.
-
-## Selected references
-- Dehydration [Children] — Nemours Foundation — https://kidshealth.org/en/kids/dehydration.html
-- Dehydration [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000982.htm
-- Dehydration [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/dehydration/symptoms-causes/syc-20354086?p=1
-- Dehydration in Kids and Teens [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/dehydration.html
-- Drinks to Prevent Dehydration When Your Child is Vomiting [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Drinks-to-Prevent-Dehydration-in-a-Vomiting-Child.aspx
-- Osmolality Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/osmolality-tests/
-- Sports Dehydration Safety Tips [Children] — Safe Kids Worldwide — https://www.safekids.org/sites/default/files/documents/sports/DEHYDRATION%20SAFETY%20TIP%20SHEET%202013.pdf
-- Thirst - absent [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003086.htm

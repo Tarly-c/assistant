@@ -1,35 +1,5 @@
 # Infectious Mononucleosis
 
-- Topic ID: 298
-- Language: English
-- URL: https://medlineplus.gov/infectiousmononucleosis.html
-- Date created: 08/20/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Glandular fever
-- Kissing disease
-- Mono
-- Mononucleosis
-
-## Groups
-- Infections
-- Immune System
-
-## MeSH
-- Infectious Mononucleosis
-
-## See also
-- EBV Infections
-- Epstein-Barr Virus Infections
-- Glandular Fever
-- Mono
-- Mononucleosis
-
-## Meta description
-Infectious mononucleosis (mono), or "the kissing disease," is a viral infection. It is often caused by the Epstein-Barr virus (EBV), which can spread in saliva.
-
-## Summary
 What is infectious mononucleosis (mono)?
 Infectious mononucleosis (mono) is a disease caused by viruses.The most common cause is the Epstein-Barr virus (EBV). Mono is contagious, which means it can spread from person to person. It is common among teenagers and young adults, especially college students.
 
@@ -84,13 +54,3 @@ There is no vaccine to protect against mono. To lower your chance of getting or 
 - Wash your hands often with soap and water.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Epstein-Barr Virus (EBV) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/epstein-barr/about/
-- About Infectious Mononucleosis (Mono) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/epstein-barr/about/mononucleosis.html
-- Anti-smooth muscle antibody [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003531.htm
-- Antibody Serology Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/antibody-serology-tests/
-- Cryoglobulins [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003555.htm
-- Epstein-Barr virus antibody test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003513.htm
-- How Is Mono Spread? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/expert-mono.html
-- How Long Is Mono Contagious? [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/mono-long.html

@@ -1,79 +1,41 @@
 # Asthma in Children
 
-- Topic ID: 1507
-- Language: English
-- URL: https://medlineplus.gov/asthmainchildren.html
-- Date created: 07/12/2001
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Childhood asthma
-- Pediatric asthma
-
-## Groups
-- Children and Teenagers
-- Lungs and Breathing
-- Immune System
-
-## MeSH
-- Asthma
-
-## Related topics
-- Air Pollution
-- Allergy
-- Asthma
-- Breathing Problems
-- Indoor Air Pollution
-
-## See also
-- Childhood Asthma
-
-## Meta description
-Children's airways are small, making asthma more serious for them. Learn the symptoms, what can cause an attack, and long term treatments.
-
-## Summary
-What is asthma? 
+What is asthma?
 Asthma is a chronic (long-term) lung disease. It affects your airways, the tubes that carry air in and out of your lungs. When you have asthma, your airways can become inflamed and narrowed. This can cause wheezing, coughing, and tightness in your chest. When these symptoms get worse than usual, it is called an asthma attack or flare-up.
 
-How does asthma affect children? 
+How does asthma affect children?
 Asthma often starts during childhood, usually before age 5. Many children have asthma - it is the most common chronic disease of childhood. It can cause children to miss school and end up in the hospital. But treatments can help manage asthma.
 
 What causes asthma in children?
 The exact cause of asthma is unknown. Genetics and environment likely play a role in which children get asthma.
 
- 
-
 An asthma attack can happen when your child is exposed to an asthma trigger. An asthma trigger is something that can set off or worsen asthma symptoms. Different triggers can cause different types of asthma:
 
 - Allergic asthma is caused by allergens. Allergens are substances that cause an allergic reaction. They can include
-	
-	- Dust mites
- 
-	- Mold
 
-	- Pets
- 
-	- Pollen from grass, trees, and weeds
+- Dust mites
 
-	- Waste from pests such as cockroaches and mice
+- Mold
 
-	
+- Pets
+
+- Pollen from grass, trees, and weeds
+
+- Waste from pests such as cockroaches and mice
 
 - Nonallergic asthma is caused by triggers that are not allergens, such as
-	
-	- Breathing in cold air
 
-	- Certain medicines
+- Breathing in cold air
 
-	- Household chemicals
+- Certain medicines
 
-	- Infections such as colds and the flu
+- Household chemicals
 
-	- Outdoor air pollution
+- Infections such as colds and the flu
 
-	- Tobacco smoke
+- Outdoor air pollution
 
-	
+- Tobacco smoke
 
 - Exercise-induced asthma happens during physical exercise, especially when the air is dry
 
@@ -84,8 +46,8 @@ Certain factors raise the risk of asthma in children:
 
 - Being exposed to secondhand smoke when their mother is pregnant with them or when they are small children
 
-- Genetics and family history. Children are more likely to have asthma if one of their parents has it, especially if it's the mother. 
- 
+- Genetics and family history. Children are more likely to have asthma if one of their parents has it, especially if it's the mother.
+
 - Race or ethnicity. Black and African Americans and Puerto Ricans are at higher risk of asthma than people of other races or ethnicities.
 
 - Having other diseases or conditions such as obesity and allergies
@@ -146,13 +108,3 @@ If your child has asthma, you will work with their health care provider to creat
 If your child has a severe attack and the short-term relief medicines do not work, get medical help right away.
 
 Your child's provider may adjust the treatment until the asthma symptoms are controlled.
-
-## Selected references
-- Air Pollution & Asthma [Children] — Nemours Foundation — https://kidshealth.org/en/kids/ozone-asthma.html
-- Air Pollution and Asthma [Related Issues, Children] — Nemours Foundation — https://kidshealth.org/en/parents/ozone-asthma.html
-- Air Pollution and Asthma [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/ozone-asthma.html
-- Asthma [Children] — Nemours Foundation — https://kidshealth.org/en/kids/asthma.html
-- Asthma [Start Here] — National Institute of Environmental Health Sciences — https://www.niehs.nih.gov/health/topics/conditions/asthma
-- Asthma [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/asthma.html
-- Asthma (Pediatric) Overview [Start Here] — National Jewish Health — https://www.nationaljewish.org/conditions/pediatric-asthma/overview?modal=1
-- Asthma - child - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000001.htm

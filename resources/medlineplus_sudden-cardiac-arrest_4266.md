@@ -1,43 +1,10 @@
 # Sudden Cardiac Arrest
 
-- Topic ID: 4266
-- Language: English
-- URL: https://medlineplus.gov/suddencardiacarrest.html
-- Date created: 12/08/2005
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- SCA
-- Sudden cardiac death
-
-## Groups
-- Blood, Heart and Circulation
-
-## MeSH
-- Heart Arrest
-
-## Related topics
-- Arrhythmia
-- CPR
-- Pacemakers and Implantable Defibrillators
-
-## See also
-- Automated External Defibrillators
-- Cardiac Arrest
-- SCA
-- Sudden Cardiac Death
-
-## Meta description
-In sudden cardiac arrest (SCA), an irregular heart rhythm causes the heart to stop beating. Without quick treatment, it causes sudden cardiac death. Find out more.
-
-## Summary
-What is sudden cardiac arrest (SCA)? 
+What is sudden cardiac arrest (SCA)?
 Sudden cardiac arrest (SCA) is a condition in which the heart suddenly stops beating. When that happens, blood stops flowing to the brain and other vital organs. If it is not treated, SCA usually causes death within minutes. But quick treatment with a defibrillator may be lifesaving.
 
 How is sudden cardiac arrest (SCA) different from a heart attack?
 A heart attack is different from an SCA. A heart attack happens when blood flow to the heart is blocked. During a heart attack, the heart usually doesn't suddenly stop beating. With an SCA, the heart stops beating.
-
- 
 
 Sometimes an SCA can happen after or during recovery from a heart attack.
 
@@ -51,16 +18,14 @@ Certain diseases and conditions can cause the electrical problems that lead to S
 - Coronary artery disease (CAD), also called ischemic heart disease. CAD happens when the arteries of the heart cannot deliver enough oxygen-rich blood to the heart. It is often caused by the buildup of plaque, a waxy substance, inside the lining of larger coronary arteries. The plaque blocks some or all of the blood flow to the heart.
 
 - Some types of physical stress can cause your heart's electrical system to fail, such as
-	
-	- Intense physical activity in which your body releases the hormone adrenaline. This hormone can trigger SCA in people who have heart problems.
 
-	- Very low blood levels of potassium or magnesium. These minerals play an important role in your heart's electrical system.
+- Intense physical activity in which your body releases the hormone adrenaline. This hormone can trigger SCA in people who have heart problems.
 
-	- Major blood loss
+- Very low blood levels of potassium or magnesium. These minerals play an important role in your heart's electrical system.
 
-	- Severe lack of oxygen
+- Major blood loss
 
-	
+- Severe lack of oxygen
 
 - Certain inherited disorders which can cause arrhythmias or problems with the structure of your heart
 
@@ -97,15 +62,13 @@ SCA happens without warning and requires emergency treatment. Health care provid
 
 If you are at high risk for SCA, your provider may refer you to a cardiologist, a doctor who specializes in heart diseases. The cardiologist may ask you to get various heart health tests to see how well you heart is working. He or she will work with you to decide whether you need treatment to prevent SCA.
 
-What are the treatments for sudden cardiac arrest (SCA)? 
+What are the treatments for sudden cardiac arrest (SCA)?
 SCA is an emergency. A person having SCA needs to be treated with a defibrillator right away. A defibrillator is a device sends an electric shock to the heart. The electric shock can restore a normal rhythm to a heart that's stopped beating. To work well, it needs to be done within minutes of the SCA.
 
 Most police officers, emergency medical technicians, and other first responders are trained and equipped to use a defibrillator. Call 9-1-1 right away if someone has signs or symptoms of SCA. The sooner you call for help, the sooner lifesaving treatment can begin.
 
-What should I do if I think that someone has had an SCA? 
+What should I do if I think that someone has had an SCA?
 Many public places such as schools, businesses, and airports have automated external defibrillators (AEDs). AEDs are special defibrillators that untrained people can use if they think that someone has had SCA. AEDS are programmed to give an electric shock if they detect a dangerous arrhythmia. This prevents giving a shock to someone who may have fainted but isn't having SCA.
-
- 
 
 If you see someone who you think has had SCA, you should give cardiopulmonary resuscitation (CPR) until defibrillation can be done.
 
@@ -114,23 +77,9 @@ People who are at risk for SCA may want to consider having an AED at home. Ask y
 What are the treatments after surviving sudden cardiac arrest (SCA)?
 If you survive SCA, you'll likely be admitted to a hospital for ongoing care and treatment. In the hospital, your medical team will closely watch your heart. They may give you medicines to try to reduce the risk of another SCA.
 
- 
-
 They will also try to find out what caused your SCA. If you're diagnosed with coronary artery disease, you may have an angioplasty or coronary artery bypass surgery. These procedures help restore blood flow through narrowed or blocked coronary arteries.
 
 Often, people who have had SCA get a device called an implantable cardioverter defibrillator (ICD). This small device is surgically placed under the skin in your chest or abdomen. An ICD uses electric pulses or shocks to help control dangerous arrhythmias.
 
 Can sudden cardiac arrest (SCA) be prevented?
 You may be able to lower your risk of SCA by following a heart-healthy lifestyle. If you have coronary artery disease or another heart disease, treating that disease can also lower your risk of SCA. If you have had an SCA, getting an implantable cardioverter defibrillator (ICD) can lower your chance of having another SCA.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- Automated External Defibrillators: Do You Need an AED? [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/in-depth/automated-external-defibrillators/art-20043909?p=1
-- Cardiac arrest [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007640.htm
-- Cardiac Arrest (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/cardiac-arrest.html
-- CPR: MedlinePlus Health Topic [Treatments and Therapies] — National Library of Medicine — https://medlineplus.gov/cpr.html
-- Sudden Cardiac Arrest [Start Here] — Texas Heart Institute — https://www.texasheart.org/heart-health/heart-information-center/topics/sudden-cardiac-arrest/
-- Sudden Death in Young People: Heart Problems Often Blamed [Teenagers] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/sudden-cardiac-arrest/in-depth/sudden-death/art-20047571?p=1
-- Treatment of Cardiac Arrest [Treatments and Therapies] — American Heart Association — https://www.heart.org/en/health-topics/cardiac-arrest/emergency-treatment-of-cardiac-arrest
-- What Are Defibrillators? [Treatments and Therapies] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/defibrillators

@@ -1,30 +1,5 @@
 # Cataract
 
-- Topic ID: 116
-- Language: English
-- URL: https://medlineplus.gov/cataract.html
-- Date created: 11/20/1998
-- Primary institute: National Eye Institute
-
-## Groups
-- Older Adults
-- Eyes and Vision
-
-## MeSH
-- Cataract
-
-## Related topics
-- Eye Diseases
-- Vision Impairment and Blindness
-
-## See also
-- Artificial Lens
-- Intraocular Lens
-
-## Meta description
-A cataract is a clouding of the lens in your eye. It affects your vision. Cataracts are very common in older people. Learn about symptoms and surgery.
-
-## Summary
 What are cataracts?
 A cataract is a clouding of the clear lens inside your eye. This cloudiness blocks light from reaching the back of the eye, making it harder to see clearly. A cataract can affect one or both eyes, but it doesn't spread from one eye to the other.
 
@@ -32,12 +7,8 @@ Cataracts usually develop slowly. As they get worse, your vision can become blur
 
 Without treatment, cataracts can cause severe or even permanent loss of vision.
 
- 
-
 What causes cataracts?
 Most cataracts develop as part of the normal aging process. This happens when the protein in the lens of your eye clumps together. Over time, these protein clumps grow larger and thicker, making it harder to see. The lens may turn yellow or brown, which can affect how you see colors.
-
- 
 
 Cataracts can also develop after an eye injury or surgery for another eye condition, like glaucoma.
 
@@ -66,7 +37,7 @@ You may not notice cataracts at first because they usually develop slowly. That'
 - Colors that seem faded
 
 - Glare from headlights, lamps, or sunlight that seems too bright
- 
+
 - Halos around lights
 
 - Not being able to see well at night
@@ -88,22 +59,8 @@ Surgery is the only way to remove a cataract. At first, you may be able to impro
 Can cataracts be prevented?
 If you're worried that you're at risk for cataracts, talk to your provider to see if there's anything you can do to lower your risk. A few ways to protect your eyes include:
 
- 
-
 - Wear sunglasses and a wide-brimmed hat to block ultraviolet (UV) sunlight and help delay cataracts.
 
 - Protect your eyes from injury when using power tools or playing certain sports.
 
 - Eat a healthy diet with plenty of fruits, vegetables, leafy greens, nuts, and whole grains.
-
-NIH: National Eye Institute
-
-## Selected references
-- After Cataract Surgery: Long-Term Eye Care [Treatments and Therapies] — Department of Veterans Affairs — https://www.veteranshealthlibrary.va.gov/Encyclopedia/3,83530
-- Cataract [Children] — American Association for Pediatric Ophthalmology and Strabismus — https://www.aapos.org/glossary/cataract
-- Cataract [Videos and Tutorials, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/anatomyvideos/000024.htm
-- Cataract - adult [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001001.htm
-- Cataract removal [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002957.htm
-- Cataract surgery - series -- Normal anatomy [Treatments and Therapies, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100079_1.htm
-- Cataract Surgery: Risks, Recovery, Costs [Treatments and Therapies] — American Academy of Ophthalmology — https://www.aao.org/eye-health/diseases/what-is-cataract-surgery
-- Cataracts [Start Here] — National Eye Institute — https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts

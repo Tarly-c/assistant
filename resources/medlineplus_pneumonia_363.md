@@ -1,44 +1,11 @@
 # Pneumonia
 
-- Topic ID: 363
-- Language: English
-- URL: https://medlineplus.gov/pneumonia.html
-- Date created: 08/26/1999
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Bronchopneumonia
-
-## Groups
-- Infections
-- Lungs and Breathing
-
-## MeSH
-- Pneumonia
-
-## Related topics
-- COVID-19 (Coronavirus Disease 2019)
-- Haemophilus Infections
-- Legionnaires' Disease
-- Lung Diseases
-- Pneumococcal Infections
-- Pneumocystis Infections
-
-## See also
-- Bronchopneumonia
-- Walking Pneumonia
-
-## Meta description
-Pneumonia is an infection in one or both of the lungs. Symptoms of pneumonia vary to mild to severe. Read about the signs of pneumonia.
-
-## Summary
-What is pneumonia? 
+What is pneumonia?
 Pneumonia is an infection in one or both of the lungs. It causes the air sacs of the lungs to fill up with fluid or pus. It can range from mild to severe, depending on the type of germ causing the infection, your age, and your overall health.
 
 What causes pneumonia?
 Bacterial, viral, and fungal infections can cause pneumonia.
 
- 
 Bacteria are the most common cause. Bacterial pneumonia can occur on its own. It can also develop after you've had certain viral infections such as a cold or the flu. Several different types of bacteria can cause pneumonia, including:
 
 - Streptococcus pneumoniae
@@ -62,7 +29,7 @@ Viruses that infect the respiratory tract may cause pneumonia. Viral pneumonia i
 Fungal pneumonia is more common in people who have chronic health problems or weakened immune systems. Some of the types include:
 
 - Pneumocystis pneumonia (PCP)
- 
+
 - Coccidioidomycosis, which causes valley fever
 
 - Histoplasmosis
@@ -132,21 +99,19 @@ Your health care provider may use many tools to make a diagnosis:
 - A physical exam, including listening to your lungs with a stethoscope
 
 - Various tests, such as
- 
- - A chest x-ray
 
- - Blood tests such as a complete blood count (CBC) to see if your immune system is actively fighting an infection
+- A chest x-ray
 
- - A Blood culture to find out whether you have a bacterial infection that has spread to your bloodstream
+- Blood tests such as a complete blood count (CBC) to see if your immune system is actively fighting an infection
 
- 
+- A Blood culture to find out whether you have a bacterial infection that has spread to your bloodstream
 
 If you are in the hospital, have serious symptoms, are older, or have other health problems, you may also have more tests, such as:
 
 - Sputum test, which checks for bacteria in a sample of your sputum (spit) or phlegm (slimy substance from deep in your lungs).
 
 - Chest CT scan to see how much of your lungs is affected. It may also show if you have complications such as lung abscesses or pleural effusions.
- 
+
 - Pleural fluid culture, which checks for bacteria in a fluid sample that was taken from the pleural space
 
 - Pulse oximetry or blood oxygen level test, to check how much oxygen is in your blood
@@ -168,15 +133,3 @@ It may take time to recover from pneumonia. Some people feel better within a wee
 
 Can pneumonia be prevented?
 Vaccines can help prevent pneumonia caused by pneumococcal bacteria or the flu virus. Having good hygiene, not smoking, and having a healthy lifestyle may also help prevent pneumonia.
-
-NIH: National Heart, Lung, and Blood Institute
-
-## Selected references
-- About Adenovirus [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/adenovirus/about/
-- About Mycoplasma pneumoniae Infection [Specifics] — Centers for Disease Control and Prevention — https://www.cdc.gov/mycoplasma/about/
-- Aspiration pneumonia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000121.htm
-- Atypical pneumonia [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000079.htm
-- Chest CT [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003788.htm
-- Chest x-ray [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003804.htm
-- Chest X-Ray (Radiography) [Diagnosis and Tests] — Radiological Society of North America, American College of Radiology — https://www.radiologyinfo.org/en/info/chestrad
-- Chlamydia Pneumoniae Infections [Children] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Chlamydia-pneumoniae-Infections.aspx

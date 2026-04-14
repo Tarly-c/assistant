@@ -1,43 +1,5 @@
 # Skin Conditions
 
-- Topic ID: 40
-- Language: English
-- URL: https://medlineplus.gov/skinconditions.html
-- Date created: 10/07/1999
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Also called
-- Cutaneous disorders
-- Dermatologic disorders
-
-## Groups
-- Skin, Hair and Nails
-
-## MeSH
-- Skin Diseases
-
-## Related topics
-- Blisters
-- Dandruff, Cradle Cap, and Other Scalp Conditions
-- Eczema
-- Impetigo
-- Itching
-- Psoriasis
-- Rashes
-- Scleroderma
-- Skin Aging
-- Skin Cancer
-- Skin Infections
-- Skin Pigmentation Disorders
-
-## See also
-- Cutaneous Disorders
-- Dermatologic Conditions
-
-## Meta description
-Your skin is your body's largest organ. It covers and protects your body. Learn about skin conditions, including causes, symptoms, and treatment.
-
-## Summary
 What does your skin do?
 Your skin is your body's largest organ. It covers the entire outside of your body. There are many ways that your skin protects your body and helps keep you healthy. For example, it:
 
@@ -92,15 +54,3 @@ Since your skin protects your body in many ways, it's important to try to keep y
 - When you take a shower or bath, use warm (not hot) water. Use mild cleansers and wash gently (don't scrub).
 
 - Use moisturizers, like lotions, creams, or ointments, to prevent dry skin.
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- Actinic keratosis [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000827.htm
-- Blue discoloration of the skin [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003215.htm
-- Cellulite [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/cellulite.html
-- Cellulite [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002033.htm
-- Common Skin Conditions during Pregnancy [Women] — American Academy of Family Physicians — https://familydoctor.org/common-skin-conditions-during-pregnancy/
-- Components of skin [Videos and Tutorials, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/anatomyvideos/000029.htm
-- Cryosurgery [Treatments and Therapies] — VisualDX — https://skinsight.com/skin-conditions/cryosurgery/?Imiw9cApl=1
-- Cryotherapy for the skin [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007506.htm

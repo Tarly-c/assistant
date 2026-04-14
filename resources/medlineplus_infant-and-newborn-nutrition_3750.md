@@ -1,38 +1,9 @@
 # Infant and Newborn Nutrition
 
-- Topic ID: 3750
-- Language: English
-- URL: https://medlineplus.gov/infantandnewbornnutrition.html
-- Date created: 02/12/2004
-- Primary institute: Eunice Kennedy Shriver National Institute of Child Health and Human Development
-
-## Groups
-- Children and Teenagers
-- Food and Nutrition
-
-## MeSH
-- Infant Nutrition Disorders
-- Infant Food
-- Infant Nutritional Physiological Phenomena
-- Infant Formula
-
-## Related topics
-- Breastfeeding
-- Child Nutrition
-- Food Allergy
-- Infant and Newborn Care
-- Toddler Nutrition
-
-## Meta description
-From breastfeeding to solid foods, infant and newborn nutrition provides babies with nutrients needed to grow. Read about how to identify allergies.
-
-## Summary
-Food provides the energy and nutrients that babies need to be healthy. For a 
+Food provides the energy and nutrients that babies need to be healthy. For a
 baby, breast milk is best. It has all the necessary vitamins and minerals. Infant formulas are available for babies whose mothers are not able to or decide not to breastfeed.
 
 Infants are usually ready to eat solid foods at about 6 months of age. Check with your health care provider for the best time for your baby to start. If you introduce one new food at a time, you will be able to identify any foods that cause allergies in your baby. Allergic reactions include a a rash, diarrhea, or vomiting.
-
- 
 
 Many parents are concerned about peanut allergies. When babies can eat foods that contain peanuts depends on their risk of food allergies:
 
@@ -53,13 +24,3 @@ There are some foods that you should avoid feeding your baby:
 - Certain foods that can cause choking, such as hard candy, popcorn, whole nuts, and grapes (unless they are cut into small pieces). Don't give your child these foods before age 3.
 
 - Because it contains a lot of sugar, babies should not drink juice before age 1
-
-## Selected references
-- Breastfeeding vs. formula feeding [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000803.htm
-- Colostrum: Your Baby's First Meal [Specifics] — American Academy of Pediatrics — https://www.healthychildren.org/English/ages-stages/baby/breastfeeding/pages/Colostrum-Your-Babys-First-Meal.aspx
-- Cow's milk - infants [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002448.htm
-- Cronobacter Sakazakii [Specifics] — Food and Drug Administration — https://www.fda.gov/food/foodborne-pathogens/cronobacter-sakazakii
-- FDA Investigation of Cronobacter Infections: Powdered Infant Formula (February 2022) [Specifics] — Food and Drug Administration — https://www.fda.gov/food/outbreaks-foodborne-illness/fda-investigation-cronobacter-infections-powdered-infant-formula-february-2022
-- Feeding patterns and diet - babies and infants [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000712.htm
-- Feeding patterns and diet - children 6 months to 2 years [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000713.htm
-- Feeding Your Newborn [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/feednewborn.html

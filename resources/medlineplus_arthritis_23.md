@@ -1,46 +1,19 @@
 # Arthritis
 
-- Topic ID: 23
-- Language: English
-- URL: https://medlineplus.gov/arthritis.html
-- Date created: 10/22/1998
-- Primary institute: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Groups
-- Bones, Joints and Muscles
-
-## MeSH
-- Arthritis
-
-## Related topics
-- Gout
-- Infectious Arthritis
-- Juvenile Arthritis
-- Osteoarthritis
-- Psoriatic Arthritis
-- Rheumatoid Arthritis
-
-## Meta description
-Arthritis can cause pain, swelling and stiffness in and around the joints. Learn about the different types of Arthritis and how they can affect you.
-
-## Summary
 What is arthritis?
 If you feel pain and stiffness in your body or have trouble moving around, you might have arthritis. Any disorder that affects the joints is often called arthritis. Joints are places where two bones meet, such as your elbow or knee.
 
- 
 Most types of arthritis can cause joint pain and inflammation (swelling). Over time, a swollen joint can become severely damaged. Some kinds of arthritis can also cause problems in your organs, such as your eyes or skin. Treatment will depend on the type of arthritis you have.
-
- 
 
 What are the types of arthritis?
 Common types of arthritis include:
 
 - Osteoarthritis is the most common type of arthritis. It's often related to aging or injury.
- 
+
 - Autoimmune arthritis happens when your body's immune system attacks healthy cells in your body by mistake. Rheumatoid arthritis is the most common form of this type of arthritis.
- 
+
 - Juvenile arthritis is a type of arthritis that happens in children.
- 
+
 - Infectious arthritis is an infection that has spread from another part of your body to the joint. Reactive arthritis is one type.
 
 - Psoriatic arthritis affects people with psoriasis (itchy or sore scaly red and white skin patches).
@@ -54,8 +27,6 @@ Pain, redness, warmth, and joint inflammation are common arthritis symptoms. You
 
 Symptoms often get worse as you age. Some symptoms of arthritis may be signs of other illnesses.
 
- 
-
 Who is more likely to get arthritis?
 A few things that might increase your chance of getting arthritis include:
 
@@ -67,7 +38,6 @@ A few things that might increase your chance of getting arthritis include:
 
 Other factors that might increase your risk of getting arthritis include having a previous joint injury, obesity, or lupus.
 
- 
 How is arthritis diagnosed?
 To find out if you have arthritis, your health care provider may:
 
@@ -82,8 +52,6 @@ Your provider may refer you to a rheumatologist (a doctor who specializes in art
 What are the treatments for arthritis?
 Treatment depends on the type of arthritis you have. It may include medicine or surgery. Your provider will work with you to improve your symptoms and quality of life.
 
- 
-
 A few ways to help manage your symptoms include:
 
 - Hot or cold packs
@@ -91,15 +59,3 @@ A few ways to help manage your symptoms include:
 - Relaxation techniques
 
 - Use of splints, braces, and/or assistive devices
-
-NIH: National Institute of Arthritis and Musculoskeletal and Skin Diseases
-
-## Selected references
-- Adult Still disease [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000450.htm
-- Adult Still's Disease [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/adult-stills-disease/symptoms-causes/syc-20351907?p=1
-- Anterior knee pain [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000452.htm
-- Arthritis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001243.htm
-- Arthritis [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/arthritis/symptoms-causes/syc-20350772?p=1
-- Arthritis and Rheumatic Diseases [Start Here] — National Institute of Arthritis and Musculoskeletal and Skin Diseases — https://www.niams.nih.gov/health-topics/arthritis-and-rheumatic-diseases
-- Arthritis Basics [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/arthritis/basics/
-- Arthritis of the Hand [Specifics] — American Academy of Orthopaedic Surgeons — https://orthoinfo.aaos.org/en/diseases--conditions/arthritis-of-the-hand/

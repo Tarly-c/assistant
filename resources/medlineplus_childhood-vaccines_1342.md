@@ -1,47 +1,5 @@
 # Childhood Vaccines
 
-- Topic ID: 1342
-- Language: English
-- URL: https://medlineplus.gov/childhoodvaccines.html
-- Date created: 08/28/2000
-
-## Also called
-- Shots
-
-## Groups
-- Children and Teenagers
-- Infections
-- Immune System
-
-## MeSH
-- Immunization
-
-## Related topics
-- Chickenpox
-- COVID-19 Vaccines
-- Diphtheria
-- Flu Shot
-- Haemophilus Infections
-- Hepatitis A
-- Hepatitis B
-- Measles
-- Mumps
-- Polio and Post-Polio Syndrome
-- Rotavirus Infections
-- Tetanus
-- Tetanus, Diphtheria, and Pertussis Vaccines
-- Vaccine Safety
-- Vaccines
-- Whooping Cough
-
-## See also
-- Immunization, Childhood
-- Vaccination
-
-## Meta description
-Childhood vaccines, or immunizations, protect your children from many serious or even deadly diseases. Learn why and when you should vaccinate your children.
-
-## Summary
 What are vaccines?
 Vaccines are injections (shots), liquids, pills, or nasal sprays that you take to teach the immune system to recognize and defend against harmful germs. The germs could be viruses or bacteria.
 
@@ -52,9 +10,7 @@ These different vaccine types all spark an immune response, which helps the body
 Why do I need to vaccinate my child?
 Babies are born with immune systems that can fight most germs, but there are some serious diseases they can't handle. That's why they need vaccines to strengthen their immune system.
 
-These diseases once killed or harmed many infants, children, and adults. But now with vaccines, your child can get immunity from these diseases without having to get sick. And for a few vaccines, getting vaccinated can actually give you a better immune response than getting the disease would. 
-
- 
+These diseases once killed or harmed many infants, children, and adults. But now with vaccines, your child can get immunity from these diseases without having to get sick. And for a few vaccines, getting vaccinated can actually give you a better immune response than getting the disease would.
 
 Vaccinating your child also protects others. Normally, germs can travel quickly through a community and make a lot of people sick. If enough people get sick, it can lead to an outbreak. But when enough people are vaccinated against a certain disease, it's harder for that disease to spread to others. The entire community is less likely to get the disease. This is called "community immunity."
 
@@ -72,13 +28,3 @@ When do I need to vaccinate my child?
 Your child will get vaccines during well-child visits. They will be given according to the vaccine schedule. This schedule lists which vaccines are recommended for children. It includes who should get the vaccines, how many doses they need, and at what age they should get them. In the United States, the Centers for Disease Control and Prevention (CDC) publishes the vaccine schedule.
 
 Following the vaccine schedule allows your child to get protection from the diseases at exactly the right time. It gives their body the chance to build up immunity before being exposed to these very serious diseases.
-
-## Selected references
-- Booster Shots [Specifics] — Nemours Foundation — https://kidshealth.org/en/parents/booster-shots.html
-- Childhood Vaccines: What They Are and Why Your Child Needs Them [Start Here] — American Academy of Family Physicians — https://familydoctor.org/childhood-vaccines-what-they-are-and-why-your-child-needs-them/
-- Common Questions about Vaccines [Start Here] — Nemours Foundation — https://kidshealth.org/en/parents/fact-myth-immunizations.html
-- Explaining How Vaccines Work [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/vaccines/hcp/conversations/understanding-vacc-work.html
-- Immunizations for Preterm Babies [Specifics] — American Academy of Pediatrics — https://www.healthychildren.org/English/safety-prevention/immunizations/pages/Immunizations-For-Preterm-Babies.aspx
-- Kid's Guide to Shots [Children] — Nemours Foundation — https://kidshealth.org/en/kids/guide-shots.html
-- Vaccination Is the Best Protection against Measles [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/vaccination-best-protection-against-measles
-- Vaccinations for Preteens and Teens [Teenagers] — Immunization Action Coalition — https://www.immunize.org/wp-content/uploads/catg.d/p4020.pdf

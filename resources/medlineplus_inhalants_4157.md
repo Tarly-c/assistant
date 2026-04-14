@@ -1,28 +1,6 @@
 # Inhalants
 
-- Topic ID: 4157
-- Language: English
-- URL: https://medlineplus.gov/inhalants.html
-- Date created: 04/11/2005
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Huffing
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Inhalant Abuse
-
-## See also
-- Huffing
-
-## Meta description
-Inhalants are substances that people, usually teens, inhale (breathe in) to get high. Inhalants that are misused include cleaners, gases, and aerosols.
-
-## Summary
-What are inhalants? 
+What are inhalants?
 Inhalants are substances that people inhale (breathe in) to get high. There are other substances that people might inhale, such as alcohol. But those are not called inhalants, because they can also be used another way. Inhalants are the substances that you can misuse only by inhaling them.
 
 Using inhalants to try to get high, even once, can be very harmful to your brain and body. It can even lead to death.
@@ -83,32 +61,28 @@ What are the health effects of using inhalants?
 Most inhalants affect your central nervous system and slow down brain activity. Inhalants can cause both short-term and long-term health effects:
 
 - Short-term health effects include:
- 
- - Slurred or distorted speech
 
- - Lack of body control
+- Slurred or distorted speech
 
- - Euphoria (feeling "high")
- 
- - Dizziness
+- Lack of body control
 
- - Hallucinations (seeing or hearing things that aren't real)
+- Euphoria (feeling "high")
 
- 
+- Dizziness
+
+- Hallucinations (seeing or hearing things that aren't real)
 
 - Long-term health effects may include:
- 
- - Liver and kidney damage
 
- - Loss of coordination
+- Liver and kidney damage
 
- - Spasms in your arms and legs
+- Loss of coordination
 
- - Delayed behavioral development
+- Spasms in your arms and legs
 
- - Brain damage
+- Delayed behavioral development
 
- 
+- Brain damage
 
 Using inhalants, even once, could lead to an overdose. This can cause you to have seizures or your heart to stop. It can also be deadly.
 
@@ -119,11 +93,3 @@ Behavioral therapy may help people who are addicted to inhalants.
 
 Can inhalant misuse be prevented?
 Kids and teens who use inhalants to get high are more likely to try other drugs and to have a substance use disorder (SUD) later in life. So it's important to try to prevent inhalant abuse. One thing that parents can do is talk to their children about inhalants. They can explain the dangers and give their children tips on how to deal with peer pressure if someone asks them to try inhalants.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- Drug Use Screening Tests [Learn More] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-use-screening-tests/
-- Ingesting or Inhaling Nitrite "Poppers" Can Cause Severe Injury or Death [Learn More] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/ingesting-or-inhaling-nitrite-poppers-can-cause-severe-injury-or-death
-- Inhalants [Learn More] — American Academy of Pediatrics — https://www.healthychildren.org/English/ages-stages/teen/substance-abuse/Pages/Inhalants.aspx
-- Substance use -- inhalants [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000794.htm

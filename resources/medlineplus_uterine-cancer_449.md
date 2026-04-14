@@ -1,44 +1,12 @@
 # Uterine Cancer
 
-- Topic ID: 449
-- Language: English
-- URL: https://medlineplus.gov/uterinecancer.html
-- Date created: 03/26/1999
-- Primary institute: National Cancer Institute
-
-## Also called
-- Endometrial cancer
-
-## Groups
-- Cancers
-- Women
-- Female Reproductive System
-
-## MeSH
-- Uterine Neoplasms
-
-## Related topics
-- Cervical Cancer
-- Hysterectomy
-- Uterine Diseases
-- Women's Health Checkup
-
-## See also
-- Endometrial Cancer
-
-## Meta description
-Uterine cancer is a cancer that forms in tissues of the uterus. It is more likely to happen after menopause. There are things you can do that may help lower your risk.
-
-## Summary
 What is uterine cancer?
 Uterine cancer is a cancer that forms in tissues of the uterus, which is sometimes called the womb. The uterus is the place where a fetus grows during pregnancy.
-
- 
 
 There are two types of uterine cancer:
 
 - Endometrial cancer is the most common type. This type of cancer begins in the cells lining the uterus, known as the endometrium.
- 
+
 - Uterine sarcoma is a rare, more aggressive cancer that is harder to treat. This type of cancer begins in muscle or other tissues in the uterus.
 
 Who is more likely to develop uterine cancer?
@@ -48,17 +16,16 @@ Other factors and conditions that may increase your risk for:
 
 Endometrial cancer
 
- 
 - Taking estrogen-only hormone replacement therapy (HRT) after menopause.
- 
+
 - Having type 2 diabetes.
- 
+
 - Starting menstruation at an early age or menopause at a later age.
 
 - Having never been pregnant.
 
 - Taking tamoxifen, a medicine used to prevent or treat breast cancer.
- 
+
 - Having polycystic ovary syndrome.
 
 - Having a mother, sister, or daughter who has had endometrial cancer.
@@ -72,14 +39,11 @@ Uterine sarcoma
 - Having had past treatment with radiation therapy to the pelvis.
 
 - Taking tamoxifen, a medicine used to prevent or treat breast cancer.
- 
 
 What are the symptoms of uterine cancer?
 The most common symptom of both endometrial cancer and uterine sarcoma is abnormal vaginal bleeding. Both types of uterine cancer may also cause pelvic pain or pressure, unusual vaginal discharge, or an enlarged uterus or pelvic mass.
 
 Less common symptoms may include urinating (peeing) often, having trouble urinating, or pain during sexual intercourse.
-
- 
 
 How is uterine cancer diagnosed?
 If you have symptoms of uterine cancer, your health care provider may:
@@ -91,12 +55,9 @@ If you have symptoms of uterine cancer, your health care provider may:
 - Order imaging tests.
 
 - Suggest a biopsy or a minor procedure called dilation and curettage (D & C) to check the lining of your uterus.
- 
 
 What are the treatments for uterine cancer?
 Treatment may depend on your health, how much cancer you have, and whether it has spread. The most common treatment is having a hysterectomy, which is surgery to remove the uterus. Sometimes the surgery also removes the ovaries and fallopian tubes.
-
- 
 
 You may have more than one type of treatment. Other treatments may include:
 
@@ -105,21 +66,6 @@ You may have more than one type of treatment. Other treatments may include:
 - Radiation therapy
 
 - Chemotherapy
- 
 
 Can uterine cancer be prevented?
 There is no sure way to prevent uterine cancer. But you can do things that may help lower your risk such as aiming for a healthy weight, getting regular physical activity, and talking to your provider about the benefits and risks of hormone therapy.
-
- 
-
-NIH: National Cancer Institute
-
-## Selected references
-- Abdominal radiation - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000054.htm
-- Choriocarcinoma [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001496.htm
-- D and C [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002914.htm
-- D and C - series [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100013_1.htm
-- Dilation and Curettage (D&C) [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/tests-procedures/dilation-and-curettage/about/pac-20384910?p=1
-- Drugs Approved for Endometrial Cancer [Treatments and Therapies] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/drugs/endometrial
-- Endometrial biopsy [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003917.htm
-- Endometrial Cancer [Start Here] — American College of Obstetricians and Gynecologists — https://www.acog.org/womens-health/faqs/endometrial-cancer

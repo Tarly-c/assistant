@@ -1,36 +1,10 @@
 # Opioid Overdose
 
-- Topic ID: 7109
-- Language: English
-- URL: https://medlineplus.gov/opioidoverdose.html
-- Date created: 08/27/2018
-- Primary institute: National Institute on Drug Abuse
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Opioid-Related Disorders
-- Drug Overdose
-- Opiate Overdose
-
-## Related topics
-- Opioid Use Disorder (OUD) Treatment
-- Opioids and Opioid Use Disorder (OUD)
-- Prescription Drug Misuse
-- Safe Opioid Use
-
-## Meta description
-Opioid overdose leads to slowing or stopping of breathing and sometimes death. You can take steps to help prevent an overdose, and respond to one with naloxone.
-
-## Summary
 What are opioids?
 Opioids, sometimes called narcotics, are a type of drug. They include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol. The illegal drug heroin is also an opioid.
 
- 
 A health care provider may give you a prescription opioid to reduce pain after you have had a major injury or surgery. You may get them if you have severe pain from health conditions like cancer. Some providers prescribe them for chronic pain.
 
- 
 Prescription opioids used for pain relief are generally safe when taken for a short time and as prescribed by your provider. However, people who take opioids are at risk for opioid use disorder (OUD) and overdose. These risks increase when these medicines are misused. Misuse can include taking more than your prescribed dose or taking it more often, using it to get high, or taking someone else's opioids.
 
 What is an opioid overdose?
@@ -49,7 +23,6 @@ An opioid overdose can happen for a variety of reasons, including if you:
 
 There is also a risk of overdose if you are getting medications for opioid use disorder (MOUD). MOUD is a treatment for OUD. Many of the medicines used for MOUD are also controlled substances that can be misused.
 
- 
 Who is at risk of an opioid overdose?
 Anyone who takes an opioid can be at risk of an overdose, but you are at higher risk if you:
 
@@ -111,13 +84,3 @@ If you are taking opioid pain medicine, there are steps you can take to help pre
 - Dispose of unused medicine promptly.
 
 It is also important to teach your family and friends how to respond to an overdose. If you are at higher risk of an overdose, you will want get naloxone and carry it with you wherever you go. You can buy naloxone at a pharmacy.
-
-## Selected references
-- Access to Naloxone Can Save a Life during an Opioid Overdose [Treatments and Therapies] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/access-naloxone-can-save-life-during-opioid-overdose
-- Acetaminophen and codeine overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002562.htm
-- Codeine overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002613.htm
-- Heroin overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002861.htm
-- Hydrocodone and acetaminophen overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002670.htm
-- Hydrocodone/oxycodone overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/007285.htm
-- Hydromorphone overdose [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/002633.htm
-- Medications for Opioid Overdose, Withdrawal, and Addiction [Treatments and Therapies] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/opioids/medications-opioid-overdose-withdrawal-addiction-infographic

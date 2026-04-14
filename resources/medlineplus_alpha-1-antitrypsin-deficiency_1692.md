@@ -1,30 +1,5 @@
 # Alpha-1 Antitrypsin Deficiency
 
-- Topic ID: 1692
-- Language: English
-- URL: https://medlineplus.gov/alpha1antitrypsindeficiency.html
-- Date created: 06/14/2002
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- AATD
-- Alpha-1
-- Inherited emphysema
-
-## Groups
-- Lungs and Breathing
-- Genetics/Birth Defects
-
-## MeSH
-- alpha 1-Antitrypsin Deficiency
-
-## Related topics
-- COPD
-
-## Meta description
-Alpha-1 Antitrypsin Deficiency is an inherited condition that raises your risk for lung and liver disease. Learn about the symptoms and treatment.
-
-## Summary
 What is alpha-1 antitrypsin deficiency (AAT deficiency)?
 Alpha-1 antitrypsin deficiency (AAT deficiency, or AATD) is an inherited condition that raises your risk for lung and liver disease. If you have this condition, your body doesn't make enough alpha-1 antitrypsin (AAT).
 
@@ -33,7 +8,6 @@ AAT is made by your liver. It helps protect your lungs from inflammation and irr
 What causes alpha-1 antitrypsin deficiency (AAT deficiency)?
 AAT deficiency is a genetic disorder. That means it's caused by changes in your genes, which may also be called gene variants or mutations.
 
- 
 Your genes carry information that controls what you look like and how your body works. AAT deficiency is caused by changes in the SERPINA1 gene, which carries instructions for making the AAT protein. These gene changes are inherited from your parents, so AAT deficiency tends to run in families:
 
 - If you have two mutated copies of the gene, it means you have a condition called AAT deficiency. People with this disorder have a higher risk of getting lung disease or liver damage before the age of 45.
@@ -77,7 +51,7 @@ How is alpha-1 antitrypsin deficiency (AAT deficiency) diagnosed?
 Your health care provider may test you for AAT deficiency if you have:
 
 - Symptoms of AAT deficiency
- 
+
 - A condition that could be related to AAT deficiency
 
 - Relatives who have AAT deficiency
@@ -113,11 +87,3 @@ There is no cure for AAT deficiency, but there are treatments to help with the s
 - Liver transplant, if your liver is severely damaged.
 
 To help prevent or delay lung damage, it is important to quit smoking (if you smoke) and avoid secondhand smoke, dust, and air pollution. Ask your provider If you need to stop drinking alcohol.
-
-## Selected references
-- Alpha-1 antitrypsin blood test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003715.htm
-- Alpha-1 antitrypsin deficiency [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000120.htm
-- Alpha-1 Antitrypsin Deficiency [Start Here] — National Heart, Lung, and Blood Institute — https://www.nhlbi.nih.gov/health/alpha-1-antitrypsin-deficiency
-- Alpha-1 Antitrypsin Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/alpha-1-antitrypsin-testing/
-- Learn about Alpha-1 Antitrypsin Deficiency [Start Here] — American Lung Association — https://www.lung.org/lung-health-diseases/lung-disease-lookup/alpha-1-antitrypsin-deficiency/learn-about-alpha-1-antitrypsin-defiency
-- Learning about Alpha-1 Antitrypsin Deficiency (AATD) [Start Here] — National Human Genome Research Institute — https://www.genome.gov/Genetic-Disorders/Alpha-1-Antitrypsin-Deficiency

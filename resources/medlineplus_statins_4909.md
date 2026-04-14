@@ -1,29 +1,5 @@
 # Statins
 
-- Topic ID: 4909
-- Language: English
-- URL: https://medlineplus.gov/statins.html
-- Date created: 01/07/2009
-
-## Also called
-- HMG-CoA reductase inhibitors
-
-## Groups
-- Drug Therapy
-
-## MeSH
-- Hydroxymethylglutaryl-CoA Reductase Inhibitors
-
-## Related topics
-- Cholesterol
-- Cholesterol Medicines
-- HDL: The "Good" Cholesterol
-- LDL: The "Bad" Cholesterol
-
-## Meta description
-If diet and exercise don't reduce your cholesterol levels, you may need to take medicine. Often, this medicine is a statin. Learn more about statins.
-
-## Summary
 What is cholesterol?
 Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. Your body needs some cholesterol to work properly. But if you have too much of it in your blood, it can stick to the walls of your arteries and narrow or even block them. This puts you at risk for coronary artery disease and other heart diseases.
 
@@ -32,7 +8,6 @@ Cholesterol is made by your liver. It travels through the blood on proteins call
 What are statins?
 Statins are a type of cholesterol medicine. Your health care provider may prescribe them if you have high cholesterol and making lifestyle changes does not lower your cholesterol enough. Statins are the most common medicines used to treat high cholesterol.
 
- 
 How do statins lower cholesterol?
 Statins lower LDL cholesterol by slowing down how much cholesterol the liver makes. They also increase your liver's ability to remove LDL cholesterol that is already in the blood. This can slow the formation of plaques in your arteries. Studies have shown that statins lower the risk of heart attack and stroke in people with high LDL cholesterol.
 
@@ -53,9 +28,3 @@ To safely take statins, you should:
 - Ask your provider which other medicines, supplements, or foods you should avoid. Some of these can interact with statins and cause serious side effects or make statins less effective. For example, grapefruit (fresh or as juice) affects how your liver breaks down some statins.
 
 - Tell your provider about any symptoms or side effects you are having. Sometimes, people report muscle problems while taking statins. If you start having muscle pain, your provider may order a blood test to look look for muscle damage. The pain may go away if you switch to a different statin. Muscle damage with statins is rare, and your muscles may heal when you switch to a different medicine.
-
-## Selected references
-- Cholesterol - drug treatment [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000314.htm
-- How to take statins [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000748.htm
-- Pharmacogenetic Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/pharmacogenetic-tests/
-- Statins: Are These Cholesterol-Lowering Drugs Right for You? [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/statins/art-20045772?p=1

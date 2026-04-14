@@ -1,41 +1,5 @@
 # Blood Glucose
 
-- Topic ID: 6121
-- Language: English
-- URL: https://medlineplus.gov/bloodglucose.html
-- Date created: 04/08/2013
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Blood sugar
-
-## Groups
-- Endocrine System
-- Metabolic Problems
-- Diabetes Mellitus
-
-## MeSH
-- Blood Glucose
-
-## Related topics
-- A1C
-- Carbohydrates
-- Diabetes
-- Diabetes in Children and Teens
-- Diabetes Medicines
-- Diabetic Diet
-- Hyperglycemia
-- Hypoglycemia
-
-## See also
-- Blood Sugar
-- Continuous Glucose Monitoring
-- Glucose
-
-## Meta description
-Your body processes the food you eat into glucose. Your blood carries glucose (blood sugar) to all of your body's cells to use for energy. Learn more.
-
-## Summary
 What is blood glucose?
 Blood glucose, or blood sugar, is the main sugar found in your blood. It is your body's primary source of energy. It comes from the food you eat. Your body breaks down most of that food into glucose and releases it into your bloodstream. When your blood glucose goes up, it signals your pancreas to release insulin. Insulin is a hormone that helps the glucose get into your cells to be used for energy.
 
@@ -55,8 +19,6 @@ When and how should I check my blood glucose?
 If you have diabetes, you'll likely need to check your blood glucose every day to make sure that your blood glucose numbers are in your target range. Some people may need to check their blood glucose several times a day. Ask your health care team how often you need to check it.
 
 The most common way to check your blood glucose level at home is with a blood glucose meter. A blood glucose meter measures the amount of glucose in a small sample of blood, usually from your fingertip.
-
- 
 
 Continuous glucose monitoring (CGM) is another way to check your glucose levels. Most CGM systems use a tiny sensor that is inserted under your skin. The sensor measures your glucose level every few minutes. It can show changes in your glucose level throughout the day and night. A CGM system is especially useful for people who take insulin and have problems with low blood glucose.
 
@@ -99,15 +61,3 @@ Symptoms of low blood glucose tend to come on quickly. The symptoms can be diffe
 Low blood glucose levels can be common in people with type 1 diabetes and people with type 2 diabetes who take certain diabetes medicines. If you think you may have low blood glucose, check your level, even if you don't have symptoms. Low blood glucose can be dangerous and should be treated as soon as possible.
 
 Although it's rare, you can still get low blood glucose without having diabetes. The causes can include conditions such as liver disease, kidney disease, and hormone deficiencies (lack of certain hormones). Some medicines, such as certain heart medicines and antibiotics, can also cause it. See your provider to find out the cause of your low blood glucose and how to treat it.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- A1C test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003640.htm
-- A1C: MedlinePlus Health Topic [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/a1c.html
-- At-Home Medical Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/at-home-medical-tests/
-- Blood Glucose Record (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/glucose-record.html
-- Blood Glucose Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/blood-glucose-test/
-- Blood sugar test [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003482.htm
-- Blood Sugar Testing: Why, When and How [Start Here] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/blood-sugar/art-20046628?p=1
-- Blood Test: Glucose [Children] — Nemours Foundation — https://kidshealth.org/en/parents/test-glucose.html

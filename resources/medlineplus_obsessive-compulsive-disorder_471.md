@@ -1,28 +1,5 @@
 # Obsessive-Compulsive Disorder
 
-- Topic ID: 471
-- Language: English
-- URL: https://medlineplus.gov/obsessivecompulsivedisorder.html
-- Date created: 01/10/2000
-- Primary institute: National Institute of Mental Health
-
-## Also called
-- OCD
-
-## Groups
-- Mental Health and Behavior
-
-## MeSH
-- Obsessive-Compulsive Disorder
-
-## See also
-- Hoarding
-- OCD
-
-## Meta description
-People with obsessive-compulsive disorder (OCD) suffer from frequent, upsetting thoughts called obsessions. Read about the treatments available.
-
-## Summary
 What is obsessive-compulsive disorder (OCD)?
 Obsessive-compulsive disorder (OCD) is a mental disorder in which you have thoughts (obsessions) and rituals (compulsions) over and over. They interfere with your life, but you cannot control or stop them.
 
@@ -31,8 +8,6 @@ The cause of obsessive-compulsive disorder (OCD) is unknown. Factors such as gen
 
 Who is at risk for obsessive-compulsive disorder (OCD)?
 Obsessive-compulsive disorder (OCD) usually begins when you are a teen or young adult. Boys often develop OCD at a younger age than girls.
-
- 
 
 Risk factors for OCD include:
 
@@ -48,32 +23,28 @@ What are the symptoms of obsessive-compulsive disorder (OCD)?
 People with OCD may have symptoms of obsessions, compulsions, or both:
 
 - Obsessions are repeated thoughts, urges, or mental images that cause anxiety. They may involve things such as
- 
- - Fear of germs or contamination
 
- - Fear of losing or misplacing something
+- Fear of germs or contamination
 
- - Worries about harm coming towards yourself or others
+- Fear of losing or misplacing something
 
- - Unwanted forbidden thoughts involving sex or religion
+- Worries about harm coming towards yourself or others
 
- - Aggressive thoughts towards yourself or others
+- Unwanted forbidden thoughts involving sex or religion
 
- - Needing things lined up exactly or arranged in a particular, precise way
+- Aggressive thoughts towards yourself or others
 
- 
+- Needing things lined up exactly or arranged in a particular, precise way
 
 - Compulsions are behaviors that you feel like you need to do over and over to try to reduce your anxiety or stop the obsessive thoughts. Some common compulsions include
- 
- - Excessive cleaning and/or handwashing
 
- - Repeatedly checking on things, such as whether the door is locked or the oven is off
+- Excessive cleaning and/or handwashing
 
- - Compulsive counting
+- Repeatedly checking on things, such as whether the door is locked or the oven is off
 
- - Ordering and arranging things in a particular, precise way
+- Compulsive counting
 
- 
+- Ordering and arranging things in a particular, precise way
 
 Some people with OCD also have Tourette syndrome or another tic disorder. Tics are sudden twitches, movements, or sounds that people do over and over. People who have tics cannot stop their body from doing these things.
 
@@ -82,7 +53,6 @@ The first step is to talk with your health care provider about your symptoms. It
 
 Obsessive-compulsive disorder (OCD) can sometimes be hard to diagnose. Its symptoms are like those of other mental disorders, such as anxiety disorders. It is also possible to have both OCD and another mental disorder.
 
- 
 Not everyone who has obsessions or compulsions has OCD. Your symptoms would usually be considered OCD when you:
 
 - Can't control your thoughts or behaviors, even when you know that they are excessive
@@ -96,24 +66,10 @@ Not everyone who has obsessions or compulsions has OCD. Your symptoms would usua
 What are the treatments for obsessive-compulsive disorder (OCD)?
 The main treatments for obsessive-compulsive disorder (OCD) are cognitive behavioral therapy, medicines, or both:
 
-- Cognitive behavioral therapy (CBT) is a type of psychotherapy. It teaches you different ways of thinking, behaving, and reacting to your obsessions and compulsions. 
- 
- - Exposure and Response Prevention (ERP) s a specific type of CBT. ERP involves gradually exposing you to your fears or obsessions. You learn healthy ways to deal with the anxiety they cause.
+- Cognitive behavioral therapy (CBT) is a type of psychotherapy. It teaches you different ways of thinking, behaving, and reacting to your obsessions and compulsions.
 
- 
+- Exposure and Response Prevention (ERP) s a specific type of CBT. ERP involves gradually exposing you to your fears or obsessions. You learn healthy ways to deal with the anxiety they cause.
 
 - Medicines for OCD include certain types of antidepressants. If those don't work for you, your provider may suggest taking some other type of psychiatric medicine.
 
 If you have severe OCD that does not get better with these treatments, your provider may suggest a treatment called repetitive transcranial magnetic stimulation (rTMS). It is a brain stimulation procedure that uses magnetic waves. It can target specific brain areas associated with OCD.
-
-NIH: National Institute of Mental Health
-
-## Selected references
-- Are you getting too much exercise? [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000807.htm
-- Hoarding disorder [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/hoarding-disorder/symptoms-causes/syc-20356056?p=1
-- Mental Health Medications [Treatments and Therapies] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/mental-health-medications
-- Obsessive Compulsive Disorder (OCD) Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/obsessive-compulsive-disorder-ocd-test/
-- Obsessive-compulsive disorder [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000929.htm
-- Obsessive-Compulsive Disorder [Start Here] — American Academy of Family Physicians — https://familydoctor.org/condition/obsessive-compulsive-disorder/
-- Obsessive-Compulsive Disorder (For Parents) [Children] — Nemours Foundation — https://kidshealth.org/en/parents/ocd.html
-- Obsessive-Compulsive Disorder (OCD) [Start Here] — National Institute of Mental Health — https://www.nimh.nih.gov/health/topics/obsessive-compulsive-disorder-ocd

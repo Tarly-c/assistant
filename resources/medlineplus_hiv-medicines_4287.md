@@ -1,43 +1,11 @@
 # HIV Medicines
 
-- Topic ID: 4287
-- Language: English
-- URL: https://medlineplus.gov/hivmedicines.html
-- Date created: 04/24/2006
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- ART
-- Antiretroviral therapy
-
-## Groups
-- Immune System
-- Drug Therapy
-
-## MeSH
-- HIV Infections
-- Antiretroviral Therapy, Highly Active
-- Anti-HIV Agents
-
-## Related topics
-- HIV
-- HIV: PrEP and PEP
-
-## See also
-- AIDS Medicines
-- ART
-- Antiretroviral Therapy
-
-## Meta description
-There are several different types of HIV medicines. They do not cure HIV, but fight the infection. Learn more about these medicines.
-
-## Summary
 What is HIV?
 HIV stands for human immunodeficiency virus. It harms your immune system by destroying CD4 cells. These are a type of white blood cells that fight infection. The loss of these cells makes it hard for your body to fight off infections and certain HIV-related cancers.
 
 Without treatment, HIV can gradually destroy the immune system and advance to AIDS. AIDS stands for acquired immunodeficiency syndrome. It is the final stage of infection with HIV. Not everyone with HIV develops AIDS.
 
-What is antiretroviral therapy (ART)? 
+What is antiretroviral therapy (ART)?
 The treatment of HIV with medicines is called antiretroviral therapy (ART). It involves taking a combination of medicines every day. ART is recommended for everyone who has HIV. The medicines do not cure HIV infection, but help people with HIV live longer, healthier lives. They also reduce the risk of spreading the virus to others.
 
 How do HIV medicines work?
@@ -99,14 +67,3 @@ HIV medicines can cause side effects. Most of these side effects are manageable,
 
 What are HIV PrEP and PEP medicines?
 HIV medicines are not just used for treatment. Some people take them to prevent HIV. PrEP (pre-exposure prophylaxis) is for people who don't already have HIV but are at very high risk of getting it. PEP (post-exposure prophylaxis) is for people who have possibly been exposed to HIV.
-
-NIH: Office of AIDS Research
-
-## Selected references
-- Drug Database [Start Here] — HIV.gov, National Institutes of Health, Office of AIDS Research — https://clinicalinfo.hiv.gov/en/drugs
-- Drugs that Fight HIV [Learn More] — National Institute of Allergy and Infectious Diseases — https://www.niaid.nih.gov/sites/default/files/hivpillbrochure.pdf
-- FDA-Approved HIV Medicines [Start Here, Patient Handouts] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines
-- Get the Facts about HIV Medicines [Start Here] — National Library of Medicine — https://www.nnlm.gov/sites/default/files/2021-10/NLM_HIV_Medicines_508c.pdf
-- HIV Treatment: What is a Drug Interaction? [Specifics] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/fact-sheets/what-drug-interaction
-- Pharmacogenetic Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/pharmacogenetic-tests/
-- What is an Investigational HIV Drug? [Specifics] — National Institutes of Health, Office of AIDS Research — https://hivinfo.nih.gov/understanding-hiv/fact-sheets/what-investigational-hiv-drug

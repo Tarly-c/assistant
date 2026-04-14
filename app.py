@@ -19,10 +19,12 @@ CHAT_MODEL = os.getenv("OLLAMA_CHAT_MODEL", "qwen2.5:7b")
 
 
 class SearchPlan(BaseModel):
-    local_query: str = Field(description="给本地知识库用的短查询")
+    local_query_en: str = Field(
+        description="English-only query for the local English KB"
+    )
     pubmed_queries: list[str] = Field(
         default_factory=list,
-        description="3 个左右英文 PubMed 概念查询",
+        description="3 English PubMed queries",
     )
     intent: Literal["treatment", "cause", "symptom", "diagnosis", "general"] = "general"
 
@@ -43,20 +45,22 @@ PLAN_PROMPT = """
 把用户的医学问题改写成一个检索计划。
 
 要求：
-1. local_query：给本地知识库做语义检索，尽量短。
-2. pubmed_queries：给 PubMed 用的英文概念查询，输出 3 个左右。
-3. 对“吃什么药 / 怎么治 / 怎么办”这类问题，优先生成“疾病或症状 + treatment/management/review/guideline”。
-4. 避免只输出像 "headache medication" 这种容易漂到 medication overuse headache 的查询。
+1. local_query_en：必须是英文，只给英文本地知识库检索用。
+2. 不要输出中文，不要输出拼音。
+3. 如果用户问“吃什么药 / 怎么办 / 怎么治”，优先输出：
+   症状或疾病标准英文 + self care / pain relief / symptomatic relief / acute treatment
+4. pubmed_queries：输出 3 个英文 PubMed 查询，偏 review / guideline。
 5. 只返回结构化结果，不要解释。
 
 示例：
-问题：头痛吃什么药
-local_query：头痛 对症处理
+问题：头疼吃什么药
+local_query_en：headache pain relief self care
 pubmed_queries：
-- headache treatment review
-- acute headache treatment adults
-- migraine acute treatment guideline
+- acute headache analgesics adults review
+- tension-type headache acute treatment guideline
+- migraine acute treatment adults guideline
 """.strip()
+
 
 
 ANSWER_PROMPT = ChatPromptTemplate.from_messages(
@@ -108,9 +112,10 @@ def search_local_node(state: AgentState) -> AgentState:
     plan = state["plan"]
     local_result = search_local(
         question=state["question"],
-        local_query=plan["local_query"],
+        local_query=plan["local_query_en"],
     )
     return {"local_result": local_result}
+
 
 
 def route_after_local(state: AgentState) -> str:

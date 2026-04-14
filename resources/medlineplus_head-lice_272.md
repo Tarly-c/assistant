@@ -1,31 +1,5 @@
 # Head Lice
 
-- Topic ID: 272
-- Language: English
-- URL: https://medlineplus.gov/headlice.html
-- Date created: 07/13/1999
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Pediculosis
-
-## Groups
-- Children and Teenagers
-- Infections
-- Skin, Hair and Nails
-
-## MeSH
-- Pediculus
-
-## Related topics
-- Body Lice
-- Parasitic Diseases
-- Pubic Lice
-
-## Meta description
-Could that itchy, tickly feeling on your head be head lice? Learn about these tiny insects, such as how to tell if you have them, and how to treat it.
-
-## Summary
 What are head lice?
 Head lice are tiny insects that live on people's heads. Adult lice are about the size of sesame seeds. The eggs, called nits, are even smaller - about the size of a dandruff flake. Lice and nits are found on or near the scalp, most often at the neckline and behind the ears.
 
@@ -65,7 +39,6 @@ Follow these steps when using a head lice treatment:
 - After rinsing, use a fine-toothed comb or special "nit comb" to remove dead lice and nits
 
 - After each treatment, check your hair for lice and nits. You should comb your hair to remove nits and lice every 2-3 days. Do this for 2-3 weeks to be sure that all lice and nits are gone.
- 
 
 All household members and other close contacts should be checked and treated if necessary. If an over-the-counter treatment does not work for you, you can ask your health care provider for a prescription product.
 
@@ -91,13 +64,3 @@ To prevent your children from spreading lice:
 There is no clear scientific evidence that lice can be suffocated by home remedies, such as mayonnaise, olive oil, or similar substances. You also should not use kerosene or gasoline; they are dangerous and flammable.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Head Lice [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/lice/about/head-lice.html
-- About Lice and Their Control [Start Here] — Environmental Protection Agency — https://www.epa.gov/ipm/about-lice-and-their-control
-- Clinical Care of Head Lice [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/lice/hcp/clinical-care/index.html
-- Head lice [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000840.htm
-- Head Lice: Overview [Start Here] — American Academy of Dermatology — https://www.aad.org/public/diseases/a-z/head-lice-overview?NoAds
-- Hey! A Louse Bit Me! [Children] — Nemours Foundation — https://kidshealth.org/en/kids/louse.html
-- How to Handle Head Lice [Children] — Nemours Foundation — https://kidshealth.org/en/parents/head-lice-sheet.html
-- Providing Care for Individuals with Head Lice [Children] — Centers for Disease Control and Prevention — https://www.cdc.gov/lice/caring-head/

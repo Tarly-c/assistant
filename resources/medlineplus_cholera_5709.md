@@ -1,34 +1,15 @@
 # Cholera
 
-- Topic ID: 5709
-- Language: English
-- URL: https://medlineplus.gov/cholera.html
-- Date created: 10/27/2010
-
-## Groups
-- Infections
-
-## MeSH
-- Cholera
-
-## Meta description
-Cholera is a bacterial infection that causes diarrhea caused by bacteria usually found in contaminated water. Learn about symptoms and treatment.
-
-## Summary
 Cholera is a bacterial infection that causes diarrhea. The cholera bacterium is usually found in water or food that has been contaminated by feces (poop). Cholera is rare in the US. You may get it if you travel to parts of the world with poor water and sewage treatment. Outbreaks can also happen after disasters. The disease is not likely to spread directly from person to person.
 
 Cholera infections are often mild. Some people don't have any symptoms. If you do get symptoms, they usually start 2 to 3 days after infection. The most common symptom is watery diarrhea.
 
- 
 In some cases, the infection can be severe, causing lots of watery diarrhea, vomiting, and leg cramps. Because you quickly lose body fluids, you are at risk for dehydration and shock. Without treatment, you could die within hours. If you think that you might have cholera, you should get medical care right away.
 
 Doctors diagnose cholera with a stool sample or rectal swab. Treatment is the replacement of the fluid and salts that you lost through the diarrhea. This is usually with a rehydration solution that you drink. People with severe cases may need an I.V. to replace the fluids. Some of them may also need antibiotics. Most people who get fluid replacement right away will recover.
 
- 
-
 There are vaccines to prevent cholera. One of them is available for adults in the U.S. Very few Americans need it, because most people do not visit areas that have an active cholera outbreak.
 
- 
 There are also simple steps you can take to help to prevent cholera infection:
 
 - Use only bottled or purified water for drinking, washing dishes, making ice cubes, and brushing your teeth
@@ -42,13 +23,3 @@ There are also simple steps you can take to help to prevent cholera infection:
 - Avoid unwashed or unpeeled raw fruits and vegetables
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- Cholera [Learn More] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000303.htm
-- Cholera [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholera/about/
-- Cholera [Learn More] — World Health Organization — https://www.who.int/en/news-room/fact-sheets/detail/cholera
-- Cholera and Cholera Vaccine: What Families Need to Know [Learn More] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Cholera.aspx
-- Cholera in the United States [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholera/about/about-cholera-in-the-united-states.html
-- Cholera: Causes and How It Spreads [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholera/causes/index.html
-- How to Prevent Cholera [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholera/prevention/
-- Signs and Symptoms of Cholera [Learn More] — Centers for Disease Control and Prevention — https://www.cdc.gov/cholera/signs-symptoms/

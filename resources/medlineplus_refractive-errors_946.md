@@ -1,46 +1,7 @@
 # Refractive Errors
 
-- Topic ID: 946
-- Language: English
-- URL: https://medlineplus.gov/refractiveerrors.html
-- Date created: 11/17/1999
-- Primary institute: National Eye Institute
-
-## Also called
-- Farsightedness
-- Hyperopia
-- Myopia
-- Nearsightedness
-
-## Groups
-- Eyes and Vision
-
-## MeSH
-- Refractive Errors
-
-## Related topics
-- Eyewear
-- Laser Eye Surgery
-- Vision Impairment and Blindness
-
-## See also
-- Artificial Lens
-- Astigmatism
-- Farsightedness
-- Hyperopia
-- Intraocular Lens
-- Myopia
-- Nearsightedness
-- Presbyopia
-
-## Meta description
-Are you nearsighted, farsighted, or have astigmatism? That's a refractive error, caused by an irregular-shaped cornea or lens. Learn how it's treated.
-
-## Summary
 What are refractive errors?
 The cornea and lens of your eye bend (refract) light rays to focus them on the retina. Refractive errors happen when the shape of your eye prevents light from focusing correctly on the retina. This causes blurry vision. Changes in the eye's shape affect how light rays bend and focus, leading to vision problems.
-
- 
 
 What causes refractive errors?
 Refractive errors can happen when:
@@ -57,13 +18,12 @@ What are common refractive errors?
 Four common types of refractive errors include:
 
 - Nearsightedness (myopia), blurred vision when looking at faraway objects.
- 
+
 - Farsightedness (hyperopia), blurred vision when looking at close-up objects.
- 
+
 - Astigmatism, blurred or distorted vision at all distances, which can make night vision harder.
- 
+
 - Presbyopia, difficulty seeing things up close because the lens becomes less flexible with age. It affects adults in middle age and older and often begins around age 45.
- 
 
 Who is at risk for refractive errors?
 Anyone can have refractive errors. It's the most common type of vision problem. You may be more likely to have one if other family members wear glasses or contact lenses.
@@ -72,8 +32,6 @@ Most types of refractive errors start in childhood or are present at birth. Pres
 
 What are the symptoms of refractive errors?
 Sometimes you may not notice vision changes right away, which is why regular eye exams are so important.
-
- 
 
 The most common symptom is blurred vision. Other symptoms may include:
 
@@ -103,27 +61,14 @@ Different eye care specialists may be involved in your care. Here are some of th
 - Optometrists perform eye exams, diagnose vision problems, and prescribe glasses or contact lenses.
 
 - Opticians fit or adjust glasses or contact lenses based on a prescription from your eye care specialist.
- 
 
 How are refractive errors treated?
 Refractive errors are usually easy to correct with:
 
 - Glasses
- 
+
 - Contact lenses
 
 - Laser eye surgery, in some cases
 
 Your eye care specialist can help choose the best treatment for your vision and lifestyle.
-
-NIH: National Eye Institute
-
-## Selected references
-- Anisometropia [Children] — American Association for Pediatric Ophthalmology and Strabismus — https://www.aapos.org/glossary/anisometropia
-- Astigmatism [Start Here] — National Eye Institute — https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/astigmatism
-- Astigmatism [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001015.htm
-- Astigmatism [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/astigmatism/symptoms-causes/syc-20353835?p=1
-- Cornea Transplant [Treatments and Therapies] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/tests-procedures/cornea-transplant/about/pac-20385285?p=1
-- Corneal Conditions [Specifics] — National Eye Institute — https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/corneal-conditions
-- Corneal transplant [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/003008.htm
-- Corneal transplant - discharge [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000243.htm

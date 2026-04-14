@@ -1,35 +1,5 @@
 # Tonsillitis
 
-- Topic ID: 6440
-- Language: English
-- URL: https://medlineplus.gov/tonsillitis.html
-- Date created: 01/31/2017
-
-## Also called
-- Tonsil Inflammation
-
-## Groups
-- Children and Teenagers
-- Ear, Nose and Throat
-- Mouth and Teeth
-- Immune System
-
-## MeSH
-- Tonsillectomy
-- Tonsillitis
-
-## Related topics
-- Adenoids
-- Mouth Disorders
-
-## See also
-- Tonsillectomy
-- Tonsils
-
-## Meta description
-Tonsillitis is an inflammation (swelling) of the tonsils. Learn the causes, symptoms, and treatment options for tonsillitis.
-
-## Summary
 What are tonsils?
 Tonsils are lumps of tissue at the back of the throat. There are two of them, one on each side. Along with the adenoids, tonsils are part of the lymphatic system. The lymphatic system clears away infection and keeps body fluids in balance. Tonsils and adenoids work by trapping the germs coming in through the mouth and nose.
 
@@ -38,8 +8,6 @@ Tonsillitis is an inflammation (swelling) of the tonsils. Sometimes along with t
 
 What causes tonsillitis?
 The cause of tonsillitis is usually a viral infection. Bacterial infections such as strep throat can also cause tonsillitis.
-
- 
 
 Who is at risk for tonsillitis?
 Tonsillitis is most common in children over age two. Almost every child in the United States gets it at least once. Tonsillitis caused by bacteria is more common in kids ages 5-15. Tonsillitis caused by a virus is more common in younger children.
@@ -123,13 +91,3 @@ A tonsillectomy is surgery to remove the tonsils. Your child might need it if he
 - Has tonsils that are too big and are causing trouble breathing or swallowing
 
 Your child usually gets the surgery and goes home later that day. Very young children and people who have complications may need to stay in the hospital overnight. It can take a week or two before your child completely recovers from the surgery.
-
-## Selected references
-- Having Your Tonsils Taken Out (For Kids) [Children] — Nemours Foundation — https://kidshealth.org/en/kids/tonsils-out.html
-- Peritonsillar abscess [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000986.htm
-- Peritonsillar Abscess (For Teens) [Teenagers] — Nemours Foundation — https://kidshealth.org/en/teens/peritonsillar-abscess.html
-- Strep Throat, Sore Throat or Tonsillitis: What's the Difference? [Specifics] — American Academy of Pediatrics — https://www.healthychildren.org/English/health-issues/conditions/ear-nose-throat/Pages/The-Difference-Between-a-Sore-Throat-Strep-and-Tonsillitis.aspx
-- Think Tonsillitis Is Just for Kids? Think Again [Treatments and Therapies] — Harvard Medical School — https://www.health.harvard.edu/diseases-and-conditions/think-tonsillitis-is-just-for-kids-think-again
-- Tonsil and adenoid removal - discharge [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000155.htm
-- Tonsil removal - what to ask your doctor [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000229.htm
-- Tonsillectomies and children [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001998.htm

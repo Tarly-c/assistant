@@ -1,52 +1,11 @@
 # Marijuana
 
-- Topic ID: 317
-- Language: English
-- URL: https://medlineplus.gov/marijuana.html
-- Date created: 12/18/1998
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Blunt
-- Cannabis
-- Dope
-- Ganja
-- Grass
-- Hash
-- Joint
-- Mary Jane
-- Pot
-- Reefer
-- Weed
-
-## Groups
-- Substance Use and Disorders
-
-## MeSH
-- Marijuana Use
-- Medical Marijuana
-- Marijuana Smoking
-- Marijuana Abuse
-
-## Related topics
-- Drug Use and Addiction
-
-## See also
-- Cannabinoids
-- Cannabis
-- Medical Marijuana
-
-## Meta description
-Marijuana contains the mind-altering chemical THC. Some U.S. states approve the use of medical marijuana. Read about marijuana and its effects.
-
-## Summary
 What is marijuana?
 Marijuana is a green, brown, or gray mix of dried, crumbled parts from the marijuana plant. The plant contains chemicals which act on your brain and can change your mood or consciousness.
 
 How do people use marijuana?
 There are many different ways that people use marijuana, including:
 
- 
 - Rolling it up and smoking it like a cigarette or cigar
 
 - Smoking it in a pipe
@@ -61,8 +20,6 @@ There are many different ways that people use marijuana, including:
 
 What are the effects of marijuana?
 Marijuana can cause both short-term and long-term effects.
-
- 
 
 Short term:
 
@@ -84,7 +41,6 @@ Long term:
 
 In the long term, marijuana can cause health problems, such as:
 
- 
 - Problems with brain development. People who started using marijuana as teenagers may have trouble with thinking, memory, and learning.
 
 - Coughing and breathing problems, if you smoke marijuana frequently
@@ -111,15 +67,3 @@ What is medical marijuana?
 The marijuana plant has chemicals that can help with some health problems. More states are making it legal to use the plant as medicine for certain medical conditions. But there isn't enough research to show that the whole plant works to treat or cure these conditions. The U.S. Food and Drug Administration (FDA) has not approved the marijuana plant as a medicine. Marijuana is still illegal at the national level.
 
 However, there have been scientific studies of cannabinoids, the chemicals in marijuana. The two main cannabinoids that are of medical interest are THC and CBD. The FDA has approved two drugs that contain THC. These drugs treat nausea caused by chemotherapy and increase appetite in patients who have severe weight loss from AIDS. There is also a liquid drug that contains CBD. It treats two forms of severe childhood epilepsy. Scientists are doing more research with marijuana and its ingredients to treat many diseases and conditions.
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- 5 Things to Know about Delta-8 Tetrahydrocannabinol (Delta-8 THC) [Specifics] — Food and Drug Administration — https://www.fda.gov/consumers/consumer-updates/5-things-know-about-delta-8-tetrahydrocannabinol-delta-8-thc
-- Cannabis (Marijuana) [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/cannabis-marijuana
-- Cannabis (Marijuana) and Cannabinoids: What You Need To Know [Start Here] — National Center for Complementary and Integrative Health — https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know
-- Cannabis and Cannabinoids [Start Here] — National Cancer Institute — https://www.cancer.gov/about-cancer/treatment/cam/patient/cannabis-pdq
-- Cannabis and Teens [Teenagers] — Centers for Disease Control and Prevention — https://www.cdc.gov/cannabis/health-effects/cannabis-and-teens.html
-- Drug Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-testing/
-- Drug Use Screening Tests [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-use-screening-tests/
-- Marijuana (Cannabis) and Pregnancy [Women] — Organization of Teratology Information Specialists — https://mothertobaby.org/fact-sheets/marijuana-pregnancy/

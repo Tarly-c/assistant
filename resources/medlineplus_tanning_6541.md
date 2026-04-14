@@ -1,22 +1,5 @@
 # Tanning
 
-- Topic ID: 6541
-- Language: English
-- URL: https://medlineplus.gov/tanning.html
-- Date created: 06/27/2017
-- Primary institute: National Cancer Institute
-
-## Groups
-- Skin, Hair and Nails
-
-## MeSH
-- Suntan
-- Tanning
-
-## Meta description
-Did you know that a tan is actually sun damage? Learn about the dangers of both indoor and outdoor tanning, and how you can protect your skin.
-
-## Summary
 Can a tan be healthy?
 Some people think that tanning gives them a healthy glow. But tanning, either outdoors or indoors with a tanning bed, is not healthy at all. It exposes you to harmful rays and puts you at risk for health problems such as melanoma and other skin cancers.
 
@@ -25,7 +8,6 @@ Sunlight travels to earth as a mixture of both visible and invisible rays. Some 
 
 There are three types of UV rays. Two of them, UVA and UVB, can reach the earth's surface and affect your skin. Using a tanning bed also exposes you to UVA and UVB.
 
- 
 UVB rays can cause sunburn. UVA rays can travel more deeply into the skin than UVB rays. When your skin is exposed to UVA, it tries to protect itself from further damage. It does this by making more melanin, which is the skin pigment that makes your skin darker. That's what gives you a tan. This means that your tan is a sign of skin damage.
 
 What are the health risks of tanning?
@@ -34,7 +16,7 @@ Since tanning means overexposure to UV rays, it can damage your skin and cause h
 - Premature skin aging, which can cause your skin to become thickened, leathery, and wrinkled. You may also have dark spots on your skin. These happen because long-term exposure to UV rays makes your skin less elastic. The more sun exposure you have, the earlier your skin ages.
 
 - Skin cancers, including melanoma. This can happen because the UV light damages the DNA of your skin cells and interferes with your body's ability to fight the cancer.
- 
+
 - Actinic keratosis, a thick, scaly patch of skin that usually forms on areas exposed to the sun, such as the face, scalp, back of the hands, or chest. It can eventually become cancerous.
 
 - Eye damage, including cataracts and photokeratitis (snow blindness)
@@ -58,8 +40,6 @@ It is also important to check your skin once a month. If you do see any new or c
 Isn't indoor tanning safer than tanning in the sun?
 Indoor tanning is not better than tanning in the sun; it also exposes you to UV rays and damages your skin. Tanning beds use UVA light, so they expose you to a higher concentration of UVA rays than you would get by tanning in the sun. Tanning lights also expose you to some UVB rays.
 
- 
-
 Some people think that getting a "base tan" in a tanning salon can protect you when you go in the sun. But a "base tan" causes damage to your skin and will not prevent you from getting sunburn when you go outside.
 
 Indoor tanning is particularly dangerous for younger people. You have a higher risk of melanoma if you started doing indoor tanning while you were a teen or young adult.
@@ -72,9 +52,3 @@ There are other ways to look tan, but they are not all safe:
 - Tanning pills have a color additive that turns your skin orange after you take them. But they can be dangerous and are not approved by the Food and Drug Administration (FDA).
 
 - Sunless tanners have no known risk for skin cancer, but you do have to be careful. Most spray tans, lotions, and gels use DHA, a color additive that makes your skin look tan. DHA is considered safe for use on the outside of your body by the FDA. You need to make sure it doesn't get into your nose, eyes, or mouth. If you use a spray tan, be careful not to breathe in the spray. Also, remember that these "tans" do not protect you from UV rays when you go outside.
-
-## Selected references
-- Melanoma: MedlinePlus Genetics [Learn More] — National Library of Medicine — https://medlineplus.gov/genetics/condition/melanoma
-- Risks of Tanning [Learn More] — Food and Drug Administration — https://www.fda.gov/radiation-emitting-products/tanning/risks-tanning
-- Sunless and Self-Tanning during Pregnancy [Learn More] — Nemours Foundation — https://kidshealth.org/en/parents/tanning-pregnancy.html
-- Tanning Products [Learn More] — Food and Drug Administration — https://www.fda.gov/radiation-emitting-products/tanning/tanning-products

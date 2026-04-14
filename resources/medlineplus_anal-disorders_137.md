@@ -1,32 +1,5 @@
 # Anal Disorders
 
-- Topic ID: 137
-- Language: English
-- URL: https://medlineplus.gov/analdisorders.html
-- Date created: 02/19/1999
-- Primary institute: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Also called
-- Anorectal diseases
-
-## Groups
-- Digestive System
-
-## MeSH
-- Anus Diseases
-
-## Related topics
-- Anal Cancer
-- Hemorrhoids
-- Rectal Disorders
-
-## See also
-- Pruritus Ani
-
-## Meta description
-Anal disorders include hemorrhoids, fistulas, and abscesses. Learn about which anal conditions are minor and those that are more serious.
-
-## Summary
 What is the anus?
 Your anus is the opening at the end of your large intestine. It is where stool (poop) leaves your body.
 
@@ -71,15 +44,3 @@ You may be embarrassed to talk about your anal troubles. But it's important to l
 
 How are anal disorders treated?
 Treatments vary, depending on the condition you have.
-
-NIH: National Institute of Diabetes and Digestive and Kidney Diseases
-
-## Selected references
-- Abscess and Fistula Expanded Information [Specifics] — American Society of Colon and Rectal Surgeons — https://fascrs.org/Web/Web/Patients/Diseases-and-Conditions/A-Z/Abscess-and-Fistula-Expanded-Information.aspx
-- Anal fissure [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001130.htm
-- Anal fissure - series [Treatments and Therapies, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/presentations/100154_1.htm
-- Anal Fissure Expanded Information [Specifics] — American Society of Colon and Rectal Surgeons — https://fascrs.org/Web/Web/Patients/Diseases-and-Conditions/A-Z/Anal-Fissure-Expanded-Information.aspx
-- Anal Fissures [Specifics] — American Academy of Family Physicians — https://familydoctor.org/condition/anal-fissures/
-- Anal Itching [Specifics] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/diseases-conditions/anal-itching/symptoms-causes/syc-20369345?p=1
-- Anal itching - self-care [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000689.htm
-- Anorectal abscess [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001519.htm

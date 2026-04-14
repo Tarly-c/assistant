@@ -1,30 +1,5 @@
 # Healthy Sleep
 
-- Topic ID: 6469
-- Language: English
-- URL: https://medlineplus.gov/healthysleep.html
-- Date created: 04/26/2017
-- Primary institute: National Heart, Lung, and Blood Institute
-
-## Also called
-- Sleep Hygiene
-
-## Groups
-- Brain and Nerves
-
-## MeSH
-- Sleep Hygiene
-
-## Related topics
-- Sleep Disorders
-
-## See also
-- Sleep Hygiene
-
-## Meta description
-Sleep is a natural process that helps your body restore energy, supports learning and memory, and keeps you healthy. You can take steps to improve your sleep habits.
-
-## Summary
 What is sleep?
 While you are sleeping your brain and body functions are still active. Sleep is a natural process that helps your body restore energy, supports learning and memory, and keeps you healthy.
 
@@ -63,11 +38,9 @@ The amount of sleep you need depends on your age, lifestyle, health, and sleep p
 
 During puberty, teenagers' biological clocks shift. They tend to fall asleep later and wake up later, which can conflict with the early school start times. This is one reason many teenagers don't get enough sleep.
 
- 
-
 Some people think adults need less sleep as they age, but there is no evidence to support this. However, older adults often get less sleep or spend less time in the deep, restful stages of sleep. They also wake up more easily.
 
-It's not just the number of hours of sleep you get that matters. The quality of the sleep you get is also important. People whose sleep is frequently interrupted might not get enough of certain stages of sleep. 
+It's not just the number of hours of sleep you get that matters. The quality of the sleep you get is also important. People whose sleep is frequently interrupted might not get enough of certain stages of sleep.
 If you are wondering whether you are getting enough sleep, including quality sleep, ask yourself:
 
 - Do I have trouble getting up in the morning?
@@ -94,7 +67,6 @@ Sleep deprivation can also affect your mood, leading to:
 
 It can also affect your physical health. Not getting enough sleep, or getting poor-quality sleep, increases your risk of:
 
- 
 - High blood pressure
 
 - Heart disease
@@ -109,7 +81,6 @@ It can also affect your physical health. Not getting enough sleep, or getting po
 
 Not getting enough sleep can also lower your levels of hormones that help children grow and help the body build muscle, repair tissue, and fight infections.
 
- 
 Sleep deprivation also magnifies the effect of alcohol. A tired person who drinks too much alcohol will be more impaired than a well-rested person who drinks the same amount.
 
 How can I get better sleep?
@@ -154,13 +125,3 @@ If you are a shift worker, getting good sleep can be more challenging. You may a
 - Limit caffeine to the first part of your shift
 
 - Remove sound and light distractions in your bedroom during daytime sleep (for example, use light-blocking curtains or earplugs)
-
-## Selected references
-- About Sleep [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/sleep/about/
-- Aging changes in sleep [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/004018.htm
-- Baby Naps: Daytime Sleep Tips [Children] — Mayo Foundation for Medical Education and Research — https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/baby-naps/art-20047421?p=1
-- Brain Basics: Understanding Sleep [Specifics] — National Institute of Neurological Disorders and Stroke — https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep
-- Can't sleep? Try these tips [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000853.htm
-- Changing your sleep habits [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/patientinstructions/000757.htm
-- Dr. Kenneth Wright on Shift Work and Sleep [Specifics] — National Institutes of Health — https://newsinhealth.nih.gov/2021/04/dr-kenneth-wright-shift-work-sleep
-- Get Enough Sleep [Specifics] — Mental Health America — https://mhanational.org/resources/get-enough-sleep/

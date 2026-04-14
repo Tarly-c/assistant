@@ -1,34 +1,5 @@
 # Fetal Alcohol Spectrum Disorders
 
-- Topic ID: 1300
-- Language: English
-- URL: https://medlineplus.gov/fetalalcoholspectrumdisorders.html
-- Date created: 06/07/2000
-- Primary institute: National Institute on Alcohol Abuse and Alcoholism
-
-## Also called
-- FASD
-
-## Groups
-- Substance Use and Disorders
-- Pregnancy and Reproduction
-- Genetics/Birth Defects
-
-## MeSH
-- Fetal Alcohol Spectrum Disorders
-
-## Related topics
-- Alcohol Use Disorder (AUD)
-- Pregnancy and Substance Use
-
-## See also
-- FAS
-- Fetal Alcohol Syndrome
-
-## Meta description
-Drinking alcohol while pregnant can result in fetal alcohol spectrum disorders. The most severe is fetal alcohol syndrome. Learn the risks and   available treatments and therapies.
-
-## Summary
 Alcohol can harm your baby at any stage during a pregnancy. That includes the earliest stages, before you even know you are pregnant. Drinking during pregnancy can cause a group of conditions called fetal alcohol spectrum disorders (FASDs). Children who are born with FASD can have a mix of problems, such as medical, behavioral, educational, and social problems. The kinds of problems they have depend on which type of FASD they have. The problems could include :
 
 - Abnormal facial features, such as a smooth ridge between the nose and upper lip
@@ -78,11 +49,3 @@ Certain "protective factors" can help reduce the effects of FASDs and help peopl
 There is no known safe amount of alcohol during pregnancy. To prevent FASDs, you should not drink alcohol while you are pregnant, or when you might get pregnant.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Fetal Alcohol Spectrum Disorders (FASDs) [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/fasd/about/
-- Fetal Alcohol Spectrum Disorders (FASD) [Specifics] — American Academy of Family Physicians — https://familydoctor.org/condition/fetal-alcohol-spectrum-disorders-fasd/?adree=true
-- Fetal Alcohol Spectrum Disorders (FASD) Screening [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/fetal-alcohol-spectrum-disorders-fasd-screening/
-- Fetal alcohol syndrome [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000911.htm
-- Treatment of FASDs (Fetal Alcohol Spectrum Disorders) [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/fasd/treatment/
-- Understanding Fetal Alcohol Spectrum Disorders [Start Here] — National Institute on Alcohol Abuse and Alcoholism — https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/understanding-fetal-alcohol-spectrum-disorders

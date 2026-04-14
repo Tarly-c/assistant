@@ -1,30 +1,6 @@
 # Cryptosporidiosis
 
-- Topic ID: 1591
-- Language: English
-- URL: https://medlineplus.gov/cryptosporidiosis.html
-- Date created: 01/14/2002
-- Primary institute: National Institute of Allergy and Infectious Diseases
-
-## Also called
-- Crypto
-
-## Groups
-- Infections
-- Immune System
-
-## MeSH
-- Cryptosporidiosis
-
-## Related topics
-- Drinking Water
-- Parasitic Diseases
-
-## Meta description
-Cryptosporidiosis or Crypto is an illness caused by a parasite that lives in soil, food and water. Learn the common symptoms and what you should do.
-
-## Summary
-What is cryptosporidiosis? 
+What is cryptosporidiosis?
 Cryptosporidiosis is a contagious disease that causes watery diarrhea. It is caused by parasites called Cryptosporidium, or Crypto . These parasites live in soil, food, and water. They are found in every region of the United States and throughout the world. Crypto can also be found on surfaces or dirty hands that have been contaminated with the stool (poop) of humans or animals that have the infection.
 
 How is cryptosporidiosis spread?
@@ -102,10 +78,3 @@ To lower your chance of getting or spreading Crypto:
 - Use condoms or dental dams every time you have sex. This will also help prevent other sexually transmitted infections.
 
 Centers for Disease Control and Prevention
-
-## Selected references
-- About Crypto Infections [Start Here] — Centers for Disease Control and Prevention — https://www.cdc.gov/cryptosporidium/about/
-- Clinical Testing and Diagnosis for Crypto [Diagnosis and Tests] — Centers for Disease Control and Prevention — https://www.cdc.gov/cryptosporidium/hcp/diagnosis-testing/
-- Cryptosporidium enteritis [Patient Handouts, Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/000617.htm
-- Ova and Parasite Test [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/ova-and-parasite-test/
-- Treating Crypto [Treatments and Therapies] — Centers for Disease Control and Prevention — https://www.cdc.gov/cryptosporidium/treatment/

@@ -1,74 +1,33 @@
 # Drugs and Young People
 
-- Topic ID: 4959
-- Language: English
-- URL: https://medlineplus.gov/drugsandyoungpeople.html
-- Date created: 04/14/2009
-- Primary institute: National Institute on Drug Abuse
-
-## Also called
-- Adolescent drug use
-
-## Groups
-- Children and Teenagers
-- Substance Use and Disorders
-
-## MeSH
-- Substance-Related Disorders
-
-## Related topics
-- Club Drugs
-- Cocaine
-- Cold and Cough Medicines
-- Inhalants
-- Marijuana
-- Opioids and Opioid Use Disorder (OUD)
-- Prescription Drug Misuse
-- Smoking and Youth
-- Underage Drinking
-
-## See also
-- Adolescent Drug Use
-- Substance Use
-- Teen Drug Abuse
-
-## Meta description
-Drug use or misuse is especially dangerous for young people. Drug use can interfere with developmental processes in the brain, and lead to other health problems.
-
-## Summary
 What is drug use?
 Drug use, or misuse, includes:
 
 - Using illegal substances, such as
-	
- - Anabolic steroids
 
- - Club drugs
+- Anabolic steroids
 
- - Cocaine
+- Club drugs
 
- - Heroin
+- Cocaine
 
- - Inhalants
+- Heroin
 
- - Marijuana
+- Inhalants
 
- - Methamphetamines
+- Marijuana
 
-	
+- Methamphetamines
 
 - Misusing prescription medicines, including opioids. This means taking the medicines in a different way than the health care provider prescribed. This includes
 
-	
- - Taking a medicine that was prescribed for someone else
+- Taking a medicine that was prescribed for someone else
 
- - Taking a larger dose than you are supposed to
+- Taking a larger dose than you are supposed to
 
- - Using the medicine in a different way than you are supposed to. For example, instead of swallowing your tablets, you might crush and then snort or inject them.
+- Using the medicine in a different way than you are supposed to. For example, instead of swallowing your tablets, you might crush and then snort or inject them.
 
- - Using the medicine for another purpose, such as getting high
-
-	
+- Using the medicine for another purpose, such as getting high
 
 - Misusing over-the-counter medicines, including using them for another purpose and using them in a different way than you are supposed to.
 
@@ -86,7 +45,7 @@ There are many different reasons why a young person may take drugs, including:
 - To fit in. Young people may do drugs because they want to be accepted by friends or peers who are doing drugs.
 
 - To feel good. Abused drugs can produce feelings of pleasure.
- 
+
 - To feel better. Some young people suffer from depression, anxiety, stress-related disorders, and physical pain. They may do drugs to try to get some relief.
 
 - To do better in academics or sports. Some young people may take stimulants for studying or anabolic steroids to improve their athletic performance.
@@ -152,15 +111,3 @@ You can help prevent your children from using drugs through:
 - Supervision, which helps parents recognize developing problems, promote safety, and stay involved
 
 - Knowing your children's friends
-
-NIH: National Institute on Drug Abuse
-
-## Selected references
-- College-Age and Young Adults [Start Here] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/college-age-young-adults
-- Dealing with Addiction (For Teens) [Start Here] — Nemours Foundation — https://kidshealth.org/en/teens/addictions.html
-- Drug and Alcohol Treatment for Adolescents [Treatments and Therapies] — American Academy of Child and Adolescent Psychiatry — https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Guide/Substance-Abuse-Treatment-For-Children-And-Adolescents-Questions-To-Ask-041.aspx
-- Drug Testing [Diagnosis and Tests] — National Library of Medicine — https://medlineplus.gov/lab-tests/drug-testing/
-- Drugs: What to Know (For Teens) [Start Here] — Nemours Foundation — https://kidshealth.org/en/teens/know-about-drugs.html
-- Mind Matters Series [Teenagers] — National Institute on Drug Abuse — https://nida.nih.gov/research-topics/parents-educators/mind-matter-series
-- Should You Drug Test Your Child? [Diagnosis and Tests] — Partnership to End Addiction — https://drugfree.org/article/should-you-drug-test-your-child/
-- Teenagers and drugs [Encyclopedia] — Medical Encyclopedia — https://medlineplus.gov/ency/article/001975.htm
