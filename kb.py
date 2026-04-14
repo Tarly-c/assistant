@@ -192,9 +192,7 @@ def search_local(
     hits = []
     for doc in docs:
         content = (doc.page_content or "").strip()
-        score = max(
-            _lexical_score(local_query, content),
-        )
+        score = _lexical_score(local_query, content),
         hits.append(
             {
                 "source": doc.metadata.get("source", ""),
