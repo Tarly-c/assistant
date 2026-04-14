@@ -1,120 +1,93 @@
-import os
 import json
-import time
 from openai import OpenAI
 from registry import SkillRegistry, start_watchdog
 
 client = OpenAI(
-    base_url="http://localhost:11434/v1", # Ollama 默认的本地服务地址 + /v1 路径
-    api_key="ollama" # 必须传一个非空字符串，写什么都可以，通常写 "ollama"
+    base_url="http://localhost:11434/v1",
+    api_key="ollama",
 )
 
-# 初始化全局并发安全的注册表
 GLOBAL_REGISTRY = SkillRegistry()
-
-# 启动后台监听线程
 start_watchdog(GLOBAL_REGISTRY, "skills")
 
-def run_agent_daemon():
-    """守护进程"""
-    print("🚀 Agent 守护进程已就绪。输入指令进行对话，输入 'exit' 退出。")
-    
-    messages = [{"role": "system", "content": "你是一个严谨的专业助理。请按需调用工具，并根据工具返回的结果为用户提供最终解答。"}]
+SYSTEM_PROMPT = """
+你是医学信息整理助手。
+规则：
+1. 只能基于 evidence_json 作答，不要编造。
+2. 如果 evidence_json.source == "pubmed"，说明网络检索已经完成，不要再说“我将去查询网络”。
+3. 输出分四段：
+   - 结论
+   - 依据
+   - 来源
+   - 不确定性与就医提醒
+4. 这是医学信息整理，不是个体化诊断或处方。
+5. 当 evidence_json.enough == false 时，要明确说明证据不足，不要装作已经查到了明确结论。
+"""
 
-    # 1. 外层循环：生命周期与用户交互
+def call_medical_retrieve(user_prompt: str) -> dict:
+    tool_info = GLOBAL_REGISTRY.get_skill_info("medical_retrieve")
+    if not tool_info:
+        raise RuntimeError("未找到 medical_retrieve。请确认 skills/medical_retrieve.py 已加载。")
+
+    validated_args = tool_info["args_schema"](query=user_prompt)
+    result = tool_info["func"](**validated_args.model_dump())
+
+    if not isinstance(result, dict):
+        raise RuntimeError("medical_retrieve 必须返回 dict/JSON 结构。")
+
+    return result
+
+def answer_with_evidence(user_prompt: str, evidence: dict) -> str:
+    response = client.chat.completions.create(
+        model="qwen2.5:7b",
+        temperature=0.2,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {
+                "role": "user",
+                "content": (
+                    f"用户问题：{user_prompt}\n\n"
+                    f"evidence_json:\n{json.dumps(evidence, ensure_ascii=False, indent=2)}\n\n"
+                    "请严格基于 evidence_json 回答。"
+                ),
+            },
+        ],
+    )
+    return response.choices[0].message.content or "未生成回答。"
+
+def run_agent_daemon():
+    print("Medical Agent 已就绪。输入 'exit' 退出。")
+
     while True:
         try:
-            user_prompt = input("\n[User]> ")
-            if user_prompt.strip() == 'exit':
+            user_prompt = input("\n[User]> ").strip()
+            if user_prompt == "exit":
                 break
-                
-            messages.append({"role": "user", "content": user_prompt})
-            
-            # 2. 内层循环：Agent 内部的“推理-行动”闭环 (ReAct Loop)
-            step_count = 0
-            max_steps = 5 # 强制设定最大步数，防止模型陷入无休止的死循环报错中
-            
-            while step_count < max_steps:
-                step_count += 1
-                
-                # 每次推理前，实时获取最新的技能清单
-                current_tools = GLOBAL_REGISTRY.get_all_llm_schemas()
-                
-                if not current_tools:
-                    print("[Agent]> ⚠️ 警告：当前系统未挂载任何技能。")
-                    # 如果没有工具，也要进行一次普通回复并退出内层循环
-                    response = client.chat.completions.create(
-                        model="qwen2.5:7b",
-                        messages=messages,
-                        temperature=0.1
-                    )
-                    message = response.choices[0].message
-                    messages.append(message)
-                    print(f"[Agent]> {message.content}")
-                    break
+            if not user_prompt:
+                continue
 
-                response = client.chat.completions.create(
-                    model="qwen2.5:7b",
-                    messages=messages,
-                    tools=current_tools,
-                    temperature=0.1
-                )
-                
-                message = response.choices[0].message
-                messages.append(message)
-                
-                # ==========================================
-                # 退出条件：大模型没有发出工具调用指令，说明得出了最终答案
-                # ==========================================
-                if not message.tool_calls:
-                    print(f"\n[Agent]> {message.content}")
-                    break # 跳出内层循环，等待用户的下一个问题
+            print("\n⏳ [思考与执行] 正在调度技能: medical_retrieve ...")
+            evidence = call_medical_retrieve(user_prompt)
 
-                # ==========================================
-                # 执行条件：大模型请求调用工具
-                # ==========================================
-                for tool_call in message.tool_calls:
-                    func_name = tool_call.function.name
-                    raw_args = tool_call.function.arguments
-                    
-                    print(f"\n⏳ [思考与执行] 正在调度技能: {func_name} ...")
-                    
-                    # 从注册表安全地取回函数指针
-                    tool_info = GLOBAL_REGISTRY.get_skill_info(func_name)
-                    
-                    if not tool_info:
-                        tool_result = f"System Error: 技能 {func_name} 已被物理移除或未加载。"
-                    else:
-                        try:
-                            parsed_args = json.loads(raw_args)
-                            validated_args = tool_info["args_schema"](**parsed_args)
-                            # 模拟耗时操作，给予用户执行反馈
-                            time.sleep(0.5) 
-                            # 执行真实的业务代码
-                            tool_result = tool_info["func"](**validated_args.model_dump())
-                        except Exception as e:
-                            tool_result = f"Runtime Error: {str(e)}"
-                    
-                    # 打印内部执行状态，对开发者透明
-                    print(f"🔧 [执行结果] {str(tool_result)[:100]}...") 
-                    
-                    # 将执行结果塞回上下文
-                    messages.append({
-                        "role": "tool",
-                        "tool_call_id": tool_call.id,
-                        "name": func_name,
-                        "content": str(tool_result)
-                    })
-                
-                print("🧠 [汇总] 工具数据已获取，正在进行最终信息整合...\n")
-                # 此时内层 while 循环继续，带着挂载了 tool 结果的 messages 再次请求大模型
+            preview = json.dumps(evidence, ensure_ascii=False)
+            print(f"🔧 [执行结果] {preview[:320]}...")
 
-            if step_count >= max_steps:
-                print("\n[Agent]> ⚠️ 任务超出最大推理步数，已强制中断，请简化您的请求。")
+            if evidence.get("queries_tried"):
+                print(f"🔎 [PubMed queries] {evidence['queries_tried']}")
+
+            if evidence.get("debug", {}).get("errors"):
+                print(f"🪵 [调试信息] {evidence['debug']['errors']}")
+
+            print("🧠 [汇总] 工具数据已获取，正在进行最终信息整合...\n")
+
+            answer = answer_with_evidence(user_prompt, evidence)
+            print(f"[Agent]> {answer}")
 
         except KeyboardInterrupt:
             print("\n系统正在安全关闭...")
             break
+        except Exception as e:
+            print(f"[Agent]> 系统错误: {e}")
 
 if __name__ == "__main__":
     run_agent_daemon()
