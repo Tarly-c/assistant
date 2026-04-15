@@ -81,8 +81,10 @@ ANSWER_PROMPT = ChatPromptTemplate.from_messages(
 要求：
 - 如果证据不足，明确写“当前证据不足”。
 - 如果是常见症状的一般性处理建议，要和“处方/个体化用药建议”分开。
-- 来源段尽量引用 [Local 1] / [PubMed 1] 这样的标签。
-""".strip(),
+- 来源段必须写具体来源，不要写 [Local 1] / [PubMed 1] 这种占位标签。
+- 本地来源写成：文件名 (chunk N)
+- PubMed 来源写成：PMID xxxx: 论文标题
+            """.strip(),
         ),
         (
             "human",
@@ -92,7 +94,7 @@ ANSWER_PROMPT = ChatPromptTemplate.from_messages(
 
 证据：
 {evidence}
-""".strip(),
+            """.strip(),
         ),
     ]
 )
