@@ -11,6 +11,8 @@ env/
 build/
 dist/
 *.egg-info/
+resources/
+chroma_db/
 
 # 日志
 *.log
