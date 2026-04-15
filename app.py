@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import os
+import re
+from pathlib import Path
 from typing import Literal, TypedDict
 
 from pydantic import BaseModel, Field
@@ -62,7 +64,6 @@ pubmed_queries：
 """.strip()
 
 
-
 ANSWER_PROMPT = ChatPromptTemplate.from_messages(
     [
         (
@@ -100,6 +101,52 @@ ANSWER_PROMPT = ChatPromptTemplate.from_messages(
 )
 
 
+def _clean_source_name(source: str) -> str:
+    raw = (source or "").strip()
+    if not raw:
+        return "未知文件"
+    return Path(raw).name or raw
+
+
+def _build_source_lines(state: AgentState) -> list[str]:
+    lines: list[str] = []
+    seen: set[str] = set()
+
+    for hit in state.get("local_result", {}).get("hits", []):
+        name = _clean_source_name(hit.get("source", ""))
+        chunk_id = hit.get("chunk_id")
+        line = f"- {name}" if chunk_id in (None, "") else f"- {name} (chunk {chunk_id})"
+        if line not in seen:
+            seen.add(line)
+            lines.append(line)
+
+    for hit in state.get("web_result", {}).get("hits", []):
+        pmid = str(hit.get("pmid", "")).strip()
+        title = (hit.get("title", "") or "").strip()
+        if pmid and title:
+            line = f"- PMID {pmid}: {title}"
+        elif title:
+            line = f"- {title}"
+        else:
+            continue
+
+        if line not in seen:
+            seen.add(line)
+            lines.append(line)
+
+    return lines or ["- 无明确来源"]
+
+
+def _replace_source_section(answer: str, state: AgentState) -> str:
+    source_block = "3. 来源\n" + "\n".join(_build_source_lines(state))
+    pattern = r"3\.\s*来源[\s\S]*?(?=\n\s*4\.\s*风险提示\s*/\s*何时就医|\Z)"
+
+    if re.search(pattern, answer, flags=re.S):
+        return re.sub(pattern, source_block, answer, flags=re.S).strip()
+
+    return answer.strip() + "\n\n" + source_block
+
+
 def plan_query(state: AgentState) -> AgentState:
     plan = planner.invoke(
         [
@@ -119,7 +166,6 @@ def search_local_node(state: AgentState) -> AgentState:
     return {"local_result": local_result}
 
 
-
 def route_after_local(state: AgentState) -> str:
     local_result = state.get("local_result", {})
     return "answer" if local_result.get("enough") else "search_pubmed"
@@ -137,18 +183,23 @@ def _render_evidence(state: AgentState) -> str:
     parts: list[str] = []
 
     local_result = state.get("local_result", {})
-    for i, hit in enumerate(local_result.get("hits", []), start=1):
+    for hit in local_result.get("hits", []):
         parts.append(
-            f"[Local {i}] source={hit.get('source')} chunk={hit.get('chunk_id')} "
-            f"score={hit.get('score')}\n{hit.get('snippet')}"
+            f"[LocalEvidence] file={_clean_source_name(hit.get('source'))} "
+            f"chunk={hit.get('chunk_id')} "
+            f"score={hit.get('score')}\n"
+            f"{hit.get('snippet')}"
         )
 
     web_result = state.get("web_result", {})
-    for i, hit in enumerate(web_result.get("hits", []), start=1):
+    for hit in web_result.get("hits", []):
         parts.append(
-            f"[PubMed {i}] PMID={hit.get('pmid')} title={hit.get('title')} "
-            f"journal={hit.get('journal')} pubdate={hit.get('pubdate')} "
-            f"rerank_score={hit.get('rerank_score')}\n{hit.get('snippet')}"
+            f"[PubMedEvidence] PMID={hit.get('pmid')} "
+            f"title={hit.get('title')} "
+            f"journal={hit.get('journal')} "
+            f"pubdate={hit.get('pubdate')} "
+            f"rerank_score={hit.get('rerank_score')}\n"
+            f"{hit.get('snippet')}"
         )
 
     if not parts:
@@ -159,12 +210,13 @@ def _render_evidence(state: AgentState) -> str:
 
 def answer_node(state: AgentState) -> AgentState:
     chain = ANSWER_PROMPT | llm | StrOutputParser()
-    answer = chain.invoke(
+    raw_answer = chain.invoke(
         {
             "question": state["question"],
             "evidence": _render_evidence(state),
         }
     )
+    answer = _replace_source_section(raw_answer, state)
     return {"answer": answer}
 
 
