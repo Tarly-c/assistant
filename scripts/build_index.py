@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
@@ -54,6 +58,9 @@ def load_documents(resources_dir: Path) -> list[Document]:
 
     return docs
 
+def batched(items, batch_size):
+        for i in range(0, len(items), batch_size):
+            yield items[i : i + batch_size]
 
 def main() -> None:
     settings = get_settings()
@@ -93,8 +100,21 @@ def main() -> None:
         embedding_function=get_embeddings(),
     )
 
-    if chunked_docs:
-        vectorstore.add_documents(chunked_docs)
+
+
+    max_batch_size = vectorstore._client.get_max_batch_size()
+    batch_size = min(200, max_batch_size)
+
+    print(f"Chroma max_batch_size={max_batch_size}, using batch_size={batch_size}")
+
+    total = len(chunked_docs)
+    done = 0
+
+    for idx, batch in enumerate(batched(chunked_docs, batch_size), start=1):
+        vectorstore.add_documents(batch)
+        done += len(batch)
+        print(f"Indexed batch {idx}: {done}/{total}")
+
 
     print(f"Indexed {len(raw_docs)} documents into {settings.chroma_path}")
 

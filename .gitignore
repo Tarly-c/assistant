@@ -13,6 +13,7 @@ dist/
 *.egg-info/
 resources/
 chroma_db/
+artifacts/
 
 # 日志
 *.log

@@ -4,7 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_ollama import OllamaEmbeddings
 
 from medical_assistant.config import get_settings
 from medical_assistant.schemas.retrieval import LocalSearchResult, RetrievalHit
@@ -13,7 +13,7 @@ from medical_assistant.schemas.retrieval import LocalSearchResult, RetrievalHit
 @lru_cache(maxsize=1)
 def get_embeddings():
     settings = get_settings()
-    return HuggingFaceEmbeddings(model_name=settings.embedding_model)
+    return OllamaEmbeddings(model=settings.embedding_model)
 
 
 @lru_cache(maxsize=1)

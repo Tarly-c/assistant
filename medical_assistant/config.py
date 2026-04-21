@@ -20,12 +20,13 @@ class Settings(BaseSettings):
     chat_model: str = "qwen2.5:7b"
     temperature: float = 0.0
 
-    resources_dir: str = "resources"
+    resources_dir: str = "resources/medlineplus/retrieval_units"
     chroma_dir: str = "chroma_db"
     trace_dir: str = "traces"
 
     collection_name: str = "medical_assistant"
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_model: str = "nomic-embed-text:latest"
+
 
     local_top_k: int = 6
     local_min_score: float = 0.18
@@ -36,7 +37,7 @@ class Settings(BaseSettings):
     pubmed_email: str = ""
     pubmed_api_key: str = ""
 
-    mesh_cache_file: str = "resources/mesh_terms.jsonl"
+    mesh_cache_file: str = "resources/medlineplus/mesh_terms.jsonl"
 
     @property
     def resources_path(self) -> Path:
