@@ -16,9 +16,7 @@ def merge_candidates_node(state: dict[str, Any]) -> dict[str, Any]:
         normalized_terms=conversation_state.medical_context.normalized_terms,
         max_topics=3,
     )
-
     conversation_state.phase = "RETRIEVED"
-
     return {
         "candidate_topics": [CandidateTopic.model_validate(x).model_dump(mode="json") for x in topics],
         "conversation_state": conversation_state.model_dump(mode="json"),

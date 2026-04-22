@@ -54,6 +54,12 @@ def _merge_candidates(old: list[ConceptCandidate], new: list[ConceptCandidate]) 
 class MedicalContext(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
+    latest_query_en: str | None = None
+    query_history_en: list[str] = Field(default_factory=list)
+    latest_query_bundle: NormalizedInput | None = None
+    keyword_history: list[str] = Field(default_factory=list)
+
+    # Compatibility state kept for downstream nodes that still read them.
     chief_complaint: str | None = None
     candidate_concepts: list[ConceptCandidate] = Field(default_factory=list)
     normalized_terms: list[str] = Field(default_factory=list)
@@ -69,29 +75,39 @@ class MedicalContext(BaseModel):
         return names
 
     def merge_normalized(self, normalized: NormalizedInput) -> None:
-        if normalized.chief_complaint:
-            self.chief_complaint = normalized.chief_complaint
+        prepared = normalized.prepare_for_runtime()
+        self.latest_query_bundle = prepared
+
+        query_en = prepared.primary_query()
+        if query_en:
+            self.latest_query_en = query_en
+            self.query_history_en = _merge_unique_strs(self.query_history_en, [query_en], limit=12)
+
+        derived_terms = prepared.keyword_terms(limit=12) or prepared.normalized_terms
+        self.keyword_history = _merge_unique_strs(self.keyword_history, derived_terms, limit=20)
+
+        if prepared.chief_complaint:
+            self.chief_complaint = prepared.chief_complaint
 
         self.normalized_terms = _merge_unique_strs(
             self.normalized_terms,
-            normalized.normalized_terms,
-            limit=8,
+            derived_terms,
+            limit=12,
         )
-        self.red_flags = _merge_unique_strs(self.red_flags, normalized.red_flags, limit=8)
+        self.red_flags = _merge_unique_strs(self.red_flags, prepared.red_flags, limit=8)
         self.unresolved_questions = _merge_unique_strs(
-            normalized.unresolved_questions,
+            prepared.unresolved_questions,
             self.unresolved_questions,
-            limit=4,
+            limit=6,
         )
         self.free_text_observations = (
-            self.free_text_observations + normalized.free_text_observations
+            self.free_text_observations + prepared.free_text_observations
         )[-5:]
-
-        self.facets = _merge_facets(self.facets, normalized.facets)
-        self.negated_findings = _merge_facets(self.negated_findings, normalized.negated_findings)
+        self.facets = _merge_facets(self.facets, prepared.facets)
+        self.negated_findings = _merge_facets(self.negated_findings, prepared.negated_findings)
         self.candidate_concepts = _merge_candidates(
             self.candidate_concepts,
-            normalized.candidate_concepts,
+            prepared.candidate_concepts,
         )
 
 
@@ -109,14 +125,11 @@ class ConversationState(BaseModel):
         "SAFETY_ESCALATION",
         "ANSWERED",
     ] = "NEW"
-
     raw_user_utterances: list[str] = Field(default_factory=list)
     medical_context: MedicalContext = Field(default_factory=MedicalContext)
-
     asked_questions: list[str] = Field(default_factory=list)
     last_clarify_question: str | None = None
     last_response_type: Literal["answer", "clarification", "safety"] | None = None
-
     confidence: ConfidenceState = Field(default_factory=ConfidenceState)
 
     def register_user_turn(self, text: str) -> None:
@@ -130,7 +143,7 @@ class ConversationState(BaseModel):
         return {
             "phase": self.phase,
             "turn_index": self.turn_index,
-            "chief_complaint": self.medical_context.chief_complaint,
+            "latest_query_en": self.medical_context.latest_query_en,
             "normalized_terms": self.medical_context.normalized_terms,
             "red_flags": self.medical_context.red_flags,
             "unresolved_questions": self.medical_context.unresolved_questions,

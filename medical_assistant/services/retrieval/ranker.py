@@ -26,7 +26,6 @@ def aggregate_candidate_topics(
                 "reasons": [],
             },
         )
-
         group["score"] = max(group["score"], float(hit.score))
         if hit.chunk_id is not None:
             group["chunk_ids"].add(hit.chunk_id)
@@ -40,13 +39,12 @@ def aggregate_candidate_topics(
     for item in groups.values():
         matched_terms = sorted(item["matched_terms"])
         missing_terms = [term for term in normalized_terms if term not in matched_terms]
-        score = round(item["score"] + 0.03 * len(matched_terms), 4)
+        score = round(item["score"] + 0.02 * len(matched_terms), 4)
         reasons = []
         if matched_terms:
-            reasons.append(f"命中术语：{', '.join(matched_terms)}")
+            reasons.append(f"检索关键词重合：{', '.join(matched_terms)}")
         else:
-            reasons.append("语义检索相关，但显式术语覆盖较少")
-
+            reasons.append("主要由语义检索命中")
         topics.append(
             CandidateTopic(
                 title=item["title"],

@@ -17,27 +17,26 @@ def estimate_confidence_node(state: dict[str, Any]) -> dict[str, Any]:
     local_result = LocalSearchResult.model_validate(state.get("local_result") or {})
     candidate_topics = state.get("candidate_topics", []) or []
     safety = state.get("safety", {}) or {}
-
     medical = conversation_state.medical_context
+    bundle = medical.latest_query_bundle
 
-    top_support = max((item.support for item in medical.candidate_concepts), default=0.0)
-    mapping_confidence = 0.20
-    mapping_confidence += 0.15 if medical.chief_complaint else 0.0
-    mapping_confidence += 0.08 * min(3, len(medical.normalized_terms))
-    mapping_confidence += 0.35 * _clamp(top_support)
+    mapping_confidence = 0.15
+    mapping_confidence += 0.35 if medical.latest_query_en else 0.0
+    mapping_confidence += 0.05 * min(3, len(bundle.queries) if bundle else 0)
+    mapping_confidence += 0.05 * min(4, len(medical.normalized_terms))
     mapping_confidence = _clamp(mapping_confidence)
 
     top_local_score = local_result.score
     retrieval_confidence = min(1.0, top_local_score / 0.30)
     if candidate_topics:
-        retrieval_confidence += 0.05 * min(2, len(candidate_topics[0].get("matched_terms", [])))
+        retrieval_confidence += 0.04 * min(3, len(candidate_topics[0].get("matched_terms", [])))
     if len(candidate_topics) > 1 and topic_gap(candidate_topics) < 0.03:
         retrieval_confidence -= 0.15
     retrieval_confidence = _clamp(retrieval_confidence)
 
     unresolved = len(medical.unresolved_questions)
-    dialog_confidence = 0.85 if unresolved == 0 else 0.65 if unresolved == 1 else 0.45
-    if conversation_state.turn_index >= 2 and unresolved == 0:
+    dialog_confidence = 0.80 if unresolved == 0 else 0.60 if unresolved == 1 else 0.45
+    if conversation_state.turn_index >= 2:
         dialog_confidence += 0.05
     dialog_confidence = _clamp(dialog_confidence)
 
@@ -49,18 +48,18 @@ def estimate_confidence_node(state: dict[str, Any]) -> dict[str, Any]:
         safety_confidence = 0.90
 
     overall = (
-        0.35 * mapping_confidence
-        + 0.30 * retrieval_confidence
+        0.30 * mapping_confidence
+        + 0.35 * retrieval_confidence
         + 0.25 * dialog_confidence
         + 0.10 * safety_confidence
     )
     overall = _clamp(overall)
 
     reasons: list[str] = []
-    if medical.chief_complaint:
-        reasons.append(f"已识别主诉：{medical.chief_complaint}")
-    if medical.normalized_terms:
-        reasons.append(f"标准化术语数：{len(medical.normalized_terms)}")
+    if medical.latest_query_en:
+        reasons.append("已生成英文检索查询")
+    reasons.append(f"查询条数：{len(bundle.queries) if bundle else 0}")
+    reasons.append(f"关键词数：{len(medical.normalized_terms)}")
     reasons.append(f"本地最高分：{round(top_local_score, 4)}")
     if len(candidate_topics) > 1:
         reasons.append(f"Top1-Top2 分差：{round(topic_gap(candidate_topics), 4)}")
@@ -75,9 +74,7 @@ def estimate_confidence_node(state: dict[str, Any]) -> dict[str, Any]:
         overall_confidence=round(overall, 4),
         reasons=reasons,
     )
-
     conversation_state.confidence = confidence
-
     return {
         "confidence": confidence.model_dump(mode="json"),
         "conversation_state": conversation_state.model_dump(mode="json"),
