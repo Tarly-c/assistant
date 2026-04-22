@@ -74,7 +74,7 @@ def search_local(
     vectorstore = get_vectorstore()
     query_texts = _query_texts(question=question, queries=queries, local_query=local_query)
 
-    aggregated: dict[tuple[str, int | None, str], RetrievalHit] = {}
+    aggregated: dict[tuple[str, str | None, str], RetrievalHit] = {}
     best_score = 0.0
 
     for query_text in query_texts:
@@ -93,20 +93,22 @@ def search_local(
             metadata = doc.metadata or {}
             source = str(metadata.get("source") or "")
             title = str(metadata.get("title") or Path(source).stem or "local document")
-            chunk_id = metadata.get("chunk_id")
-            chunk_id_int = int(chunk_id) if chunk_id is not None else None
+
+            raw_chunk_id = metadata.get("chunk_id")
+            chunk_id = None if raw_chunk_id is None else str(raw_chunk_id).strip() or None
+
             snippet = (doc.page_content or "").strip()[:700]
             lexical = _lexical_score(f"{title}\n{snippet}", normalized_terms)
             score = round(0.75 * float(relevance_score) + 0.25 * lexical, 4)
             best_score = max(best_score, score)
 
-            key = (source, chunk_id_int, title)
+            key = (source, chunk_id, title)
             previous = aggregated.get(key)
             if previous is None or score > previous.score:
                 aggregated[key] = RetrievalHit(
                     source=source,
                     title=title,
-                    chunk_id=chunk_id_int,
+                    chunk_id=chunk_id,
                     snippet=snippet,
                     score=score,
                     metadata=metadata,
