@@ -1,3 +1,4 @@
+"""本地 Chroma 向量检索。"""
 from __future__ import annotations
 
 from functools import lru_cache
@@ -7,118 +8,84 @@ from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
 
 from medical_assistant.config import get_settings
-from medical_assistant.schemas.input import SearchQuery
-from medical_assistant.schemas.retrieval import LocalSearchResult, RetrievalHit
 
 
 @lru_cache(maxsize=1)
-def get_embeddings():
+def _get_embeddings():
     settings = get_settings()
     return OllamaEmbeddings(model=settings.embedding_model)
 
 
 @lru_cache(maxsize=1)
-def get_vectorstore():
+def _get_vectorstore():
     settings = get_settings()
     settings.chroma_path.mkdir(parents=True, exist_ok=True)
     return Chroma(
         collection_name=settings.collection_name,
         persist_directory=str(settings.chroma_path),
-        embedding_function=get_embeddings(),
+        embedding_function=_get_embeddings(),
     )
 
 
-def _lexical_score(text: str, normalized_terms: list[str]) -> float:
-    if not normalized_terms:
+def _lexical_boost(text: str, terms: list[str]) -> float:
+    """关键词命中率，0~1。"""
+    if not terms:
         return 0.0
     haystack = text.lower()
-    hits = sum(1 for term in normalized_terms if term and term.lower() in haystack)
-    return hits / max(1, len(normalized_terms))
-
-
-def _query_texts(
-    question: str,
-    queries: list[SearchQuery] | None = None,
-    local_query: str | None = None,
-) -> list[str]:
-    result: list[str] = []
-    seen: set[str] = set()
-
-    for item in queries or []:
-        text = (item.text or "").strip()
-        if not text:
-            continue
-        key = text.lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        result.append(text)
-
-    fallback = (local_query or question or "").strip()
-    if fallback:
-        key = fallback.lower()
-        if key not in seen:
-            result.append(fallback)
-
-    return result or [question]
+    hits = sum(1 for t in terms if t and t.lower() in haystack)
+    return hits / max(1, len(terms))
 
 
 def search_local(
     question: str,
-    queries: list[SearchQuery] | None = None,
     normalized_terms: list[str] | None = None,
-    local_query: str | None = None,
 ) -> dict:
-    normalized_terms = normalized_terms or []
+    """
+    返回 dict:
+      enough: bool
+      score: float
+      reason: str
+      hits: list[dict]  — 每个 dict 含 source, title, snippet, score, chunk_id
+    """
+    terms = normalized_terms or []
     settings = get_settings()
-    vectorstore = get_vectorstore()
-    query_texts = _query_texts(question=question, queries=queries, local_query=local_query)
+    vs = _get_vectorstore()
 
-    aggregated: dict[tuple[str, str | None, str], RetrievalHit] = {}
-    best_score = 0.0
+    try:
+        docs_and_scores = vs.similarity_search_with_relevance_scores(
+            question, k=settings.local_top_k,
+        )
+    except Exception:
+        docs_and_scores = [
+            (doc, 0.0)
+            for doc in vs.similarity_search(question, k=settings.local_top_k)
+        ]
 
-    for query_text in query_texts:
-        try:
-            docs_and_scores = vectorstore.similarity_search_with_relevance_scores(
-                query_text,
-                k=settings.local_top_k,
-            )
-        except Exception:
-            docs_and_scores = [
-                (doc, 0.0)
-                for doc in vectorstore.similarity_search(query_text, k=settings.local_top_k)
-            ]
+    hits: list[dict] = []
+    best = 0.0
 
-        for doc, relevance_score in docs_and_scores:
-            metadata = doc.metadata or {}
-            source = str(metadata.get("source") or "")
-            title = str(metadata.get("title") or Path(source).stem or "local document")
+    for doc, rel_score in docs_and_scores:
+        meta = doc.metadata or {}
+        title = str(meta.get("title") or Path(str(meta.get("source", ""))).stem or "unknown")
+        snippet = (doc.page_content or "").strip()[:700]
+        lexical = _lexical_boost(f"{title}\n{snippet}", terms)
+        score = round(0.75 * float(rel_score) + 0.25 * lexical, 4)
+        best = max(best, score)
 
-            raw_chunk_id = metadata.get("chunk_id")
-            chunk_id = None if raw_chunk_id is None else str(raw_chunk_id).strip() or None
+        hits.append({
+            "source": str(meta.get("source", "")),
+            "title": title,
+            "snippet": snippet,
+            "score": score,
+            "chunk_id": str(meta.get("chunk_id", "")),
+        })
 
-            snippet = (doc.page_content or "").strip()[:700]
-            lexical = _lexical_score(f"{title}\n{snippet}", normalized_terms)
-            score = round(0.75 * float(relevance_score) + 0.25 * lexical, 4)
-            best_score = max(best_score, score)
+    hits.sort(key=lambda x: x["score"], reverse=True)
+    hits = hits[: settings.local_top_k]
 
-            key = (source, chunk_id, title)
-            previous = aggregated.get(key)
-            if previous is None or score > previous.score:
-                aggregated[key] = RetrievalHit(
-                    source=source,
-                    title=title,
-                    chunk_id=chunk_id,
-                    snippet=snippet,
-                    score=score,
-                    metadata=metadata,
-                )
-
-    hits = sorted(aggregated.values(), key=lambda x: x.score, reverse=True)
-    result = LocalSearchResult(
-        enough=best_score >= settings.local_min_score,
-        score=round(best_score, 4),
-        reason="top local score compared with configured threshold",
-        hits=hits[: settings.local_top_k],
-    )
-    return result.model_dump(mode="json")
+    return {
+        "enough": best >= settings.local_min_score,
+        "score": round(best, 4),
+        "reason": f"best={best:.4f} vs threshold={settings.local_min_score}",
+        "hits": hits,
+    }
