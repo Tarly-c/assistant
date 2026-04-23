@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     trace_dir: str = "traces"
 
     collection_name: str = "medical_assistant"
-    embedding_model: str = "nomic-embed-text:latest"
+    embedding_model: str = "embeddinggemma:latest"
 
 
     local_top_k: int = 6
