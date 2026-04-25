@@ -30,12 +30,14 @@ _sessions: dict[str, dict] = {}
 def _get_or_create_session(session_id: str | None) -> dict:
     if session_id and session_id in _sessions:
         return _sessions[session_id]
-    sid = str(uuid4())
+
+    sid = session_id or str(uuid4())
     record = {
         "session_id": sid,
         "history": [],
         "turn_index": 0,
         "created_at": time.time(),
+        "case_memory": {},
     }
     _sessions[sid] = record
     return record
@@ -45,21 +47,31 @@ def run_one_turn(session_id: str | None, question: str) -> dict[str, Any]:
     session = _get_or_create_session(session_id)
     wf = get_workflow()
 
-    result = wf.invoke({
-        "question": question,
-        "conversation_history": session["history"],
-        "turn_index": session["turn_index"],
-    })
+    result = wf.invoke(
+        {
+            "question": question,
+            "conversation_history": session["history"],
+            "turn_index": session["turn_index"],
+            "case_memory": session.get("case_memory", {}),
+        }
+    )
 
     answer_text = result.get("answer", "")
     session["history"].append({"role": "user", "content": question})
     session["history"].append({"role": "assistant", "content": answer_text})
     session["turn_index"] = result.get("turn_index", session["turn_index"] + 1)
+    session["case_memory"] = result.get("case_memory", session.get("case_memory", {}))
 
     return {
         "session_id": session["session_id"],
         "response_type": result.get("response_type", "answer"),
         "answer": answer_text,
+        "treatment": result.get("treatment", ""),
+        "matched_case": result.get("matched_case", {}),
+        "candidate_count": result.get("candidate_count", 0),
+        "top_candidates": result.get("top_candidates", []),
+        "selected_question": result.get("selected_question", {}),
+        "memory": session["case_memory"],
         "sources": result.get("sources", []),
         "confidence": result.get("confidence", 0.0),
         "phase": result.get("phase", ""),
@@ -73,7 +85,7 @@ def run_one_turn(session_id: str | None, question: str) -> dict[str, Any]:
 def run_cli(debug: bool = False) -> None:
     session = _get_or_create_session(None)
     sid = session["session_id"]
-    print(f"Medical Assistant CLI 已启动（session={sid}）")
+    print(f"Medical Assistant Case Demo CLI 已启动（session={sid}）")
     print("输入 exit 退出\n")
 
     while True:
@@ -82,6 +94,7 @@ def run_cli(debug: bool = False) -> None:
         except (KeyboardInterrupt, EOFError):
             print("\n退出。")
             break
+
         if not q or q.lower() == "exit":
             break
 
@@ -92,15 +105,21 @@ def run_cli(debug: bool = False) -> None:
             continue
 
         print(f"\n[助手] {result['answer']}\n")
-
         if debug:
-            print(f"  type={result['response_type']}  "
-                  f"confidence={result['confidence']}  "
-                  f"phase={result['phase']}")
-            print(f"  query_en={result['query_en']}  "
-                  f"intent={result['intent']}  "
-                  f"best_score={result['best_score']}")
-            print(f"  sources={result['sources']}")
+            print(
+                f" type={result['response_type']} "
+                f"confidence={result['confidence']} "
+                f"phase={result['phase']} "
+                f"candidates={result['candidate_count']}"
+            )
+            print(
+                f" query_en={result['query_en']} "
+                f"intent={result['intent']} "
+                f"best_score={result['best_score']}"
+            )
+            print(f" top_candidates={result['top_candidates']}")
+            print(f" selected_question={result['selected_question']}")
+            print(f" memory={result['memory']}")
             print()
 
 
