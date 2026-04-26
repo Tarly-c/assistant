@@ -3,20 +3,21 @@
 from __future__ import annotations
 
 from typing import Any, Literal
-
 from pydantic import BaseModel, Field
 
 
-# ── LLM structured output models ─────────────────────────────────────────────
 class NormalizedInput(BaseModel):
     """normalize 节点让 LLM 填的模型。"""
 
     query_en: str = Field(default="", description="用户问题翻译成英文的简洁检索查询")
     intent: str = Field(
         default="general",
-        description="意图分类: treatment / cause / symptom / diagnosis / general",
+        description="意图分类，只能是: treatment / cause / symptom / diagnosis / general",
     )
-    key_terms_en: list[str] = Field(default_factory=list, description="用户提到的关键医学术语")
+    key_terms_en: list[str] = Field(
+        default_factory=list,
+        description="最多 5 个关键医学术语（英文或数据集内关键词）",
+    )
 
 
 class AnswerDraft(BaseModel):
@@ -28,26 +29,28 @@ class ClarifyDraft(BaseModel):
     question: str = Field(default="", description="需要用户补充的追问（中文，1 个问题）")
 
 
-AnswerSignal = Literal["yes", "no", "uncertain", "unrelated"]
+class ProbeAnswerParse(BaseModel):
+    signal: Literal["yes", "no", "uncertain", "unrelated"] = "unrelated"
+    confidence: float = 0.0
+    evidence: str = ""
+    new_observations: list[str] = Field(default_factory=list)
 
 
-class AnswerSignalDraft(BaseModel):
-    """LLM output for a user's reply to the active probe."""
-
-    answer: AnswerSignal | str = Field(
-        default="unrelated",
-        description="用户是否确认上一轮 probe: yes / no / uncertain / unrelated",
-    )
-    observations: list[str] = Field(default_factory=list, description="用户回答中额外提到的观察点")
-    reason: str = Field(default="", description="简短说明为什么这样分类")
-
-
-# ── Case-localization workflow models ───────────────────────────────────────
 class CaseRecord(BaseModel):
     case_id: str
     title: str
     description: str
     treat: str
+
+    # Optional bilingual/search fields. Chinese-only JSON does not need them;
+    # if future data includes them, tree mining and retrieval use them.
+    title_en: str = ""
+    description_en: str = ""
+    aliases: list[str] = Field(default_factory=list)
+    keywords: list[str] = Field(default_factory=list)
+    key_terms_en: list[str] = Field(default_factory=list)
+    search_terms: list[str] = Field(default_factory=list)
+
     feature_tags: list[str] = Field(default_factory=list)
 
 
@@ -74,6 +77,9 @@ class PlannedQuestion(BaseModel):
     debug: dict[str, Any] = Field(default_factory=dict)
 
 
+AnswerSignal = Literal["yes", "no", "uncertain", "unrelated"]
+
+
 class CaseMemory(BaseModel):
     """Cross-turn structured memory."""
 
@@ -92,7 +98,6 @@ class CaseMemory(BaseModel):
     last_question_id: str = ""
     last_question_text: str = ""
     last_question_feature: str = ""
-
     pending_answer_feature: str = ""
     pending_answer_signal: AnswerSignal | str = ""
 
@@ -104,7 +109,6 @@ class CaseMemory(BaseModel):
     probe_splits: dict[str, dict[str, list[str]]] = Field(default_factory=dict)
     probe_labels: dict[str, str] = Field(default_factory=dict)
     probe_questions: dict[str, str] = Field(default_factory=dict)
-    answer_parse_debug: dict[str, Any] = Field(default_factory=dict)
 
     resolved_case_id: str = ""
     turn_index: int = 0

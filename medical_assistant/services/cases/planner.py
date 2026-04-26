@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseCandidate, CaseMemory, PlannedQuestion
-from medical_assistant.services.cases.features import mine_local_probes, split_observation_units
+from medical_assistant.services.cases.features import mine_tree_probes, split_observation_units
 from medical_assistant.services.cases.question_tree import select_question_from_tree
 
 
@@ -61,10 +61,10 @@ def select_question(
     """Choose the next question.
 
     Priority:
-    1. Follow the offline question tree when its current node still splits C.
-    2. If the tree cannot split the current feasible set, mine a local dynamic
-       probe from C.
-    3. In very small/low-gain endings, ask a case-confirmation question.
+    1. Follow the offline question tree.
+    2. If the tree cannot split the current feasible set, mine a fresh broad/local
+       probe from the current C.
+    3. If C is small, ask case-level confirmation.
     """
 
     if len(candidates) <= 1:
@@ -80,22 +80,19 @@ def select_question(
         if tree_question.split_score >= settings.tree_min_probe_gain:
             return tree_question
 
-    # Local dynamic fallback: same mining algorithm as offline tree building, but
-    # run only on the current feasible set.
-    local_probes = mine_local_probes(
+    local_probes = mine_tree_probes(
         candidates,
         asked_probe_ids=asked,
         max_probes=1,
-        min_score=settings.local_probe_min_gain,
         probe_prefix="local",
+        min_child_size=1,
+        min_child_ratio=0.0,
     )
-    if local_probes:
+    if local_probes and local_probes[0].split_score >= settings.local_probe_min_gain:
         return local_probes[0].to_planned_question(strategy="local_dynamic_probe")
 
-    # Last resort for a small unresolved set: confirm the top-ranked case.
     if len(candidates) <= 5:
         return _plan_case_confirmation(candidates, asked_feature_ids=list(asked))
-
     return None
 
 
@@ -114,8 +111,6 @@ def should_finalize(
     if turn_index >= settings.max_clarify_turns:
         return True
 
-    # If top1 is already clearly ahead and the next question has very low value,
-    # stop.  Otherwise, keep asking if the tree/local planner has a useful probe.
     next_question = select_question(candidates, memory=memory, asked_feature_ids=asked_feature_ids)
     if next_question is None:
         return True
@@ -124,7 +119,6 @@ def should_finalize(
         gap = candidates[0].score - candidates[1].score
         if candidates[0].score >= 0.75 and gap >= settings.case_min_confidence_gap:
             return True
-
     return False
 
 

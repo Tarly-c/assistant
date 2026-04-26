@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import math
 from functools import lru_cache
 from typing import Iterable
 
@@ -9,15 +8,43 @@ from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseCandidate, CaseRecord
 from medical_assistant.services.cases.features import extract_search_terms
 
-GENERIC_QUERY_WORDS = {"牙疼", "牙痛", "疼", "痛", "toothache", "tooth pain", "teeth pain"}
-
 
 def make_case_id(index: int) -> str:
     return f"case_{index:03d}"
 
 
+def _list_field(item: dict, *names: str) -> list[str]:
+    out: list[str] = []
+    for name in names:
+        value = item.get(name)
+        if isinstance(value, str):
+            if value.strip():
+                out.append(value.strip())
+        elif isinstance(value, list):
+            out.extend(str(x).strip() for x in value if str(x).strip())
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for value in out:
+        if value not in seen:
+            deduped.append(value)
+            seen.add(value)
+    return deduped
+
+
 def case_document_text(case: CaseRecord) -> str:
-    return f"标题: {case.title}\n描述: {case.description}\n处理: {case.treat}"
+    parts = [
+        f"标题: {case.title}",
+        f"描述: {case.description}",
+        f"处理: {case.treat}",
+    ]
+    if case.title_en:
+        parts.append(f"Title EN: {case.title_en}")
+    if case.description_en:
+        parts.append(f"Description EN: {case.description_en}")
+    extra = [*case.aliases, *case.keywords, *case.key_terms_en, *case.search_terms, *case.feature_tags]
+    if extra:
+        parts.append("Search terms: " + " / ".join(extra))
+    return "\n".join(part for part in parts if part.strip())
 
 
 @lru_cache(maxsize=1)
@@ -26,8 +53,7 @@ def load_cases() -> list[CaseRecord]:
     path = settings.case_data_path
     if not path.exists():
         raise FileNotFoundError(
-            f"Case data not found: {path}. Put the JSON file at this path or set "
-            "MEDICAL_ASSISTANT_CASE_DATA_FILE."
+            f"Case data not found: {path}. Put the JSON file at this path or set MEDICAL_ASSISTANT_CASE_DATA_FILE."
         )
     raw = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(raw, list):
@@ -35,17 +61,24 @@ def load_cases() -> list[CaseRecord]:
 
     cases: list[CaseRecord] = []
     for index, item in enumerate(raw, 1):
+        if not isinstance(item, dict):
+            continue
         title = str(item.get("title", "")).strip()
         description = str(item.get("description", "")).strip()
         treat = str(item.get("treat") or item.get("treatment") or "").strip()
-        feature_tags = list(item.get("feature_tags") or [])
         cases.append(
             CaseRecord(
                 case_id=str(item.get("case_id") or make_case_id(index)),
                 title=title,
                 description=description,
                 treat=treat,
-                feature_tags=feature_tags,
+                title_en=str(item.get("title_en") or "").strip(),
+                description_en=str(item.get("description_en") or "").strip(),
+                aliases=_list_field(item, "aliases", "alias", "synonyms"),
+                keywords=_list_field(item, "keywords", "keyword"),
+                key_terms_en=_list_field(item, "key_terms_en", "terms_en", "en_terms"),
+                search_terms=_list_field(item, "search_terms", "search_aliases"),
+                feature_tags=_list_field(item, "feature_tags"),
             )
         )
     return cases
@@ -90,9 +123,9 @@ def _term_hits(text: str, terms: Iterable[str]) -> list[str]:
     return hits
 
 
-def _query_is_generic(query: str, terms: list[str]) -> bool:
+def _query_is_too_short(query: str, terms: list[str]) -> bool:
     q = _norm(query)
-    return (not q or q in GENERIC_QUERY_WORDS or len(q) <= 3) and not terms
+    return (not q or len(q) <= 1) and not terms
 
 
 def _split_membership(
@@ -119,21 +152,20 @@ def _score_case(
     probe_splits: dict[str, dict[str, list[str]]] | None = None,
 ) -> tuple[float, list[str], list[str]]:
     text = case_document_text(case)
-    title_text = case.title
+    title_text = "\n".join([case.title, case.title_en, *case.aliases, *case.key_terms_en])
     confirmed = list(confirmed_features or [])
     denied = list(denied_features or [])
 
-    # Query/term lexical relevance.
-    search_terms = [query] if query and not _query_is_generic(query, terms) else []
-    search_terms += terms
-    # Also add generic chunks from the raw query so “智齿疼” can match “智齿”.
+    search_terms = [query] if query and not _query_is_too_short(query, terms) else []
+    for term in terms or []:
+        if term not in search_terms:
+            search_terms.append(term)
     for term in extract_search_terms(query):
         if term not in search_terms:
             search_terms.append(term)
 
     matched_terms = _term_hits(text, search_terms)
     title_hits = _term_hits(title_text, search_terms)
-
     score = 0.0
     if search_terms:
         score += 0.35 * (len(matched_terms) / max(1, len(search_terms)))
@@ -159,7 +191,6 @@ def _score_case(
         elif membership == "unknown":
             score += 0.02
 
-    # Keep score in a predictable range for API display.
     score = max(0.0, min(1.0, score))
     return round(score, 4), matched_features, matched_terms
 
@@ -173,14 +204,11 @@ def search_cases(
     probe_splits: dict[str, dict[str, list[str]]] | None = None,
     top_k: int | None = None,
 ) -> list[CaseCandidate]:
-    """Rank case-level records, not document chunks."""
-
     settings = get_settings()
     terms = terms or []
     confirmed_features = confirmed_features or []
     denied_features = denied_features or []
     records = get_cases(candidate_ids)
-
     ranked: list[CaseCandidate] = []
     for case in records:
         score, matched_features, matched_terms = _score_case(
@@ -199,7 +227,6 @@ def search_cases(
                 matched_terms=matched_terms,
             )
         )
-
     ranked.sort(key=lambda c: (c.score, -int(c.case_id.split("_")[-1]) if "_" in c.case_id else 0), reverse=True)
     limit = top_k if top_k is not None else settings.case_initial_top_k
     if limit and limit > 0:
@@ -234,15 +261,8 @@ def apply_feature_filters(
     denied_features: Iterable[str],
     probe_splits: dict[str, dict[str, list[str]]] | None = None,
 ) -> list[str]:
-    """Narrow candidate ids using dynamic probe splits.
-
-    Filters are conservative: unknown cases are retained as soft possibilities,
-    and a filter is only applied if it leaves at least one candidate.
-    """
-
     ids = list(candidate_ids or all_case_ids())
     splits = probe_splits or {}
-
     for probe_id in confirmed_features or []:
         split = splits.get(probe_id)
         if not split:
@@ -251,7 +271,6 @@ def apply_feature_filters(
         narrowed = [cid for cid in ids if cid in allowed]
         if narrowed:
             ids = narrowed
-
     for probe_id in denied_features or []:
         split = splits.get(probe_id)
         if not split:
@@ -260,7 +279,6 @@ def apply_feature_filters(
         narrowed = [cid for cid in ids if cid in allowed]
         if narrowed:
             ids = narrowed
-
     return ids
 
 
@@ -287,11 +305,3 @@ def top_candidate_summary(candidates: list[CaseCandidate], limit: int | None = N
         }
         for case in candidates[:limit]
     ]
-
-
-def entropy_split_score(pos: int, neg: int, total: int) -> float:
-    if total <= 0 or pos <= 0 or neg <= 0:
-        return 0.0
-    p = pos / total
-    entropy = -(p * math.log2(p) + (1 - p) * math.log2(1 - p))
-    return round(entropy, 4)

@@ -1,19 +1,23 @@
 from __future__ import annotations
 
-"""Data-driven dynamic feature/probe utilities for case localization.
+"""Dynamic, data-derived probe mining for the case-localization workflow.
 
-The module does not keep a hand-written symptom table, authoring-token filter,
-discourse-prefix table, or yes/no vocabulary. It mines patient-observable probes
-from the current case texts and scores how well each probe splits a candidate
-solution set. The same logic is used by the offline question-tree builder and
-by the online local fallback planner.
+This module deliberately avoids hand-written symptom/metadata/answer word lists.
+It builds candidate probes from the cases themselves:
+
+1. broad anchor probes from title/description/optional bilingual fields;
+2. local observation-window probes from case text clustering.
+
+The tree builder decides whether the best candidate is worth asking. This module
+should return candidates whenever a split can be computed, even if the gain is
+low, so build diagnostics can show why a node stopped.
 """
 
 from dataclasses import dataclass, field
 from hashlib import sha1
 import math
 import re
-from typing import Iterable, Sequence
+from typing import Any, Iterable, Sequence
 
 from medical_assistant.schemas import CaseCandidate, CaseRecord, PlannedQuestion
 
@@ -36,7 +40,7 @@ class ProbeCandidate:
     unknown_case_ids: list[str] = field(default_factory=list)
     evidence_texts: list[str] = field(default_factory=list)
     split_score: float = 0.0
-    debug: dict[str, float | int | str] = field(default_factory=dict)
+    debug: dict[str, Any] = field(default_factory=dict)
 
     def to_planned_question(
         self,
@@ -55,7 +59,7 @@ class ProbeCandidate:
             positive_case_ids=self.positive_case_ids,
             negative_case_ids=self.negative_case_ids,
             unknown_case_ids=self.unknown_case_ids,
-            split_score=round(self.split_score, 4),
+            split_score=round(float(self.split_score), 4),
             strategy=strategy,
             tree_node_id=tree_node_id,
             yes_child_id=yes_child_id,
@@ -65,8 +69,11 @@ class ProbeCandidate:
         )
 
 
-# Compatibility shims for older imports. The old code used a static feature
-# bank. New code should not depend on global feature ids.
+# ---------------------------------------------------------------------------
+# Compatibility shims for older imports. The new workflow has no global static
+# feature table.
+
+
 def all_features() -> tuple[object, ...]:
     return ()
 
@@ -83,6 +90,10 @@ def feature_labels(feature_ids: Iterable[str]) -> list[str]:
     return [str(fid) for fid in feature_ids if fid]
 
 
+# ---------------------------------------------------------------------------
+# Generic text processing.
+
+
 def _norm(text: str) -> str:
     return re.sub(r"\s+", "", (text or "").strip().lower())
 
@@ -92,21 +103,55 @@ def readable_text(text: str) -> str:
     return text.strip(" ，,。.;；、")
 
 
-def _content_score(text: str) -> int:
-    compact = _norm(text)
-    # Generic content measure: count CJK characters and alphanumerics. This is
-    # not domain vocabulary; it only prevents empty punctuation fragments.
-    return len(re.findall(r"[\u4e00-\u9fffA-Za-z0-9]", compact))
-
-
 def _is_observable_unit(text: str) -> bool:
-    text = readable_text(text)
-    compact = _norm(text)
-    if not compact:
-        return False
-    if len(compact) < 5 or len(compact) > 160:
-        return False
-    return _content_score(compact) >= 5
+    compact = _norm(readable_text(text))
+    return 4 <= len(compact) <= 180
+
+
+def _dedupe_keep_order(items: Iterable[str]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for item in items:
+        cleaned = readable_text(item)
+        key = _norm(cleaned)
+        if cleaned and key not in seen:
+            out.append(cleaned)
+            seen.add(key)
+    return out
+
+
+def _case_extra_texts(case: CaseRecord | CaseCandidate) -> list[str]:
+    """Collect optional bilingual/search fields if the schema/data provides them.
+
+    This makes the search space bilingual without requiring the code to contain
+    a hand-written translation table. Existing Chinese-only JSON continues to
+    work; if future case records include title_en, description_en, aliases,
+    keywords, or key_terms_en, those texts participate in the same mining and
+    retrieval flow.
+    """
+
+    texts: list[str] = []
+    for attr in (
+        "title_en",
+        "description_en",
+        "aliases",
+        "keywords",
+        "key_terms_en",
+        "search_terms",
+    ):
+        value = getattr(case, attr, None)
+        if isinstance(value, str):
+            texts.append(value)
+        elif isinstance(value, (list, tuple, set)):
+            texts.extend(str(x) for x in value if x)
+    return texts
+
+
+def case_search_text(case: CaseRecord | CaseCandidate) -> str:
+    parts = [case.title, case.description, case.treat]
+    parts.extend(case.feature_tags or [])
+    parts.extend(_case_extra_texts(case))
+    return "\n".join(readable_text(str(p)) for p in parts if readable_text(str(p)))
 
 
 def split_observation_units(
@@ -114,66 +159,87 @@ def split_observation_units(
     description: str = "",
     *,
     include_title: bool = False,
-    max_window: int = 3,
+    extra_texts: Sequence[str] | None = None,
 ) -> list[str]:
-    """Split case text into context-preserving observation windows.
+    """Split text into context-preserving windows.
 
-    The function deliberately does not rely on a phrase list such as dependent
-    prefixes. Instead it creates adjacent one-, two-, and three-clause windows.
-    This keeps orphan clauses attached to their local context without encoding
-    Chinese discourse examples in code.
+    No dependent-prefix table is used. Instead, every adjacent 1/2/3-clause
+    window is emitted, so context-dependent fragments can still be represented
+    together with their neighbors.
     """
 
-    raw = description or ""
-    clauses = [
-        readable_text(x)
-        for x in re.split(r"[。；;！!？?\n]+", raw)
-        if readable_text(x)
-    ]
+    raw_parts: list[str] = [description or ""]
+    raw_parts.extend(extra_texts or [])
+    raw = "\n".join(part for part in raw_parts if part)
+    clauses = [readable_text(x) for x in re.split(r"[。；;！!？?\n]+", raw) if readable_text(x)]
 
     units: list[str] = []
     if include_title and title:
-        title_text = readable_text(title)
-        if _is_observable_unit(title_text):
-            units.append(title_text)
+        units.append(readable_text(title))
 
     for i in range(len(clauses)):
-        for size in range(1, max_window + 1):
-            window_clauses = clauses[i : i + size]
-            if len(window_clauses) != size:
-                continue
-            window = readable_text("，".join(window_clauses))
-            if _is_observable_unit(window):
+        for width in (1, 2, 3):
+            window = readable_text("，".join(clauses[i : i + width]))
+            if window and _is_observable_unit(window):
                 units.append(window)
 
-    seen: set[str] = set()
-    out: list[str] = []
-    for unit in units:
-        key = _norm(unit)
-        if key and key not in seen:
-            out.append(unit)
-            seen.add(key)
-    return out
+    return _dedupe_keep_order(units)
+
+
+def split_observable_units(case: CaseRecord | CaseCandidate) -> list[str]:
+    return split_observation_units(
+        case.title,
+        case.description,
+        include_title=False,
+        extra_texts=_case_extra_texts(case),
+    )
 
 
 def collect_text_units(cases: Sequence[CaseRecord | CaseCandidate]) -> list[TextUnit]:
     units: list[TextUnit] = []
     for case in cases:
-        for text in split_observation_units(case.title, case.description):
-            units.append(TextUnit(case_id=case.case_id, text=text))
+        for text in split_observable_units(case):
+            units.append(TextUnit(case_id=case.case_id, text=text, source="description"))
     return units
+
+
+# ---------------------------------------------------------------------------
+# Lightweight bilingual lexical vectorization.
 
 
 def _char_ngrams(text: str, ns: tuple[int, ...] = (2, 3, 4)) -> list[str]:
     compact = _norm(text)
-    if not compact:
-        return []
     grams: list[str] = []
     for n in ns:
         if len(compact) >= n:
             grams.extend(compact[i : i + n] for i in range(len(compact) - n + 1))
-    grams.extend(re.findall(r"[a-z0-9_]{2,}", compact))
+    grams.extend(re.findall(r"[a-z][a-z0-9_/-]{1,}", compact))
     return grams
+
+
+def _latin_terms(text: str) -> list[str]:
+    words = re.findall(r"[a-z][a-z0-9_/-]{2,}", (text or "").lower())
+    terms: list[str] = []
+    for i, word in enumerate(words):
+        terms.append(word)
+        if i + 1 < len(words):
+            terms.append(f"{word} {words[i + 1]}")
+        if i + 2 < len(words):
+            terms.append(f"{word} {words[i + 1]} {words[i + 2]}")
+    return terms
+
+
+def _cjk_terms(text: str, ns: tuple[int, ...] = (2, 3, 4)) -> list[str]:
+    compact = _norm(re.sub(r"[^\u4e00-\u9fff]+", "", text or ""))
+    terms: list[str] = []
+    for n in ns:
+        if len(compact) >= n:
+            terms.extend(compact[i : i + n] for i in range(len(compact) - n + 1))
+    return terms
+
+
+def _candidate_terms(text: str) -> list[str]:
+    return _dedupe_keep_order([*_cjk_terms(text), *_latin_terms(text)])
 
 
 def build_idf(texts: Sequence[str]) -> dict[str, float]:
@@ -203,6 +269,10 @@ def cosine(a: dict[str, float], b: dict[str, float]) -> float:
     return sum(value * b.get(key, 0.0) for key, value in a.items())
 
 
+# ---------------------------------------------------------------------------
+# Split scoring.
+
+
 def split_quality(pos: int, neg: int, unknown: int, total: int) -> float:
     if total <= 0 or pos <= 0 or neg <= 0:
         return 0.0
@@ -213,13 +283,13 @@ def split_quality(pos: int, neg: int, unknown: int, total: int) -> float:
     entropy = 0.0
     if 0.0 < p < 1.0:
         entropy = -(p * math.log2(p) + (1 - p) * math.log2(1 - p))
-    return max(0.0, entropy * coverage * (balance ** 1.35) * unknown_penalty)
+    return max(0.0, entropy * coverage * (balance ** 1.15) * unknown_penalty)
 
 
 def _best_threshold_split(
     sims_by_case: dict[str, float],
     *,
-    margin: float = 0.035,
+    margin: float = 0.025,
     min_child_size: int = 1,
     min_child_ratio: float = 0.0,
 ) -> tuple[list[str], list[str], list[str], float, float]:
@@ -236,13 +306,12 @@ def _best_threshold_split(
     best: tuple[list[str], list[str], list[str], float, float] | None = None
     best_score = -1.0
     for threshold in thresholds:
-        if threshold < 0.02:
+        if threshold <= 0.0:
             continue
         positive = [cid for cid, sim in sims_by_case.items() if sim >= threshold + margin]
         unknown = [cid for cid, sim in sims_by_case.items() if threshold - margin <= sim < threshold + margin]
         negative = [cid for cid, sim in sims_by_case.items() if sim < threshold - margin]
-        ratio_child = int(total * min_child_ratio)
-        min_child = max(1, min_child_size, ratio_child)
+        min_child = max(1, min_child_size, int(total * min_child_ratio))
         if len(positive) < min_child or len(negative) < min_child:
             continue
         score = split_quality(len(positive), len(negative), len(unknown), total)
@@ -253,6 +322,10 @@ def _best_threshold_split(
     if best is None:
         return [], list(sims_by_case), [], 0.0, 1.0
     return best
+
+
+# ---------------------------------------------------------------------------
+# Probe formatting.
 
 
 def make_probe_id(prefix: str, text: str) -> str:
@@ -267,9 +340,140 @@ def make_probe_label(text: str, max_len: int = 28) -> str:
     return text[:max_len].rstrip("，、；;。")
 
 
-def make_question_seed(prototype_text: str) -> str:
-    text = readable_text(prototype_text)
-    return f"是否有这种情况：{text}？请回答：是 / 不是 / 不确定。"
+def make_question_seed(prototype_text: str, evidence_texts: Sequence[str] | None = None) -> str:
+    evidence = [readable_text(x) for x in (evidence_texts or []) if readable_text(x)]
+    if evidence:
+        body = "；".join(evidence[:2])
+    else:
+        body = readable_text(prototype_text)
+    return f"下面这些线索是否符合你的情况：{body}？请回答“是 / 不是 / 不确定”。"
+
+
+# ---------------------------------------------------------------------------
+# Broad anchor probes: good for upper tree levels and bilingual fields.
+
+
+def _case_contains_anchor(case: CaseRecord | CaseCandidate, anchor: str) -> bool:
+    return _norm(anchor) in _norm(case_search_text(case))
+
+
+def _title_contains_anchor(case: CaseRecord | CaseCandidate, anchor: str) -> bool:
+    title_bits = [case.title, *case.feature_tags, *_case_extra_texts(case)]
+    return _norm(anchor) in _norm("\n".join(str(x) for x in title_bits if x))
+
+
+def _evidence_for_anchor(case: CaseRecord | CaseCandidate, anchor: str) -> str:
+    key = _norm(anchor)
+    units = split_observable_units(case)
+    for unit in sorted(units, key=len):
+        if key and key in _norm(unit):
+            return unit
+    if key and key in _norm(case.description):
+        return readable_text(case.description[:120])
+    return readable_text(case.title)
+
+
+def mine_anchor_probes(
+    cases: Sequence[CaseRecord | CaseCandidate],
+    *,
+    asked_probe_ids: Iterable[str] | None = None,
+    max_probes: int = 8,
+    probe_prefix: str = "anchor",
+    min_child_size: int = 1,
+    min_child_ratio: float = 0.0,
+) -> list[ProbeCandidate]:
+    if len(cases) <= 1:
+        return []
+
+    total = len(cases)
+    case_texts = {case.case_id: case_search_text(case) for case in cases}
+    title_texts = {
+        case.case_id: "\n".join([case.title, *case.feature_tags, *_case_extra_texts(case)])
+        for case in cases
+    }
+
+    doc_freq: dict[str, set[str]] = {}
+    title_freq: dict[str, set[str]] = {}
+    for case in cases:
+        terms = set(_candidate_terms(case_texts[case.case_id]))
+        for term in terms:
+            doc_freq.setdefault(term, set()).add(case.case_id)
+        for term in set(_candidate_terms(title_texts[case.case_id])):
+            title_freq.setdefault(term, set()).add(case.case_id)
+
+    asked = set(asked_probe_ids or [])
+    candidates: list[ProbeCandidate] = []
+    min_child = max(1, min_child_size, int(total * min_child_ratio))
+
+    for anchor, positive_set in doc_freq.items():
+        pos_count = len(positive_set)
+        neg_count = total - pos_count
+        if pos_count < min_child or neg_count < min_child:
+            continue
+        if pos_count < 2:
+            continue
+
+        raw_score = split_quality(pos_count, neg_count, 0, total)
+        title_count = len(title_freq.get(anchor, set()))
+        title_ratio = title_count / max(1, pos_count)
+        idf = math.log((1 + total) / (1 + pos_count)) + 1.0
+        score = raw_score * (0.80 + 0.20 * min(idf, 2.2)) * (1.0 + 0.35 * title_ratio)
+        if score <= 0.0:
+            continue
+
+        positive = [case.case_id for case in cases if case.case_id in positive_set]
+        negative = [case.case_id for case in cases if case.case_id not in positive_set]
+        evidence: list[str] = []
+        for case in cases:
+            if case.case_id in positive_set:
+                ev = _evidence_for_anchor(case, anchor)
+                if ev and ev not in evidence:
+                    evidence.append(ev)
+            if len(evidence) >= 5:
+                break
+
+        prototype = anchor
+        probe_id = make_probe_id(probe_prefix, prototype)
+        if probe_id in asked:
+            continue
+
+        candidates.append(
+            ProbeCandidate(
+                probe_id=probe_id,
+                label=make_probe_label(anchor),
+                prototype_text=prototype,
+                question_seed=make_question_seed(prototype, evidence),
+                positive_case_ids=positive,
+                negative_case_ids=negative,
+                unknown_case_ids=[],
+                evidence_texts=evidence[:5],
+                split_score=round(score, 4),
+                debug={
+                    "kind": "auto_anchor_bilingual",
+                    "anchor": anchor,
+                    "raw_split_score": round(raw_score, 4),
+                    "positive": pos_count,
+                    "negative": neg_count,
+                    "unknown": 0,
+                    "title_hits": title_count,
+                    "idf": round(idf, 4),
+                },
+            )
+        )
+
+    candidates.sort(
+        key=lambda p: (
+            p.split_score,
+            len(p.positive_case_ids) * len(p.negative_case_ids),
+            len(p.evidence_texts),
+        ),
+        reverse=True,
+    )
+    return candidates[:max_probes]
+
+
+# ---------------------------------------------------------------------------
+# Local observation-window probes: useful inside narrower branches.
 
 
 def _case_units_map(
@@ -287,19 +491,12 @@ def mine_local_probes(
     *,
     asked_probe_ids: Iterable[str] | None = None,
     max_probes: int = 5,
-    cluster_threshold: float = 0.46,
-    min_score: float = 0.08,
+    cluster_threshold: float = 0.52,
+    min_score: float = 0.0,
     probe_prefix: str = "probe",
     min_child_size: int = 1,
     min_child_ratio: float = 0.0,
 ) -> list[ProbeCandidate]:
-    """Mine discriminative probes from the provided case subset.
-
-    It uses TF-IDF character n-gram vectors as a lightweight deterministic
-    stand-in for external embeddings, so offline tree building can run in local
-    demos without an embedding service.
-    """
-
     case_ids = [case.case_id for case in cases]
     if len(case_ids) <= 1:
         return []
@@ -312,20 +509,19 @@ def mine_local_probes(
     unit_vecs = [(unit, vectorize(unit.text, idf)) for unit in units]
     asked = set(asked_probe_ids or [])
 
-    clusters: list[dict[str, object]] = []
+    clusters: list[dict[str, Any]] = []
     for unit, vec in unit_vecs:
         best_idx = -1
         best_sim = 0.0
         for idx, cluster in enumerate(clusters):
-            sim = cosine(vec, cluster["centroid"])  # type: ignore[arg-type]
+            sim = cosine(vec, cluster["centroid"])
             if sim > best_sim:
                 best_sim = sim
                 best_idx = idx
         if best_idx >= 0 and best_sim >= cluster_threshold:
             cluster = clusters[best_idx]
-            members = cluster["members"]  # type: ignore[assignment]
-            members.append((unit, vec))  # type: ignore[union-attr]
-            centroid: dict[str, float] = dict(cluster["centroid"])  # type: ignore[arg-type]
+            cluster["members"].append((unit, vec))
+            centroid: dict[str, float] = dict(cluster["centroid"])
             for key, value in vec.items():
                 centroid[key] = centroid.get(key, 0.0) + value
             norm = math.sqrt(sum(v * v for v in centroid.values())) or 1.0
@@ -337,8 +533,8 @@ def mine_local_probes(
     candidates: list[ProbeCandidate] = []
 
     for cluster_index, cluster in enumerate(clusters):
-        members: list[tuple[TextUnit, dict[str, float]]] = cluster["members"]  # type: ignore[assignment]
-        centroid: dict[str, float] = cluster["centroid"]  # type: ignore[assignment]
+        members: list[tuple[TextUnit, dict[str, float]]] = cluster["members"]
+        centroid: dict[str, float] = cluster["centroid"]
         if not members:
             continue
 
@@ -346,6 +542,7 @@ def mine_local_probes(
         prototype_text = readable_text(prototype_unit.text)
         if not _is_observable_unit(prototype_text):
             continue
+
         probe_id = make_probe_id(probe_prefix, prototype_text)
         if probe_id in asked:
             continue
@@ -363,18 +560,18 @@ def mine_local_probes(
             sims[cid] = best_sim
             evidence_by_case[cid] = best_unit_text
 
-        positive, negative, unknown, split_score, threshold = _best_threshold_split(
+        positive, negative, unknown, raw_score, threshold = _best_threshold_split(
             sims,
             min_child_size=min_child_size,
             min_child_ratio=min_child_ratio,
         )
-        if split_score < min_score:
+        if raw_score < min_score:
             continue
 
         cluster_case_count = len({unit.case_id for unit, _ in members})
         coherence = sum(cosine(vec, centroid) for _, vec in members) / max(1, len(members))
         multi_case_bonus = min(1.0, cluster_case_count / max(2, min(6, len(case_ids))))
-        final_score = split_score * (0.75 + 0.25 * coherence) * (0.75 + 0.25 * multi_case_bonus)
+        final_score = raw_score * (0.75 + 0.25 * coherence) * (0.75 + 0.25 * multi_case_bonus)
         if final_score < min_score:
             continue
 
@@ -389,14 +586,15 @@ def mine_local_probes(
                 probe_id=probe_id,
                 label=make_probe_label(prototype_text),
                 prototype_text=prototype_text,
-                question_seed=make_question_seed(prototype_text),
+                question_seed=make_question_seed(prototype_text, evidence_texts),
                 positive_case_ids=positive,
                 negative_case_ids=negative,
                 unknown_case_ids=unknown,
-                evidence_texts=evidence_texts,
+                evidence_texts=evidence_texts[:5],
                 split_score=round(final_score, 4),
                 debug={
-                    "raw_split_score": round(split_score, 4),
+                    "kind": "local_window_cluster",
+                    "raw_split_score": round(raw_score, 4),
                     "threshold": round(threshold, 4),
                     "positive": len(positive),
                     "negative": len(negative),
@@ -412,34 +610,76 @@ def mine_local_probes(
     return candidates[:max_probes]
 
 
-def extract_search_terms(text: str) -> list[str]:
-    """Extract generic retrieval chunks from user text without static vocabulary."""
+def mine_tree_probes(
+    cases: Sequence[CaseRecord | CaseCandidate],
+    *,
+    asked_probe_ids: Iterable[str] | None = None,
+    max_probes: int = 5,
+    probe_prefix: str = "probe",
+    min_child_size: int = 1,
+    min_child_ratio: float = 0.0,
+) -> list[ProbeCandidate]:
+    """Return the best broad and local probes for a tree node."""
 
+    broad = mine_anchor_probes(
+        cases,
+        asked_probe_ids=asked_probe_ids,
+        max_probes=max(max_probes * 2, 8),
+        probe_prefix=f"{probe_prefix}_a",
+        min_child_size=min_child_size,
+        min_child_ratio=min_child_ratio,
+    )
+    local = mine_local_probes(
+        cases,
+        asked_probe_ids=asked_probe_ids,
+        max_probes=max(max_probes * 2, 8),
+        min_score=0.0,
+        probe_prefix=f"{probe_prefix}_l",
+        min_child_size=min_child_size,
+        min_child_ratio=min_child_ratio,
+    )
+
+    merged: list[ProbeCandidate] = []
+    seen_signatures: set[tuple[tuple[str, ...], tuple[str, ...]]] = set()
+    for probe in sorted([*broad, *local], key=lambda p: p.split_score, reverse=True):
+        sig = (tuple(sorted(probe.positive_case_ids)), tuple(sorted(probe.negative_case_ids)))
+        if sig in seen_signatures:
+            continue
+        seen_signatures.add(sig)
+        merged.append(probe)
+        if len(merged) >= max_probes:
+            break
+    return merged
+
+
+# ---------------------------------------------------------------------------
+# Answer/search utility compatibility.
+
+
+def classify_answer(text: str, feature_id: str | None = None) -> str:
+    """Compatibility wrapper. Prefer answer_parser.parse_probe_answer_signal."""
+
+    from medical_assistant.services.cases.answer_parser import parse_probe_answer_signal
+
+    return parse_probe_answer_signal(
+        question_text="",
+        user_answer=text,
+        probe_label=feature_id or "",
+    )
+
+
+def extract_search_terms(text: str) -> list[str]:
     text = readable_text(text)
     if not text:
         return []
-
-    chunks = [
-        readable_text(x)
-        for x in re.split(r"[，,。；;！!？?、\s]+", text)
-        if readable_text(x)
-    ]
+    chunks = [readable_text(x) for x in re.split(r"[，,。；;！!？?、\s]+", text) if readable_text(x)]
     terms: list[str] = []
     for chunk in chunks:
-        compact = _norm(chunk)
-        if len(compact) < 2:
-            continue
         terms.append(chunk)
+        compact = _norm(chunk)
         if len(compact) >= 4:
             for n in (2, 3):
-                limit = min(len(compact) - n + 1, 4)
-                for i in range(max(0, limit)):
+                for i in range(0, min(len(compact) - n + 1, 6)):
                     terms.append(compact[i : i + n])
-
-    seen: set[str] = set()
-    out: list[str] = []
-    for term in terms:
-        if term and term not in seen:
-            out.append(term)
-            seen.add(term)
-    return out[:12]
+        terms.extend(_latin_terms(chunk))
+    return _dedupe_keep_order(terms)[:16]

@@ -9,7 +9,7 @@ from typing import Any, Iterable, Sequence
 
 from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseCandidate, CaseMemory, CaseRecord, PlannedQuestion
-from medical_assistant.services.cases.features import ProbeCandidate, mine_local_probes, split_quality
+from medical_assistant.services.cases.features import ProbeCandidate, mine_tree_probes, split_quality
 
 TREE_VERSION = 2
 
@@ -51,34 +51,19 @@ def _branch_ids(probe_dict: dict[str, Any], branch: str, *, include_unknown: boo
     return _unique(ids)
 
 
-def _candidate_probe_options(
-    subset: Sequence[CaseRecord],
-    *,
-    node_id: str,
-    asked_probe_ids: list[str],
-    depth: int,
-) -> list[ProbeCandidate]:
-    settings = get_settings()
-    size = len(subset)
-    min_child_size = 2 if size >= 8 else 1
-    min_child_ratio = 0.08 if size >= 20 else 0.0
-    # Let the miner return slightly weaker candidates; the tree builder decides
-    # whether the best candidate is valuable enough to ask.
-    mining_floor = min(0.015, settings.tree_min_probe_gain / 3)
-    return mine_local_probes(
-        subset,
-        asked_probe_ids=asked_probe_ids,
-        max_probes=max(1, settings.tree_probe_options_per_node),
-        min_score=mining_floor,
-        probe_prefix=f"{node_id}_p",
-        min_child_size=min_child_size,
-        min_child_ratio=min_child_ratio,
-        cluster_threshold=0.40 if depth <= 1 else 0.46,
-    )
+def _mark_leaf(node: dict[str, Any], reason: str, case_ids: list[str]) -> None:
+    node["is_leaf"] = True
+    node["stop_reason"] = reason
+    node["leaf_case_ids"] = case_ids
 
 
 def build_question_tree(cases: Sequence[CaseRecord]) -> dict[str, Any]:
-    """Build a deterministic, dependency-free question tree from case texts."""
+    """Build a deterministic question tree from case texts.
+
+    The miner now returns both broad data-derived anchor probes and local window
+    cluster probes. The tree builder calls it with min_score=0 semantics and
+    performs the gain check here, so low-gain nodes remain debuggable.
+    """
 
     settings = get_settings()
     case_map = {case.case_id: case for case in cases}
@@ -101,60 +86,57 @@ def build_question_tree(cases: Sequence[CaseRecord]) -> dict[str, Any]:
         nodes[node_id] = node
 
         if not case_ids:
-            node["is_leaf"] = True
-            node["stop_reason"] = "empty_case_set"
+            _mark_leaf(node, "empty_case_set", case_ids)
             return node_id
         if depth >= settings.tree_max_depth:
-            node["is_leaf"] = True
-            node["stop_reason"] = "max_depth"
-            node["leaf_case_ids"] = case_ids
+            _mark_leaf(node, "max_depth", case_ids)
             return node_id
         if len(case_ids) <= settings.tree_min_leaf_cases:
-            node["is_leaf"] = True
-            node["stop_reason"] = "small_leaf"
-            node["leaf_case_ids"] = case_ids
+            _mark_leaf(node, "small_leaf", case_ids)
             return node_id
 
         subset = [case_map[cid] for cid in case_ids]
-        probes = _candidate_probe_options(
+        probes = mine_tree_probes(
             subset,
-            node_id=node_id,
             asked_probe_ids=asked_probe_ids,
-            depth=depth,
+            max_probes=max(1, settings.tree_probe_options_per_node),
+            probe_prefix=f"{node_id}_p",
+            min_child_size=2 if len(case_ids) >= 8 else 1,
+            min_child_ratio=0.08 if len(case_ids) >= 8 else 0.0,
         )
         if not probes:
-            node["is_leaf"] = True
-            node["stop_reason"] = "no_probe"
-            node["leaf_case_ids"] = case_ids
+            _mark_leaf(node, "no_probe", case_ids)
             return node_id
 
         probe_dicts = [_probe_to_dict(probe) for probe in probes]
+        node["probe_options"] = probe_dicts
         primary = probe_dicts[0]
-        if float(primary.get("split_score", 0.0)) < settings.tree_min_probe_gain:
-            node["is_leaf"] = True
-            node["stop_reason"] = "low_gain"
-            node["leaf_case_ids"] = case_ids
-            node["probe_options"] = probe_dicts
+        primary_score = float(primary.get("split_score", 0.0) or 0.0)
+        if primary_score < settings.tree_min_probe_gain:
+            node["best_rejected"] = {
+                "score": primary_score,
+                "label": primary.get("label", ""),
+                "debug": primary.get("debug", {}),
+            }
+            _mark_leaf(node, "low_gain", case_ids)
             return node_id
 
         yes_ids = _branch_ids(primary, "yes", include_unknown=settings.tree_use_unknown_as_soft_branch)
         no_ids = _branch_ids(primary, "no", include_unknown=settings.tree_use_unknown_as_soft_branch)
-
         if set(yes_ids) == set(case_ids):
             yes_ids = _branch_ids(primary, "yes", include_unknown=False)
         if set(no_ids) == set(case_ids):
             no_ids = _branch_ids(primary, "no", include_unknown=False)
-
-        if not yes_ids or not no_ids or set(yes_ids) == set(no_ids):
-            node["is_leaf"] = True
-            node["stop_reason"] = "degenerate_split"
-            node["leaf_case_ids"] = case_ids
-            node["probe_options"] = probe_dicts
+        if not yes_ids or not no_ids:
+            node["best_rejected"] = {
+                "score": primary_score,
+                "label": primary.get("label", ""),
+                "debug": primary.get("debug", {}),
+            }
+            _mark_leaf(node, "degenerate_split", case_ids)
             return node_id
 
-        node["probe_options"] = probe_dicts
         node["primary_probe_id"] = primary["probe_id"]
-
         yes_child = f"{node_id}_y"
         no_child = f"{node_id}_n"
         node["yes_child_id"] = yes_child
@@ -261,7 +243,11 @@ def select_question_from_tree(
         return None
 
     candidate_ids = _candidate_ids_for_planning(candidates)
-    node_id = memory.tree_node_id or _best_node_for_candidates(tree, candidate_ids)
+    if memory.tree_node_id:
+        node_id = memory.tree_node_id
+    else:
+        node_id = _best_node_for_candidates(tree, candidate_ids)
+
     node = _node(tree, node_id) or _node(tree, str(tree.get("root_id", "n")))
     if not node or node.get("is_leaf"):
         return None
@@ -308,7 +294,7 @@ def select_question_from_tree(
                 "positive": len(positive),
                 "negative": len(negative),
                 "unknown": len(unknown),
-                "option_debug": option.get("debug", {}),
+                "source_debug": option.get("debug", {}),
             },
         )
 
