@@ -1,4 +1,4 @@
-"""normalize 节点：轻量翻译/关键词提取，LLM 可选。"""
+"""normalize node: optional LLM normalization plus generic chunk extraction."""
 
 from __future__ import annotations
 
@@ -10,22 +10,10 @@ from medical_assistant.schemas import NormalizedInput
 from medical_assistant.services.cases.features import extract_search_terms
 
 
-def _guess_intent(question: str) -> str:
-    q = question or ""
-    if any(w in q for w in ("怎么办", "怎么治", "治疗", "处理", "缓解", "吃什么药")):
-        return "treatment"
-    if any(w in q for w in ("为什么", "原因", "怎么回事", "引起")):
-        return "cause"
-    if any(w in q for w in ("是不是", "什么病", "诊断", "属于")):
-        return "diagnosis"
-    if any(w in q for w in ("症状", "表现")):
-        return "symptom"
-    return "general"
-
-
 def normalize_node(state: GraphState) -> dict:
     question = state.get("question", "")
     settings = get_settings()
+
     result = NormalizedInput()
     if settings.use_llm_normalize:
         result = invoke_structured(
@@ -44,6 +32,6 @@ def normalize_node(state: GraphState) -> dict:
 
     return {
         "query_en": result.query_en or question,
-        "intent": result.intent or _guess_intent(question),
+        "intent": result.intent or "general",
         "key_terms_en": key_terms[:10],
     }

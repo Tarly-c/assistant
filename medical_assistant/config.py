@@ -7,11 +7,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    """Runtime settings.
-
-    The demo remains generic: the current JSON may contain toothache cases, but
-    workflow/tree code is not named or hard-coded around toothache.
-    """
+    """Runtime settings for the generic case-localization demo."""
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -26,6 +22,7 @@ class Settings(BaseSettings):
     chat_model: str = "qwen2.5:7b"
     temperature: float = 0.0
     use_llm_normalize: bool = False
+    debug_llm_payloads: bool = False
 
     resources_dir: str = "resources"
     chroma_dir: str = "chroma_db"
@@ -35,7 +32,6 @@ class Settings(BaseSettings):
     local_top_k: int = 6
     local_min_score: float = 0.18
 
-    # Generic case-demo settings.
     case_data_file: str = "resources/raw/cases_demo.json"
     case_collection_name: str = "case_demo"
     case_initial_top_k: int = 100
@@ -43,7 +39,6 @@ class Settings(BaseSettings):
     case_min_confidence_gap: float = 0.16
     max_clarify_turns: int = 6
 
-    # Offline question-tree settings.
     case_question_tree_file: str = "resources/case_question_tree.json"
     tree_max_depth: int = 7
     tree_min_leaf_cases: int = 2

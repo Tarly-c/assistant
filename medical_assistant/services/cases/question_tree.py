@@ -1,12 +1,6 @@
 from __future__ import annotations
 
-"""Offline/online question-tree support.
-
-A tree node represents a current feasible case subset.  Its primary probe is
-mined from that subset, then yes/no children are recursively built from the
-corresponding split.  Online planning follows the tree when possible and falls
-back to local dynamic probe mining when the tree has no useful split.
-"""
+"""Offline/online question-tree support."""
 
 from functools import lru_cache
 import json
@@ -17,7 +11,7 @@ from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseCandidate, CaseMemory, CaseRecord, PlannedQuestion
 from medical_assistant.services.cases.features import ProbeCandidate, mine_local_probes, split_quality
 
-TREE_VERSION = 1
+TREE_VERSION = 2
 
 
 def _unique(ids: Iterable[str]) -> list[str]:
@@ -55,6 +49,32 @@ def _branch_ids(probe_dict: dict[str, Any], branch: str, *, include_unknown: boo
     if include_unknown:
         ids.extend(probe_dict.get("unknown_case_ids", []))
     return _unique(ids)
+
+
+def _candidate_probe_options(
+    subset: Sequence[CaseRecord],
+    *,
+    node_id: str,
+    asked_probe_ids: list[str],
+    depth: int,
+) -> list[ProbeCandidate]:
+    settings = get_settings()
+    size = len(subset)
+    min_child_size = 2 if size >= 8 else 1
+    min_child_ratio = 0.08 if size >= 20 else 0.0
+    # Let the miner return slightly weaker candidates; the tree builder decides
+    # whether the best candidate is valuable enough to ask.
+    mining_floor = min(0.015, settings.tree_min_probe_gain / 3)
+    return mine_local_probes(
+        subset,
+        asked_probe_ids=asked_probe_ids,
+        max_probes=max(1, settings.tree_probe_options_per_node),
+        min_score=mining_floor,
+        probe_prefix=f"{node_id}_p",
+        min_child_size=min_child_size,
+        min_child_ratio=min_child_ratio,
+        cluster_threshold=0.40 if depth <= 1 else 0.46,
+    )
 
 
 def build_question_tree(cases: Sequence[CaseRecord]) -> dict[str, Any]:
@@ -96,14 +116,11 @@ def build_question_tree(cases: Sequence[CaseRecord]) -> dict[str, Any]:
             return node_id
 
         subset = [case_map[cid] for cid in case_ids]
-        probes = mine_local_probes(
+        probes = _candidate_probe_options(
             subset,
+            node_id=node_id,
             asked_probe_ids=asked_probe_ids,
-            max_probes=max(1, settings.tree_probe_options_per_node),
-            min_score=settings.tree_min_probe_gain,
-            probe_prefix=f"{node_id}_p",
-            min_child_size=2 if len(case_ids) >= 8 else 1,
-            min_child_ratio=0.12 if len(case_ids) >= 8 else 0.0,
+            depth=depth,
         )
         if not probes:
             node["is_leaf"] = True
@@ -117,20 +134,22 @@ def build_question_tree(cases: Sequence[CaseRecord]) -> dict[str, Any]:
             node["is_leaf"] = True
             node["stop_reason"] = "low_gain"
             node["leaf_case_ids"] = case_ids
+            node["probe_options"] = probe_dicts
             return node_id
 
         yes_ids = _branch_ids(primary, "yes", include_unknown=settings.tree_use_unknown_as_soft_branch)
         no_ids = _branch_ids(primary, "no", include_unknown=settings.tree_use_unknown_as_soft_branch)
-        # If a soft branch does not shrink at all, remove unknowns for that branch.
+
         if set(yes_ids) == set(case_ids):
             yes_ids = _branch_ids(primary, "yes", include_unknown=False)
         if set(no_ids) == set(case_ids):
             no_ids = _branch_ids(primary, "no", include_unknown=False)
 
-        if not yes_ids or not no_ids:
+        if not yes_ids or not no_ids or set(yes_ids) == set(no_ids):
             node["is_leaf"] = True
             node["stop_reason"] = "degenerate_split"
             node["leaf_case_ids"] = case_ids
+            node["probe_options"] = probe_dicts
             return node_id
 
         node["probe_options"] = probe_dicts
@@ -194,11 +213,8 @@ def clear_question_tree_cache() -> None:
 def _candidate_ids_for_planning(candidates: Sequence[CaseCandidate]) -> list[str]:
     if not candidates:
         return []
-    # If the current utterance strongly matched a subset, use that subset for
-    # planning; otherwise use the whole feasible set.  This prevents the tree
-    # from ignoring information already present in the user's first message.
     scored = [c.case_id for c in candidates if c.score >= 0.12]
-    if 3 <= len(scored) <= max(3, len(candidates) * 0.75):
+    if 3 <= len(scored) <= max(3, int(len(candidates) * 0.75)):
         return scored
     return [c.case_id for c in candidates]
 
@@ -229,7 +245,6 @@ def _best_node_for_candidates(tree: dict[str, Any], candidate_ids: list[str]) ->
         coverage = overlap / max(1, len(target))
         if coverage < 0.7:
             continue
-        # Prefer high coverage, deeper/smaller nodes.
         score_tuple = (coverage, int(node.get("depth", 0)), -len(node_case_ids))
         if score_tuple > best_tuple:
             best_tuple = score_tuple
@@ -246,10 +261,7 @@ def select_question_from_tree(
         return None
 
     candidate_ids = _candidate_ids_for_planning(candidates)
-    if memory.tree_node_id:
-        node_id = memory.tree_node_id
-    else:
-        node_id = _best_node_for_candidates(tree, candidate_ids)
+    node_id = memory.tree_node_id or _best_node_for_candidates(tree, candidate_ids)
     node = _node(tree, node_id) or _node(tree, str(tree.get("root_id", "n")))
     if not node or node.get("is_leaf"):
         return None
@@ -296,8 +308,10 @@ def select_question_from_tree(
                 "positive": len(positive),
                 "negative": len(negative),
                 "unknown": len(unknown),
+                "option_debug": option.get("debug", {}),
             },
         )
+
     return best_question
 
 
