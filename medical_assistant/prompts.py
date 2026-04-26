@@ -1,26 +1,16 @@
 """Prompt 模板。"""
 
-NORMALIZE_PROMPT = """
-你是医学问题分析助手。请从用户中文医学问题中抽取结构化信息。
-输出 JSON：
+# 从用户中文输入中抽取结构化检索信息
+NORMALIZE = """\
+你是医学问题分析助手。请从用户中文医学问题中抽取：
 - query_en: 简洁英文检索查询
 - intent: treatment / cause / symptom / diagnosis / general
-- key_terms_en: 关键医学术语列表
+- key_terms: 关键医学术语列表（中英文均可）
 """
 
-ANSWER_SIGNAL_PROMPT = """
-你负责判断用户当前回答是否在确认上一轮问诊问题。
-只根据"上一轮助手追问"和"当前用户回答"判断。
-输出 JSON：
-- answer: yes / no / uncertain / unrelated
-- observations: 用户额外提到的症状/诱因/部位/病史，短语数组
-- reason: 一句话判断理由
-"""
-
-ANSWER_PROMPT = """
-你是专业的中文医学健康助手。根据参考资料回答用户的健康问题。
-"""
-
-CLARIFY_PROMPT = """
-你是医学健康助手。请生成 1 个中文追问。
+# 判断用户回答是否确认了上一轮追问
+PARSE_ANSWER = """\
+你是问诊回答解析器。判断用户这句话是否回答了上一轮追问。
+只输出 signal / confidence / evidence / new_observations。
+signal 只能是 yes / no / uncertain / unrelated。
 """

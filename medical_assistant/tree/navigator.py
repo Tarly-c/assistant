@@ -1,4 +1,4 @@
-"""在线沿离线决策树选择提问。"""
+"""在线沿离线决策树选择下一个追问。"""
 from __future__ import annotations
 
 import json
@@ -6,33 +6,34 @@ from functools import lru_cache
 from typing import Any, Sequence
 
 from medical_assistant.config import get_settings
-from medical_assistant.schemas import CaseCandidate, CaseMemory, PlannedQuestion
+from medical_assistant.schemas import Memory, Probe, ScoredCase
 from medical_assistant.probes.scoring import split_quality
 
 
 @lru_cache(maxsize=1)
-def load_question_tree() -> dict[str, Any] | None:
-    path = get_settings().case_question_tree_path
+def load_tree() -> dict[str, Any] | None:
+    path = get_settings().tree_path
     if not path.exists():
         return None
     try:
-        tree = json.loads(path.read_text(encoding="utf-8"))
+        t = json.loads(path.read_text(encoding="utf-8"))
+        return t if isinstance(t, dict) and "nodes" in t else None
     except Exception:
         return None
-    return tree if isinstance(tree, dict) and "nodes" in tree else None
 
 
-def clear_tree_cache() -> None:
-    load_question_tree.cache_clear()
+def clear_cache() -> None:
+    load_tree.cache_clear()
 
 
-def _node(tree: dict, nid: str) -> dict[str, Any] | None:
-    item = tree.get("nodes", {}).get(nid)
-    return item if isinstance(item, dict) else None
+def _get_node(tree: dict, nid: str) -> dict | None:
+    n = tree.get("nodes", {}).get(nid)
+    return n if isinstance(n, dict) else None
 
 
-def _best_node_for(tree: dict, cids: list[str]) -> str:
-    root = str(tree.get("root_id", "n"))
+def _locate(tree: dict, cids: list[str]) -> str:
+    """找到最匹配当前候选集的树节点。"""
+    root = str(tree.get("root", "n"))
     if not cids:
         return root
     target = set(cids)
@@ -50,51 +51,48 @@ def _best_node_for(tree: dict, cids: list[str]) -> str:
     return best_id
 
 
-def select_question_from_tree(
-    candidates: Sequence[CaseCandidate], memory: CaseMemory,
-) -> PlannedQuestion | None:
-    tree = load_question_tree()
+def pick_tree_probe(
+    candidates: Sequence[ScoredCase], mem: Memory,
+) -> Probe | None:
+    """从离线树中选最佳 probe。返回 None 表示树无法继续。"""
+    tree = load_tree()
     if not tree or not candidates:
         return None
 
     cids = [c.case_id for c in candidates]
-    nid = memory.tree_node_id or _best_node_for(tree, cids)
-    node = _node(tree, nid) or _node(tree, str(tree.get("root_id", "n")))
+    nid = mem.tree_node or _locate(tree, cids)
+    node = _get_node(tree, nid) or _get_node(tree, str(tree.get("root", "n")))
     if not node or node.get("is_leaf"):
         return None
 
     current = set(cids or node.get("case_ids", []))
-    asked = set(memory.asked_feature_ids or [])
-    best_q, best_s = None, -1.0
+    asked = set(mem.asked_probes)
+    best_probe, best_s = None, -1.0
 
-    for opt in node.get("probe_options", []):
-        if not isinstance(opt, dict):
-            continue
+    for opt in node.get("probes", []):
         pid = str(opt.get("probe_id", ""))
         if not pid or pid in asked:
             continue
-        pos = [c for c in opt.get("positive_case_ids", []) if c in current]
-        neg = [c for c in opt.get("negative_case_ids", []) if c in current]
-        unk = [c for c in opt.get("unknown_case_ids", []) if c in current]
+        pos = [c for c in opt.get("positive_ids", []) if c in current]
+        neg = [c for c in opt.get("negative_ids", []) if c in current]
+        unk = [c for c in opt.get("unknown_ids", []) if c in current]
         if not pos or not neg:
             continue
         local = split_quality(len(pos), len(neg), len(unk), len(current))
-        combined = 0.6 * local + 0.4 * float(opt.get("split_score", 0) or 0)
+        combined = 0.6 * local + 0.4 * float(opt.get("score", 0) or 0)
         if combined <= best_s:
             continue
         best_s = combined
-        best_q = PlannedQuestion(
-            question_id=f"q_{nid}_{pid}", feature_id=pid,
-            label=str(opt.get("label", "")),
-            text=str(opt.get("question_seed", "")),
-            positive_case_ids=pos, negative_case_ids=neg, unknown_case_ids=unk,
-            split_score=round(combined, 4), strategy="tree_probe",
-            tree_node_id=nid,
-            yes_child_id=str(opt.get("yes_child_id") or node.get("yes_child_id") or ""),
-            no_child_id=str(opt.get("no_child_id") or node.get("no_child_id") or ""),
-            evidence_texts=list(opt.get("evidence_texts", []))[:5],
-            debug={"tree_node_id": nid, "global_score": opt.get("split_score", 0),
-                   "local_score": round(local, 4),
-                   "positive": len(pos), "negative": len(neg), "unknown": len(unk)},
+        best_probe = Probe(
+            probe_id=pid, label=str(opt.get("label", "")),
+            text=str(opt.get("question", "")),
+            positive_ids=pos, negative_ids=neg, unknown_ids=unk,
+            score=round(combined, 4), strategy="tree",
+            tree_node=nid,
+            yes_child=str(opt.get("yes_child") or node.get("yes_child") or ""),
+            no_child=str(opt.get("no_child") or node.get("no_child") or ""),
+            evidence=list(opt.get("evidence", []))[:5],
+            debug={"node": nid, "global": opt.get("score", 0),
+                   "local": round(local, 4), "pos": len(pos), "neg": len(neg)},
         )
-    return best_q
+    return best_probe

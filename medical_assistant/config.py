@@ -1,3 +1,4 @@
+"""全局配置。所有 LLM 调用始终启用，所有 debug 信息始终打印。"""
 from __future__ import annotations
 
 from functools import lru_cache
@@ -15,54 +16,45 @@ class Settings(BaseSettings):
     api_host: str = "0.0.0.0"
     api_port: int = 8000
 
+    # LLM
     chat_model: str = "qwen2.5:7b"
     temperature: float = 0.0
-    use_llm_normalize: bool = False
-    debug_llm_payloads: bool = False
 
-    resources_dir: str = "resources"
-    chroma_dir: str = "chroma_db"
-    collection_name: str = "medical_assistant"
-    embedding_model: str = "embeddinggemma:latest"
-    local_top_k: int = 6
-    local_min_score: float = 0.18
-
+    # 病例数据
     case_data_file: str = "resources/raw/cases_demo.json"
+
+    # 向量索引（仅 build_index 使用）
+    chroma_dir: str = "chroma_db"
+    embedding_model: str = "embeddinggemma:latest"
     case_collection_name: str = "case_demo"
-    case_initial_top_k: int = 100
-    case_display_top_k: int = 5
-    case_min_confidence_gap: float = 0.16
-    max_clarify_turns: int = 6
 
-    case_question_tree_file: str = "resources/case_question_tree.json"
+    # 决策树
+    tree_file: str = "resources/case_question_tree.json"
     tree_max_depth: int = 7
-    tree_min_leaf_cases: int = 2
-    tree_min_probe_gain: float = 0.04
-    tree_probe_options_per_node: int = 3
-    tree_use_unknown_as_soft_branch: bool = True
+    tree_min_leaf: int = 2                # 叶节点最少病例数
+    tree_min_gain: float = 0.04           # probe 最低信息增益
+    tree_probes_per_node: int = 3         # 每个节点保留的 probe 数
+    tree_soft_branch: bool = True         # unknown 病例分配到两侧
 
-    local_probe_min_gain: float = 0.03
-
-    # 至少问几轮才允许高置信度终止
-    min_turns_before_finalize: int = 3
-    # 候选集大于多少时，不允许纯靠分数终止
-    large_candidate_threshold: int = 10
-
-    @property
-    def resources_path(self) -> Path:
-        return Path(self.resources_dir)
-
-    @property
-    def chroma_path(self) -> Path:
-        return Path(self.chroma_dir)
+    # 在线提问
+    online_min_gain: float = 0.03         # 在线动态 probe 最低收益
+    max_turns: int = 6                    # 最大追问轮数
+    min_turns_to_finalize: int = 3        # 至少问几轮才允许终止
+    large_set_threshold: int = 10         # 候选集大于此值时不靠分数终止
+    confidence_gap: float = 0.16          # top1 - top2 达到此值才允许终止
+    display_top_k: int = 5               # 返回给前端的 top 候选数
 
     @property
     def case_data_path(self) -> Path:
         return Path(self.case_data_file)
 
     @property
-    def case_question_tree_path(self) -> Path:
-        return Path(self.case_question_tree_file)
+    def tree_path(self) -> Path:
+        return Path(self.tree_file)
+
+    @property
+    def chroma_path(self) -> Path:
+        return Path(self.chroma_dir)
 
 
 @lru_cache(maxsize=1)

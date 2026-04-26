@@ -1,36 +1,33 @@
-"""LangGraph state。"""
+"""LangGraph 状态定义。精简到最少字段。"""
 from __future__ import annotations
 
 from typing import Any, TypedDict
 
 
-class GraphState(TypedDict, total=False):
-    question: str
-    conversation_history: list[dict[str, Any]]
-    query_en: str
-    intent: str
-    key_terms_en: list[str]
-    case_memory: dict[str, Any]
-    confirmed_features: dict[str, Any]
-    denied_features: dict[str, Any]
-    uncertain_features: dict[str, Any]
-    tree_node_id: str
-    candidate_case_ids: list[str]
-    case_candidates: list[dict[str, Any]]
-    candidate_scores: dict[str, float]
+class S(TypedDict, total=False):
+    """Workflow 共享状态。
+
+    字段分三类：
+    - 输入：user_input, turn, history
+    - 记忆：memory（dict，跨轮持久）
+    - 输出：reply, reply_type, probe, matched_case, confidence, candidates
+    """
+
+    # ── 输入 ──
+    user_input: str              # 用户本轮原始输入
+    turn: int                    # 当前轮次
+    history: list[dict]          # 对话历史 [{role, content}, ...]
+
+    # ── 跨轮记忆（Memory 的 dict 形式）──
+    memory: dict[str, Any]
+
+    # ── 本轮中间/输出 ──
+    candidates: list[dict]       # ScoredCase 列表（含评分）
     candidate_count: int
-    top_candidates: list[dict[str, Any]]
-    selected_question: dict[str, Any]
-    should_answer: bool
-    resolved_case_id: str
-    matched_case: dict[str, Any]
-    hits: list[dict[str, Any]]
-    best_score: float
-    enough: bool
-    sources: list[str]
+    reply: str                   # 返回给用户的文本
+    reply_type: str              # "question" | "answer"
+    probe: dict[str, Any]        # 选中的追问详情
+    matched_case: dict[str, Any] # 匹配的病例详情
     confidence: float
-    response_type: str
-    answer: str
-    treatment: str
-    turn_index: int
-    phase: str
+    best_score: float
+    top_candidates: list[dict]   # 给前端的 top N 摘要

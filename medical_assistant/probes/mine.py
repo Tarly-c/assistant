@@ -1,40 +1,32 @@
-"""统一 Probe 挖掘入口：合并 anchor + window 两路结果。"""
+"""统一 Probe 挖掘入口：anchor + window 合并去重。"""
 from __future__ import annotations
 
 from typing import Iterable, Sequence
 
-from medical_assistant.schemas import CaseCandidate, CaseRecord
+from medical_assistant.schemas import CaseRecord, ScoredCase
 from medical_assistant.probes.types import ProbeCandidate
 from medical_assistant.probes.anchor import mine_anchor_probes
 from medical_assistant.probes.window import mine_window_probes
 
 
-def mine_tree_probes(
-    cases: Sequence[CaseRecord | CaseCandidate], *,
-    asked_probe_ids: Iterable[str] | None = None,
-    max_probes: int = 5,
-    probe_prefix: str = "probe",
-    min_child_size: int = 2,
-    min_child_ratio: float = 0.05,
+def mine_probes(
+    cases: Sequence[CaseRecord | ScoredCase], *,
+    asked: Iterable[str] = (), max_probes: int = 5,
+    prefix: str = "p", min_child: int = 2,
 ) -> list[ProbeCandidate]:
-    """返回 anchor + window 合并后的最佳 probes。"""
-    min_cs = max(1, min_child_size, int(len(cases) * min_child_ratio))
-
+    """合并 anchor + window 两路 probe，按 score 降序，positive set 去重。"""
+    mc = max(1, min_child, int(len(cases) * 0.05))
     anchors = mine_anchor_probes(
-        cases, asked_probe_ids=asked_probe_ids,
-        max_probes=max_probes * 3, probe_prefix=f"{probe_prefix}_a",
-        min_child_size=min_cs,
+        cases, asked=asked, max_probes=max_probes * 3,
+        prefix=f"{prefix}_a", min_child=mc,
     )
     windows = mine_window_probes(
-        cases, asked_probe_ids=asked_probe_ids,
-        max_probes=max_probes * 2, probe_prefix=f"{probe_prefix}_w",
-        min_child_size=min_cs,
+        cases, asked=asked, max_probes=max_probes * 2,
+        prefix=f"{prefix}_w", min_child=mc,
     )
-
-    merged: list[ProbeCandidate] = []
-    seen: set[frozenset[str]] = set()
-    for p in sorted([*anchors, *windows], key=lambda x: x.split_score, reverse=True):
-        sig = frozenset(p.positive_case_ids)
+    merged, seen = [], set()
+    for p in sorted([*anchors, *windows], key=lambda x: x.score, reverse=True):
+        sig = frozenset(p.positive_ids)
         if sig not in seen:
             seen.add(sig)
             merged.append(p)

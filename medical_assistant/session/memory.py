@@ -1,104 +1,117 @@
-"""CaseMemory 读写与跨轮更新。"""
+"""Memory 读写与跨轮更新。"""
 from __future__ import annotations
 
 from typing import Any
 
-from medical_assistant.schemas import CaseMemory
-from medical_assistant.session.answer_parser import parse_probe_answer
+from medical_assistant.schemas import Memory, Probe
+from medical_assistant.session.parser import parse_answer
 
 
-def load_memory(raw: dict[str, Any] | CaseMemory | None) -> CaseMemory:
-    if isinstance(raw, CaseMemory):
+def load(raw: dict | Memory | None) -> Memory:
+    if isinstance(raw, Memory):
         return raw
-    return CaseMemory(**(raw or {})) if isinstance(raw, dict) else CaseMemory()
+    return Memory(**(raw or {})) if isinstance(raw, dict) else Memory()
 
 
-def dump_memory(mem: CaseMemory) -> dict[str, Any]:
+def dump(mem: Memory) -> dict[str, Any]:
     return mem.model_dump()
 
 
-def _merge(existing: list[str], additions: list[str]) -> list[str]:
+def _merge(existing: list[str], new: list[str]) -> list[str]:
     out = list(existing or [])
-    for item in additions:
+    for item in new:
         if item and item not in out:
             out.append(item)
     return out
 
 
-def _save_probe_split(mem: CaseMemory, q: dict[str, Any]) -> None:
-    fid = str(q.get("feature_id", ""))
-    if not fid:
-        return
-    mem.probe_splits[fid] = {
-        "positive": list(q.get("positive_case_ids", []) or []),
-        "negative": list(q.get("negative_case_ids", []) or []),
-        "unknown": list(q.get("unknown_case_ids", []) or []),
-    }
-    mem.probe_labels[fid] = str(q.get("label") or q.get("text") or fid)
-    mem.probe_questions[fid] = str(q.get("text", ""))
+def process_user_input(
+    mem: Memory, *,
+    user_input: str,
+    search_query: str,
+    search_terms: list[str],
+    intent: str,
+    turn: int,
+) -> Memory:
+    """根据用户本轮输入更新记忆。
 
+    如果用户在回答上一轮追问 → 解析回答，更新确认/否认状态。
+    如果是首轮/新问题 → 更新搜索信息。
+    """
+    is_answering = bool(mem.last_probe_id)
 
-def update_from_turn(
-    raw: dict[str, Any] | None, *,
-    question: str, query_en: str, key_terms: list[str], turn_index: int,
-) -> CaseMemory:
-    mem = load_memory(raw)
-    is_answering = bool(mem.last_question_feature)
-
-    if not mem.original_question:
-        mem.original_question = question
-        mem.normalized_query = query_en or question
+    # 首轮：记录原始信息
+    if not mem.original_input:
+        mem.original_input = user_input
+        mem.search_query = search_query
+        mem.intent = intent
     elif not is_answering:
-        mem.normalized_query = query_en or question
+        # 用户换了话题
+        mem.search_query = search_query
+        mem.intent = intent
 
-    mem.key_terms = _merge(mem.key_terms, key_terms or [])
-    mem.turn_index = turn_index
-    mem.pending_answer_feature = ""
-    mem.pending_answer_signal = ""
+    mem.search_terms = _merge(mem.search_terms, search_terms)
+    mem.turn = turn
 
-    if mem.last_question_feature:
-        fid = mem.last_question_feature
-        parsed = parse_probe_answer(
-            question_text=mem.last_question_text, user_answer=question,
-            probe_label=mem.probe_labels.get(fid, fid),
+    # 解析上一轮追问的回答
+    if is_answering:
+        parsed = parse_answer(
+            probe_text=mem.last_probe_text,
+            user_input=user_input,
+            probe_label=mem.labels.get(mem.last_probe_id, mem.last_probe_id),
         )
-        signal = parsed.signal
-        if signal in {"yes", "no", "uncertain"}:
-            mem.pending_answer_feature = fid
-            mem.pending_answer_signal = signal
-            if signal == "yes":
-                mem.confirmed_features[fid] = {"value": True, "evidence": parsed.evidence}
-                mem.denied_features.pop(fid, None)
-                mem.uncertain_features.pop(fid, None)
-                if mem.last_question_yes_child:
-                    mem.tree_node_id = mem.last_question_yes_child
-            elif signal == "no":
-                mem.denied_features[fid] = {"value": True, "evidence": parsed.evidence}
-                mem.confirmed_features.pop(fid, None)
-                mem.uncertain_features.pop(fid, None)
-                if mem.last_question_no_child:
-                    mem.tree_node_id = mem.last_question_no_child
-            else:
-                mem.uncertain_features[fid] = {"answer": question, "evidence": parsed.evidence}
-                if mem.last_question_tree_node_id:
-                    mem.tree_node_id = mem.last_question_tree_node_id
-        mem.key_terms = _merge(mem.key_terms, parsed.new_observations)
+        pid = mem.last_probe_id
+        sig = parsed.signal
+
+        if sig == "yes":
+            mem.confirmed[pid] = {"evidence": parsed.evidence}
+            mem.denied.pop(pid, None)
+            mem.uncertain.pop(pid, None)
+            if mem.last_yes_child:
+                mem.tree_node = mem.last_yes_child
+        elif sig == "no":
+            mem.denied[pid] = {"evidence": parsed.evidence}
+            mem.confirmed.pop(pid, None)
+            mem.uncertain.pop(pid, None)
+            if mem.last_no_child:
+                mem.tree_node = mem.last_no_child
+        elif sig == "uncertain":
+            mem.uncertain[pid] = {"evidence": parsed.evidence}
+            if mem.last_tree_node:
+                mem.tree_node = mem.last_tree_node
+
+        # 用户回答里夹带的新症状
+        mem.search_terms = _merge(mem.search_terms, parsed.new_observations)
+
     return mem
 
 
-def remember_question(raw: dict[str, Any] | CaseMemory | None, q: dict[str, Any]) -> CaseMemory:
-    mem = load_memory(raw)
-    qid = str(q.get("question_id", ""))
-    fid = str(q.get("feature_id", ""))
-    mem.last_question_id = qid
-    mem.last_question_feature = fid
-    mem.last_question_text = str(q.get("text", ""))
-    mem.last_question_tree_node_id = str(q.get("tree_node_id", ""))
-    mem.last_question_yes_child = str(q.get("yes_child_id", ""))
-    mem.last_question_no_child = str(q.get("no_child_id", ""))
-    if q.get("tree_node_id"):
-        mem.tree_node_id = str(q["tree_node_id"])
-    mem.asked_question_ids = _merge(mem.asked_question_ids, [qid])
-    mem.asked_feature_ids = _merge(mem.asked_feature_ids, [fid])
-    _save_probe_split(mem, q)
+def record_probe(mem: Memory, probe: Probe) -> Memory:
+    """记录本轮选中的追问，供下一轮解析回答。"""
+    mem.last_probe_id = probe.probe_id
+    mem.last_probe_text = probe.text
+    mem.last_probe_label = probe.label
+    mem.last_tree_node = probe.tree_node
+    mem.last_yes_child = probe.yes_child
+    mem.last_no_child = probe.no_child
+
+    if probe.tree_node:
+        mem.tree_node = probe.tree_node
+
+    mem.asked_probes = _merge(mem.asked_probes, [probe.probe_id])
+
+    # 保存切分数据
+    mem.splits[probe.probe_id] = {
+        "positive": probe.positive_ids,
+        "negative": probe.negative_ids,
+        "unknown": probe.unknown_ids,
+    }
+    mem.labels[probe.probe_id] = probe.label
+    return mem
+
+
+def clear_last_probe(mem: Memory) -> Memory:
+    """清除上一轮追问（进入非追问状态）。"""
+    mem.last_probe_id = ""
+    mem.last_probe_text = ""
     return mem

@@ -4,144 +4,129 @@ from __future__ import annotations
 from typing import Iterable
 
 from medical_assistant.config import get_settings
-from medical_assistant.schemas import CaseCandidate, CaseRecord
-from medical_assistant.text.split import extract_search_terms, norm_text
-from medical_assistant.cases.store import (
-    all_case_ids, case_document_text, get_cases, case_extra_texts,
-)
+from medical_assistant.schemas import CaseRecord, ScoredCase
+from medical_assistant.text.split import extract_terms, norm
+from medical_assistant.cases.store import all_ids, document_text, get_cases
 
 
-def _term_hits(text: str, terms: Iterable[str]) -> list[str]:
-    haystack = norm_text(text)
-    return [t for t in terms if norm_text(t) in haystack]
+def _hits(haystack: str, terms: Iterable[str]) -> list[str]:
+    """返回 terms 中能在 haystack 里子串命中的项。"""
+    h = norm(haystack)
+    return [t for t in terms if norm(t) in h]
 
 
-def _split_membership(
-    case_id: str, probe_id: str,
-    probe_splits: dict[str, dict[str, list[str]]] | None,
-) -> str:
-    split = (probe_splits or {}).get(probe_id, {})
-    if case_id in set(split.get("positive", [])):
+def _membership(case_id: str, probe_id: str,
+                splits: dict[str, dict[str, list[str]]]) -> str:
+    """查询 case_id 在某个 probe 切分中的归属。"""
+    s = splits.get(probe_id, {})
+    if case_id in set(s.get("positive", [])):
         return "positive"
-    if case_id in set(split.get("negative", [])):
+    if case_id in set(s.get("negative", [])):
         return "negative"
-    if case_id in set(split.get("unknown", [])):
+    if case_id in set(s.get("unknown", [])):
         return "unknown"
     return "missing"
 
 
-def _score_case(
+def score_case(
     case: CaseRecord, query: str, terms: list[str],
     confirmed: Iterable[str], denied: Iterable[str],
-    probe_splits: dict[str, dict[str, list[str]]] | None = None,
+    splits: dict[str, dict[str, list[str]]],
 ) -> tuple[float, list[str], list[str]]:
-    text = case_document_text(case)
-    title_text = "\n".join([case.title, case.title_en, *case.aliases, *case.key_terms_en])
+    """为单个病例计算匹配分数。返回 (score, hit_probes, hit_terms)。"""
+    text = document_text(case)
+    title_text = "\n".join([case.title, case.title_en, *case.aliases])
 
-    search_terms: list[str] = []
-    q = norm_text(query)
+    # 搜索词（query + terms + query 的子片段）
+    search = []
+    q = norm(query)
     if q and len(q) > 1:
-        search_terms.append(query)
+        search.append(query)
     for t in (terms or []):
-        if t not in search_terms:
-            search_terms.append(t)
-    for t in extract_search_terms(query):
-        if t not in search_terms:
-            search_terms.append(t)
+        if t not in search:
+            search.append(t)
+    for t in extract_terms(query):
+        if t not in search:
+            search.append(t)
 
-    matched_terms = _term_hits(text, search_terms)
-    title_hits = _term_hits(title_text, search_terms)
-    score = 0.0
-    if search_terms:
-        score += 0.35 * (len(matched_terms) / max(1, len(search_terms)))
-        score += 0.15 * (len(title_hits) / max(1, len(search_terms)))
+    hit_terms = _hits(text, search)
+    title_hits = _hits(title_text, search)
+    s = 0.0
+    if search:
+        s += 0.35 * len(hit_terms) / max(1, len(search))
+        s += 0.15 * len(title_hits) / max(1, len(search))
 
-    matched_features: list[str] = []
+    # confirmed probe 奖惩
+    hit_probes = []
     for pid in (confirmed or []):
-        m = _split_membership(case.case_id, pid, probe_splits)
+        m = _membership(case.case_id, pid, splits)
         if m == "positive":
-            score += 0.24
-            matched_features.append(pid)
+            s += 0.24; hit_probes.append(pid)
         elif m == "negative":
-            score -= 0.35
+            s -= 0.35
         elif m == "unknown":
-            score += 0.03
+            s += 0.03
+
+    # denied probe 奖惩
     for pid in (denied or []):
-        m = _split_membership(case.case_id, pid, probe_splits)
+        m = _membership(case.case_id, pid, splits)
         if m == "negative":
-            score += 0.18
+            s += 0.18
         elif m == "positive":
-            score -= 0.32
+            s -= 0.32
         elif m == "unknown":
-            score += 0.02
+            s += 0.02
 
-    return round(max(0.0, min(1.0, score)), 4), matched_features, matched_terms
+    return round(max(0.0, min(1.0, s)), 4), hit_probes, hit_terms
 
 
-def search_cases(
-    query: str, terms: list[str] | None = None,
+def rank_cases(
+    query: str, terms: list[str],
     candidate_ids: list[str] | None = None,
-    confirmed_features: Iterable[str] | None = None,
-    denied_features: Iterable[str] | None = None,
-    probe_splits: dict[str, dict[str, list[str]]] | None = None,
-    top_k: int | None = None,
-) -> list[CaseCandidate]:
-    settings = get_settings()
-    records = get_cases(candidate_ids)
-    ranked: list[CaseCandidate] = []
-    for case in records:
-        score, mf, mt = _score_case(
-            case, query, terms or [],
-            confirmed_features or [], denied_features or [],
-            probe_splits,
-        )
-        ranked.append(CaseCandidate(**case.model_dump(), score=score,
-                                    matched_features=mf, matched_terms=mt))
+    confirmed: Iterable[str] = (), denied: Iterable[str] = (),
+    splits: dict[str, dict[str, list[str]]] | None = None,
+) -> list[ScoredCase]:
+    """对候选病例评分并排序。"""
+    splits = splits or {}
+    ranked = []
+    for case in get_cases(candidate_ids):
+        s, hp, ht = score_case(case, query, terms or [], confirmed, denied, splits)
+        ranked.append(ScoredCase(**case.model_dump(), score=s, hit_probes=hp, hit_terms=ht))
     ranked.sort(key=lambda c: c.score, reverse=True)
-    limit = top_k if top_k is not None else settings.case_initial_top_k
-    return ranked[:limit] if limit and limit > 0 else ranked
+    return ranked
 
 
-def apply_feature_filters(
-    candidate_ids: list[str] | None,
-    confirmed_features: Iterable[str],
-    denied_features: Iterable[str],
-    probe_splits: dict[str, dict[str, list[str]]] | None = None,
+def filter_by_probes(
+    ids: list[str] | None,
+    confirmed: Iterable[str], denied: Iterable[str],
+    splits: dict[str, dict[str, list[str]]],
 ) -> list[str]:
-    ids = list(candidate_ids or all_case_ids())
-    splits = probe_splits or {}
-    for pid in (confirmed_features or []):
-        split = splits.get(pid)
-        if not split:
+    """根据 confirmed/denied probe 过滤病例 ID 列表。"""
+    result = list(ids or all_ids())
+    for pid in (confirmed or []):
+        s = splits.get(pid)
+        if not s:
             continue
-        allowed = set(split.get("positive", []) + split.get("unknown", []))
-        narrowed = [cid for cid in ids if cid in allowed]
+        allowed = set(s.get("positive", []) + s.get("unknown", []))
+        narrowed = [cid for cid in result if cid in allowed]
         if narrowed:
-            ids = narrowed
-    for pid in (denied_features or []):
-        split = splits.get(pid)
-        if not split:
+            result = narrowed
+    for pid in (denied or []):
+        s = splits.get(pid)
+        if not s:
             continue
-        allowed = set(split.get("negative", []) + split.get("unknown", []))
-        narrowed = [cid for cid in ids if cid in allowed]
+        allowed = set(s.get("negative", []) + s.get("unknown", []))
+        narrowed = [cid for cid in result if cid in allowed]
         if narrowed:
-            ids = narrowed
-    return ids
+            result = narrowed
+    return result
 
 
-def confidence_from_candidates(candidates: list[CaseCandidate]) -> float:
+def confidence(candidates: list[ScoredCase]) -> float:
+    """从候选列表计算置信度。"""
     if not candidates:
         return 0.0
     if len(candidates) == 1:
         return max(0.65, candidates[0].score)
     gap = max(0.0, candidates[0].score - candidates[1].score)
     return round(min(1.0, max(candidates[0].score, 0.5 + gap)), 4)
-
-
-def top_candidate_summary(candidates: list[CaseCandidate], limit: int | None = None) -> list[dict]:
-    limit = limit or get_settings().case_display_top_k
-    return [
-        {"case_id": c.case_id, "title": c.title, "score": c.score,
-         "matched_features": c.matched_features, "matched_terms": c.matched_terms}
-        for c in candidates[:limit]
-    ]
