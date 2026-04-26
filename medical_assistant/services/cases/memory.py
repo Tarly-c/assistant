@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from medical_assistant.schemas import CaseMemory
-from medical_assistant.services.cases.features import classify_answer, extract_features
+from medical_assistant.services.cases.features import classify_answer
 
 
 def load_memory(raw: dict[str, Any] | CaseMemory | None) -> CaseMemory:
@@ -26,6 +26,20 @@ def merge_unique(existing: list[str], additions: list[str]) -> list[str]:
     return out
 
 
+def _remember_probe_split(memory: CaseMemory, question_dict: dict[str, Any]) -> None:
+    fid = str(question_dict.get("feature_id", ""))
+    if not fid:
+        return
+    memory.probe_splits[fid] = {
+        "positive": list(question_dict.get("positive_case_ids", []) or []),
+        "negative": list(question_dict.get("negative_case_ids", []) or []),
+        "unknown": list(question_dict.get("unknown_case_ids", []) or []),
+    }
+    label = str(question_dict.get("label") or question_dict.get("text") or fid)
+    memory.probe_labels[fid] = label
+    memory.probe_questions[fid] = str(question_dict.get("text", ""))
+
+
 def update_from_turn(
     raw_memory: dict[str, Any] | None,
     *,
@@ -36,9 +50,8 @@ def update_from_turn(
 ) -> CaseMemory:
     """Update structured memory with the current user utterance.
 
-    The previous assistant question is stored as last_question_feature. When the
-    user replies "是/不是/不确定", we bind that answer to the feature instead of
-    asking the LLM to reconstruct context from chat history.
+    The previous assistant question is stored as last_question_feature.  A short
+    reply like “是/不是/不确定” is bound to that active dynamic probe.
     """
 
     memory = load_memory(raw_memory)
@@ -48,36 +61,39 @@ def update_from_turn(
     memory.key_terms = merge_unique(memory.key_terms, key_terms or [])
     memory.turn_index = turn_index
 
-    # Parse answer to the previous planned feature question.
     memory.pending_answer_feature = ""
     memory.pending_answer_signal = ""
+
     if memory.last_question_feature:
         signal = classify_answer(question, memory.last_question_feature)
         if signal in {"yes", "no", "uncertain"}:
             fid = memory.last_question_feature
             memory.pending_answer_feature = fid
             memory.pending_answer_signal = signal
+
             if signal == "yes":
                 memory.confirmed_features[fid] = True
                 memory.denied_features.pop(fid, None)
                 memory.uncertain_features.pop(fid, None)
+                if memory.last_question_yes_child:
+                    memory.tree_node_id = memory.last_question_yes_child
             elif signal == "no":
                 memory.denied_features[fid] = True
                 memory.confirmed_features.pop(fid, None)
                 memory.uncertain_features.pop(fid, None)
+                if memory.last_question_no_child:
+                    memory.tree_node_id = memory.last_question_no_child
             else:
                 memory.uncertain_features[fid] = question
-
-    # Also extract explicit features from the text. This helps answers like
-    # "不是智齿，但喝冷水会酸" move the workflow forward.
-    for fid in extract_features(question):
-        if fid not in memory.denied_features:
-            memory.confirmed_features.setdefault(fid, True)
+                # Stay at the same tree node and let planner use a fallback/local
+                # probe instead of forcing a branch.
+                if memory.last_question_tree_node_id:
+                    memory.tree_node_id = memory.last_question_tree_node_id
 
     return memory
 
 
-def remember_question(raw_memory: dict[str, Any] | None, question_dict: dict[str, Any]) -> CaseMemory:
+def remember_question(raw_memory: dict[str, Any] | CaseMemory | None, question_dict: dict[str, Any]) -> CaseMemory:
     memory = load_memory(raw_memory)
     qid = str(question_dict.get("question_id", ""))
     fid = str(question_dict.get("feature_id", ""))
@@ -86,8 +102,16 @@ def remember_question(raw_memory: dict[str, Any] | None, question_dict: dict[str
     memory.last_question_id = qid
     memory.last_question_feature = fid
     memory.last_question_text = text
+    memory.last_question_tree_node_id = str(question_dict.get("tree_node_id", ""))
+    memory.last_question_yes_child = str(question_dict.get("yes_child_id", ""))
+    memory.last_question_no_child = str(question_dict.get("no_child_id", ""))
+
+    if question_dict.get("tree_node_id"):
+        memory.tree_node_id = str(question_dict.get("tree_node_id"))
+
     memory.asked_question_ids = merge_unique(memory.asked_question_ids, [qid])
     memory.asked_feature_ids = merge_unique(memory.asked_feature_ids, [fid])
+    _remember_probe_split(memory, question_dict)
     return memory
 
 

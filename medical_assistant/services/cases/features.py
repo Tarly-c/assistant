@@ -1,288 +1,561 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-from typing import Iterable
+"""Generic dynamic feature/probe utilities for case-localization.
+
+This module intentionally does **not** keep a hand-written dental feature table.
+It mines patient-observable probes from the current case texts and scores how
+well each probe splits a candidate solution set.  The same logic is used by the
+offline question-tree builder and by the online fallback planner.
+"""
+
+from dataclasses import dataclass, field
+from hashlib import sha1
+import math
+import re
+from typing import Iterable, Sequence
+
+from medical_assistant.schemas import CaseCandidate, CaseRecord, PlannedQuestion
 
 
-@dataclass(frozen=True)
-class FeatureDefinition:
-    feature_id: str
-    label: str
-    question: str
-    positive_patterns: tuple[str, ...]
-
-
-FEATURES: tuple[FeatureDefinition, ...] = (
-    FeatureDefinition(
-        "cold_sweet_short",
-        "冷/甜刺激后短暂酸痛",
-        "疼痛是否主要由冷水、冷风、甜食或酸饮触发，并且去掉刺激后很快缓解？请回答“是/不是/不确定”。",
-        ("冷", "冰", "冷风", "凉", "甜", "酸饮", "酸一下", "刺一下", "很快消失", "短暂冷痛"),
-    ),
-    FeatureDefinition(
-        "cold_hot_lingering",
-        "冷热刺激都会痛且余痛较久",
-        "冷的和热的是否都会诱发疼痛，而且痛感会拖一阵才缓解？请回答“是/不是/不确定”。",
-        ("冷热都", "冷的热的", "热汤", "火锅", "冰饮", "余痛", "拖一阵", "持续时间", "冷热反复"),
-    ),
-    FeatureDefinition(
-        "heat_night_spontaneous",
-        "热痛/自发痛/夜间痛",
-        "有没有不碰也会自己痛、夜里更痛，或者热刺激明显加重的情况？请回答“是/不是/不确定”。",
-        ("热痛", "热刺激", "热汤", "夜", "痛醒", "自发痛", "不碰也", "跳痛", "平躺", "冷水反而舒服"),
-    ),
-    FeatureDefinition(
-        "pulsing_pain",
-        "搏动样跳痛",
-        "疼痛是否像心跳一样一下一下跳着痛，尤其晚上明显？请回答“是/不是/不确定”。",
-        ("搏动", "像心跳", "一下一下", "跳着", "跳痛"),
-    ),
-    FeatureDefinition(
-        "food_impaction",
-        "食物嵌塞后加重",
-        "疼痛是否常在吃完东西塞住后加重，清出来后会缓解一些？请回答“是/不是/不确定”。",
-        ("塞", "嵌塞", "卡东西", "塞东西", "肉丝", "菜叶", "剔出来", "挑出来", "牙线"),
-    ),
-    FeatureDefinition(
-        "visible_cavity_or_black",
-        "可见龋洞/发黑/残冠",
-        "这颗牙是否能看到黑点、龋洞、缺损，或者已经烂掉一部分？请回答“是/不是/不确定”。",
-        ("黑", "龋", "蛀", "牙洞", "洞", "烂", "坏牙", "残根", "残冠", "只剩", "缺损"),
-    ),
-    FeatureDefinition(
-        "tooth_discoloration_or_dead_pulp",
-        "牙齿变色/死髓或牙根深部不适",
-        "这颗牙是否比旁边牙颜色更暗、发灰发黄，或怀疑牙神经已经坏死？请回答“是/不是/不确定”。",
-        ("变色", "死髓", "灰", "发黄", "颜色", "牙根", "根部"),
-    ),
-    FeatureDefinition(
-        "single_tooth_localized",
-        "疼痛能定位到单颗牙",
-        "你能否大致指出是某一颗牙在痛，而不是一片或整排都不舒服？请回答“是/不是/不确定”。",
-        ("某颗", "一颗", "这颗", "固定", "能指出", "大概位置", "单颗"),
-    ),
-    FeatureDefinition(
-        "bite_or_percussion_pain",
-        "咬合/叩痛明显",
-        "上下牙一碰、咬东西、敲到或按到那颗牙时，疼痛是否明显加重？请回答“是/不是/不确定”。",
-        ("咬", "咬合", "咬痛", "叩痛", "敲", "碰一下", "先碰", "牙高", "顶起来", "按压痛", "咬硬"),
-    ),
-    FeatureDefinition(
-        "gum_bump_or_pus",
-        "牙龈鼓包/流脓/瘘管",
-        "牙龈上是否有鼓包、小口、流脓，或者按压像有脓液？请回答“是/不是/不确定”。",
-        ("鼓包", "脓", "流脓", "瘘", "小口", "冒东西", "液体感", "包", "挤"),
-    ),
-    FeatureDefinition(
-        "face_swelling_fever",
-        "面颊肿胀/发热/全身不适",
-        "有没有脸肿、发热、明显乏力，或肿胀向外扩散的情况？请回答“是/不是/不确定”。",
-        ("脸肿", "面颊", "半边脸", "发热", "低热", "体温", "乏力", "全身", "肿胀扩散", "热热的"),
-    ),
-    FeatureDefinition(
-        "wisdom_back_gum",
-        "最后面智齿区牙龈肿痛",
-        "疼痛是否主要在最后面的智齿附近，像最里面那块牙龈或肉肿了？请回答“是/不是/不确定”。",
-        ("智齿", "最后面", "最里面", "后面那块肉", "牙龈盖", "半露", "半萌", "冠周炎", "后牙区"),
-    ),
-    FeatureDefinition(
-        "mouth_open_limited_swallow",
-        "张口受限/吞咽牵扯痛",
-        "有没有嘴张不大、吞咽牵扯痛，或张嘴说话刷牙时明显加重？请回答“是/不是/不确定”。",
-        ("张口", "嘴张不大", "张嘴", "吞咽", "牵扯", "说话", "刷牙碰进去"),
-    ),
-    FeatureDefinition(
-        "wisdom_impaction_pressure",
-        "智齿顶压邻牙/阻生",
-        "是否像最后面的牙在顶前面一颗大牙，或以前被说过智齿横着/阻生？请回答“是/不是/不确定”。",
-        ("阻生", "横着", "斜着", "顶", "顶压", "邻牙", "前面那颗", "第二磨牙"),
-    ),
-    FeatureDefinition(
-        "gum_bleeding_wide",
-        "牙龈红肿/刷牙出血/范围较广",
-        "是否是一片牙龈红肿、发胀或刷牙出血，而不是单颗牙深处痛？请回答“是/不是/不确定”。",
-        ("牙龈炎", "牙周袋", "牙龈肿", "牙龈红", "红肿", "刷牙出血", "出血", "一片", "整口", "一嘴", "牙龈边缘"),
-    ),
-    FeatureDefinition(
-        "tartar_or_bad_breath",
-        "牙石/口臭/清洁困难",
-        "是否有牙石、口臭异味，或长期清洁困难导致的牙龈不适？请回答“是/不是/不确定”。",
-        ("牙石", "牙结石", "吸烟", "硬硬", "口臭", "异味", "臭味", "清洁差", "刷不到", "多年没洗牙", "卫生差"),
-    ),
-    FeatureDefinition(
-        "loose_tooth",
-        "牙齿松动或发飘",
-        "这颗牙是否有松动、发飘，或咬东西时不稳的感觉？请回答“是/不是/不确定”。",
-        ("松动", "晃", "发飘", "牙缝变大", "不稳", "踩在棉花"),
-    ),
-    FeatureDefinition(
-        "gum_recession_root_sensitive",
-        "牙龈退缩/牙根暴露敏感",
-        "是否像牙根露出来或牙龈退缩，喝冷水、吸冷风或刷到根面时酸？请回答“是/不是/不确定”。",
-        ("牙龈退缩", "牙龈萎缩", "牙本质", "磨耗", "风吹", "牙根露", "根面", "楔状", "小凹槽", "横刷", "牙颈部"),
-    ),
-    FeatureDefinition(
-        "crack_or_sharp_bite_pain",
-        "裂纹/咬到某一下瞬痛",
-        "是否主要是咬到某个点或松口那一下突然尖锐疼，平时不碰未必一直痛？请回答“是/不是/不确定”。",
-        ("隐裂", "裂", "裂纹", "松口", "电一下", "某一下", "瞬痛", "尖锐", "咬坚果", "啃排骨"),
-    ),
-    FeatureDefinition(
-        "broken_edge_or_trauma",
-        "崩裂/外伤/锐边敏感",
-        "最近是否有牙崩了一角、被撞过、磕过，或出现锐边刺激？请回答“是/不是/不确定”。",
-        ("崩", "崩裂", "锐边", "舌头碰", "外伤", "撞", "磕", "咬冰", "缺口"),
-    ),
-    FeatureDefinition(
-        "bruxism_or_morning_soreness",
-        "磨牙/紧咬/晨起酸痛",
-        "是否早上起来整排牙酸、咬肌紧，或有夜磨牙、压力大紧咬的背景？请回答“是/不是/不确定”。",
-        ("磨牙", "紧咬", "晨起", "早上", "咬肌", "下巴累", "压力", "整排", "整边"),
-    ),
-    FeatureDefinition(
-        "post_treatment",
-        "补牙/牙冠/根管/种植/正畸后出现",
-        "这个疼痛是否发生在补牙、戴冠、根管、种植、正畸调整或临时冠脱落之后？请回答“是/不是/不确定”。",
-        ("补牙后", "补完", "做过", "牙冠", "戴冠", "根管", "种植", "正畸", "牙套", "保持器", "临时冠", "牙桥", "治疗后"),
-    ),
-    FeatureDefinition(
-        "child_or_erupting_tooth",
-        "儿童/乳牙/换牙/萌出相关",
-        "患者是否是儿童，或疼痛和乳牙、换牙、恒牙萌出、低龄萌牙有关？请回答“是/不是/不确定”。",
-        ("儿童", "孩子", "小孩", "乳牙", "换牙", "恒牙萌出", "萌牙", "哭醒", "窝沟"),
-    ),
-    FeatureDefinition(
-        "sinus_or_nasal_related",
-        "鼻窦/鼻塞牵涉上牙痛",
-        "是否伴随鼻塞、鼻窦不适，低头时上后牙胀痛更明显？请回答“是/不是/不确定”。",
-        ("鼻", "鼻塞", "鼻窦", "低头", "上后牙", "上牙胀", "流涕"),
-    ),
-    FeatureDefinition(
-        "jaw_muscle_joint_related",
-        "颞下颌关节/咀嚼肌牵涉痛",
-        "是否伴随张闭口关节不适、咀嚼肌酸紧，像关节或肌肉牵涉到后牙？请回答“是/不是/不确定”。",
-        ("颞下颌", "关节", "咀嚼肌", "脸颊", "肌肉", "张闭口", "弹响"),
-    ),
-    FeatureDefinition(
-        "neuralgic_or_electric",
-        "电击样阵发痛/神经痛样",
-        "疼痛是否像电击一样突然发作、持续很短、反复触发？请回答“是/不是/不确定”。",
-        ("三叉神经", "电击", "刀割", "突然", "阵发", "触发点", "几秒"),
-    ),
-    FeatureDefinition(
-        "ear_throat_heart_referred",
-        "耳咽或心脏牵涉痛线索",
-        "是否伴随耳部、咽喉或胸闷活动后下颌痛等非牙源性牵涉线索？请回答“是/不是/不确定”。",
-        ("耳", "咽", "喉", "胸闷", "心脏", "活动后", "下颌", "放射"),
-    ),
-    FeatureDefinition(
-        "soft_tissue_ulcer_burn",
-        "口腔软组织破溃/烫伤/溃疡",
-        "疼点是否更像牙龈、颊黏膜或口腔表面的破溃、烫伤、溃疡，而不是牙里面痛？请回答“是/不是/不确定”。",
-        ("溃疡", "破", "破溃", "烫伤", "灼痛", "黏膜", "咬伤", "疱疹", "义齿", "磨伤", "擦伤"),
-    ),
-    FeatureDefinition(
-        "unclear_multiple_teeth",
-        "多颗/一侧/定位不清",
-        "现在是否很难定位到某一颗牙，而是一侧、多颗、上下牙或整片区域都不舒服？请回答“是/不是/不确定”。",
-        ("定位不清", "不知道哪颗", "一侧", "多颗", "上下牙", "整片", "整排", "说不清", "无法明确"),
-    ),
+# Generic text hygiene.  These are not dental features; they only remove data-set
+# authoring/meta sentences that should never become patient questions.
+META_PHRASES: tuple[str, ...] = (
+    "聚类",
+    "算法",
+    "样本",
+    "测试",
+    "边界",
+    "核心线索",
+    "共同特征",
+    "这一类",
+    "该类",
+    "用于区分",
+    "适合展示",
 )
 
-FEATURE_BY_ID = {f.feature_id: f for f in FEATURES}
+# Clauses beginning with these words usually depend on the previous clause, e.g.
+# “但停下刺激后几秒内缓解”.  We merge them with the previous clause before
+# vectorizing so the probe keeps its context.
+DEPENDENT_PREFIXES: tuple[str, ...] = (
+    "但",
+    "但是",
+    "不过",
+    "而且",
+    "同时",
+    "并且",
+    "另外",
+    "因此",
+    "所以",
+    "这种",
+    "这类",
+    "它",
+    "其",
+    "如果",
+    "尤其",
+    "相比",
+    "与",
+    "停止",
+    "停下",
+    "去掉",
+    "去除",
+    "刺激去除",
+)
+
+# Generic high-frequency words that make poor probe labels/search terms.
+GENERIC_TERMS: set[str] = {
+    "患者",
+    "主诉",
+    "表现",
+    "情况",
+    "明显",
+    "疼痛",
+    "牙疼",
+    "牙痛",
+    "不适",
+    "检查",
+    "常见",
+    "通常",
+    "可能",
+    "局部",
+    "症状",
+}
 
 YES_WORDS = ("是", "对", "有", "会", "疼", "痛", "明显", "符合", "差不多", "是的", "嗯")
 NO_WORDS = ("不是", "没有", "没", "不会", "不疼", "不痛", "无", "否", "不明显", "没什么")
 UNCERTAIN_WORDS = ("不确定", "不知道", "不清楚", "说不准", "可能", "好像", "大概", "也许")
 
 
-def all_features() -> tuple[FeatureDefinition, ...]:
-    return FEATURES
+@dataclass(frozen=True)
+class TextUnit:
+    case_id: str
+    text: str
+    source: str = "description"
 
 
-def get_feature(feature_id: str) -> FeatureDefinition | None:
-    return FEATURE_BY_ID.get(feature_id)
+@dataclass
+class ProbeCandidate:
+    probe_id: str
+    label: str
+    prototype_text: str
+    question_seed: str
+    positive_case_ids: list[str]
+    negative_case_ids: list[str]
+    unknown_case_ids: list[str] = field(default_factory=list)
+    evidence_texts: list[str] = field(default_factory=list)
+    split_score: float = 0.0
+    debug: dict[str, float | int | str] = field(default_factory=dict)
+
+    def to_planned_question(
+        self,
+        *,
+        question_id: str | None = None,
+        tree_node_id: str = "",
+        yes_child_id: str = "",
+        no_child_id: str = "",
+        strategy: str = "local_dynamic_probe",
+    ) -> PlannedQuestion:
+        return PlannedQuestion(
+            question_id=question_id or f"q_{self.probe_id}",
+            feature_id=self.probe_id,
+            label=self.label,
+            text=self.question_seed,
+            positive_case_ids=self.positive_case_ids,
+            negative_case_ids=self.negative_case_ids,
+            unknown_case_ids=self.unknown_case_ids,
+            split_score=round(self.split_score, 4),
+            strategy=strategy,
+            tree_node_id=tree_node_id,
+            yes_child_id=yes_child_id,
+            no_child_id=no_child_id,
+            evidence_texts=self.evidence_texts[:5],
+            debug=self.debug,
+        )
 
 
-def _norm(text: str) -> str:
-    return (text or "").lower().strip()
+# ---------------------------------------------------------------------------
+# Compatibility shims for older imports.  The old commit used a static
+# FeatureDefinition bank.  New code should not depend on these.
 
 
-def _contains_any(text: str, patterns: Iterable[str]) -> bool:
-    text = _norm(text)
-    return any(p and p.lower() in text for p in patterns)
+def all_features() -> tuple[object, ...]:
+    return ()
+
+
+def get_feature(feature_id: str) -> None:
+    return None
 
 
 def extract_features(text: str) -> list[str]:
-    """Return feature ids directly mentioned by text.
+    """No static feature extraction.
 
-    This is intentionally rule-based for the demo: transparent, deterministic,
-    and independent of external medical corpora.
+    Dynamic probes are session/tree specific, so a free-text utterance cannot be
+    mapped to a stable global feature id without the active question context.
     """
 
-    found: list[str] = []
-    for feature in FEATURES:
-        if _contains_any(text, feature.positive_patterns):
-            found.append(feature.feature_id)
-    return found
+    return []
 
 
 def feature_labels(feature_ids: Iterable[str]) -> list[str]:
-    labels: list[str] = []
-    for fid in feature_ids:
-        feature = get_feature(fid)
-        if feature:
-            labels.append(feature.label)
-    return labels
+    return [str(fid) for fid in feature_ids if fid]
+
+
+# ---------------------------------------------------------------------------
+# Text processing and vectorization.
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"\s+", "", (text or "").strip().lower())
+
+
+def readable_text(text: str) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    return text.strip(" ，,。.;；、")
+
+
+def _is_meta(text: str) -> bool:
+    return any(phrase in text for phrase in META_PHRASES)
+
+
+def _is_observable_unit(text: str) -> bool:
+    text = readable_text(text)
+    compact = _norm(text)
+    if len(compact) < 5 or len(compact) > 90:
+        return False
+    if _is_meta(compact):
+        return False
+    # Avoid units that are mostly diagnosis/treatment wording rather than a
+    # patient-observable observation.
+    if compact.startswith(("治疗", "处理", "建议", "临床上", "通常需要", "需要通过", "停止刺激", "停下刺激", "去掉刺激", "去除刺激", "刺激去除")):
+        return False
+    return True
+
+
+def split_observation_units(title: str = "", description: str = "", *, include_title: bool = False) -> list[str]:
+    """Split case text into context-preserving observation windows.
+
+    It uses punctuation clauses plus 1-2 clause windows.  Dependent clauses are
+    merged with their previous clause to avoid orphan probes like
+    “但停下刺激后几秒内恢复”.
+    """
+
+    raw = description or ""
+    clauses = [readable_text(x) for x in re.split(r"[。；;！!？?\n]+", raw) if readable_text(x)]
+    repaired: list[str] = []
+    for clause in clauses:
+        compact = _norm(clause)
+        if repaired and any(compact.startswith(prefix) for prefix in DEPENDENT_PREFIXES):
+            repaired[-1] = readable_text(f"{repaired[-1]}，{clause}")
+        else:
+            repaired.append(clause)
+
+    units: list[str] = []
+    if include_title and title:
+        units.append(readable_text(title))
+
+    for i, clause in enumerate(repaired):
+        if _is_observable_unit(clause):
+            units.append(clause)
+        if i + 1 < len(repaired):
+            window = readable_text(f"{clause}，{repaired[i + 1]}")
+            if _is_observable_unit(window):
+                units.append(window)
+
+    # Stable dedupe while preserving order.
+    seen: set[str] = set()
+    out: list[str] = []
+    for unit in units:
+        key = _norm(unit)
+        if key and key not in seen:
+            out.append(unit)
+            seen.add(key)
+    return out
+
+
+def collect_text_units(cases: Sequence[CaseRecord | CaseCandidate]) -> list[TextUnit]:
+    units: list[TextUnit] = []
+    for case in cases:
+        for text in split_observation_units(case.title, case.description):
+            units.append(TextUnit(case_id=case.case_id, text=text))
+    return units
+
+
+def _char_ngrams(text: str, ns: tuple[int, ...] = (2, 3)) -> list[str]:
+    compact = _norm(text)
+    if not compact:
+        return []
+    grams: list[str] = []
+    for n in ns:
+        if len(compact) >= n:
+            grams.extend(compact[i : i + n] for i in range(len(compact) - n + 1))
+    # Include a few Latin/number tokens for mixed text, if any.
+    grams.extend(re.findall(r"[a-z0-9_]{2,}", compact))
+    return grams
+
+
+def build_idf(texts: Sequence[str]) -> dict[str, float]:
+    doc_count: dict[str, int] = {}
+    for text in texts:
+        for gram in set(_char_ngrams(text)):
+            doc_count[gram] = doc_count.get(gram, 0) + 1
+    n_docs = max(1, len(texts))
+    return {gram: math.log((1 + n_docs) / (1 + df)) + 1.0 for gram, df in doc_count.items()}
+
+
+def vectorize(text: str, idf: dict[str, float] | None = None) -> dict[str, float]:
+    idf = idf or {}
+    counts: dict[str, float] = {}
+    for gram in _char_ngrams(text):
+        counts[gram] = counts.get(gram, 0.0) + 1.0
+    weighted = {gram: count * idf.get(gram, 1.0) for gram, count in counts.items()}
+    norm = math.sqrt(sum(v * v for v in weighted.values())) or 1.0
+    return {gram: value / norm for gram, value in weighted.items()}
+
+
+def cosine(a: dict[str, float], b: dict[str, float]) -> float:
+    if not a or not b:
+        return 0.0
+    if len(a) > len(b):
+        a, b = b, a
+    return sum(value * b.get(key, 0.0) for key, value in a.items())
+
+
+def _best_threshold_split(
+    sims_by_case: dict[str, float],
+    *,
+    margin: float = 0.035,
+    min_child_size: int = 1,
+    min_child_ratio: float = 0.0,
+) -> tuple[list[str], list[str], list[str], float, float]:
+    total = len(sims_by_case)
+    if total <= 1:
+        return list(sims_by_case), [], [], 0.0, 1.0
+
+    values = sorted(set(round(v, 4) for v in sims_by_case.values()), reverse=True)
+    # Candidate thresholds are midpoints between observed similarity levels.
+    # Using raw max values would make the top case fall into the margin instead
+    # of the positive side.
+    thresholds: list[float] = []
+    if len(values) >= 2:
+        thresholds.extend((values[i] + values[i + 1]) / 2 for i in range(len(values) - 1))
+    else:
+        thresholds.append(values[0] if values else 0.0)
+
+    best: tuple[list[str], list[str], list[str], float, float] | None = None
+    best_score = -1.0
+    for threshold in thresholds:
+        if threshold < 0.04:
+            continue
+        positive = [cid for cid, sim in sims_by_case.items() if sim >= threshold + margin]
+        unknown = [cid for cid, sim in sims_by_case.items() if threshold - margin <= sim < threshold + margin]
+        negative = [cid for cid, sim in sims_by_case.items() if sim < threshold - margin]
+        ratio_child = int(total * min_child_ratio)
+        min_child = max(1, min_child_size, ratio_child)
+        if len(positive) < min_child or len(negative) < min_child:
+            continue
+        score = split_quality(len(positive), len(negative), len(unknown), total)
+        if score > best_score:
+            best_score = score
+            best = (positive, negative, unknown, score, threshold)
+    if best is None:
+        return [], list(sims_by_case), [], 0.0, 1.0
+    return best
+
+
+def split_quality(pos: int, neg: int, unknown: int, total: int) -> float:
+    if total <= 0 or pos <= 0 or neg <= 0:
+        return 0.0
+    coverage = (pos + neg) / total
+    balance = 1.0 - abs(pos - neg) / max(1, pos + neg)
+    unknown_penalty = 1.0 - (unknown / total)
+    p = pos / max(1, pos + neg)
+    entropy = 0.0
+    if 0.0 < p < 1.0:
+        entropy = -(p * math.log2(p) + (1 - p) * math.log2(1 - p))
+    # Balance is intentionally strong: early tree nodes should prefer broad
+    # clinical questions over one-disease-at-a-time confirmation.
+    return max(0.0, entropy * coverage * (balance ** 1.35) * unknown_penalty)
+
+
+def make_probe_id(prefix: str, text: str) -> str:
+    digest = sha1(_norm(text).encode("utf-8")).hexdigest()[:12]
+    return f"{prefix}_{digest}"
+
+
+def make_probe_label(text: str, max_len: int = 24) -> str:
+    text = readable_text(text)
+    text = re.sub(r"^(患者|主诉|常说|描述|出现)", "", text)
+    if len(text) <= max_len:
+        return text
+    return text[:max_len].rstrip("，、；;。")
+
+
+def make_question_seed(prototype_text: str) -> str:
+    text = readable_text(prototype_text)
+    return f"是否有这种情况：{text}？请回答“是 / 不是 / 不确定”。"
+
+
+def _case_units_map(units: Sequence[TextUnit], idf: dict[str, float]) -> dict[str, list[tuple[TextUnit, dict[str, float]]]]:
+    out: dict[str, list[tuple[TextUnit, dict[str, float]]]] = {}
+    for unit in units:
+        out.setdefault(unit.case_id, []).append((unit, vectorize(unit.text, idf)))
+    return out
+
+
+def mine_local_probes(
+    cases: Sequence[CaseRecord | CaseCandidate],
+    *,
+    asked_probe_ids: Iterable[str] | None = None,
+    max_probes: int = 5,
+    cluster_threshold: float = 0.58,
+    min_score: float = 0.08,
+    probe_prefix: str = "probe",
+    min_child_size: int = 1,
+    min_child_ratio: float = 0.0,
+) -> list[ProbeCandidate]:
+    """Mine discriminative probes from the provided case subset.
+
+    This function is intentionally deterministic and dependency-free.  It uses
+    TF-IDF character n-gram vectors as a lightweight stand-in for external
+    embeddings, so it can run in local demos without an embedding server.
+    """
+
+    case_ids = [case.case_id for case in cases]
+    if len(case_ids) <= 1:
+        return []
+
+    units = collect_text_units(cases)
+    if not units:
+        return []
+
+    idf = build_idf([unit.text for unit in units])
+    unit_vecs = [(unit, vectorize(unit.text, idf)) for unit in units]
+    asked = set(asked_probe_ids or [])
+
+    # Greedy clustering of similar observation units.  Each cluster is a possible
+    # semantic probe; later scoring decides whether it splits the current subset.
+    clusters: list[dict[str, object]] = []
+    for unit, vec in unit_vecs:
+        best_idx = -1
+        best_sim = 0.0
+        for idx, cluster in enumerate(clusters):
+            sim = cosine(vec, cluster["centroid"])  # type: ignore[arg-type]
+            if sim > best_sim:
+                best_sim = sim
+                best_idx = idx
+        if best_idx >= 0 and best_sim >= cluster_threshold:
+            cluster = clusters[best_idx]
+            members = cluster["members"]  # type: ignore[assignment]
+            members.append((unit, vec))  # type: ignore[union-attr]
+            # Simple running centroid by averaging sparse normalized vectors.
+            centroid: dict[str, float] = dict(cluster["centroid"])  # type: ignore[arg-type]
+            for key, value in vec.items():
+                centroid[key] = centroid.get(key, 0.0) + value
+            norm = math.sqrt(sum(v * v for v in centroid.values())) or 1.0
+            cluster["centroid"] = {key: value / norm for key, value in centroid.items()}
+        else:
+            clusters.append({"members": [(unit, vec)], "centroid": dict(vec)})
+
+    units_by_case = _case_units_map(units, idf)
+    candidates: list[ProbeCandidate] = []
+    for cluster_index, cluster in enumerate(clusters):
+        members: list[tuple[TextUnit, dict[str, float]]] = cluster["members"]  # type: ignore[assignment]
+        centroid: dict[str, float] = cluster["centroid"]  # type: ignore[assignment]
+        if not members:
+            continue
+
+        # Pick the medoid-like member closest to centroid as the human-readable
+        # prototype.
+        prototype_unit, prototype_vec = max(members, key=lambda item: cosine(item[1], centroid))
+        prototype_text = readable_text(prototype_unit.text)
+        if not _is_observable_unit(prototype_text):
+            continue
+        probe_id = make_probe_id(probe_prefix, prototype_text)
+        if probe_id in asked:
+            continue
+
+        sims: dict[str, float] = {}
+        evidence_by_case: dict[str, str] = {}
+        for cid in case_ids:
+            best_unit_text = ""
+            best_sim = 0.0
+            for unit, vec in units_by_case.get(cid, []):
+                sim = cosine(prototype_vec, vec)
+                if sim > best_sim:
+                    best_sim = sim
+                    best_unit_text = unit.text
+            sims[cid] = best_sim
+            evidence_by_case[cid] = best_unit_text
+
+        positive, negative, unknown, split_score, threshold = _best_threshold_split(
+            sims,
+            min_child_size=min_child_size,
+            min_child_ratio=min_child_ratio,
+        )
+        if split_score < min_score:
+            continue
+
+        # Penalize one-off accidental fragments and reward semantically coherent
+        # clusters whose members come from multiple cases.
+        cluster_case_count = len({unit.case_id for unit, _ in members})
+        coherence = sum(cosine(vec, centroid) for _, vec in members) / max(1, len(members))
+        multi_case_bonus = min(1.0, cluster_case_count / max(2, min(6, len(case_ids))))
+        final_score = split_score * (0.75 + 0.25 * coherence) * (0.75 + 0.25 * multi_case_bonus)
+
+        if final_score < min_score:
+            continue
+
+        evidence_texts: list[str] = []
+        for cid in positive[:6]:
+            ev = evidence_by_case.get(cid)
+            if ev and ev not in evidence_texts:
+                evidence_texts.append(ev)
+
+        candidates.append(
+            ProbeCandidate(
+                probe_id=probe_id,
+                label=make_probe_label(prototype_text),
+                prototype_text=prototype_text,
+                question_seed=make_question_seed(prototype_text),
+                positive_case_ids=positive,
+                negative_case_ids=negative,
+                unknown_case_ids=unknown,
+                evidence_texts=evidence_texts,
+                split_score=round(final_score, 4),
+                debug={
+                    "raw_split_score": round(split_score, 4),
+                    "threshold": round(threshold, 4),
+                    "positive": len(positive),
+                    "negative": len(negative),
+                    "unknown": len(unknown),
+                    "cluster_cases": cluster_case_count,
+                    "coherence": round(coherence, 4),
+                    "cluster_index": cluster_index,
+                },
+            )
+        )
+
+    candidates.sort(key=lambda p: (p.split_score, -len(p.unknown_case_ids), len(p.evidence_texts)), reverse=True)
+    return candidates[:max_probes]
+
+
+# ---------------------------------------------------------------------------
+# Deterministic fallback answer/term utilities.
 
 
 def classify_answer(text: str, feature_id: str | None = None) -> str:
-    """Classify a user's answer to the previous feature question.
+    """Classify a user's reply to the previous yes/no probe.
 
-    Returns: yes / no / uncertain / unrelated.
+    LLM-based parsing can replace this later.  This deterministic fallback only
+    decides the answer to the active question; it does not infer new global
+    features from unrelated text.
     """
 
     raw = _norm(text)
     if not raw:
         return "unrelated"
-
-    # Strong explicit answers first.
-    if any(w in raw for w in NO_WORDS):
-        # "不是...但是有冷痛" should still be treated as no for the previous question;
-        # update_memory will separately extract newly mentioned features.
-        return "no"
-    if raw in YES_WORDS or any(raw.startswith(w) for w in ("是", "对", "有", "会")):
-        return "yes"
-    if any(w in raw for w in UNCERTAIN_WORDS):
+    if any(word in raw for word in UNCERTAIN_WORDS):
         return "uncertain"
-
-    if feature_id:
-        feature = get_feature(feature_id)
-        if feature and _contains_any(raw, feature.positive_patterns):
-            return "yes"
-
-    # Short symptom-only replies like "疼" / "会" / "明显" are usually answers.
-    if len(raw) <= 8 and any(w in raw for w in YES_WORDS):
+    if any(word in raw for word in NO_WORDS):
+        return "no"
+    if raw in YES_WORDS or any(raw.startswith(word) for word in ("是", "对", "有", "会")):
         return "yes"
-
+    if len(raw) <= 8 and any(word in raw for word in YES_WORDS):
+        return "yes"
     return "unrelated"
 
 
 def extract_search_terms(text: str) -> list[str]:
-    """Small keyword extractor used by normalize fallback."""
+    """Small generic search-term extractor for normalize fallback.
 
-    features = extract_features(text)
+    It keeps short patient-provided chunks rather than mapping them to static
+    medical features.  This helps retrieval without hard-coding toothache rules.
+    """
+
+    text = readable_text(text)
+    if not text:
+        return []
+    chunks = [readable_text(x) for x in re.split(r"[，,。；;！!？?、\s]+", text) if readable_text(x)]
     terms: list[str] = []
-    for fid in features:
-        feature = get_feature(fid)
-        if feature:
-            terms.append(feature.label)
-            terms.extend(feature.positive_patterns[:3])
-    # Keep stable order and avoid noise.
+    for chunk in chunks:
+        compact = _norm(chunk)
+        if len(compact) < 2 or compact in GENERIC_TERMS:
+            continue
+        if _is_meta(compact):
+            continue
+        terms.append(chunk)
+        # For longer Chinese chunks, add overlapping short substrings.  This is
+        # intentionally generic and helps "智齿疼" match descriptions containing
+        # "智齿" even if the exact phrase is absent.
+        if len(compact) >= 4:
+            for n in (2, 3):
+                for i in range(0, min(len(compact) - n + 1, 4)):
+                    gram = compact[i : i + n]
+                    if gram not in GENERIC_TERMS:
+                        terms.append(gram)
     seen: set[str] = set()
-    unique: list[str] = []
+    out: list[str] = []
     for term in terms:
         if term and term not in seen:
-            unique.append(term)
+            out.append(term)
             seen.add(term)
-    return unique[:8]
+    return out[:12]

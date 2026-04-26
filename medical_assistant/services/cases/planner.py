@@ -1,69 +1,109 @@
 from __future__ import annotations
 
 from medical_assistant.config import get_settings
-from medical_assistant.schemas import CaseCandidate, PlannedQuestion
-from medical_assistant.services.cases.features import all_features, get_feature
-from medical_assistant.services.cases.store import entropy_split_score
+from medical_assistant.schemas import CaseCandidate, CaseMemory, PlannedQuestion
+from medical_assistant.services.cases.features import mine_local_probes, split_observation_units
+from medical_assistant.services.cases.question_tree import select_question_from_tree
+
+
+def _question_already_asked(question: PlannedQuestion, asked_feature_ids: set[str]) -> bool:
+    return bool(question.feature_id and question.feature_id in asked_feature_ids)
+
+
+def _plan_case_confirmation(
+    candidates: list[CaseCandidate],
+    asked_feature_ids: list[str] | None = None,
+) -> PlannedQuestion | None:
+    if len(candidates) <= 1:
+        return None
+    asked = set(asked_feature_ids or [])
+    case = candidates[0]
+    probe_id = f"confirm_{case.case_id}"
+    if probe_id in asked:
+        return None
+
+    units = split_observation_units(case.title, case.description)
+    evidence = units[:2] if units else [case.description[:80]]
+    evidence_text = "；".join(x for x in evidence if x)
+    if evidence_text:
+        question_text = (
+            f"目前最接近“{case.title}”。想确认一下：{evidence_text}。"
+            "这和你的情况相符吗？请回答“是 / 不是 / 不确定”。"
+        )
+    else:
+        question_text = (
+            f"目前最接近“{case.title}”。这个判断和你的情况相符吗？"
+            "请回答“是 / 不是 / 不确定”。"
+        )
+
+    return PlannedQuestion(
+        question_id=f"q_{probe_id}",
+        feature_id=probe_id,
+        label=f"确认：{case.title}",
+        text=question_text,
+        positive_case_ids=[case.case_id],
+        negative_case_ids=[c.case_id for c in candidates[1:]],
+        unknown_case_ids=[],
+        split_score=0.5,
+        strategy="case_confirmation",
+        evidence_texts=evidence,
+        debug={"case_id": case.case_id, "candidate_count": len(candidates)},
+    )
 
 
 def select_question(
     candidates: list[CaseCandidate],
+    memory: CaseMemory | None = None,
     asked_feature_ids: list[str] | None = None,
     confirmed_feature_ids: list[str] | None = None,
     denied_feature_ids: list[str] | None = None,
 ) -> PlannedQuestion | None:
-    """Pick the next feature question using the current candidate set.
+    """Choose the next question.
 
-    The score prefers features that split the remaining cases close to 50/50.
-    It is deterministic and explainable, which is useful for the demo.
+    Priority:
+    1. Follow the offline question tree when its current node still splits C.
+    2. If the tree cannot split the current feasible set, mine a local dynamic
+       probe from C.
+    3. In very small/low-gain endings, ask a case-confirmation question.
     """
 
     if len(candidates) <= 1:
         return None
 
-    asked = set(asked_feature_ids or [])
-    confirmed = set(confirmed_feature_ids or [])
-    denied = set(denied_feature_ids or [])
-    total = len(candidates)
+    settings = get_settings()
+    if memory is None:
+        memory = CaseMemory(asked_feature_ids=asked_feature_ids or [])
+    asked = set(asked_feature_ids or memory.asked_feature_ids or [])
 
-    best: PlannedQuestion | None = None
-    best_score = -1.0
+    tree_question = select_question_from_tree(candidates, memory)
+    if tree_question and not _question_already_asked(tree_question, asked):
+        if tree_question.split_score >= settings.tree_min_probe_gain:
+            return tree_question
 
-    for feature in all_features():
-        fid = feature.feature_id
-        if fid in asked or fid in confirmed or fid in denied:
-            continue
+    # Local dynamic fallback: same mining algorithm as offline tree building, but
+    # run only on the current feasible set.
+    local_probes = mine_local_probes(
+        candidates,
+        asked_probe_ids=asked,
+        max_probes=1,
+        min_score=settings.local_probe_min_gain,
+        probe_prefix="local",
+    )
+    if local_probes:
+        return local_probes[0].to_planned_question(strategy="local_dynamic_probe")
 
-        positive = [c.case_id for c in candidates if fid in c.feature_tags]
-        negative = [c.case_id for c in candidates if fid not in c.feature_tags]
-        if not positive or not negative:
-            continue
+    # Last resort for a small unresolved set: confirm the top-ranked case.
+    if len(candidates) <= 5:
+        return _plan_case_confirmation(candidates, asked_feature_ids=list(asked))
 
-        split = entropy_split_score(len(positive), len(negative), total)
-        # If a feature appears in high-ranked cases, prefer asking it a little.
-        top_window = candidates[: min(8, len(candidates))]
-        top_presence = sum(1 for c in top_window if fid in c.feature_tags) / max(1, len(top_window))
-        score = split + 0.08 * top_presence
-
-        if score > best_score:
-            best_score = score
-            best = PlannedQuestion(
-                question_id=f"q_{fid}",
-                feature_id=fid,
-                text=feature.question,
-                positive_case_ids=positive,
-                negative_case_ids=negative,
-                unknown_case_ids=[],
-                split_score=round(score, 4),
-            )
-
-    return best
+    return None
 
 
 def should_finalize(
     candidates: list[CaseCandidate],
     turn_index: int,
     asked_feature_ids: list[str] | None = None,
+    memory: CaseMemory | None = None,
 ) -> bool:
     if not candidates:
         return True
@@ -74,12 +114,18 @@ def should_finalize(
     if turn_index >= settings.max_clarify_turns:
         return True
 
-    # Demo target: keep asking until the candidate set reaches one case,
-    # unless we hit the turn limit or no useful feature remains.
+    # If top1 is already clearly ahead and the next question has very low value,
+    # stop.  Otherwise, keep asking if the tree/local planner has a useful probe.
+    next_question = select_question(candidates, memory=memory, asked_feature_ids=asked_feature_ids)
+    if next_question is None:
+        return True
 
-    # If no useful feature remains, answer with the best ranked case.
-    next_q = select_question(candidates, asked_feature_ids=asked_feature_ids)
-    return next_q is None
+    if len(candidates) >= 2:
+        gap = candidates[0].score - candidates[1].score
+        if candidates[0].score >= 0.75 and gap >= settings.case_min_confidence_gap:
+            return True
+
+    return False
 
 
 def choose_final_case(candidates: list[CaseCandidate]) -> CaseCandidate | None:

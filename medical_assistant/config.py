@@ -9,9 +9,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     """Runtime settings.
 
-    The demo keeps the original app/LLM/Chroma settings, then adds a small set
-    of generic case-localization settings. Nothing here is toothache-specific;
-    the current JSON file is only the first demo dataset.
+    The demo remains generic: the current JSON may contain toothache cases, but
+    workflow/tree code is not named or hard-coded around toothache.
     """
 
     model_config = SettingsConfigDict(
@@ -28,6 +27,7 @@ class Settings(BaseSettings):
     temperature: float = 0.0
     use_llm_normalize: bool = False
 
+    resources_dir: str = "resources"
     chroma_dir: str = "chroma_db"
     trace_dir: str = "traces"
     collection_name: str = "medical_assistant"
@@ -42,6 +42,15 @@ class Settings(BaseSettings):
     case_display_top_k: int = 5
     case_min_confidence_gap: float = 0.16
     max_clarify_turns: int = 6
+
+    # Offline question-tree settings.
+    case_question_tree_file: str = "resources/case_question_tree.json"
+    tree_max_depth: int = 7
+    tree_min_leaf_cases: int = 2
+    tree_min_probe_gain: float = 0.08
+    tree_probe_options_per_node: int = 3
+    tree_use_unknown_as_soft_branch: bool = True
+    local_probe_min_gain: float = 0.05
 
     @property
     def resources_path(self) -> Path:
@@ -58,6 +67,10 @@ class Settings(BaseSettings):
     @property
     def case_data_path(self) -> Path:
         return Path(self.case_data_file)
+
+    @property
+    def case_question_tree_path(self) -> Path:
+        return Path(self.case_question_tree_file)
 
 
 @lru_cache(maxsize=1)

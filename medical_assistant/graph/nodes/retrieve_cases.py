@@ -20,29 +20,29 @@ def retrieve_cases_node(state: GraphState) -> dict:
         candidate_ids=state.get("candidate_case_ids") or memory.candidate_case_ids or None,
         confirmed_features=memory.confirmed_features.keys(),
         denied_features=memory.denied_features.keys(),
-        top_k=0,  # keep the whole current solution set for feature planning
+        probe_splits=memory.probe_splits,
+        top_k=0,  # keep the whole current feasible set for question planning
     )
 
-    memory.candidate_case_ids = [c.case_id for c in candidates]
+    memory.candidate_case_ids = [case.case_id for case in candidates]
     best_score = candidates[0].score if candidates else 0.0
     confidence = confidence_from_candidates(candidates)
     top = top_candidate_summary(candidates)
 
-    # Backward-compatible hits shape for API debugging.
     hits = [
         {
-            "case_id": c.case_id,
-            "title": c.title,
-            "snippet": c.description[:240],
-            "score": c.score,
+            "case_id": case.case_id,
+            "title": case.title,
+            "snippet": case.description[:240],
+            "score": case.score,
         }
-        for c in candidates[:5]
+        for case in candidates[:5]
     ]
 
     return {
-        "case_candidates": [c.model_dump() for c in candidates],
+        "case_candidates": [case.model_dump() for case in candidates],
         "candidate_case_ids": memory.candidate_case_ids,
-        "candidate_scores": {c.case_id: c.score for c in candidates},
+        "candidate_scores": {case.case_id: case.score for case in candidates},
         "candidate_count": len(candidates),
         "top_candidates": top,
         "hits": hits,

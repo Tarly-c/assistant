@@ -17,4 +17,5 @@ def update_memory_node(state: GraphState) -> dict:
         "confirmed_features": memory.confirmed_features,
         "denied_features": memory.denied_features,
         "uncertain_features": memory.uncertain_features,
+        "tree_node_id": memory.tree_node_id,
     }

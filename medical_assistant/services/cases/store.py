@@ -3,13 +3,11 @@ from __future__ import annotations
 import json
 import math
 from functools import lru_cache
-from pathlib import Path
 from typing import Iterable
 
 from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseCandidate, CaseRecord
-from medical_assistant.services.cases.features import extract_features
-
+from medical_assistant.services.cases.features import extract_search_terms
 
 GENERIC_QUERY_WORDS = {"牙疼", "牙痛", "疼", "痛", "toothache", "tooth pain", "teeth pain"}
 
@@ -19,8 +17,7 @@ def make_case_id(index: int) -> str:
 
 
 def case_document_text(case: CaseRecord) -> str:
-    tags = "、".join(case.feature_tags)
-    return f"标题: {case.title}\n描述: {case.description}\n特征: {tags}\n处理: {case.treat}"
+    return f"标题: {case.title}\n描述: {case.description}\n处理: {case.treat}"
 
 
 @lru_cache(maxsize=1)
@@ -32,20 +29,19 @@ def load_cases() -> list[CaseRecord]:
             f"Case data not found: {path}. Put the JSON file at this path or set "
             "MEDICAL_ASSISTANT_CASE_DATA_FILE."
         )
-
     raw = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(raw, list):
         raise ValueError("Case data must be a JSON list")
 
     cases: list[CaseRecord] = []
-    for i, item in enumerate(raw, 1):
+    for index, item in enumerate(raw, 1):
         title = str(item.get("title", "")).strip()
         description = str(item.get("description", "")).strip()
-        treat = str(item.get("treat", "")).strip()
-        feature_tags = extract_features(title)
+        treat = str(item.get("treat") or item.get("treatment") or "").strip()
+        feature_tags = list(item.get("feature_tags") or [])
         cases.append(
             CaseRecord(
-                case_id=make_case_id(i),
+                case_id=str(item.get("case_id") or make_case_id(index)),
                 title=title,
                 description=description,
                 treat=treat,
@@ -57,7 +53,12 @@ def load_cases() -> list[CaseRecord]:
 
 @lru_cache(maxsize=1)
 def case_map() -> dict[str, CaseRecord]:
-    return {c.case_id: c for c in load_cases()}
+    return {case.case_id: case for case in load_cases()}
+
+
+def clear_case_cache() -> None:
+    load_cases.cache_clear()
+    case_map.cache_clear()
 
 
 def get_case(case_id: str) -> CaseRecord | None:
@@ -72,7 +73,7 @@ def get_cases(case_ids: Iterable[str] | None = None) -> list[CaseRecord]:
 
 
 def all_case_ids() -> list[str]:
-    return [c.case_id for c in load_cases()]
+    return [case.case_id for case in load_cases()]
 
 
 def _norm(text: str) -> str:
@@ -84,7 +85,7 @@ def _term_hits(text: str, terms: Iterable[str]) -> list[str]:
     hits: list[str] = []
     for term in terms:
         t = _norm(term)
-        if t and t in haystack and t not in hits:
+        if t and t in haystack and term not in hits:
             hits.append(term)
     return hits
 
@@ -94,42 +95,69 @@ def _query_is_generic(query: str, terms: list[str]) -> bool:
     return (not q or q in GENERIC_QUERY_WORDS or len(q) <= 3) and not terms
 
 
+def _split_membership(
+    case_id: str,
+    probe_id: str,
+    probe_splits: dict[str, dict[str, list[str]]] | None,
+) -> str:
+    split = (probe_splits or {}).get(probe_id) or {}
+    if case_id in set(split.get("positive", [])):
+        return "positive"
+    if case_id in set(split.get("negative", [])):
+        return "negative"
+    if case_id in set(split.get("unknown", [])):
+        return "unknown"
+    return "missing"
+
+
 def _score_case(
     case: CaseRecord,
     query: str,
     terms: list[str],
     confirmed_features: Iterable[str],
     denied_features: Iterable[str],
+    probe_splits: dict[str, dict[str, list[str]]] | None = None,
 ) -> tuple[float, list[str], list[str]]:
     text = case_document_text(case)
     title_text = case.title
-    confirmed = set(confirmed_features or [])
-    denied = set(denied_features or [])
-    tags = set(case.feature_tags)
+    confirmed = list(confirmed_features or [])
+    denied = list(denied_features or [])
 
-    query_features = set(extract_features(query))
-    all_positive_features = confirmed | query_features
-
-    matched_features = sorted(tags & all_positive_features)
-    denied_conflicts = sorted(tags & denied)
-
+    # Query/term lexical relevance.
     search_terms = [query] if query and not _query_is_generic(query, terms) else []
     search_terms += terms
+    # Also add generic chunks from the raw query so “智齿疼” can match “智齿”.
+    for term in extract_search_terms(query):
+        if term not in search_terms:
+            search_terms.append(term)
+
     matched_terms = _term_hits(text, search_terms)
     title_hits = _term_hits(title_text, search_terms)
 
     score = 0.0
-    if all_positive_features:
-        score += 0.55 * (len(tags & all_positive_features) / max(1, len(all_positive_features)))
-    if denied:
-        score -= 0.35 * (len(tags & denied) / max(1, len(denied)))
     if search_terms:
-        score += 0.25 * (len(matched_terms) / max(1, len(search_terms)))
-        score += 0.10 * (len(title_hits) / max(1, len(search_terms)))
-    if query_features and tags & query_features:
-        score += 0.10
-    if denied_conflicts:
-        score -= 0.05 * len(denied_conflicts)
+        score += 0.35 * (len(matched_terms) / max(1, len(search_terms)))
+        score += 0.15 * (len(title_hits) / max(1, len(search_terms)))
+
+    matched_features: list[str] = []
+    for probe_id in confirmed:
+        membership = _split_membership(case.case_id, probe_id, probe_splits)
+        if membership == "positive":
+            score += 0.24
+            matched_features.append(probe_id)
+        elif membership == "negative":
+            score -= 0.35
+        elif membership == "unknown":
+            score += 0.03
+
+    for probe_id in denied:
+        membership = _split_membership(case.case_id, probe_id, probe_splits)
+        if membership == "negative":
+            score += 0.18
+        elif membership == "positive":
+            score -= 0.32
+        elif membership == "unknown":
+            score += 0.02
 
     # Keep score in a predictable range for API display.
     score = max(0.0, min(1.0, score))
@@ -142,26 +170,26 @@ def search_cases(
     candidate_ids: list[str] | None = None,
     confirmed_features: Iterable[str] | None = None,
     denied_features: Iterable[str] | None = None,
+    probe_splits: dict[str, dict[str, list[str]]] | None = None,
     top_k: int | None = None,
 ) -> list[CaseCandidate]:
-    """Rank case-level records.
-
-    This function intentionally returns cases, not document chunks. The Chroma
-    index built by scripts/build_case_index.py is useful for future embeddings,
-    but the demo retrieval is deterministic and can run without an embedding
-    server.
-    """
+    """Rank case-level records, not document chunks."""
 
     settings = get_settings()
     terms = terms or []
     confirmed_features = confirmed_features or []
     denied_features = denied_features or []
-
     records = get_cases(candidate_ids)
+
     ranked: list[CaseCandidate] = []
     for case in records:
         score, matched_features, matched_terms = _score_case(
-            case, query, terms, confirmed_features, denied_features
+            case,
+            query,
+            terms,
+            confirmed_features,
+            denied_features,
+            probe_splits=probe_splits,
         )
         ranked.append(
             CaseCandidate(
@@ -172,35 +200,64 @@ def search_cases(
             )
         )
 
-    ranked.sort(key=lambda c: (c.score, -int(c.case_id.split("_")[-1])), reverse=True)
+    ranked.sort(key=lambda c: (c.score, -int(c.case_id.split("_")[-1]) if "_" in c.case_id else 0), reverse=True)
     limit = top_k if top_k is not None else settings.case_initial_top_k
     if limit and limit > 0:
         return ranked[:limit]
     return ranked
 
 
+def _allowed_from_split(
+    split: dict[str, list[str]],
+    *,
+    signal: str,
+    keep_unknown: bool = True,
+) -> list[str]:
+    if signal == "yes":
+        ids = list(split.get("positive", []))
+    else:
+        ids = list(split.get("negative", []))
+    if keep_unknown:
+        ids.extend(split.get("unknown", []))
+    seen: set[str] = set()
+    out: list[str] = []
+    for cid in ids:
+        if cid and cid not in seen:
+            out.append(cid)
+            seen.add(cid)
+    return out
+
+
 def apply_feature_filters(
     candidate_ids: list[str] | None,
     confirmed_features: Iterable[str],
     denied_features: Iterable[str],
+    probe_splits: dict[str, dict[str, list[str]]] | None = None,
 ) -> list[str]:
-    """Narrow candidate ids with confirmed/denied features.
+    """Narrow candidate ids using dynamic probe splits.
 
-    Filters are conservative: a filter is only applied if it leaves at least one
-    candidate. This keeps the demo robust when a user gives a vague or noisy
-    answer.
+    Filters are conservative: unknown cases are retained as soft possibilities,
+    and a filter is only applied if it leaves at least one candidate.
     """
 
     ids = list(candidate_ids or all_case_ids())
-    cmap = case_map()
+    splits = probe_splits or {}
 
-    for fid in confirmed_features or []:
-        narrowed = [cid for cid in ids if fid in cmap[cid].feature_tags]
+    for probe_id in confirmed_features or []:
+        split = splits.get(probe_id)
+        if not split:
+            continue
+        allowed = set(_allowed_from_split(split, signal="yes", keep_unknown=True))
+        narrowed = [cid for cid in ids if cid in allowed]
         if narrowed:
             ids = narrowed
 
-    for fid in denied_features or []:
-        narrowed = [cid for cid in ids if fid not in cmap[cid].feature_tags]
+    for probe_id in denied_features or []:
+        split = splits.get(probe_id)
+        if not split:
+            continue
+        allowed = set(_allowed_from_split(split, signal="no", keep_unknown=True))
+        narrowed = [cid for cid in ids if cid in allowed]
         if narrowed:
             ids = narrowed
 
@@ -222,13 +279,13 @@ def top_candidate_summary(candidates: list[CaseCandidate], limit: int | None = N
     limit = limit or settings.case_display_top_k
     return [
         {
-            "case_id": c.case_id,
-            "title": c.title,
-            "score": c.score,
-            "matched_features": c.matched_features,
-            "matched_terms": c.matched_terms,
+            "case_id": case.case_id,
+            "title": case.title,
+            "score": case.score,
+            "matched_features": case.matched_features,
+            "matched_terms": case.matched_terms,
         }
-        for c in candidates[:limit]
+        for case in candidates[:limit]
     ]
 
 
@@ -236,6 +293,5 @@ def entropy_split_score(pos: int, neg: int, total: int) -> float:
     if total <= 0 or pos <= 0 or neg <= 0:
         return 0.0
     p = pos / total
-    # normalized binary entropy, good when split is balanced
     entropy = -(p * math.log2(p) + (1 - p) * math.log2(1 - p))
     return round(entropy, 4)

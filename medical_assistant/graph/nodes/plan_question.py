@@ -17,6 +17,7 @@ def route_after_cases(state: GraphState) -> str:
         candidates,
         turn_index=state.get("turn_index", 0),
         asked_feature_ids=memory.asked_feature_ids,
+        memory=memory,
     ):
         return "final_answer"
     return "plan_question"
@@ -27,11 +28,11 @@ def plan_question_node(state: GraphState) -> dict:
     candidates = _candidates_from_state(state)
     question = select_question(
         candidates,
+        memory=memory,
         asked_feature_ids=memory.asked_feature_ids,
         confirmed_feature_ids=list(memory.confirmed_features.keys()),
         denied_feature_ids=list(memory.denied_features.keys()),
     )
-
     if question is None:
         return {
             "should_answer": True,
@@ -48,5 +49,5 @@ def plan_question_node(state: GraphState) -> dict:
         "confidence": state.get("confidence", 0.0),
         "phase": "NEEDS_CLARIFICATION",
         "turn_index": state.get("turn_index", 0) + 1,
-        "sources": [c.title for c in candidates[:3]],
+        "sources": [case.title for case in candidates[:3]],
     }

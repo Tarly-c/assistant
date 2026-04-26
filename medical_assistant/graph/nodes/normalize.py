@@ -1,4 +1,5 @@
 """normalize 节点：轻量翻译/关键词提取，LLM 可选。"""
+
 from __future__ import annotations
 
 from medical_assistant.config import get_settings
@@ -25,7 +26,6 @@ def _guess_intent(question: str) -> str:
 def normalize_node(state: GraphState) -> dict:
     question = state.get("question", "")
     settings = get_settings()
-
     result = NormalizedInput()
     if settings.use_llm_normalize:
         result = invoke_structured(
@@ -37,7 +37,7 @@ def normalize_node(state: GraphState) -> dict:
         )
 
     fallback_terms = extract_search_terms(question)
-    key_terms = []
+    key_terms: list[str] = []
     for term in (result.key_terms_en or []) + fallback_terms:
         if term and term not in key_terms:
             key_terms.append(term)
