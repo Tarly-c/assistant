@@ -7,12 +7,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    """Runtime settings for the generic case-localization demo."""
-
     model_config = SettingsConfigDict(
-        env_file=".env",
-        env_prefix="MEDICAL_ASSISTANT_",
-        extra="ignore",
+        env_file=".env", env_prefix="MEDICAL_ASSISTANT_", extra="ignore",
     )
 
     app_name: str = "Medical Assistant"
@@ -26,7 +22,6 @@ class Settings(BaseSettings):
 
     resources_dir: str = "resources"
     chroma_dir: str = "chroma_db"
-    trace_dir: str = "traces"
     collection_name: str = "medical_assistant"
     embedding_model: str = "embeddinggemma:latest"
     local_top_k: int = 6
@@ -42,10 +37,16 @@ class Settings(BaseSettings):
     case_question_tree_file: str = "resources/case_question_tree.json"
     tree_max_depth: int = 7
     tree_min_leaf_cases: int = 2
-    tree_min_probe_gain: float = 0.08
+    tree_min_probe_gain: float = 0.04
     tree_probe_options_per_node: int = 3
     tree_use_unknown_as_soft_branch: bool = True
-    local_probe_min_gain: float = 0.05
+
+    local_probe_min_gain: float = 0.03
+
+    # 至少问几轮才允许高置信度终止
+    min_turns_before_finalize: int = 3
+    # 候选集大于多少时，不允许纯靠分数终止
+    large_candidate_threshold: int = 10
 
     @property
     def resources_path(self) -> Path:
@@ -54,10 +55,6 @@ class Settings(BaseSettings):
     @property
     def chroma_path(self) -> Path:
         return Path(self.chroma_dir)
-
-    @property
-    def trace_path(self) -> Path:
-        return Path(self.trace_dir)
 
     @property
     def case_data_path(self) -> Path:
