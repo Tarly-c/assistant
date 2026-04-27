@@ -1,14 +1,18 @@
-"""离线构建问诊决策树。"""
-from __future__ import annotations
+"""离线建树。★ 用预计算 (K+M) 维特征向量 + 深度自适应特征选择。
 
+每个节点 O((K+M) × N)，无需任何在线 embedding 或文本处理。
+"""
+from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any, Iterable, Sequence
 
 from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseRecord
-from medical_assistant.probes.types import ProbeCandidate
-from medical_assistant.probes.mine import mine_probes
+from medical_assistant.cases.store import (
+    load_feature_vecs, load_meta, cluster_label, cluster_evidence,
+)
+from medical_assistant.probes.scoring import split_quality, best_threshold, rephrase
 
 
 def _unique(ids: Iterable[str]) -> list[str]:
@@ -19,92 +23,157 @@ def _unique(ids: Iterable[str]) -> list[str]:
     return out
 
 
-def _probe_dict(p: ProbeCandidate) -> dict[str, Any]:
-    return {
-        "probe_id": p.probe_id, "label": p.label, "prototype": p.prototype,
-        "question": p.question, "positive_ids": p.positive_ids,
-        "negative_ids": p.negative_ids, "unknown_ids": p.unknown_ids,
-        "evidence": p.evidence, "score": p.score, "debug": p.debug,
-        "yes_child": "", "no_child": "",
-    }
+def _find_best_split(
+    case_ids: list[str],
+    features: dict[str, list[float]],
+    K: int, total_dims: int,
+    asked_dims: set[int],
+    min_child: int,
+    depth: int,
+) -> dict[str, Any] | None:
+    """在 (K+M) 维特征空间中找最优切分维度。★ 深度自适应权重。"""
+    N = len(case_ids)
+    if N <= 1 or total_dims == 0:
+        return None
 
+    best, best_score = None, -1.0
 
-def _branch(probe: dict, side: str, *, soft: bool) -> list[str]:
-    ids = list(probe.get("positive_ids" if side == "yes" else "negative_ids", []))
-    if soft:
-        ids.extend(probe.get("unknown_ids", []))
-    return _unique(ids)
+    for dim in range(total_dims):
+        if dim in asked_dims:
+            continue
+        vals = {cid: features[cid][dim] for cid in case_ids if cid in features}
+        if len(vals) < N * 0.8:
+            continue
+
+        pos, neg, unk, sq, th = best_threshold(vals, min_child=min_child)
+        if not pos or not neg or sq <= 0:
+            continue
+
+        # ★ 深度自适应：浅层偏好语义维度，深层偏好概念维度
+        if dim < K:
+            weight = max(0.3, 1.0 - depth * 0.12)
+        else:
+            weight = min(1.5, 0.8 + depth * 0.12)
+        adjusted = sq * weight
+
+        if adjusted > best_score:
+            best_score = adjusted
+            best = {
+                "dim": dim, "threshold": round(th, 4),
+                "score": round(adjusted, 4), "raw_score": round(sq, 4),
+                "weight": round(weight, 3),
+                "label": cluster_label(dim),
+                "evidence": cluster_evidence(dim),
+                "positive_ids": pos, "negative_ids": neg, "unknown_ids": unk,
+            }
+    return best
 
 
 def build_tree(cases: Sequence[CaseRecord], *, debug: bool = False) -> dict[str, Any]:
-    """递归构建问诊决策树。每个节点的 probe 从当前病例子集中自动挖掘。"""
     cfg = get_settings()
-    case_map = {c.case_id: c for c in cases}
+    features = load_feature_vecs()
+    meta = load_meta()
+    K = meta.get("semantic_clusters", 0)
+    total_dims = meta.get("total_features", 0)
+    case_set = {c.case_id for c in cases}
     nodes: dict[str, dict] = {}
 
-    def build(ids: list[str], depth: int, nid: str, asked: list[str]) -> None:
-        ids = _unique(c for c in ids if c in case_map)
-        node = {"id": nid, "depth": depth, "case_ids": ids,
-                "is_leaf": False, "reason": "", "probes": [],
-                "primary": "", "yes_child": "", "no_child": "", "leaf_ids": []}
+    if not features or total_dims == 0:
+        raise RuntimeError("Feature vectors not found. Run scripts/build_vectors.py first.")
+
+    def build(ids: list[str], depth: int, nid: str, asked: set[int]) -> None:
+        ids = _unique(c for c in ids if c in case_set and c in features)
+        node: dict[str, Any] = {
+            "id": nid, "depth": depth, "case_ids": ids,
+            "is_leaf": False, "reason": "", "probes": [],
+            "primary_dim": -1, "yes_child": "", "no_child": "",
+        }
         nodes[nid] = node
 
-        # 终止条件
         if not ids:
-            node.update(is_leaf=True, reason="empty", leaf_ids=ids); return
+            node.update(is_leaf=True, reason="empty"); return
         if depth >= cfg.tree_max_depth:
-            node.update(is_leaf=True, reason="max_depth", leaf_ids=ids); return
+            node.update(is_leaf=True, reason="max_depth"); return
         if len(ids) <= cfg.tree_min_leaf:
-            node.update(is_leaf=True, reason="small", leaf_ids=ids); return
+            node.update(is_leaf=True, reason="small"); return
 
-        # 挖掘 probe
-        subset = [case_map[c] for c in ids]
-        probes = mine_probes(
-            subset, asked=asked, max_probes=max(1, cfg.tree_probes_per_node),
-            prefix=f"{nid}_p", min_child=2 if len(ids) >= 8 else 1,
-        )
+        mc = 2 if len(ids) >= 8 else 1
+        best = _find_best_split(ids, features, K, total_dims, asked, mc, depth)
 
-        if debug and depth == 0:
-            print(f"  [build] root: {len(probes)} candidates")
-            for p in probes[:5]:
-                print(f"    score={p.score:.4f} pos={len(p.positive_ids)} "
-                      f"neg={len(p.negative_ids)} label={p.label}")
+        if debug and depth <= 1 and best:
+            kind = "semantic" if best["dim"] < K else "concept"
+            print(f"  [d={depth}] {nid}: dim={best['dim']}({kind}) "
+                  f"score={best['score']} raw={best['raw_score']} w={best['weight']} "
+                  f"pos={len(best['positive_ids'])} neg={len(best['negative_ids'])} "
+                  f"label={best['label']}")
 
-        if not probes:
-            node.update(is_leaf=True, reason="no_probe", leaf_ids=ids); return
-
-        pd = [_probe_dict(p) for p in probes]
-        node["probes"] = pd
-        best = pd[0]
-
-        if best["score"] < cfg.tree_min_gain:
-            node.update(is_leaf=True, reason="low_gain", leaf_ids=ids,
-                        rejected={"score": best["score"], "label": best["label"]})
+        if not best or best["score"] < cfg.tree_min_gain:
+            node.update(is_leaf=True, reason="low_gain" if best else "no_split")
+            if best:
+                node["rejected"] = {"score": best["score"], "label": best["label"]}
             return
 
-        # 切分
-        yes_ids = _branch(best, "yes", soft=cfg.tree_soft_branch)
-        no_ids = _branch(best, "no", soft=cfg.tree_soft_branch)
+        # LLM 改写追问（离线）
+        question = rephrase(best["label"], best["evidence"])
+
+        probe = {
+            "probe_id": f"dim_{best['dim']}",
+            "feature_dim": best["dim"],
+            "label": best["label"],
+            "question": question,
+            "threshold": best["threshold"],
+            "score": best["score"],
+            "evidence": best["evidence"],
+            "positive_ids": best["positive_ids"],
+            "negative_ids": best["negative_ids"],
+            "unknown_ids": best["unknown_ids"],
+            "yes_child": "", "no_child": "",
+        }
+
+        soft = cfg.tree_soft_branch
+        yes_ids = _unique(best["positive_ids"] + (best["unknown_ids"] if soft else []))
+        no_ids = _unique(best["negative_ids"] + (best["unknown_ids"] if soft else []))
         if set(yes_ids) == set(ids):
-            yes_ids = _branch(best, "yes", soft=False)
+            yes_ids = best["positive_ids"]
         if set(no_ids) == set(ids):
-            no_ids = _branch(best, "no", soft=False)
+            no_ids = best["negative_ids"]
         if not yes_ids or not no_ids:
-            node.update(is_leaf=True, reason="degenerate", leaf_ids=ids); return
+            node.update(is_leaf=True, reason="degenerate"); return
 
         yc, nc = f"{nid}_y", f"{nid}_n"
-        node.update(primary=best["probe_id"], yes_child=yc, no_child=nc)
-        best["yes_child"], best["no_child"] = yc, nc
+        node.update(primary_dim=best["dim"], yes_child=yc, no_child=nc)
+        probe["yes_child"], probe["no_child"] = yc, nc
+        node["probes"] = [probe]
 
-        build(yes_ids, depth + 1, yc, asked + [best["probe_id"]])
-        build(no_ids, depth + 1, nc, asked + [best["probe_id"]])
+        # 额外 probe options
+        new_asked = asked | {best["dim"]}
+        for _ in range(cfg.tree_probes_per_node - 1):
+            alt = _find_best_split(ids, features, K, total_dims, new_asked, mc, depth)
+            if not alt or alt["score"] < cfg.tree_min_gain * 0.5:
+                break
+            alt_q = rephrase(alt["label"], alt["evidence"])
+            node["probes"].append({
+                "probe_id": f"dim_{alt['dim']}",
+                "feature_dim": alt["dim"],
+                "label": alt["label"], "question": alt_q,
+                "threshold": alt["threshold"], "score": alt["score"],
+                "evidence": alt["evidence"],
+                "positive_ids": alt["positive_ids"],
+                "negative_ids": alt["negative_ids"],
+                "unknown_ids": alt["unknown_ids"],
+                "yes_child": "", "no_child": "",
+            })
+            new_asked = new_asked | {alt["dim"]}
 
-    build([c.case_id for c in cases], 0, "n", [])
-    return {"version": 3, "root": "n", "count": len(cases),
-            "config": {"max_depth": cfg.tree_max_depth, "min_leaf": cfg.tree_min_leaf,
-                       "min_gain": cfg.tree_min_gain, "probes_per_node": cfg.tree_probes_per_node,
-                       "soft_branch": cfg.tree_soft_branch},
-            "nodes": nodes}
+        build(yes_ids, depth + 1, yc, asked | {best["dim"]})
+        build(no_ids, depth + 1, nc, asked | {best["dim"]})
+
+    build([c.case_id for c in cases if c.case_id in features], 0, "n", set())
+    return {
+        "version": 5, "root": "n", "count": len(cases),
+        "K": K, "M": total_dims - K, "total_dims": total_dims,
+        "nodes": nodes,
+    }
 
 
 def save_tree(tree: dict, path: Path | None = None) -> Path:
@@ -114,7 +183,7 @@ def save_tree(tree: dict, path: Path | None = None) -> Path:
     return path
 
 
-def tree_stats(tree: dict) -> dict[str, int]:
+def tree_stats(tree: dict) -> dict:
     ns = tree.get("nodes", {})
     leaves = sum(1 for n in ns.values() if isinstance(n, dict) and n.get("is_leaf"))
     mx = max((int(n.get("depth", 0)) for n in ns.values() if isinstance(n, dict)), default=0)

@@ -1,8 +1,6 @@
-"""启动入口：CLI / API。"""
+"""启动入口。"""
 from __future__ import annotations
-
-import argparse
-import time
+import argparse, time
 from typing import Any
 from uuid import uuid4
 
@@ -15,19 +13,13 @@ from medical_assistant.config import get_settings
 from medical_assistant.graph.workflow import build_workflow
 
 _wf = None
-
-
 def _workflow():
     global _wf
     if _wf is None:
         _wf = build_workflow()
     return _wf
 
-
-# ── 会话管理 ──
-
 _sessions: dict[str, dict] = {}
-
 
 def _session(sid: str | None) -> dict:
     if sid and sid in _sessions:
@@ -38,26 +30,19 @@ def _session(sid: str | None) -> dict:
     return s
 
 
-# ── 单轮对话 ──
-
 def chat(sid: str | None, user_input: str) -> dict[str, Any]:
     sess = _session(sid)
     result = _workflow().invoke({
-        "user_input": user_input,
-        "turn": sess["turn"],
-        "history": sess["history"],
-        "memory": sess["memory"],
+        "user_input": user_input, "turn": sess["turn"],
+        "history": sess["history"], "memory": sess["memory"],
     })
-
     reply = result.get("reply", "")
     sess["history"].append({"role": "user", "content": user_input})
     sess["history"].append({"role": "assistant", "content": reply})
     sess["turn"] = result.get("turn", sess["turn"] + 1)
     sess["memory"] = result.get("memory", sess["memory"])
-
     return {
-        "session_id": sess["id"],
-        "reply": reply,
+        "session_id": sess["id"], "reply": reply,
         "reply_type": result.get("reply_type", "answer"),
         "probe": result.get("probe", {}),
         "matched_case": result.get("matched_case", {}),
@@ -65,17 +50,13 @@ def chat(sid: str | None, user_input: str) -> dict[str, Any]:
         "candidate_count": result.get("candidate_count", 0),
         "top_candidates": result.get("top_candidates", []),
         "best_score": result.get("best_score", 0.0),
-        "turn": sess["turn"],
-        "memory": sess["memory"],
+        "turn": sess["turn"], "memory": sess["memory"],
     }
 
 
-# ── CLI ──
-
-def cli(debug: bool = False) -> None:
+def cli(debug: bool = False):
     sess = _session(None)
-    print(f"Medical Assistant CLI（session={sess['id']}）")
-    print("输入 exit 退出\n")
+    print(f"Medical Assistant CLI (session={sess['id']})\n输入 exit 退出\n")
     while True:
         try:
             q = input("[你] ").strip()
@@ -90,29 +71,26 @@ def cli(debug: bool = False) -> None:
         print(f"\n[助手] {r['reply']}\n")
         if debug:
             print(f"  type={r['reply_type']} conf={r['confidence']} "
-                  f"candidates={r['candidate_count']} best={r['best_score']}")
-            print(f"  top={r['top_candidates']}")
-            print(f"  probe={r['probe']}")
-            print(f"  memory={r['memory']}\n")
+                  f"count={r['candidate_count']} best={r['best_score']}")
+            for tc in r.get("top_candidates", []):
+                print(f"    {tc['case_id']} {tc['title']} "
+                      f"score={tc['score']} sent={tc['sentence_sim']} "
+                      f"kw={tc['keyword_sim']} probe={tc['probe_score']}")
+            print(f"  probe={r['probe']}\n")
 
-
-# ── API ──
 
 cfg = get_settings()
 app = FastAPI(title=cfg.app_name)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True,
                    allow_methods=["*"], allow_headers=["*"])
 
-
 class ChatReq(BaseModel):
     session_id: str | None = None
     message: str = Field(min_length=1)
 
-
 @app.get("/health")
 def health():
     return {"status": "ok"}
-
 
 @app.post("/api/chat")
 def api_chat(req: ChatReq):
@@ -120,7 +98,6 @@ def api_chat(req: ChatReq):
         return chat(req.session_id, req.message.strip())
     except Exception as e:
         raise HTTPException(500, str(e)) from e
-
 
 def main():
     p = argparse.ArgumentParser()
@@ -131,7 +108,6 @@ def main():
         uvicorn.run(app, host=cfg.api_host, port=cfg.api_port)
     else:
         cli(debug=args.debug)
-
 
 if __name__ == "__main__":
     main()

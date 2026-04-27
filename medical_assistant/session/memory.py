@@ -1,8 +1,6 @@
-"""Memory 读写与跨轮更新。"""
+"""Memory 读写。"""
 from __future__ import annotations
-
 from typing import Any
-
 from medical_assistant.schemas import Memory, Probe
 from medical_assistant.session.parser import parse_answer
 
@@ -17,101 +15,89 @@ def dump(mem: Memory) -> dict[str, Any]:
     return mem.model_dump()
 
 
-def _merge(existing: list[str], new: list[str]) -> list[str]:
-    out = list(existing or [])
-    for item in new:
-        if item and item not in out:
-            out.append(item)
+def _merge(a: list[str], b: list[str]) -> list[str]:
+    out = list(a or [])
+    for x in b:
+        if x and x not in out:
+            out.append(x)
     return out
 
 
-def process_user_input(
+def process_input(
     mem: Memory, *,
     user_input: str,
-    search_query: str,
-    search_terms: list[str],
-    intent: str,
-    turn: int,
+    query_cn: str, query_en: str,
+    query_sentence_vec: list[float],
+    query_keyword_vecs: list[list[float]],
+    intent: str, turn: int,
 ) -> Memory:
-    """根据用户本轮输入更新记忆。
-
-    如果用户在回答上一轮追问 → 解析回答，更新确认/否认状态。
-    如果是首轮/新问题 → 更新搜索信息。
-    """
+    """根据用户输入更新记忆。"""
     is_answering = bool(mem.last_probe_id)
 
-    # 首轮：记录原始信息
     if not mem.original_input:
+        # 首轮
         mem.original_input = user_input
-        mem.search_query = search_query
+        mem.query_cn = query_cn
+        mem.query_en = query_en
+        mem.query_sentence_vec = query_sentence_vec
+        mem.query_keyword_vecs = query_keyword_vecs
         mem.intent = intent
     elif not is_answering:
-        # 用户换了话题
-        mem.search_query = search_query
+        # 新问题
+        mem.query_cn = query_cn
+        mem.query_en = query_en
+        mem.query_sentence_vec = query_sentence_vec
+        mem.query_keyword_vecs = query_keyword_vecs
         mem.intent = intent
+    # else: 回答追问 → 保持原始查询向量不变
 
-    mem.search_terms = _merge(mem.search_terms, search_terms)
     mem.turn = turn
 
-    # 解析上一轮追问的回答
     if is_answering:
+        pid = mem.last_probe_id
         parsed = parse_answer(
             probe_text=mem.last_probe_text,
             user_input=user_input,
-            probe_label=mem.labels.get(mem.last_probe_id, mem.last_probe_id),
+            probe_label=mem.labels.get(pid, pid),
         )
-        pid = mem.last_probe_id
-        sig = parsed.signal
-
-        if sig == "yes":
+        if parsed.signal == "yes":
             mem.confirmed[pid] = {"evidence": parsed.evidence}
-            mem.denied.pop(pid, None)
-            mem.uncertain.pop(pid, None)
+            mem.denied.pop(pid, None); mem.uncertain.pop(pid, None)
             if mem.last_yes_child:
                 mem.tree_node = mem.last_yes_child
-        elif sig == "no":
+        elif parsed.signal == "no":
             mem.denied[pid] = {"evidence": parsed.evidence}
-            mem.confirmed.pop(pid, None)
-            mem.uncertain.pop(pid, None)
+            mem.confirmed.pop(pid, None); mem.uncertain.pop(pid, None)
             if mem.last_no_child:
                 mem.tree_node = mem.last_no_child
-        elif sig == "uncertain":
+        elif parsed.signal == "uncertain":
             mem.uncertain[pid] = {"evidence": parsed.evidence}
             if mem.last_tree_node:
                 mem.tree_node = mem.last_tree_node
 
-        # 用户回答里夹带的新症状
-        mem.search_terms = _merge(mem.search_terms, parsed.new_observations)
+        # 用户回答可能夹带新概念 → 追加关键词向量
+        if parsed.new_observations:
+            from medical_assistant.text.embed import embed_batch
+            new_vecs = embed_batch(parsed.new_observations)
+            mem.query_keyword_vecs = mem.query_keyword_vecs + new_vecs
 
     return mem
 
 
 def record_probe(mem: Memory, probe: Probe) -> Memory:
-    """记录本轮选中的追问，供下一轮解析回答。"""
     mem.last_probe_id = probe.probe_id
     mem.last_probe_text = probe.text
     mem.last_probe_label = probe.label
     mem.last_tree_node = probe.tree_node
     mem.last_yes_child = probe.yes_child
     mem.last_no_child = probe.no_child
-
     if probe.tree_node:
         mem.tree_node = probe.tree_node
-
     mem.asked_probes = _merge(mem.asked_probes, [probe.probe_id])
-
-    # 保存切分数据
     mem.splits[probe.probe_id] = {
         "positive": probe.positive_ids,
         "negative": probe.negative_ids,
         "unknown": probe.unknown_ids,
     }
     mem.labels[probe.probe_id] = probe.label
-    return mem
-
-
-def clear_last_probe(mem: Memory) -> Memory:
-    """清除上一轮追问（进入非追问状态）。"""
-    mem.last_probe_id = ""
-    mem.last_probe_text = ""
     return mem

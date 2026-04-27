@@ -1,17 +1,14 @@
-"""病例数据加载与文本表示。只管数据，不管评分。"""
+"""病例数据 + 预计算向量加载。"""
 from __future__ import annotations
-
 import json
 from functools import lru_cache
 from typing import Sequence
-
 from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseRecord, ScoredCase
 from medical_assistant.text.split import clean
 
 
 def _list_field(item: dict, *names: str) -> list[str]:
-    """从 JSON item 中提取字符串列表字段，去重。"""
     out = []
     for name in names:
         val = item.get(name)
@@ -24,42 +21,27 @@ def _list_field(item: dict, *names: str) -> list[str]:
 
 
 def extra_texts(case: CaseRecord | ScoredCase) -> list[str]:
-    """收集病例的可选多语言/搜索字段。"""
     texts = []
-    for attr in ("title_en", "description_en", "aliases", "keywords",
-                 "key_terms_en", "search_terms"):
+    for attr in ("title_en", "description_en", "aliases", "keywords"):
         val = getattr(case, attr, None)
         if isinstance(val, str) and val.strip():
             texts.append(val.strip())
-        elif isinstance(val, (list, tuple, set)):
+        elif isinstance(val, (list, tuple)):
             texts.extend(str(x).strip() for x in val if str(x).strip())
     return texts
 
 
 def full_text(case: CaseRecord | ScoredCase) -> str:
-    """用于搜索/匹配的完整文本。"""
+    """用于 embedding 的完整文本。"""
     parts = [case.title, case.description, case.treat]
     parts.extend(case.feature_tags or [])
     parts.extend(extra_texts(case))
     return "\n".join(clean(str(p)) for p in parts if clean(str(p)))
 
 
-def document_text(case: CaseRecord) -> str:
-    """用于向量索引的结构化文档文本。"""
-    parts = [f"标题: {case.title}", f"描述: {case.description}", f"处理: {case.treat}"]
-    if case.title_en:
-        parts.append(f"Title: {case.title_en}")
-    tags = [*case.aliases, *case.keywords, *case.key_terms_en,
-            *case.search_terms, *case.feature_tags]
-    if tags:
-        parts.append("Tags: " + " / ".join(tags))
-    return "\n".join(p for p in parts if p.strip())
-
-
 @lru_cache(maxsize=1)
 def load_cases() -> list[CaseRecord]:
-    """加载全部病例。"""
-    path = get_settings().case_data_path
+    path = get_settings().case_path
     if not path.exists():
         raise FileNotFoundError(f"Case data not found: {path}")
     raw = json.loads(path.read_text(encoding="utf-8"))
@@ -76,8 +58,6 @@ def load_cases() -> list[CaseRecord]:
             description_en=str(item.get("description_en") or "").strip(),
             aliases=_list_field(item, "aliases", "synonyms"),
             keywords=_list_field(item, "keywords"),
-            key_terms_en=_list_field(item, "key_terms_en"),
-            search_terms=_list_field(item, "search_terms"),
             feature_tags=_list_field(item, "feature_tags"),
         ))
     return cases
@@ -101,3 +81,81 @@ def get_cases(ids: Sequence[str] | None = None) -> list[CaseRecord]:
 
 def all_ids() -> list[str]:
     return [c.case_id for c in load_cases()]
+
+
+# ── 预计算向量 ──
+
+@lru_cache(maxsize=1)
+def _load_vectors_raw() -> dict:
+    path = get_settings().vectors_path
+    if not path.exists():
+        print(f"[WARN] Vectors not found: {path}")
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+@lru_cache(maxsize=1)
+def load_sentence_vecs() -> dict[str, list[float]]:
+    """case_id → 句子级 embedding 向量。"""
+    raw = _load_vectors_raw()
+    return {c["case_id"]: c["sentence_vec"]
+            for c in raw.get("cases", []) if "sentence_vec" in c}
+
+
+@lru_cache(maxsize=1)
+def load_keyword_vecs() -> dict[str, dict[str, list[list[float]]]]:
+    """case_id → {"positive": [[vec], ...], "negative": [[vec], ...]}。"""
+    raw = _load_vectors_raw()
+    return {c["case_id"]: c.get("keyword_vecs", {"positive": [], "negative": []})
+            for c in raw.get("cases", [])}
+
+
+@lru_cache(maxsize=1)
+def load_feature_vecs() -> dict[str, list[float]]:
+    """case_id → (K+M) 维特征向量。"""
+    raw = _load_vectors_raw()
+    return {c["case_id"]: c["feature_vec"]
+            for c in raw.get("cases", []) if "feature_vec" in c}
+
+
+@lru_cache(maxsize=1)
+def load_meta() -> dict:
+    """加载特征空间元信息。"""
+    raw = _load_vectors_raw()
+    return raw.get("meta", {})
+
+
+@lru_cache(maxsize=1)
+def load_clusters() -> dict:
+    path = get_settings().clusters_path
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def cluster_label(dim: int) -> str:
+    """获取特征维度的可读标签。"""
+    data = load_clusters()
+    meta = load_meta()
+    K = meta.get("semantic_clusters", 0)
+    if dim < K:
+        sc = data.get("semantic_clusters", [])
+        return sc[dim]["label"] if dim < len(sc) else f"semantic_{dim}"
+    else:
+        cc = data.get("concept_clusters", [])
+        idx = dim - K
+        return cc[idx]["name"] if idx < len(cc) else f"concept_{idx}"
+
+
+def cluster_evidence(dim: int) -> list[str]:
+    """获取特征维度的代表文本。"""
+    data = load_clusters()
+    meta = load_meta()
+    K = meta.get("semantic_clusters", 0)
+    if dim < K:
+        sc = data.get("semantic_clusters", [])
+        return sc[dim].get("texts", [])[:5] if dim < len(sc) else []
+    else:
+        cc = data.get("concept_clusters", [])
+        idx = dim - K
+        return cc[idx].get("examples", [])[:5] if idx < len(cc) else []

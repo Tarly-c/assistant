@@ -1,9 +1,6 @@
-"""构建问诊 workflow。"""
+"""构建 workflow。"""
 from __future__ import annotations
-
-from medical_assistant.graph.nodes import (
-    parse_input, narrow, score, ask, answer, route,
-)
+from medical_assistant.graph.nodes import parse_input, narrow, score, ask, answer, route
 from medical_assistant.graph.state import S
 
 try:
@@ -13,7 +10,6 @@ except Exception:
 
 
 class _Fallback:
-    """无 LangGraph 时的顺序执行。"""
     def invoke(self, state: S) -> S:
         s: S = dict(state)
         for fn in (parse_input, narrow, score):

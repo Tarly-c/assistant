@@ -1,23 +1,37 @@
-"""病例评分、排序、过滤。"""
-from __future__ import annotations
+"""★ N-自适应三路评分：sentence_sim + keyword_sim + probe_score。
 
+权重随候选集大小 N 平滑过渡：
+  N > 50:  句子级主导（语义粗筛）
+  N ≤ 5:   probe + 关键词主导（精细区分）
+"""
+from __future__ import annotations
 from typing import Iterable
 
-from medical_assistant.config import get_settings
 from medical_assistant.schemas import CaseRecord, ScoredCase
-from medical_assistant.text.split import extract_terms, norm
-from medical_assistant.cases.store import all_ids, document_text, get_cases
+from medical_assistant.text.embed import cosine, avg_best_match
+from medical_assistant.cases.store import (
+    get_cases, load_sentence_vecs, load_keyword_vecs,
+)
 
 
-def _hits(haystack: str, terms: Iterable[str]) -> list[str]:
-    """返回 terms 中能在 haystack 里子串命中的项。"""
-    h = norm(haystack)
-    return [t for t in terms if norm(t) in h]
+# ── N-自适应权重 ──
 
+def _weights(n: int) -> tuple[float, float, float]:
+    """返回 (α_sentence, β_keyword, γ_probe)。"""
+    if n > 50:
+        return 0.55, 0.20, 0.25
+    elif n > 20:
+        return 0.40, 0.30, 0.30
+    elif n > 5:
+        return 0.25, 0.35, 0.40
+    else:
+        return 0.10, 0.35, 0.55
+
+
+# ── Probe 奖惩 ──
 
 def _membership(case_id: str, probe_id: str,
                 splits: dict[str, dict[str, list[str]]]) -> str:
-    """查询 case_id 在某个 probe 切分中的归属。"""
     s = splits.get(probe_id, {})
     if case_id in set(s.get("positive", [])):
         return "positive"
@@ -28,70 +42,103 @@ def _membership(case_id: str, probe_id: str,
     return "missing"
 
 
-def score_case(
-    case: CaseRecord, query: str, terms: list[str],
+def _probe_score(
+    case_id: str,
     confirmed: Iterable[str], denied: Iterable[str],
     splits: dict[str, dict[str, list[str]]],
-) -> tuple[float, list[str], list[str]]:
-    """为单个病例计算匹配分数。返回 (score, hit_probes, hit_terms)。"""
-    text = document_text(case)
-    title_text = "\n".join([case.title, case.title_en, *case.aliases])
-
-    # 搜索词（query + terms + query 的子片段）
-    search = []
-    q = norm(query)
-    if q and len(q) > 1:
-        search.append(query)
-    for t in (terms or []):
-        if t not in search:
-            search.append(t)
-    for t in extract_terms(query):
-        if t not in search:
-            search.append(t)
-
-    hit_terms = _hits(text, search)
-    title_hits = _hits(title_text, search)
-    s = 0.0
-    if search:
-        s += 0.35 * len(hit_terms) / max(1, len(search))
-        s += 0.15 * len(title_hits) / max(1, len(search))
-
-    # confirmed probe 奖惩
-    hit_probes = []
+) -> tuple[float, list[str]]:
+    score, hits = 0.0, []
     for pid in (confirmed or []):
-        m = _membership(case.case_id, pid, splits)
+        m = _membership(case_id, pid, splits)
         if m == "positive":
-            s += 0.24; hit_probes.append(pid)
+            score += 0.30; hits.append(pid)
         elif m == "negative":
-            s -= 0.35
+            score -= 0.40
         elif m == "unknown":
-            s += 0.03
-
-    # denied probe 奖惩
+            score += 0.03
     for pid in (denied or []):
-        m = _membership(case.case_id, pid, splits)
+        m = _membership(case_id, pid, splits)
         if m == "negative":
-            s += 0.18
+            score += 0.22
         elif m == "positive":
-            s -= 0.32
+            score -= 0.35
         elif m == "unknown":
-            s += 0.02
+            score += 0.02
+    return score, hits
 
-    return round(max(0.0, min(1.0, s)), 4), hit_probes, hit_terms
 
+# ── 句子级相似度 ──
+
+def _sentence_sim(query_vec: list[float], case_id: str,
+                  sent_vecs: dict[str, list[float]]) -> float:
+    cvec = sent_vecs.get(case_id)
+    if not query_vec or not cvec:
+        return 0.0
+    return max(0.0, cosine(query_vec, cvec))
+
+
+# ── 关键词级相似度 ──
+
+def _keyword_sim(query_kw_vecs: list[list[float]], case_id: str,
+                 kw_vecs: dict[str, dict[str, list[list[float]]]]) -> float:
+    """关键词语义匹配：对每个用户关键词，在病例关键词中找最佳匹配。
+
+    正向概念匹配奖励，负向概念匹配惩罚。
+    """
+    if not query_kw_vecs:
+        return 0.0
+    case_kw = kw_vecs.get(case_id, {})
+    pos_vecs = case_kw.get("positive", [])
+    neg_vecs = case_kw.get("negative", [])
+
+    # 正向匹配
+    pos_score = avg_best_match(query_kw_vecs, pos_vecs) if pos_vecs else 0.0
+    # 负向惩罚：如果用户提到的概念在病例中是"不会出现的"
+    neg_score = avg_best_match(query_kw_vecs, neg_vecs) if neg_vecs else 0.0
+
+    return max(0.0, pos_score - 0.4 * neg_score)
+
+
+# ── 主函数 ──
 
 def rank_cases(
-    query: str, terms: list[str],
+    query_sentence_vec: list[float],
+    query_keyword_vecs: list[list[float]],
     candidate_ids: list[str] | None = None,
-    confirmed: Iterable[str] = (), denied: Iterable[str] = (),
+    confirmed: Iterable[str] = (),
+    denied: Iterable[str] = (),
     splits: dict[str, dict[str, list[str]]] | None = None,
 ) -> list[ScoredCase]:
-    """对候选病例评分并排序。"""
+    """★ N-自适应三路评分排序。
+
+    score = α(N) × sentence_sim + β(N) × keyword_sim + γ(N) × probe_score
+    """
     splits = splits or {}
-    ranked = []
-    for case in get_cases(candidate_ids):
-        s, hp, ht = score_case(case, query, terms or [], confirmed, denied, splits)
-        ranked.append(ScoredCase(**case.model_dump(), score=s, hit_probes=hp, hit_terms=ht))
+    records = get_cases(candidate_ids)
+    N = len(records)
+    alpha, beta, gamma = _weights(N)
+
+    sent_vecs = load_sentence_vecs()
+    kw_vecs = load_keyword_vecs()
+
+    ranked: list[ScoredCase] = []
+    for case in records:
+        ss = _sentence_sim(query_sentence_vec, case.case_id, sent_vecs)
+        ks = _keyword_sim(query_keyword_vecs, case.case_id, kw_vecs)
+        ps, hits = _probe_score(case.case_id, confirmed, denied, splits)
+
+        total = alpha * ss + beta * ks + gamma * max(0.0, ps)
+        total = round(max(0.0, min(1.0, total)), 4)
+
+        ranked.append(ScoredCase(
+            **case.model_dump(),
+            score=total,
+            sentence_sim=round(ss, 4),
+            keyword_sim=round(ks, 4),
+            probe_score=round(ps, 4),
+            hit_probes=hits,
+        ))
+
     ranked.sort(key=lambda c: c.score, reverse=True)
     return ranked
 
@@ -101,14 +148,14 @@ def filter_by_probes(
     confirmed: Iterable[str], denied: Iterable[str],
     splits: dict[str, dict[str, list[str]]],
 ) -> list[str]:
-    """根据 confirmed/denied probe 过滤病例 ID 列表。"""
+    from medical_assistant.cases.store import all_ids
     result = list(ids or all_ids())
     for pid in (confirmed or []):
         s = splits.get(pid)
         if not s:
             continue
         allowed = set(s.get("positive", []) + s.get("unknown", []))
-        narrowed = [cid for cid in result if cid in allowed]
+        narrowed = [c for c in result if c in allowed]
         if narrowed:
             result = narrowed
     for pid in (denied or []):
@@ -116,14 +163,13 @@ def filter_by_probes(
         if not s:
             continue
         allowed = set(s.get("negative", []) + s.get("unknown", []))
-        narrowed = [cid for cid in result if cid in allowed]
+        narrowed = [c for c in result if c in allowed]
         if narrowed:
             result = narrowed
     return result
 
 
 def confidence(candidates: list[ScoredCase]) -> float:
-    """从候选列表计算置信度。"""
     if not candidates:
         return 0.0
     if len(candidates) == 1:
