@@ -1,25 +1,20 @@
-"""★ 统一 Probe 挖掘：基于预计算 (K+M) 维特征向量。
+"""统一 Probe 挖掘：基于预计算 (K+M) 维特征向量 + 语义切分。
 
-完全不用字符串匹配，不用在线 embedding。
-遍历特征维度 → 找最优切分 → LLM 改写追问。
-时间复杂度：O((K+M) × N)。
+遍历特征维度 → semantic_split 找最优切分 → LLM 改写追问。
 """
 from __future__ import annotations
 from typing import Iterable, Sequence
 
+from medical_assistant.config import get_settings
 from medical_assistant.cases.store import (
     load_feature_vecs, load_meta, cluster_label, cluster_evidence,
 )
 from medical_assistant.probes.types import ProbeCandidate
-from medical_assistant.probes.scoring import best_threshold, rephrase, split_quality
+from medical_assistant.probes.scoring import semantic_split, rephrase
 
 
 def _depth_weight(dim: int, K: int, depth_hint: int) -> float:
-    """★ 深度自适应：浅层偏好语义维度，深层偏好概念维度。
-
-    dim < K  → 语义簇维度：随 depth 衰减
-    dim >= K → 概念维度：随 depth 增强
-    """
+    """深度自适应：浅层偏好语义维度，深层偏好概念维度。"""
     if dim < K:
         return max(0.3, 1.0 - depth_hint * 0.12)
     else:
@@ -33,15 +28,8 @@ def mine_probes(
     min_child: int = 1,
     depth_hint: int = 0,
 ) -> list[ProbeCandidate]:
-    """在当前候选集中寻找最佳切分维度。
-
-    Args:
-        candidate_ids: 当前候选病例 ID
-        asked: 已问过的 probe IDs（对应维度不重复使用）
-        max_probes: 返回的 probe 数量上限
-        min_child: 切分后最小子集大小
-        depth_hint: 树深度提示，影响语义/概念维度权重
-    """
+    """在当前候选集中寻找最佳切分维度。"""
+    cfg = get_settings()
     features = load_feature_vecs()
     meta = load_meta()
     K = meta.get("semantic_clusters", 0)
@@ -58,7 +46,7 @@ def mine_probes(
     mc = max(1, min_child, int(N * 0.05))
     asked_set = set(asked)
 
-    # 已问过的维度（从 probe_id 中解析出 dim）
+    # 已问过的维度
     asked_dims: set[int] = set()
     for pid in asked_set:
         if pid.startswith("dim_"):
@@ -74,13 +62,19 @@ def mine_probes(
         if pid in asked_set or dim in asked_dims:
             continue
 
-        # 取每个候选在该维度上的值
         vals = {cid: features[cid][dim] for cid in ids}
-        pos, neg, unk, sq, th = best_threshold(vals, min_child=mc)
+
+        # ★ 使用 semantic_split 替代 best_threshold
+        pos, neg, unk, sq, th = semantic_split(
+            vals,
+            anchor=cfg.split_anchor,
+            search_range=cfg.split_search_range,
+            margin=cfg.split_margin,
+            min_child=mc,
+        )
         if not pos or not neg or sq <= 0:
             continue
 
-        # ★ 深度自适应权重调整
         adjusted = sq * _depth_weight(dim, K, depth_hint)
 
         label = cluster_label(dim)
@@ -90,7 +84,7 @@ def mine_probes(
             probe_id=pid,
             feature_dim=dim,
             label=label,
-            question="",     # 延迟 LLM 改写（只对最终选中的做）
+            question="",
             positive_ids=pos,
             negative_ids=neg,
             unknown_ids=unk,
@@ -101,6 +95,7 @@ def mine_probes(
                 "raw_score": round(sq, 4),
                 "depth_weight": round(_depth_weight(dim, K, depth_hint), 3),
                 "threshold": round(th, 4),
+                "anchor": cfg.split_anchor,
                 "pos": len(pos), "neg": len(neg), "unk": len(unk),
             },
         ))
@@ -108,7 +103,7 @@ def mine_probes(
     candidates.sort(key=lambda p: p.score, reverse=True)
     result = candidates[:max_probes]
 
-    # ★ 只对最终选中的 top probe 做 LLM 改写（节省 LLM 调用）
+    # 只对 top 做 LLM 改写
     for p in result[:2]:
         p.question = rephrase(p.label, p.evidence)
 

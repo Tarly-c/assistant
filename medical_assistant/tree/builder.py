@@ -1,8 +1,6 @@
-"""离线建树。★ 用预计算 (K+M) 维特征向量 + 深度自适应特征选择。
-
-每个节点 O((K+M) × N)，无需任何在线 embedding 或文本处理。
-"""
+"""离线建树。用预计算 (K+M) 维特征向量 + 语义切分 + 深度自适应。"""
 from __future__ import annotations
+
 import json
 from pathlib import Path
 from typing import Any, Iterable, Sequence
@@ -12,7 +10,7 @@ from medical_assistant.schemas import CaseRecord
 from medical_assistant.cases.store import (
     load_feature_vecs, load_meta, cluster_label, cluster_evidence,
 )
-from medical_assistant.probes.scoring import split_quality, best_threshold, rephrase
+from medical_assistant.probes.scoring import semantic_split, split_quality, rephrase
 
 
 def _unique(ids: Iterable[str]) -> list[str]:
@@ -31,7 +29,8 @@ def _find_best_split(
     min_child: int,
     depth: int,
 ) -> dict[str, Any] | None:
-    """在 (K+M) 维特征空间中找最优切分维度。★ 深度自适应权重。"""
+    """在 (K+M) 维特征空间中找最优切分维度。"""
+    cfg = get_settings()
     N = len(case_ids)
     if N <= 1 or total_dims == 0:
         return None
@@ -45,11 +44,18 @@ def _find_best_split(
         if len(vals) < N * 0.8:
             continue
 
-        pos, neg, unk, sq, th = best_threshold(vals, min_child=min_child)
+        # ★ 使用 semantic_split
+        pos, neg, unk, sq, th = semantic_split(
+            vals,
+            anchor=cfg.split_anchor,
+            search_range=cfg.split_search_range,
+            margin=cfg.split_margin,
+            min_child=min_child,
+        )
         if not pos or not neg or sq <= 0:
             continue
 
-        # ★ 深度自适应：浅层偏好语义维度，深层偏好概念维度
+        # 深度自适应权重
         if dim < K:
             weight = max(0.3, 1.0 - depth * 0.12)
         else:
@@ -113,7 +119,7 @@ def build_tree(cases: Sequence[CaseRecord], *, debug: bool = False) -> dict[str,
                 node["rejected"] = {"score": best["score"], "label": best["label"]}
             return
 
-        # LLM 改写追问（离线）
+        # LLM 改写追问
         question = rephrase(best["label"], best["evidence"])
 
         probe = {
@@ -172,6 +178,11 @@ def build_tree(cases: Sequence[CaseRecord], *, debug: bool = False) -> dict[str,
     return {
         "version": 5, "root": "n", "count": len(cases),
         "K": K, "M": total_dims - K, "total_dims": total_dims,
+        "split_config": {
+            "anchor": cfg.split_anchor,
+            "search_range": cfg.split_search_range,
+            "margin": cfg.split_margin,
+        },
         "nodes": nodes,
     }
 

@@ -14,11 +14,19 @@ class Settings(BaseSettings):
     api_host: str = "0.0.0.0"
     api_port: int = 8000
 
-    # LLM
-    chat_model: str = "qwen2.5:7b"
-    temperature: float = 0.0
+    # ── LLM：API 优先，本地保底 ──
+    # API（填了 api_key 就会优先走 API）
+    api_key: str = "sk-ktssbempqtjtelsbudsorparmfmgnptackiazetdbjfbedgh"                          # 留空 = 不用 API
+    api_base_url: str = "https://api.siliconflow.cn/v1"
+    api_model: str = "Pro/deepseek-ai/DeepSeek-V3.2"
+    api_temperature: float = 0.0
+    api_timeout: int = 60                      # 秒
 
-    # Embedding（多语言模型，中英文通用）
+    # 本地 Ollama（API 不可用时的 fallback）
+    local_model: str = "qwen2.5:7b"
+    local_temperature: float = 0.0
+
+    # Embedding（始终本地 Ollama，不走 API）
     embedding_model: str = "bge-m3:latest"
     embedding_batch: int = 64
 
@@ -29,10 +37,15 @@ class Settings(BaseSettings):
     tree_file: str = "resources/case_question_tree.json"
 
     # 离线特征空间
-    max_semantic_clusters: int = 200   # 句子级语义簇上限
-    max_concept_dims: int = 80         # 关键词概念维度上限
-    semantic_cluster_th: float = 0.78  # 语义簇聚类阈值
-    concept_cluster_th: float = 0.75   # 概念维度聚类阈值
+    max_semantic_clusters: int = 200
+    max_concept_dims: int = 80
+    semantic_cluster_th: float = 0.78
+    concept_cluster_th: float = 0.75
+
+    # 语义切分参数
+    split_anchor: float = 0.50
+    split_search_range: float = 0.12
+    split_margin: float = 0.03
 
     # 决策树
     tree_max_depth: int = 7
@@ -48,6 +61,11 @@ class Settings(BaseSettings):
     large_set_threshold: int = 10
     confidence_gap: float = 0.16
     display_top_k: int = 5
+
+    @property
+    def use_api(self) -> bool:
+        """有 api_key 就优先走 API。"""
+        return bool(self.api_key and self.api_key.strip())
 
     @property
     def case_path(self) -> Path:
