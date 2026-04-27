@@ -16,7 +16,7 @@ class Settings(BaseSettings):
 
     # ── LLM：API 优先，本地保底 ──
     # API（填了 api_key 就会优先走 API）
-    api_key: str = "sk-ktssbempqtjtelsbudsorparmfmgnptackiazetdbjfbedgh"                          # 留空 = 不用 API
+    api_key: str = "xxx"                          # 留空 = 不用 API
     api_base_url: str = "https://api.siliconflow.cn/v1"
     api_model: str = "Pro/deepseek-ai/DeepSeek-V3.2"
     api_temperature: float = 0.0
